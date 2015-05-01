@@ -1,0 +1,45 @@
+Determining if files pthread.h exist failed with the following output:
+Change Dir: C:/Users/Administrateur/Desktop/Master/build/CMakeFiles/CMakeTmp
+
+Run Build Command:C:\PROGRA~2\MSBuild\12.0\Bin\MSBuild.exe cmTryCompileExec2648148776.vcxproj /p:Configuration=Debug /p:VisualStudioVersion=12.0
+Microsoft (R) Build Engine, version 12.0.31101.0
+[Microsoft .NET Framework, Version 4.0.30319.18408]
+Copyright (C) Microsoft Corporation. Tous droits r‚serv‚s.
+
+La g‚n‚ration a d‚marr‚ 27/04/2015 18:45:11.
+Projet "C:\Users\Administrateur\Desktop\Master\build\CMakeFiles\CMakeTmp\cmTryCompileExec2648148776.vcxproj" sur le noud 1 (cibles par d‚faut).
+PrepareForBuild:
+  Cr‚ation du r‚pertoire "cmTryCompileExec2648148776.dir\Debug\".
+  Cr‚ation du r‚pertoire "C:\Users\Administrateur\Desktop\Master\build\CMakeFiles\CMakeTmp\Debug\".
+  Cr‚ation du r‚pertoire "cmTryCompileExec2648148776.dir\Debug\cmTryCom.7B023FAD.tlog\".
+InitializeBuildStatus:
+  Cr‚ation de "cmTryCompileExec2648148776.dir\Debug\cmTryCom.7B023FAD.tlog\unsuccessfulbuild", car "AlwaysCreate" a ‚t‚ sp‚cifi‚.
+ClCompile:
+  C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /Zi /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D _DEBUG /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"cmTryCompileExec2648148776.dir\Debug\\" /Fd"cmTryCompileExec2648148776.dir\Debug\vc120.pdb" /Gd /TC /wd4996 /wd4355 /wd4244 /wd4985 /wd4267 /wd4619 /analyze- /errorReport:queue CheckIncludeFiles.c
+  Microsoft (R) C/C++ Optimizing Compiler Version 18.00.31101 for x86
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  
+  cl /c /Zi /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D _DEBUG /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"cmTryCompileExec2648148776.dir\Debug\\" /Fd"cmTryCompileExec2648148776.dir\Debug\vc120.pdb" /Gd /TC /wd4996 /wd4355 /wd4244 /wd4985 /wd4267 /wd4619 /analyze- /errorReport:queue CheckIncludeFiles.c
+  
+  CheckIncludeFiles.c
+CheckIncludeFiles.c(2): fatal error C1083: Cannot open include file: 'pthread.h': No such file or directory [C:\Users\Administrateur\Desktop\Master\build\CMakeFiles\CMakeTmp\cmTryCompileExec2648148776.vcxproj]
+G‚n‚ration du projet "C:\Users\Administrateur\Desktop\Master\build\CMakeFiles\CMakeTmp\cmTryCompileExec2648148776.vcxproj" termin‚e (cibles par d‚faut) -- CHEC.
+
+CHEC de la build.
+
+"C:\Users\Administrateur\Desktop\Master\build\CMakeFiles\CMakeTmp\cmTryCompileExec2648148776.vcxproj" (cible par d‚faut) (1) ->
+(ClCompile cible) -> 
+  CheckIncludeFiles.c(2): fatal error C1083: Cannot open include file: 'pthread.h': No such file or directory [C:\Users\Administrateur\Desktop\Master\build\CMakeFiles\CMakeTmp\cmTryCompileExec2648148776.vcxproj]
+
+    0 Avertissement(s)
+    1 Erreur(s)
+
+Temps ‚coul‚ 00:00:00.51
+
+Source:
+/* */
+#include <pthread.h>
+
+
+int main(){return 0;}
+

@@ -1,0 +1,16 @@
+C:/Users/Administrateur/Desktop/Master/build/CMakeFiles/ALL_BUILD.dir
+C:/Users/Administrateur/Desktop/Master/build/dep/recastnavigation/Detour/CMakeFiles/Detour.dir
+C:/Users/Administrateur/Desktop/Master/build/dep/recastnavigation/Recast/CMakeFiles/Recast.dir
+C:/Users/Administrateur/Desktop/Master/build/CMakeFiles/ZERO_CHECK.dir
+C:/Users/Administrateur/Desktop/Master/build/dep/acelite/ace/CMakeFiles/ace.dir
+C:/Users/Administrateur/Desktop/Master/build/src/server/authserver/CMakeFiles/authserver.dir
+C:/Users/Administrateur/Desktop/Master/build/src/server/collision/CMakeFiles/collision.dir
+C:/Users/Administrateur/Desktop/Master/build/dep/g3dlite/CMakeFiles/g3dlib.dir
+C:/Users/Administrateur/Desktop/Master/build/src/server/game/CMakeFiles/game.dir
+C:/Users/Administrateur/Desktop/Master/build/dep/gsoap/CMakeFiles/gsoap.dir
+C:/Users/Administrateur/Desktop/Master/build/dep/mysqllite/CMakeFiles/libmysql.dir
+C:/Users/Administrateur/Desktop/Master/build/src/genrev/CMakeFiles/revision.h.dir
+C:/Users/Administrateur/Desktop/Master/build/src/server/scripts/CMakeFiles/scripts.dir
+C:/Users/Administrateur/Desktop/Master/build/src/server/shared/CMakeFiles/shared.dir
+C:/Users/Administrateur/Desktop/Master/build/src/server/worldserver/CMakeFiles/worldserver.dir
+C:/Users/Administrateur/Desktop/Master/build/dep/zlib/CMakeFiles/zlib.dir
