@@ -57,19 +57,19 @@
   <PropertyGroup Label="UserMacros" />
     <PropertyGroup>
       <_ProjectFileVersion>10.0.20506.1</_ProjectFileVersion>
-      <OutDir Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">C:\build\dep\gsoap\Debug\</OutDir>
+      <OutDir Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">C:\Build\dep\gsoap\Debug\</OutDir>
       <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">gsoap.dir\Debug\</IntDir>
       <TargetName Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">gsoap</TargetName>
       <TargetExt Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">.lib</TargetExt>
-      <OutDir Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">C:\build\dep\gsoap\Release\</OutDir>
+      <OutDir Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">C:\Build\dep\gsoap\Release\</OutDir>
       <IntDir Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">gsoap.dir\Release\</IntDir>
       <TargetName Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">gsoap</TargetName>
       <TargetExt Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">.lib</TargetExt>
-      <OutDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">C:\build\dep\gsoap\MinSizeRel\</OutDir>
+      <OutDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">C:\Build\dep\gsoap\MinSizeRel\</OutDir>
       <IntDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">gsoap.dir\MinSizeRel\</IntDir>
       <TargetName Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">gsoap</TargetName>
       <TargetExt Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">.lib</TargetExt>
-      <OutDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">C:\build\dep\gsoap\RelWithDebInfo\</OutDir>
+      <OutDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">C:\Build\dep\gsoap\RelWithDebInfo\</OutDir>
       <IntDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">gsoap.dir\RelWithDebInfo\</IntDir>
       <TargetName Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">gsoap</TargetName>
       <TargetExt Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">.lib</TargetExt>
@@ -77,12 +77,12 @@
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
     <ClCompile>
       <AdditionalOptions> /Zm500 %(AdditionalOptions)</AdditionalOptions>
-      <AdditionalIncludeDirectories>C:\TrinityCore\dep\gsoap;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>C:\Trinitycore\dep\gsoap;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <AssemblerListingLocation>Debug/</AssemblerListingLocation>
       <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
       <CompileAs>CompileAsCpp</CompileAs>
       <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
-      <DisableSpecificWarnings>4996;4355;4244;4985;4267;4619;4996;4355;4244;4985;4267;4619</DisableSpecificWarnings>
+      <DisableSpecificWarnings>4996;4355;4244;4985;4267;4619;4996;4355;4244;4985;4267;4619;4996;4355;4244;4985;4267;4619</DisableSpecificWarnings>
       <EnableEnhancedInstructionSet>StreamingSIMDExtensions2</EnableEnhancedInstructionSet>
       <ExceptionHandling>Sync</ExceptionHandling>
       <InlineFunctionExpansion>Disabled</InlineFunctionExpansion>
@@ -98,10 +98,10 @@
     </ClCompile>
     <ResourceCompile>
       <PreprocessorDefinitions>WIN32;_WINDOWS;_DEBUG;_BUILD_DIRECTIVE=\"$(ConfigurationName)\";_CRT_SECURE_CPP_OVERLOAD_STANDARD_NAMES;_CRT_SECURE_NO_WARNINGS;_CRT_NONSTDC_NO_WARNINGS;SCRIPTS;_CRT_SECURE_CPP_OVERLOAD_STANDARD_NAMES=0;CMAKE_INTDIR=\"Debug\";%(PreprocessorDefinitions)</PreprocessorDefinitions>
-      <AdditionalIncludeDirectories>C:\TrinityCore\dep\gsoap;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>C:\Trinitycore\dep\gsoap;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
     </ResourceCompile>
     <Midl>
-      <AdditionalIncludeDirectories>C:\TrinityCore\dep\gsoap;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>C:\Trinitycore\dep\gsoap;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <OutputDirectory>$(IntDir)</OutputDirectory>
       <HeaderFileName>%(Filename).h</HeaderFileName>
       <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
@@ -112,10 +112,10 @@
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
     <ClCompile>
       <AdditionalOptions> /Zm500 %(AdditionalOptions)</AdditionalOptions>
-      <AdditionalIncludeDirectories>C:\TrinityCore\dep\gsoap;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>C:\Trinitycore\dep\gsoap;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <AssemblerListingLocation>Release/</AssemblerListingLocation>
       <CompileAs>CompileAsCpp</CompileAs>
-      <DisableSpecificWarnings>4996;4355;4244;4985;4267;4619;4996;4355;4244;4985;4267;4619</DisableSpecificWarnings>
+      <DisableSpecificWarnings>4996;4355;4244;4985;4267;4619;4996;4355;4244;4985;4267;4619;4996;4355;4244;4985;4267;4619</DisableSpecificWarnings>
       <EnableEnhancedInstructionSet>StreamingSIMDExtensions2</EnableEnhancedInstructionSet>
       <ExceptionHandling>Sync</ExceptionHandling>
       <InlineFunctionExpansion>AnySuitable</InlineFunctionExpansion>
@@ -132,10 +132,10 @@
     </ClCompile>
     <ResourceCompile>
       <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;_BUILD_DIRECTIVE=\"$(ConfigurationName)\";_CRT_SECURE_CPP_OVERLOAD_STANDARD_NAMES;_CRT_SECURE_NO_WARNINGS;_CRT_NONSTDC_NO_WARNINGS;SCRIPTS;_CRT_SECURE_CPP_OVERLOAD_STANDARD_NAMES=0;CMAKE_INTDIR=\"Release\";%(PreprocessorDefinitions)</PreprocessorDefinitions>
-      <AdditionalIncludeDirectories>C:\TrinityCore\dep\gsoap;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>C:\Trinitycore\dep\gsoap;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
     </ResourceCompile>
     <Midl>
-      <AdditionalIncludeDirectories>C:\TrinityCore\dep\gsoap;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>C:\Trinitycore\dep\gsoap;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <OutputDirectory>$(IntDir)</OutputDirectory>
       <HeaderFileName>%(Filename).h</HeaderFileName>
       <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
@@ -146,10 +146,10 @@
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">
     <ClCompile>
       <AdditionalOptions> /Zm500 %(AdditionalOptions)</AdditionalOptions>
-      <AdditionalIncludeDirectories>C:\TrinityCore\dep\gsoap;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>C:\Trinitycore\dep\gsoap;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <AssemblerListingLocation>MinSizeRel/</AssemblerListingLocation>
       <CompileAs>CompileAsCpp</CompileAs>
-      <DisableSpecificWarnings>4996;4355;4244;4985;4267;4619;4996;4355;4244;4985;4267;4619</DisableSpecificWarnings>
+      <DisableSpecificWarnings>4996;4355;4244;4985;4267;4619;4996;4355;4244;4985;4267;4619;4996;4355;4244;4985;4267;4619</DisableSpecificWarnings>
       <EnableEnhancedInstructionSet>StreamingSIMDExtensions2</EnableEnhancedInstructionSet>
       <ExceptionHandling>Sync</ExceptionHandling>
       <InlineFunctionExpansion>OnlyExplicitInline</InlineFunctionExpansion>
@@ -166,10 +166,10 @@
     </ClCompile>
     <ResourceCompile>
       <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;_BUILD_DIRECTIVE=\"$(ConfigurationName)\";_CRT_SECURE_CPP_OVERLOAD_STANDARD_NAMES;_CRT_SECURE_NO_WARNINGS;_CRT_NONSTDC_NO_WARNINGS;SCRIPTS;_CRT_SECURE_CPP_OVERLOAD_STANDARD_NAMES=0;CMAKE_INTDIR=\"MinSizeRel\";%(PreprocessorDefinitions)</PreprocessorDefinitions>
-      <AdditionalIncludeDirectories>C:\TrinityCore\dep\gsoap;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>C:\Trinitycore\dep\gsoap;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
     </ResourceCompile>
     <Midl>
-      <AdditionalIncludeDirectories>C:\TrinityCore\dep\gsoap;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>C:\Trinitycore\dep\gsoap;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <OutputDirectory>$(IntDir)</OutputDirectory>
       <HeaderFileName>%(Filename).h</HeaderFileName>
       <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
@@ -180,11 +180,11 @@
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">
     <ClCompile>
       <AdditionalOptions> /Zm500 %(AdditionalOptions)</AdditionalOptions>
-      <AdditionalIncludeDirectories>C:\TrinityCore\dep\gsoap;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>C:\Trinitycore\dep\gsoap;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <AssemblerListingLocation>RelWithDebInfo/</AssemblerListingLocation>
       <CompileAs>CompileAsCpp</CompileAs>
       <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
-      <DisableSpecificWarnings>4996;4355;4244;4985;4267;4619;4996;4355;4244;4985;4267;4619</DisableSpecificWarnings>
+      <DisableSpecificWarnings>4996;4355;4244;4985;4267;4619;4996;4355;4244;4985;4267;4619;4996;4355;4244;4985;4267;4619</DisableSpecificWarnings>
       <EnableEnhancedInstructionSet>StreamingSIMDExtensions2</EnableEnhancedInstructionSet>
       <ExceptionHandling>Sync</ExceptionHandling>
       <InlineFunctionExpansion>OnlyExplicitInline</InlineFunctionExpansion>
@@ -200,10 +200,10 @@
     </ClCompile>
     <ResourceCompile>
       <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;_BUILD_DIRECTIVE=\"$(ConfigurationName)\";_CRT_SECURE_CPP_OVERLOAD_STANDARD_NAMES;_CRT_SECURE_NO_WARNINGS;_CRT_NONSTDC_NO_WARNINGS;SCRIPTS;_CRT_SECURE_CPP_OVERLOAD_STANDARD_NAMES=0;CMAKE_INTDIR=\"RelWithDebInfo\";%(PreprocessorDefinitions)</PreprocessorDefinitions>
-      <AdditionalIncludeDirectories>C:\TrinityCore\dep\gsoap;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>C:\Trinitycore\dep\gsoap;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
     </ResourceCompile>
     <Midl>
-      <AdditionalIncludeDirectories>C:\TrinityCore\dep\gsoap;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>C:\Trinitycore\dep\gsoap;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <OutputDirectory>$(IntDir)</OutputDirectory>
       <HeaderFileName>%(Filename).h</HeaderFileName>
       <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
@@ -212,10 +212,10 @@
     </Midl>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <CustomBuild Include="C:\TrinityCore\dep\gsoap\CMakeLists.txt">
-      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Building Custom Rule C:/TrinityCore/dep/gsoap/CMakeLists.txt</Message>
+    <CustomBuild Include="C:\Trinitycore\dep\gsoap\CMakeLists.txt">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Building Custom Rule C:/Trinitycore/dep/gsoap/CMakeLists.txt</Message>
       <Command Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">setlocal
-"C:\Program Files (x86)\CMake 2.8\bin\cmake.exe" -HC:/TrinityCore -BC:/build --check-stamp-file C:\build\dep\gsoap\CMakeFiles\generate.stamp
+"C:\Program Files (x86)\CMake 2.8\bin\cmake.exe" -HC:/Trinitycore -BC:/Build --check-stamp-file C:\Build\dep\gsoap\CMakeFiles\generate.stamp
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
@@ -223,12 +223,12 @@ endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
 exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd</Command>
-      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">C:/TrinityCore/dep/gsoap/CMakeLists.txt;C:\TrinityCore\dep\gsoap\CMakeLists.txt;C:\TrinityCore\dep\gsoap\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">C:\build\dep\gsoap\CMakeFiles\generate.stamp</Outputs>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">C:/Trinitycore/dep/gsoap/CMakeLists.txt;C:\Trinitycore\dep\gsoap\CMakeLists.txt;C:\Trinitycore\dep\gsoap\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">C:\Build\dep\gsoap\CMakeFiles\generate.stamp</Outputs>
       <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">false</LinkObjects>
-      <Message Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Building Custom Rule C:/TrinityCore/dep/gsoap/CMakeLists.txt</Message>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Building Custom Rule C:/Trinitycore/dep/gsoap/CMakeLists.txt</Message>
       <Command Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">setlocal
-"C:\Program Files (x86)\CMake 2.8\bin\cmake.exe" -HC:/TrinityCore -BC:/build --check-stamp-file C:\build\dep\gsoap\CMakeFiles\generate.stamp
+"C:\Program Files (x86)\CMake 2.8\bin\cmake.exe" -HC:/Trinitycore -BC:/Build --check-stamp-file C:\Build\dep\gsoap\CMakeFiles\generate.stamp
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
@@ -236,12 +236,12 @@ endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
 exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd</Command>
-      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">C:/TrinityCore/dep/gsoap/CMakeLists.txt;C:\TrinityCore\dep\gsoap\CMakeLists.txt;C:\TrinityCore\dep\gsoap\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">C:\build\dep\gsoap\CMakeFiles\generate.stamp</Outputs>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">C:/Trinitycore/dep/gsoap/CMakeLists.txt;C:\Trinitycore\dep\gsoap\CMakeLists.txt;C:\Trinitycore\dep\gsoap\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">C:\Build\dep\gsoap\CMakeFiles\generate.stamp</Outputs>
       <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">false</LinkObjects>
-      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">Building Custom Rule C:/TrinityCore/dep/gsoap/CMakeLists.txt</Message>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">Building Custom Rule C:/Trinitycore/dep/gsoap/CMakeLists.txt</Message>
       <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">setlocal
-"C:\Program Files (x86)\CMake 2.8\bin\cmake.exe" -HC:/TrinityCore -BC:/build --check-stamp-file C:\build\dep\gsoap\CMakeFiles\generate.stamp
+"C:\Program Files (x86)\CMake 2.8\bin\cmake.exe" -HC:/Trinitycore -BC:/Build --check-stamp-file C:\Build\dep\gsoap\CMakeFiles\generate.stamp
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
@@ -249,12 +249,12 @@ endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
 exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd</Command>
-      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">C:/TrinityCore/dep/gsoap/CMakeLists.txt;C:\TrinityCore\dep\gsoap\CMakeLists.txt;C:\TrinityCore\dep\gsoap\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">C:\build\dep\gsoap\CMakeFiles\generate.stamp</Outputs>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">C:/Trinitycore/dep/gsoap/CMakeLists.txt;C:\Trinitycore\dep\gsoap\CMakeLists.txt;C:\Trinitycore\dep\gsoap\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">C:\Build\dep\gsoap\CMakeFiles\generate.stamp</Outputs>
       <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">false</LinkObjects>
-      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">Building Custom Rule C:/TrinityCore/dep/gsoap/CMakeLists.txt</Message>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">Building Custom Rule C:/Trinitycore/dep/gsoap/CMakeLists.txt</Message>
       <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">setlocal
-"C:\Program Files (x86)\CMake 2.8\bin\cmake.exe" -HC:/TrinityCore -BC:/build --check-stamp-file C:\build\dep\gsoap\CMakeFiles\generate.stamp
+"C:\Program Files (x86)\CMake 2.8\bin\cmake.exe" -HC:/Trinitycore -BC:/Build --check-stamp-file C:\Build\dep\gsoap\CMakeFiles\generate.stamp
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
@@ -262,21 +262,21 @@ endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
 exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd</Command>
-      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">C:/TrinityCore/dep/gsoap/CMakeLists.txt;C:\TrinityCore\dep\gsoap\CMakeLists.txt;C:\TrinityCore\dep\gsoap\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">C:\build\dep\gsoap\CMakeFiles\generate.stamp</Outputs>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">C:/Trinitycore/dep/gsoap/CMakeLists.txt;C:\Trinitycore\dep\gsoap\CMakeLists.txt;C:\Trinitycore\dep\gsoap\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">C:\Build\dep\gsoap\CMakeFiles\generate.stamp</Outputs>
       <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">false</LinkObjects>
     </CustomBuild>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="C:\TrinityCore\dep\gsoap\soapH.h" />
-    <ClInclude Include="C:\TrinityCore\dep\gsoap\soapStub.h" />
-    <ClInclude Include="C:\TrinityCore\dep\gsoap\stdsoap2.h" />
-    <ClCompile Include="C:\TrinityCore\dep\gsoap\soapC.cpp"  />
-    <ClCompile Include="C:\TrinityCore\dep\gsoap\soapServer.cpp"  />
-    <ClCompile Include="C:\TrinityCore\dep\gsoap\stdsoap2.cpp"  />
+    <ClInclude Include="C:\Trinitycore\dep\gsoap\soapH.h" />
+    <ClInclude Include="C:\Trinitycore\dep\gsoap\soapStub.h" />
+    <ClInclude Include="C:\Trinitycore\dep\gsoap\stdsoap2.h" />
+    <ClCompile Include="C:\Trinitycore\dep\gsoap\soapC.cpp"  />
+    <ClCompile Include="C:\Trinitycore\dep\gsoap\soapServer.cpp"  />
+    <ClCompile Include="C:\Trinitycore\dep\gsoap\stdsoap2.cpp"  />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="C:/build/ZERO_CHECK.vcxproj">
+    <ProjectReference Include="C:/Build/ZERO_CHECK.vcxproj">
       <Project>85338E16-3437-4B4D-A270-6A7C004CD9A1</Project>
     </ProjectReference>
   </ItemGroup>

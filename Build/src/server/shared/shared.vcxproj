@@ -57,19 +57,19 @@
   <PropertyGroup Label="UserMacros" />
     <PropertyGroup>
       <_ProjectFileVersion>10.0.20506.1</_ProjectFileVersion>
-      <OutDir Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">C:\build\src\server\shared\Debug\</OutDir>
+      <OutDir Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">C:\Build\src\server\shared\Debug\</OutDir>
       <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">shared.dir\Debug\</IntDir>
       <TargetName Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">shared</TargetName>
       <TargetExt Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">.lib</TargetExt>
-      <OutDir Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">C:\build\src\server\shared\Release\</OutDir>
+      <OutDir Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">C:\Build\src\server\shared\Release\</OutDir>
       <IntDir Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">shared.dir\Release\</IntDir>
       <TargetName Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">shared</TargetName>
       <TargetExt Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">.lib</TargetExt>
-      <OutDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">C:\build\src\server\shared\MinSizeRel\</OutDir>
+      <OutDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">C:\Build\src\server\shared\MinSizeRel\</OutDir>
       <IntDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">shared.dir\MinSizeRel\</IntDir>
       <TargetName Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">shared</TargetName>
       <TargetExt Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">.lib</TargetExt>
-      <OutDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">C:\build\src\server\shared\RelWithDebInfo\</OutDir>
+      <OutDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">C:\Build\src\server\shared\RelWithDebInfo\</OutDir>
       <IntDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">shared.dir\RelWithDebInfo\</IntDir>
       <TargetName Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">shared</TargetName>
       <TargetExt Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">.lib</TargetExt>
@@ -77,12 +77,12 @@
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
     <ClCompile>
       <AdditionalOptions> /Zm500 %(AdditionalOptions)</AdditionalOptions>
-      <AdditionalIncludeDirectories>C:\build\src\server\shared;C:\build;C:\TrinityCore\dep\recastnavigation\Detour;C:\TrinityCore\dep\SFMT;C:\TrinityCore\dep\sockets\include;C:\TrinityCore\dep\utf8cpp;C:\TrinityCore\src\server;C:\TrinityCore\src\server\shared;C:\TrinityCore\src\server\shared\Configuration;C:\TrinityCore\src\server\shared\Cryptography;C:\TrinityCore\src\server\shared\Database;C:\TrinityCore\src\server\shared\DataStores;C:\TrinityCore\src\server\shared\Debugging;C:\TrinityCore\src\server\shared\Dynamic;C:\TrinityCore\src\server\shared\Logging;C:\TrinityCore\src\server\shared\Packets;C:\TrinityCore\src\server\shared\Threading;C:\TrinityCore\src\server\shared\Utilities;C:\TrinityCore\src\server\game\Entities\Object;C:\TrinityCore\dep\acelite;C:\TrinityCore\dep\mysqllite\include;C:\OpenSSL-Win32\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>C:\Build\src\server\shared;C:\Build;C:\Trinitycore\dep\recastnavigation\Detour;C:\Trinitycore\dep\SFMT;C:\Trinitycore\dep\sockets\include;C:\Trinitycore\dep\utf8cpp;C:\Trinitycore\src\server;C:\Trinitycore\src\server\shared;C:\Trinitycore\src\server\shared\Configuration;C:\Trinitycore\src\server\shared\Cryptography;C:\Trinitycore\src\server\shared\Database;C:\Trinitycore\src\server\shared\DataStores;C:\Trinitycore\src\server\shared\Debugging;C:\Trinitycore\src\server\shared\Dynamic;C:\Trinitycore\src\server\shared\Logging;C:\Trinitycore\src\server\shared\Packets;C:\Trinitycore\src\server\shared\Threading;C:\Trinitycore\src\server\shared\Utilities;C:\Trinitycore\src\server\game\Entities\Object;C:\Trinitycore\dep\acelite;C:\Trinitycore\dep\mysqllite\include;C:\OpenSSL-Win32\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <AssemblerListingLocation>Debug/</AssemblerListingLocation>
       <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
       <CompileAs>CompileAsCpp</CompileAs>
       <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
-      <DisableSpecificWarnings>4996;4355;4244;4985;4267;4619;4996;4355;4244;4985;4267;4619</DisableSpecificWarnings>
+      <DisableSpecificWarnings>4996;4355;4244;4985;4267;4619;4996;4355;4244;4985;4267;4619;4996;4355;4244;4985;4267;4619</DisableSpecificWarnings>
       <EnableEnhancedInstructionSet>StreamingSIMDExtensions2</EnableEnhancedInstructionSet>
       <ExceptionHandling>Sync</ExceptionHandling>
       <ForcedIncludeFiles>sharedPCH.h</ForcedIncludeFiles>
@@ -100,10 +100,10 @@
     </ClCompile>
     <ResourceCompile>
       <PreprocessorDefinitions>WIN32;_WINDOWS;_DEBUG;_BUILD_DIRECTIVE=\"$(ConfigurationName)\";_CRT_SECURE_CPP_OVERLOAD_STANDARD_NAMES;_CRT_SECURE_NO_WARNINGS;_CRT_NONSTDC_NO_WARNINGS;SCRIPTS;CMAKE_INTDIR=\"Debug\";%(PreprocessorDefinitions)</PreprocessorDefinitions>
-      <AdditionalIncludeDirectories>C:\build\src\server\shared;C:\build;C:\TrinityCore\dep\recastnavigation\Detour;C:\TrinityCore\dep\SFMT;C:\TrinityCore\dep\sockets\include;C:\TrinityCore\dep\utf8cpp;C:\TrinityCore\src\server;C:\TrinityCore\src\server\shared;C:\TrinityCore\src\server\shared\Configuration;C:\TrinityCore\src\server\shared\Cryptography;C:\TrinityCore\src\server\shared\Database;C:\TrinityCore\src\server\shared\DataStores;C:\TrinityCore\src\server\shared\Debugging;C:\TrinityCore\src\server\shared\Dynamic;C:\TrinityCore\src\server\shared\Logging;C:\TrinityCore\src\server\shared\Packets;C:\TrinityCore\src\server\shared\Threading;C:\TrinityCore\src\server\shared\Utilities;C:\TrinityCore\src\server\game\Entities\Object;C:\TrinityCore\dep\acelite;C:\TrinityCore\dep\mysqllite\include;C:\OpenSSL-Win32\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>C:\Build\src\server\shared;C:\Build;C:\Trinitycore\dep\recastnavigation\Detour;C:\Trinitycore\dep\SFMT;C:\Trinitycore\dep\sockets\include;C:\Trinitycore\dep\utf8cpp;C:\Trinitycore\src\server;C:\Trinitycore\src\server\shared;C:\Trinitycore\src\server\shared\Configuration;C:\Trinitycore\src\server\shared\Cryptography;C:\Trinitycore\src\server\shared\Database;C:\Trinitycore\src\server\shared\DataStores;C:\Trinitycore\src\server\shared\Debugging;C:\Trinitycore\src\server\shared\Dynamic;C:\Trinitycore\src\server\shared\Logging;C:\Trinitycore\src\server\shared\Packets;C:\Trinitycore\src\server\shared\Threading;C:\Trinitycore\src\server\shared\Utilities;C:\Trinitycore\src\server\game\Entities\Object;C:\Trinitycore\dep\acelite;C:\Trinitycore\dep\mysqllite\include;C:\OpenSSL-Win32\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
     </ResourceCompile>
     <Midl>
-      <AdditionalIncludeDirectories>C:\build\src\server\shared;C:\build;C:\TrinityCore\dep\recastnavigation\Detour;C:\TrinityCore\dep\SFMT;C:\TrinityCore\dep\sockets\include;C:\TrinityCore\dep\utf8cpp;C:\TrinityCore\src\server;C:\TrinityCore\src\server\shared;C:\TrinityCore\src\server\shared\Configuration;C:\TrinityCore\src\server\shared\Cryptography;C:\TrinityCore\src\server\shared\Database;C:\TrinityCore\src\server\shared\DataStores;C:\TrinityCore\src\server\shared\Debugging;C:\TrinityCore\src\server\shared\Dynamic;C:\TrinityCore\src\server\shared\Logging;C:\TrinityCore\src\server\shared\Packets;C:\TrinityCore\src\server\shared\Threading;C:\TrinityCore\src\server\shared\Utilities;C:\TrinityCore\src\server\game\Entities\Object;C:\TrinityCore\dep\acelite;C:\TrinityCore\dep\mysqllite\include;C:\OpenSSL-Win32\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>C:\Build\src\server\shared;C:\Build;C:\Trinitycore\dep\recastnavigation\Detour;C:\Trinitycore\dep\SFMT;C:\Trinitycore\dep\sockets\include;C:\Trinitycore\dep\utf8cpp;C:\Trinitycore\src\server;C:\Trinitycore\src\server\shared;C:\Trinitycore\src\server\shared\Configuration;C:\Trinitycore\src\server\shared\Cryptography;C:\Trinitycore\src\server\shared\Database;C:\Trinitycore\src\server\shared\DataStores;C:\Trinitycore\src\server\shared\Debugging;C:\Trinitycore\src\server\shared\Dynamic;C:\Trinitycore\src\server\shared\Logging;C:\Trinitycore\src\server\shared\Packets;C:\Trinitycore\src\server\shared\Threading;C:\Trinitycore\src\server\shared\Utilities;C:\Trinitycore\src\server\game\Entities\Object;C:\Trinitycore\dep\acelite;C:\Trinitycore\dep\mysqllite\include;C:\OpenSSL-Win32\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <OutputDirectory>$(IntDir)</OutputDirectory>
       <HeaderFileName>%(Filename).h</HeaderFileName>
       <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
@@ -114,10 +114,10 @@
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
     <ClCompile>
       <AdditionalOptions> /Zm500 %(AdditionalOptions)</AdditionalOptions>
-      <AdditionalIncludeDirectories>C:\build\src\server\shared;C:\build;C:\TrinityCore\dep\recastnavigation\Detour;C:\TrinityCore\dep\SFMT;C:\TrinityCore\dep\sockets\include;C:\TrinityCore\dep\utf8cpp;C:\TrinityCore\src\server;C:\TrinityCore\src\server\shared;C:\TrinityCore\src\server\shared\Configuration;C:\TrinityCore\src\server\shared\Cryptography;C:\TrinityCore\src\server\shared\Database;C:\TrinityCore\src\server\shared\DataStores;C:\TrinityCore\src\server\shared\Debugging;C:\TrinityCore\src\server\shared\Dynamic;C:\TrinityCore\src\server\shared\Logging;C:\TrinityCore\src\server\shared\Packets;C:\TrinityCore\src\server\shared\Threading;C:\TrinityCore\src\server\shared\Utilities;C:\TrinityCore\src\server\game\Entities\Object;C:\TrinityCore\dep\acelite;C:\TrinityCore\dep\mysqllite\include;C:\OpenSSL-Win32\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>C:\Build\src\server\shared;C:\Build;C:\Trinitycore\dep\recastnavigation\Detour;C:\Trinitycore\dep\SFMT;C:\Trinitycore\dep\sockets\include;C:\Trinitycore\dep\utf8cpp;C:\Trinitycore\src\server;C:\Trinitycore\src\server\shared;C:\Trinitycore\src\server\shared\Configuration;C:\Trinitycore\src\server\shared\Cryptography;C:\Trinitycore\src\server\shared\Database;C:\Trinitycore\src\server\shared\DataStores;C:\Trinitycore\src\server\shared\Debugging;C:\Trinitycore\src\server\shared\Dynamic;C:\Trinitycore\src\server\shared\Logging;C:\Trinitycore\src\server\shared\Packets;C:\Trinitycore\src\server\shared\Threading;C:\Trinitycore\src\server\shared\Utilities;C:\Trinitycore\src\server\game\Entities\Object;C:\Trinitycore\dep\acelite;C:\Trinitycore\dep\mysqllite\include;C:\OpenSSL-Win32\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <AssemblerListingLocation>Release/</AssemblerListingLocation>
       <CompileAs>CompileAsCpp</CompileAs>
-      <DisableSpecificWarnings>4996;4355;4244;4985;4267;4619;4996;4355;4244;4985;4267;4619</DisableSpecificWarnings>
+      <DisableSpecificWarnings>4996;4355;4244;4985;4267;4619;4996;4355;4244;4985;4267;4619;4996;4355;4244;4985;4267;4619</DisableSpecificWarnings>
       <EnableEnhancedInstructionSet>StreamingSIMDExtensions2</EnableEnhancedInstructionSet>
       <ExceptionHandling>Sync</ExceptionHandling>
       <ForcedIncludeFiles>sharedPCH.h</ForcedIncludeFiles>
@@ -136,10 +136,10 @@
     </ClCompile>
     <ResourceCompile>
       <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;_BUILD_DIRECTIVE=\"$(ConfigurationName)\";_CRT_SECURE_CPP_OVERLOAD_STANDARD_NAMES;_CRT_SECURE_NO_WARNINGS;_CRT_NONSTDC_NO_WARNINGS;SCRIPTS;CMAKE_INTDIR=\"Release\";%(PreprocessorDefinitions)</PreprocessorDefinitions>
-      <AdditionalIncludeDirectories>C:\build\src\server\shared;C:\build;C:\TrinityCore\dep\recastnavigation\Detour;C:\TrinityCore\dep\SFMT;C:\TrinityCore\dep\sockets\include;C:\TrinityCore\dep\utf8cpp;C:\TrinityCore\src\server;C:\TrinityCore\src\server\shared;C:\TrinityCore\src\server\shared\Configuration;C:\TrinityCore\src\server\shared\Cryptography;C:\TrinityCore\src\server\shared\Database;C:\TrinityCore\src\server\shared\DataStores;C:\TrinityCore\src\server\shared\Debugging;C:\TrinityCore\src\server\shared\Dynamic;C:\TrinityCore\src\server\shared\Logging;C:\TrinityCore\src\server\shared\Packets;C:\TrinityCore\src\server\shared\Threading;C:\TrinityCore\src\server\shared\Utilities;C:\TrinityCore\src\server\game\Entities\Object;C:\TrinityCore\dep\acelite;C:\TrinityCore\dep\mysqllite\include;C:\OpenSSL-Win32\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>C:\Build\src\server\shared;C:\Build;C:\Trinitycore\dep\recastnavigation\Detour;C:\Trinitycore\dep\SFMT;C:\Trinitycore\dep\sockets\include;C:\Trinitycore\dep\utf8cpp;C:\Trinitycore\src\server;C:\Trinitycore\src\server\shared;C:\Trinitycore\src\server\shared\Configuration;C:\Trinitycore\src\server\shared\Cryptography;C:\Trinitycore\src\server\shared\Database;C:\Trinitycore\src\server\shared\DataStores;C:\Trinitycore\src\server\shared\Debugging;C:\Trinitycore\src\server\shared\Dynamic;C:\Trinitycore\src\server\shared\Logging;C:\Trinitycore\src\server\shared\Packets;C:\Trinitycore\src\server\shared\Threading;C:\Trinitycore\src\server\shared\Utilities;C:\Trinitycore\src\server\game\Entities\Object;C:\Trinitycore\dep\acelite;C:\Trinitycore\dep\mysqllite\include;C:\OpenSSL-Win32\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
     </ResourceCompile>
     <Midl>
-      <AdditionalIncludeDirectories>C:\build\src\server\shared;C:\build;C:\TrinityCore\dep\recastnavigation\Detour;C:\TrinityCore\dep\SFMT;C:\TrinityCore\dep\sockets\include;C:\TrinityCore\dep\utf8cpp;C:\TrinityCore\src\server;C:\TrinityCore\src\server\shared;C:\TrinityCore\src\server\shared\Configuration;C:\TrinityCore\src\server\shared\Cryptography;C:\TrinityCore\src\server\shared\Database;C:\TrinityCore\src\server\shared\DataStores;C:\TrinityCore\src\server\shared\Debugging;C:\TrinityCore\src\server\shared\Dynamic;C:\TrinityCore\src\server\shared\Logging;C:\TrinityCore\src\server\shared\Packets;C:\TrinityCore\src\server\shared\Threading;C:\TrinityCore\src\server\shared\Utilities;C:\TrinityCore\src\server\game\Entities\Object;C:\TrinityCore\dep\acelite;C:\TrinityCore\dep\mysqllite\include;C:\OpenSSL-Win32\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>C:\Build\src\server\shared;C:\Build;C:\Trinitycore\dep\recastnavigation\Detour;C:\Trinitycore\dep\SFMT;C:\Trinitycore\dep\sockets\include;C:\Trinitycore\dep\utf8cpp;C:\Trinitycore\src\server;C:\Trinitycore\src\server\shared;C:\Trinitycore\src\server\shared\Configuration;C:\Trinitycore\src\server\shared\Cryptography;C:\Trinitycore\src\server\shared\Database;C:\Trinitycore\src\server\shared\DataStores;C:\Trinitycore\src\server\shared\Debugging;C:\Trinitycore\src\server\shared\Dynamic;C:\Trinitycore\src\server\shared\Logging;C:\Trinitycore\src\server\shared\Packets;C:\Trinitycore\src\server\shared\Threading;C:\Trinitycore\src\server\shared\Utilities;C:\Trinitycore\src\server\game\Entities\Object;C:\Trinitycore\dep\acelite;C:\Trinitycore\dep\mysqllite\include;C:\OpenSSL-Win32\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <OutputDirectory>$(IntDir)</OutputDirectory>
       <HeaderFileName>%(Filename).h</HeaderFileName>
       <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
@@ -150,10 +150,10 @@
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">
     <ClCompile>
       <AdditionalOptions> /Zm500 %(AdditionalOptions)</AdditionalOptions>
-      <AdditionalIncludeDirectories>C:\build\src\server\shared;C:\build;C:\TrinityCore\dep\recastnavigation\Detour;C:\TrinityCore\dep\SFMT;C:\TrinityCore\dep\sockets\include;C:\TrinityCore\dep\utf8cpp;C:\TrinityCore\src\server;C:\TrinityCore\src\server\shared;C:\TrinityCore\src\server\shared\Configuration;C:\TrinityCore\src\server\shared\Cryptography;C:\TrinityCore\src\server\shared\Database;C:\TrinityCore\src\server\shared\DataStores;C:\TrinityCore\src\server\shared\Debugging;C:\TrinityCore\src\server\shared\Dynamic;C:\TrinityCore\src\server\shared\Logging;C:\TrinityCore\src\server\shared\Packets;C:\TrinityCore\src\server\shared\Threading;C:\TrinityCore\src\server\shared\Utilities;C:\TrinityCore\src\server\game\Entities\Object;C:\TrinityCore\dep\acelite;C:\TrinityCore\dep\mysqllite\include;C:\OpenSSL-Win32\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>C:\Build\src\server\shared;C:\Build;C:\Trinitycore\dep\recastnavigation\Detour;C:\Trinitycore\dep\SFMT;C:\Trinitycore\dep\sockets\include;C:\Trinitycore\dep\utf8cpp;C:\Trinitycore\src\server;C:\Trinitycore\src\server\shared;C:\Trinitycore\src\server\shared\Configuration;C:\Trinitycore\src\server\shared\Cryptography;C:\Trinitycore\src\server\shared\Database;C:\Trinitycore\src\server\shared\DataStores;C:\Trinitycore\src\server\shared\Debugging;C:\Trinitycore\src\server\shared\Dynamic;C:\Trinitycore\src\server\shared\Logging;C:\Trinitycore\src\server\shared\Packets;C:\Trinitycore\src\server\shared\Threading;C:\Trinitycore\src\server\shared\Utilities;C:\Trinitycore\src\server\game\Entities\Object;C:\Trinitycore\dep\acelite;C:\Trinitycore\dep\mysqllite\include;C:\OpenSSL-Win32\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <AssemblerListingLocation>MinSizeRel/</AssemblerListingLocation>
       <CompileAs>CompileAsCpp</CompileAs>
-      <DisableSpecificWarnings>4996;4355;4244;4985;4267;4619;4996;4355;4244;4985;4267;4619</DisableSpecificWarnings>
+      <DisableSpecificWarnings>4996;4355;4244;4985;4267;4619;4996;4355;4244;4985;4267;4619;4996;4355;4244;4985;4267;4619</DisableSpecificWarnings>
       <EnableEnhancedInstructionSet>StreamingSIMDExtensions2</EnableEnhancedInstructionSet>
       <ExceptionHandling>Sync</ExceptionHandling>
       <ForcedIncludeFiles>sharedPCH.h</ForcedIncludeFiles>
@@ -172,10 +172,10 @@
     </ClCompile>
     <ResourceCompile>
       <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;_BUILD_DIRECTIVE=\"$(ConfigurationName)\";_CRT_SECURE_CPP_OVERLOAD_STANDARD_NAMES;_CRT_SECURE_NO_WARNINGS;_CRT_NONSTDC_NO_WARNINGS;SCRIPTS;CMAKE_INTDIR=\"MinSizeRel\";%(PreprocessorDefinitions)</PreprocessorDefinitions>
-      <AdditionalIncludeDirectories>C:\build\src\server\shared;C:\build;C:\TrinityCore\dep\recastnavigation\Detour;C:\TrinityCore\dep\SFMT;C:\TrinityCore\dep\sockets\include;C:\TrinityCore\dep\utf8cpp;C:\TrinityCore\src\server;C:\TrinityCore\src\server\shared;C:\TrinityCore\src\server\shared\Configuration;C:\TrinityCore\src\server\shared\Cryptography;C:\TrinityCore\src\server\shared\Database;C:\TrinityCore\src\server\shared\DataStores;C:\TrinityCore\src\server\shared\Debugging;C:\TrinityCore\src\server\shared\Dynamic;C:\TrinityCore\src\server\shared\Logging;C:\TrinityCore\src\server\shared\Packets;C:\TrinityCore\src\server\shared\Threading;C:\TrinityCore\src\server\shared\Utilities;C:\TrinityCore\src\server\game\Entities\Object;C:\TrinityCore\dep\acelite;C:\TrinityCore\dep\mysqllite\include;C:\OpenSSL-Win32\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>C:\Build\src\server\shared;C:\Build;C:\Trinitycore\dep\recastnavigation\Detour;C:\Trinitycore\dep\SFMT;C:\Trinitycore\dep\sockets\include;C:\Trinitycore\dep\utf8cpp;C:\Trinitycore\src\server;C:\Trinitycore\src\server\shared;C:\Trinitycore\src\server\shared\Configuration;C:\Trinitycore\src\server\shared\Cryptography;C:\Trinitycore\src\server\shared\Database;C:\Trinitycore\src\server\shared\DataStores;C:\Trinitycore\src\server\shared\Debugging;C:\Trinitycore\src\server\shared\Dynamic;C:\Trinitycore\src\server\shared\Logging;C:\Trinitycore\src\server\shared\Packets;C:\Trinitycore\src\server\shared\Threading;C:\Trinitycore\src\server\shared\Utilities;C:\Trinitycore\src\server\game\Entities\Object;C:\Trinitycore\dep\acelite;C:\Trinitycore\dep\mysqllite\include;C:\OpenSSL-Win32\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
     </ResourceCompile>
     <Midl>
-      <AdditionalIncludeDirectories>C:\build\src\server\shared;C:\build;C:\TrinityCore\dep\recastnavigation\Detour;C:\TrinityCore\dep\SFMT;C:\TrinityCore\dep\sockets\include;C:\TrinityCore\dep\utf8cpp;C:\TrinityCore\src\server;C:\TrinityCore\src\server\shared;C:\TrinityCore\src\server\shared\Configuration;C:\TrinityCore\src\server\shared\Cryptography;C:\TrinityCore\src\server\shared\Database;C:\TrinityCore\src\server\shared\DataStores;C:\TrinityCore\src\server\shared\Debugging;C:\TrinityCore\src\server\shared\Dynamic;C:\TrinityCore\src\server\shared\Logging;C:\TrinityCore\src\server\shared\Packets;C:\TrinityCore\src\server\shared\Threading;C:\TrinityCore\src\server\shared\Utilities;C:\TrinityCore\src\server\game\Entities\Object;C:\TrinityCore\dep\acelite;C:\TrinityCore\dep\mysqllite\include;C:\OpenSSL-Win32\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>C:\Build\src\server\shared;C:\Build;C:\Trinitycore\dep\recastnavigation\Detour;C:\Trinitycore\dep\SFMT;C:\Trinitycore\dep\sockets\include;C:\Trinitycore\dep\utf8cpp;C:\Trinitycore\src\server;C:\Trinitycore\src\server\shared;C:\Trinitycore\src\server\shared\Configuration;C:\Trinitycore\src\server\shared\Cryptography;C:\Trinitycore\src\server\shared\Database;C:\Trinitycore\src\server\shared\DataStores;C:\Trinitycore\src\server\shared\Debugging;C:\Trinitycore\src\server\shared\Dynamic;C:\Trinitycore\src\server\shared\Logging;C:\Trinitycore\src\server\shared\Packets;C:\Trinitycore\src\server\shared\Threading;C:\Trinitycore\src\server\shared\Utilities;C:\Trinitycore\src\server\game\Entities\Object;C:\Trinitycore\dep\acelite;C:\Trinitycore\dep\mysqllite\include;C:\OpenSSL-Win32\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <OutputDirectory>$(IntDir)</OutputDirectory>
       <HeaderFileName>%(Filename).h</HeaderFileName>
       <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
@@ -186,11 +186,11 @@
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">
     <ClCompile>
       <AdditionalOptions> /Zm500 %(AdditionalOptions)</AdditionalOptions>
-      <AdditionalIncludeDirectories>C:\build\src\server\shared;C:\build;C:\TrinityCore\dep\recastnavigation\Detour;C:\TrinityCore\dep\SFMT;C:\TrinityCore\dep\sockets\include;C:\TrinityCore\dep\utf8cpp;C:\TrinityCore\src\server;C:\TrinityCore\src\server\shared;C:\TrinityCore\src\server\shared\Configuration;C:\TrinityCore\src\server\shared\Cryptography;C:\TrinityCore\src\server\shared\Database;C:\TrinityCore\src\server\shared\DataStores;C:\TrinityCore\src\server\shared\Debugging;C:\TrinityCore\src\server\shared\Dynamic;C:\TrinityCore\src\server\shared\Logging;C:\TrinityCore\src\server\shared\Packets;C:\TrinityCore\src\server\shared\Threading;C:\TrinityCore\src\server\shared\Utilities;C:\TrinityCore\src\server\game\Entities\Object;C:\TrinityCore\dep\acelite;C:\TrinityCore\dep\mysqllite\include;C:\OpenSSL-Win32\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>C:\Build\src\server\shared;C:\Build;C:\Trinitycore\dep\recastnavigation\Detour;C:\Trinitycore\dep\SFMT;C:\Trinitycore\dep\sockets\include;C:\Trinitycore\dep\utf8cpp;C:\Trinitycore\src\server;C:\Trinitycore\src\server\shared;C:\Trinitycore\src\server\shared\Configuration;C:\Trinitycore\src\server\shared\Cryptography;C:\Trinitycore\src\server\shared\Database;C:\Trinitycore\src\server\shared\DataStores;C:\Trinitycore\src\server\shared\Debugging;C:\Trinitycore\src\server\shared\Dynamic;C:\Trinitycore\src\server\shared\Logging;C:\Trinitycore\src\server\shared\Packets;C:\Trinitycore\src\server\shared\Threading;C:\Trinitycore\src\server\shared\Utilities;C:\Trinitycore\src\server\game\Entities\Object;C:\Trinitycore\dep\acelite;C:\Trinitycore\dep\mysqllite\include;C:\OpenSSL-Win32\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <AssemblerListingLocation>RelWithDebInfo/</AssemblerListingLocation>
       <CompileAs>CompileAsCpp</CompileAs>
       <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
-      <DisableSpecificWarnings>4996;4355;4244;4985;4267;4619;4996;4355;4244;4985;4267;4619</DisableSpecificWarnings>
+      <DisableSpecificWarnings>4996;4355;4244;4985;4267;4619;4996;4355;4244;4985;4267;4619;4996;4355;4244;4985;4267;4619</DisableSpecificWarnings>
       <EnableEnhancedInstructionSet>StreamingSIMDExtensions2</EnableEnhancedInstructionSet>
       <ExceptionHandling>Sync</ExceptionHandling>
       <ForcedIncludeFiles>sharedPCH.h</ForcedIncludeFiles>
@@ -208,10 +208,10 @@
     </ClCompile>
     <ResourceCompile>
       <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;_BUILD_DIRECTIVE=\"$(ConfigurationName)\";_CRT_SECURE_CPP_OVERLOAD_STANDARD_NAMES;_CRT_SECURE_NO_WARNINGS;_CRT_NONSTDC_NO_WARNINGS;SCRIPTS;CMAKE_INTDIR=\"RelWithDebInfo\";%(PreprocessorDefinitions)</PreprocessorDefinitions>
-      <AdditionalIncludeDirectories>C:\build\src\server\shared;C:\build;C:\TrinityCore\dep\recastnavigation\Detour;C:\TrinityCore\dep\SFMT;C:\TrinityCore\dep\sockets\include;C:\TrinityCore\dep\utf8cpp;C:\TrinityCore\src\server;C:\TrinityCore\src\server\shared;C:\TrinityCore\src\server\shared\Configuration;C:\TrinityCore\src\server\shared\Cryptography;C:\TrinityCore\src\server\shared\Database;C:\TrinityCore\src\server\shared\DataStores;C:\TrinityCore\src\server\shared\Debugging;C:\TrinityCore\src\server\shared\Dynamic;C:\TrinityCore\src\server\shared\Logging;C:\TrinityCore\src\server\shared\Packets;C:\TrinityCore\src\server\shared\Threading;C:\TrinityCore\src\server\shared\Utilities;C:\TrinityCore\src\server\game\Entities\Object;C:\TrinityCore\dep\acelite;C:\TrinityCore\dep\mysqllite\include;C:\OpenSSL-Win32\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>C:\Build\src\server\shared;C:\Build;C:\Trinitycore\dep\recastnavigation\Detour;C:\Trinitycore\dep\SFMT;C:\Trinitycore\dep\sockets\include;C:\Trinitycore\dep\utf8cpp;C:\Trinitycore\src\server;C:\Trinitycore\src\server\shared;C:\Trinitycore\src\server\shared\Configuration;C:\Trinitycore\src\server\shared\Cryptography;C:\Trinitycore\src\server\shared\Database;C:\Trinitycore\src\server\shared\DataStores;C:\Trinitycore\src\server\shared\Debugging;C:\Trinitycore\src\server\shared\Dynamic;C:\Trinitycore\src\server\shared\Logging;C:\Trinitycore\src\server\shared\Packets;C:\Trinitycore\src\server\shared\Threading;C:\Trinitycore\src\server\shared\Utilities;C:\Trinitycore\src\server\game\Entities\Object;C:\Trinitycore\dep\acelite;C:\Trinitycore\dep\mysqllite\include;C:\OpenSSL-Win32\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
     </ResourceCompile>
     <Midl>
-      <AdditionalIncludeDirectories>C:\build\src\server\shared;C:\build;C:\TrinityCore\dep\recastnavigation\Detour;C:\TrinityCore\dep\SFMT;C:\TrinityCore\dep\sockets\include;C:\TrinityCore\dep\utf8cpp;C:\TrinityCore\src\server;C:\TrinityCore\src\server\shared;C:\TrinityCore\src\server\shared\Configuration;C:\TrinityCore\src\server\shared\Cryptography;C:\TrinityCore\src\server\shared\Database;C:\TrinityCore\src\server\shared\DataStores;C:\TrinityCore\src\server\shared\Debugging;C:\TrinityCore\src\server\shared\Dynamic;C:\TrinityCore\src\server\shared\Logging;C:\TrinityCore\src\server\shared\Packets;C:\TrinityCore\src\server\shared\Threading;C:\TrinityCore\src\server\shared\Utilities;C:\TrinityCore\src\server\game\Entities\Object;C:\TrinityCore\dep\acelite;C:\TrinityCore\dep\mysqllite\include;C:\OpenSSL-Win32\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>C:\Build\src\server\shared;C:\Build;C:\Trinitycore\dep\recastnavigation\Detour;C:\Trinitycore\dep\SFMT;C:\Trinitycore\dep\sockets\include;C:\Trinitycore\dep\utf8cpp;C:\Trinitycore\src\server;C:\Trinitycore\src\server\shared;C:\Trinitycore\src\server\shared\Configuration;C:\Trinitycore\src\server\shared\Cryptography;C:\Trinitycore\src\server\shared\Database;C:\Trinitycore\src\server\shared\DataStores;C:\Trinitycore\src\server\shared\Debugging;C:\Trinitycore\src\server\shared\Dynamic;C:\Trinitycore\src\server\shared\Logging;C:\Trinitycore\src\server\shared\Packets;C:\Trinitycore\src\server\shared\Threading;C:\Trinitycore\src\server\shared\Utilities;C:\Trinitycore\src\server\game\Entities\Object;C:\Trinitycore\dep\acelite;C:\Trinitycore\dep\mysqllite\include;C:\OpenSSL-Win32\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <OutputDirectory>$(IntDir)</OutputDirectory>
       <HeaderFileName>%(Filename).h</HeaderFileName>
       <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
@@ -220,10 +220,10 @@
     </Midl>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <CustomBuild Include="C:\TrinityCore\src\server\shared\CMakeLists.txt">
-      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Building Custom Rule C:/TrinityCore/src/server/shared/CMakeLists.txt</Message>
+    <CustomBuild Include="C:\Trinitycore\src\server\shared\CMakeLists.txt">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Building Custom Rule C:/Trinitycore/src/server/shared/CMakeLists.txt</Message>
       <Command Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">setlocal
-"C:\Program Files (x86)\CMake 2.8\bin\cmake.exe" -HC:/TrinityCore -BC:/build --check-stamp-file C:\build\src\server\shared\CMakeFiles\generate.stamp
+"C:\Program Files (x86)\CMake 2.8\bin\cmake.exe" -HC:/Trinitycore -BC:/Build --check-stamp-file C:\Build\src\server\shared\CMakeFiles\generate.stamp
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
@@ -231,12 +231,12 @@ endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
 exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd</Command>
-      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">C:/TrinityCore/src/server/shared/CMakeLists.txt;C:\TrinityCore\src\server\shared\CMakeLists.txt;C:\TrinityCore\src\server\shared\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">C:\build\src\server\shared\CMakeFiles\generate.stamp</Outputs>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">C:/Trinitycore/src/server/shared/CMakeLists.txt;C:\Trinitycore\src\server\shared\CMakeLists.txt;C:\Trinitycore\src\server\shared\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">C:\Build\src\server\shared\CMakeFiles\generate.stamp</Outputs>
       <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">false</LinkObjects>
-      <Message Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Building Custom Rule C:/TrinityCore/src/server/shared/CMakeLists.txt</Message>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Building Custom Rule C:/Trinitycore/src/server/shared/CMakeLists.txt</Message>
       <Command Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">setlocal
-"C:\Program Files (x86)\CMake 2.8\bin\cmake.exe" -HC:/TrinityCore -BC:/build --check-stamp-file C:\build\src\server\shared\CMakeFiles\generate.stamp
+"C:\Program Files (x86)\CMake 2.8\bin\cmake.exe" -HC:/Trinitycore -BC:/Build --check-stamp-file C:\Build\src\server\shared\CMakeFiles\generate.stamp
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
@@ -244,12 +244,12 @@ endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
 exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd</Command>
-      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">C:/TrinityCore/src/server/shared/CMakeLists.txt;C:\TrinityCore\src\server\shared\CMakeLists.txt;C:\TrinityCore\src\server\shared\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">C:\build\src\server\shared\CMakeFiles\generate.stamp</Outputs>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">C:/Trinitycore/src/server/shared/CMakeLists.txt;C:\Trinitycore\src\server\shared\CMakeLists.txt;C:\Trinitycore\src\server\shared\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">C:\Build\src\server\shared\CMakeFiles\generate.stamp</Outputs>
       <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">false</LinkObjects>
-      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">Building Custom Rule C:/TrinityCore/src/server/shared/CMakeLists.txt</Message>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">Building Custom Rule C:/Trinitycore/src/server/shared/CMakeLists.txt</Message>
       <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">setlocal
-"C:\Program Files (x86)\CMake 2.8\bin\cmake.exe" -HC:/TrinityCore -BC:/build --check-stamp-file C:\build\src\server\shared\CMakeFiles\generate.stamp
+"C:\Program Files (x86)\CMake 2.8\bin\cmake.exe" -HC:/Trinitycore -BC:/Build --check-stamp-file C:\Build\src\server\shared\CMakeFiles\generate.stamp
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
@@ -257,12 +257,12 @@ endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
 exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd</Command>
-      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">C:/TrinityCore/src/server/shared/CMakeLists.txt;C:\TrinityCore\src\server\shared\CMakeLists.txt;C:\TrinityCore\src\server\shared\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">C:\build\src\server\shared\CMakeFiles\generate.stamp</Outputs>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">C:/Trinitycore/src/server/shared/CMakeLists.txt;C:\Trinitycore\src\server\shared\CMakeLists.txt;C:\Trinitycore\src\server\shared\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">C:\Build\src\server\shared\CMakeFiles\generate.stamp</Outputs>
       <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">false</LinkObjects>
-      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">Building Custom Rule C:/TrinityCore/src/server/shared/CMakeLists.txt</Message>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">Building Custom Rule C:/Trinitycore/src/server/shared/CMakeLists.txt</Message>
       <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">setlocal
-"C:\Program Files (x86)\CMake 2.8\bin\cmake.exe" -HC:/TrinityCore -BC:/build --check-stamp-file C:\build\src\server\shared\CMakeFiles\generate.stamp
+"C:\Program Files (x86)\CMake 2.8\bin\cmake.exe" -HC:/Trinitycore -BC:/Build --check-stamp-file C:\Build\src\server\shared\CMakeFiles\generate.stamp
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
@@ -270,111 +270,111 @@ endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
 exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd</Command>
-      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">C:/TrinityCore/src/server/shared/CMakeLists.txt;C:\TrinityCore\src\server\shared\CMakeLists.txt;C:\TrinityCore\src\server\shared\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">C:\build\src\server\shared\CMakeFiles\generate.stamp</Outputs>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">C:/Trinitycore/src/server/shared/CMakeLists.txt;C:\Trinitycore\src\server\shared\CMakeLists.txt;C:\Trinitycore\src\server\shared\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">C:\Build\src\server\shared\CMakeFiles\generate.stamp</Outputs>
       <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">false</LinkObjects>
     </CustomBuild>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="C:\TrinityCore\src\server\shared\Configuration\Config.h" />
-    <ClInclude Include="C:\TrinityCore\src\server\shared\Cryptography\ARC4.h" />
-    <ClInclude Include="C:\TrinityCore\src\server\shared\Cryptography\Authentication\AuthCrypt.h" />
-    <ClInclude Include="C:\TrinityCore\src\server\shared\Cryptography\BigNumber.h" />
-    <ClInclude Include="C:\TrinityCore\src\server\shared\Cryptography\HMACSHA1.h" />
-    <ClInclude Include="C:\TrinityCore\src\server\shared\Cryptography\SHA1.h" />
-    <ClInclude Include="C:\TrinityCore\src\server\shared\Cryptography\WardenKeyGeneration.h" />
-    <ClInclude Include="C:\TrinityCore\src\server\shared\Database\AdhocStatement.h" />
-    <ClInclude Include="C:\TrinityCore\src\server\shared\Database\DatabaseEnv.h" />
-    <ClInclude Include="C:\TrinityCore\src\server\shared\Database\DatabaseWorker.h" />
-    <ClInclude Include="C:\TrinityCore\src\server\shared\Database\DatabaseWorkerPool.h" />
-    <ClInclude Include="C:\TrinityCore\src\server\shared\Database\Field.h" />
-    <ClInclude Include="C:\TrinityCore\src\server\shared\Database\Implementation\CharacterDatabase.h" />
-    <ClInclude Include="C:\TrinityCore\src\server\shared\Database\Implementation\LoginDatabase.h" />
-    <ClInclude Include="C:\TrinityCore\src\server\shared\Database\Implementation\WorldDatabase.h" />
-    <ClInclude Include="C:\TrinityCore\src\server\shared\Database\MySQLConnection.h" />
-    <ClInclude Include="C:\TrinityCore\src\server\shared\Database\MySQLThreading.h" />
-    <ClInclude Include="C:\TrinityCore\src\server\shared\Database\PreparedStatement.h" />
-    <ClInclude Include="C:\TrinityCore\src\server\shared\Database\QueryHolder.h" />
-    <ClInclude Include="C:\TrinityCore\src\server\shared\Database\QueryResult.h" />
-    <ClInclude Include="C:\TrinityCore\src\server\shared\Database\SQLOperation.h" />
-    <ClInclude Include="C:\TrinityCore\src\server\shared\Database\Transaction.h" />
-    <ClInclude Include="C:\TrinityCore\src\server\shared\DataStores\DBCFileLoader.h" />
-    <ClInclude Include="C:\TrinityCore\src\server\shared\DataStores\DBCStore.h" />
-    <ClInclude Include="C:\TrinityCore\src\server\shared\Debugging\Errors.h" />
-    <ClInclude Include="C:\TrinityCore\src\server\shared\Dynamic\FactoryHolder.h" />
-    <ClInclude Include="C:\TrinityCore\src\server\shared\Dynamic\HashNamespace.h" />
-    <ClInclude Include="C:\TrinityCore\src\server\shared\Dynamic\LinkedList.h" />
-    <ClInclude Include="C:\TrinityCore\src\server\shared\Dynamic\LinkedReference\Reference.h" />
-    <ClInclude Include="C:\TrinityCore\src\server\shared\Dynamic\LinkedReference\RefManager.h" />
-    <ClInclude Include="C:\TrinityCore\src\server\shared\Dynamic\ObjectRegistry.h" />
-    <ClInclude Include="C:\TrinityCore\src\server\shared\Dynamic\TypeContainer.h" />
-    <ClInclude Include="C:\TrinityCore\src\server\shared\Dynamic\TypeContainerFunctions.h" />
-    <ClInclude Include="C:\TrinityCore\src\server\shared\Dynamic\TypeContainerVisitor.h" />
-    <ClInclude Include="C:\TrinityCore\src\server\shared\Dynamic\TypeList.h" />
-    <ClInclude Include="C:\TrinityCore\src\server\shared\Dynamic\UnorderedMap.h" />
-    <ClInclude Include="C:\TrinityCore\src\server\shared\Dynamic\UnorderedSet.h" />
-    <ClInclude Include="C:\TrinityCore\src\server\shared\Logging\Appender.h" />
-    <ClInclude Include="C:\TrinityCore\src\server\shared\Logging\AppenderConsole.h" />
-    <ClInclude Include="C:\TrinityCore\src\server\shared\Logging\AppenderDB.h" />
-    <ClInclude Include="C:\TrinityCore\src\server\shared\Logging\AppenderFile.h" />
-    <ClInclude Include="C:\TrinityCore\src\server\shared\Logging\Log.h" />
-    <ClInclude Include="C:\TrinityCore\src\server\shared\Logging\Logger.h" />
-    <ClInclude Include="C:\TrinityCore\src\server\shared\Logging\LogOperation.h" />
-    <ClInclude Include="C:\TrinityCore\src\server\shared\Logging\LogWorker.h" />
-    <ClInclude Include="C:\TrinityCore\src\server\shared\Packets\ByteBuffer.h" />
-    <ClInclude Include="C:\TrinityCore\src\server\shared\Packets\WorldPacket.h" />
-    <ClInclude Include="C:\TrinityCore\src\server\shared\Threading\Callback.h" />
-    <ClInclude Include="C:\TrinityCore\src\server\shared\Threading\DelayExecutor.h" />
-    <ClInclude Include="C:\TrinityCore\src\server\shared\Threading\LockedQueue.h" />
-    <ClInclude Include="C:\TrinityCore\src\server\shared\Threading\Threading.h" />
-    <ClInclude Include="C:\TrinityCore\src\server\shared\Utilities\ByteConverter.h" />
-    <ClInclude Include="C:\TrinityCore\src\server\shared\Utilities\EventProcessor.h" />
-    <ClInclude Include="C:\TrinityCore\src\server\shared\Utilities\ServiceWin32.h" />
-    <ClInclude Include="C:\TrinityCore\src\server\shared\Utilities\SignalHandler.h" />
-    <ClInclude Include="C:\TrinityCore\src\server\shared\Utilities\Timer.h" />
-    <ClInclude Include="C:\TrinityCore\src\server\shared\Utilities\Util.h" />
-    <ClInclude Include="C:\TrinityCore\src\server\shared\AutoPtr.h" />
-    <ClInclude Include="C:\TrinityCore\src\server\shared\Common.h" />
-    <ClInclude Include="C:\TrinityCore\src\server\shared\CompilerDefs.h" />
-    <ClInclude Include="C:\TrinityCore\src\server\shared\Containers.h" />
-    <ClInclude Include="C:\TrinityCore\src\server\shared\Define.h" />
-    <ClInclude Include="C:\TrinityCore\src\server\shared\Memory.h" />
-    <ClInclude Include="C:\TrinityCore\src\server\shared\SystemConfig.h" />
-    <ClCompile Include="C:\TrinityCore\src\server\shared\Configuration\Config.cpp"  />
-    <ClCompile Include="C:\TrinityCore\src\server\shared\Cryptography\ARC4.cpp"  />
-    <ClCompile Include="C:\TrinityCore\src\server\shared\Cryptography\Authentication\AuthCrypt.cpp"  />
-    <ClCompile Include="C:\TrinityCore\src\server\shared\Cryptography\BigNumber.cpp"  />
-    <ClCompile Include="C:\TrinityCore\src\server\shared\Cryptography\HMACSHA1.cpp"  />
-    <ClCompile Include="C:\TrinityCore\src\server\shared\Cryptography\SHA1.cpp"  />
-    <ClCompile Include="C:\TrinityCore\src\server\shared\Database\AdhocStatement.cpp"  />
-    <ClCompile Include="C:\TrinityCore\src\server\shared\Database\DatabaseWorker.cpp"  />
-    <ClCompile Include="C:\TrinityCore\src\server\shared\Database\Field.cpp"  />
-    <ClCompile Include="C:\TrinityCore\src\server\shared\Database\Implementation\CharacterDatabase.cpp"  />
-    <ClCompile Include="C:\TrinityCore\src\server\shared\Database\Implementation\LoginDatabase.cpp"  />
-    <ClCompile Include="C:\TrinityCore\src\server\shared\Database\Implementation\WorldDatabase.cpp"  />
-    <ClCompile Include="C:\TrinityCore\src\server\shared\Database\MySQLConnection.cpp"  />
-    <ClCompile Include="C:\TrinityCore\src\server\shared\Database\PreparedStatement.cpp"  />
-    <ClCompile Include="C:\TrinityCore\src\server\shared\Database\QueryHolder.cpp"  />
-    <ClCompile Include="C:\TrinityCore\src\server\shared\Database\QueryResult.cpp"  />
-    <ClCompile Include="C:\TrinityCore\src\server\shared\Database\Transaction.cpp"  />
-    <ClCompile Include="C:\TrinityCore\src\server\shared\DataStores\DBCFileLoader.cpp"  />
-    <ClCompile Include="C:\TrinityCore\src\server\shared\Debugging\Errors.cpp"  />
-    <ClCompile Include="C:\TrinityCore\src\server\shared\Logging\Appender.cpp"  />
-    <ClCompile Include="C:\TrinityCore\src\server\shared\Logging\AppenderConsole.cpp"  />
-    <ClCompile Include="C:\TrinityCore\src\server\shared\Logging\AppenderDB.cpp"  />
-    <ClCompile Include="C:\TrinityCore\src\server\shared\Logging\AppenderFile.cpp"  />
-    <ClCompile Include="C:\TrinityCore\src\server\shared\Logging\Log.cpp"  />
-    <ClCompile Include="C:\TrinityCore\src\server\shared\Logging\Logger.cpp"  />
-    <ClCompile Include="C:\TrinityCore\src\server\shared\Logging\LogOperation.cpp"  />
-    <ClCompile Include="C:\TrinityCore\src\server\shared\Logging\LogWorker.cpp"  />
-    <ClCompile Include="C:\TrinityCore\src\server\shared\Packets\ByteBuffer.cpp"  />
-    <ClCompile Include="C:\TrinityCore\src\server\shared\Threading\DelayExecutor.cpp"  />
-    <ClCompile Include="C:\TrinityCore\src\server\shared\Threading\Threading.cpp"  />
-    <ClCompile Include="C:\TrinityCore\src\server\shared\Utilities\EventProcessor.cpp"  />
-    <ClCompile Include="C:\TrinityCore\src\server\shared\Utilities\ServiceWin32.cpp"  />
-    <ClCompile Include="C:\TrinityCore\src\server\shared\Utilities\Util.cpp"  />
-    <ClCompile Include="C:\TrinityCore\src\server\shared\Common.cpp"  />
-    <ClCompile Include="C:\TrinityCore\src\server\shared\PrecompiledHeaders\sharedPCH.cpp" >
+    <ClInclude Include="C:\Trinitycore\src\server\shared\Configuration\Config.h" />
+    <ClInclude Include="C:\Trinitycore\src\server\shared\Cryptography\ARC4.h" />
+    <ClInclude Include="C:\Trinitycore\src\server\shared\Cryptography\Authentication\AuthCrypt.h" />
+    <ClInclude Include="C:\Trinitycore\src\server\shared\Cryptography\BigNumber.h" />
+    <ClInclude Include="C:\Trinitycore\src\server\shared\Cryptography\HMACSHA1.h" />
+    <ClInclude Include="C:\Trinitycore\src\server\shared\Cryptography\SHA1.h" />
+    <ClInclude Include="C:\Trinitycore\src\server\shared\Cryptography\WardenKeyGeneration.h" />
+    <ClInclude Include="C:\Trinitycore\src\server\shared\Database\AdhocStatement.h" />
+    <ClInclude Include="C:\Trinitycore\src\server\shared\Database\DatabaseEnv.h" />
+    <ClInclude Include="C:\Trinitycore\src\server\shared\Database\DatabaseWorker.h" />
+    <ClInclude Include="C:\Trinitycore\src\server\shared\Database\DatabaseWorkerPool.h" />
+    <ClInclude Include="C:\Trinitycore\src\server\shared\Database\Field.h" />
+    <ClInclude Include="C:\Trinitycore\src\server\shared\Database\Implementation\CharacterDatabase.h" />
+    <ClInclude Include="C:\Trinitycore\src\server\shared\Database\Implementation\LoginDatabase.h" />
+    <ClInclude Include="C:\Trinitycore\src\server\shared\Database\Implementation\WorldDatabase.h" />
+    <ClInclude Include="C:\Trinitycore\src\server\shared\Database\MySQLConnection.h" />
+    <ClInclude Include="C:\Trinitycore\src\server\shared\Database\MySQLThreading.h" />
+    <ClInclude Include="C:\Trinitycore\src\server\shared\Database\PreparedStatement.h" />
+    <ClInclude Include="C:\Trinitycore\src\server\shared\Database\QueryHolder.h" />
+    <ClInclude Include="C:\Trinitycore\src\server\shared\Database\QueryResult.h" />
+    <ClInclude Include="C:\Trinitycore\src\server\shared\Database\SQLOperation.h" />
+    <ClInclude Include="C:\Trinitycore\src\server\shared\Database\Transaction.h" />
+    <ClInclude Include="C:\Trinitycore\src\server\shared\DataStores\DBCFileLoader.h" />
+    <ClInclude Include="C:\Trinitycore\src\server\shared\DataStores\DBCStore.h" />
+    <ClInclude Include="C:\Trinitycore\src\server\shared\Debugging\Errors.h" />
+    <ClInclude Include="C:\Trinitycore\src\server\shared\Dynamic\FactoryHolder.h" />
+    <ClInclude Include="C:\Trinitycore\src\server\shared\Dynamic\HashNamespace.h" />
+    <ClInclude Include="C:\Trinitycore\src\server\shared\Dynamic\LinkedList.h" />
+    <ClInclude Include="C:\Trinitycore\src\server\shared\Dynamic\LinkedReference\Reference.h" />
+    <ClInclude Include="C:\Trinitycore\src\server\shared\Dynamic\LinkedReference\RefManager.h" />
+    <ClInclude Include="C:\Trinitycore\src\server\shared\Dynamic\ObjectRegistry.h" />
+    <ClInclude Include="C:\Trinitycore\src\server\shared\Dynamic\TypeContainer.h" />
+    <ClInclude Include="C:\Trinitycore\src\server\shared\Dynamic\TypeContainerFunctions.h" />
+    <ClInclude Include="C:\Trinitycore\src\server\shared\Dynamic\TypeContainerVisitor.h" />
+    <ClInclude Include="C:\Trinitycore\src\server\shared\Dynamic\TypeList.h" />
+    <ClInclude Include="C:\Trinitycore\src\server\shared\Dynamic\UnorderedMap.h" />
+    <ClInclude Include="C:\Trinitycore\src\server\shared\Dynamic\UnorderedSet.h" />
+    <ClInclude Include="C:\Trinitycore\src\server\shared\Logging\Appender.h" />
+    <ClInclude Include="C:\Trinitycore\src\server\shared\Logging\AppenderConsole.h" />
+    <ClInclude Include="C:\Trinitycore\src\server\shared\Logging\AppenderDB.h" />
+    <ClInclude Include="C:\Trinitycore\src\server\shared\Logging\AppenderFile.h" />
+    <ClInclude Include="C:\Trinitycore\src\server\shared\Logging\Log.h" />
+    <ClInclude Include="C:\Trinitycore\src\server\shared\Logging\Logger.h" />
+    <ClInclude Include="C:\Trinitycore\src\server\shared\Logging\LogOperation.h" />
+    <ClInclude Include="C:\Trinitycore\src\server\shared\Logging\LogWorker.h" />
+    <ClInclude Include="C:\Trinitycore\src\server\shared\Packets\ByteBuffer.h" />
+    <ClInclude Include="C:\Trinitycore\src\server\shared\Packets\WorldPacket.h" />
+    <ClInclude Include="C:\Trinitycore\src\server\shared\Threading\Callback.h" />
+    <ClInclude Include="C:\Trinitycore\src\server\shared\Threading\DelayExecutor.h" />
+    <ClInclude Include="C:\Trinitycore\src\server\shared\Threading\LockedQueue.h" />
+    <ClInclude Include="C:\Trinitycore\src\server\shared\Threading\Threading.h" />
+    <ClInclude Include="C:\Trinitycore\src\server\shared\Utilities\ByteConverter.h" />
+    <ClInclude Include="C:\Trinitycore\src\server\shared\Utilities\EventProcessor.h" />
+    <ClInclude Include="C:\Trinitycore\src\server\shared\Utilities\ServiceWin32.h" />
+    <ClInclude Include="C:\Trinitycore\src\server\shared\Utilities\SignalHandler.h" />
+    <ClInclude Include="C:\Trinitycore\src\server\shared\Utilities\Timer.h" />
+    <ClInclude Include="C:\Trinitycore\src\server\shared\Utilities\Util.h" />
+    <ClInclude Include="C:\Trinitycore\src\server\shared\AutoPtr.h" />
+    <ClInclude Include="C:\Trinitycore\src\server\shared\Common.h" />
+    <ClInclude Include="C:\Trinitycore\src\server\shared\CompilerDefs.h" />
+    <ClInclude Include="C:\Trinitycore\src\server\shared\Containers.h" />
+    <ClInclude Include="C:\Trinitycore\src\server\shared\Define.h" />
+    <ClInclude Include="C:\Trinitycore\src\server\shared\Memory.h" />
+    <ClInclude Include="C:\Trinitycore\src\server\shared\SystemConfig.h" />
+    <ClCompile Include="C:\Trinitycore\src\server\shared\Configuration\Config.cpp"  />
+    <ClCompile Include="C:\Trinitycore\src\server\shared\Cryptography\ARC4.cpp"  />
+    <ClCompile Include="C:\Trinitycore\src\server\shared\Cryptography\Authentication\AuthCrypt.cpp"  />
+    <ClCompile Include="C:\Trinitycore\src\server\shared\Cryptography\BigNumber.cpp"  />
+    <ClCompile Include="C:\Trinitycore\src\server\shared\Cryptography\HMACSHA1.cpp"  />
+    <ClCompile Include="C:\Trinitycore\src\server\shared\Cryptography\SHA1.cpp"  />
+    <ClCompile Include="C:\Trinitycore\src\server\shared\Database\AdhocStatement.cpp"  />
+    <ClCompile Include="C:\Trinitycore\src\server\shared\Database\DatabaseWorker.cpp"  />
+    <ClCompile Include="C:\Trinitycore\src\server\shared\Database\Field.cpp"  />
+    <ClCompile Include="C:\Trinitycore\src\server\shared\Database\Implementation\CharacterDatabase.cpp"  />
+    <ClCompile Include="C:\Trinitycore\src\server\shared\Database\Implementation\LoginDatabase.cpp"  />
+    <ClCompile Include="C:\Trinitycore\src\server\shared\Database\Implementation\WorldDatabase.cpp"  />
+    <ClCompile Include="C:\Trinitycore\src\server\shared\Database\MySQLConnection.cpp"  />
+    <ClCompile Include="C:\Trinitycore\src\server\shared\Database\PreparedStatement.cpp"  />
+    <ClCompile Include="C:\Trinitycore\src\server\shared\Database\QueryHolder.cpp"  />
+    <ClCompile Include="C:\Trinitycore\src\server\shared\Database\QueryResult.cpp"  />
+    <ClCompile Include="C:\Trinitycore\src\server\shared\Database\Transaction.cpp"  />
+    <ClCompile Include="C:\Trinitycore\src\server\shared\DataStores\DBCFileLoader.cpp"  />
+    <ClCompile Include="C:\Trinitycore\src\server\shared\Debugging\Errors.cpp"  />
+    <ClCompile Include="C:\Trinitycore\src\server\shared\Logging\Appender.cpp"  />
+    <ClCompile Include="C:\Trinitycore\src\server\shared\Logging\AppenderConsole.cpp"  />
+    <ClCompile Include="C:\Trinitycore\src\server\shared\Logging\AppenderDB.cpp"  />
+    <ClCompile Include="C:\Trinitycore\src\server\shared\Logging\AppenderFile.cpp"  />
+    <ClCompile Include="C:\Trinitycore\src\server\shared\Logging\Log.cpp"  />
+    <ClCompile Include="C:\Trinitycore\src\server\shared\Logging\Logger.cpp"  />
+    <ClCompile Include="C:\Trinitycore\src\server\shared\Logging\LogOperation.cpp"  />
+    <ClCompile Include="C:\Trinitycore\src\server\shared\Logging\LogWorker.cpp"  />
+    <ClCompile Include="C:\Trinitycore\src\server\shared\Packets\ByteBuffer.cpp"  />
+    <ClCompile Include="C:\Trinitycore\src\server\shared\Threading\DelayExecutor.cpp"  />
+    <ClCompile Include="C:\Trinitycore\src\server\shared\Threading\Threading.cpp"  />
+    <ClCompile Include="C:\Trinitycore\src\server\shared\Utilities\EventProcessor.cpp"  />
+    <ClCompile Include="C:\Trinitycore\src\server\shared\Utilities\ServiceWin32.cpp"  />
+    <ClCompile Include="C:\Trinitycore\src\server\shared\Utilities\Util.cpp"  />
+    <ClCompile Include="C:\Trinitycore\src\server\shared\Common.cpp"  />
+    <ClCompile Include="C:\Trinitycore\src\server\shared\PrecompiledHeaders\sharedPCH.cpp" >
       <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Create</PrecompiledHeader>
       <PrecompiledHeaderFile Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">sharedPCH.h</PrecompiledHeaderFile>
       <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Create</PrecompiledHeader>
@@ -386,10 +386,10 @@ if %errorlevel% neq 0 goto :VCEnd</Command>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="C:/build/ZERO_CHECK.vcxproj">
+    <ProjectReference Include="C:/Build/ZERO_CHECK.vcxproj">
       <Project>85338E16-3437-4B4D-A270-6A7C004CD9A1</Project>
     </ProjectReference>
-    <ProjectReference Include="C:/build/dep/acelite/ace/ace.vcxproj">
+    <ProjectReference Include="C:/Build/dep/acelite/ace/ace.vcxproj">
       <Project>B69BB7F7-C6EE-4612-BE44-EF685A19E831</Project>
     </ProjectReference>
   </ItemGroup>

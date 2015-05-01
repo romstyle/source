@@ -1,4 +1,4 @@
-# Install script for directory: C:/TrinityCore/src/server/authserver
+# Install script for directory: C:/Trinitycore/src/server/authserver
 
 # Set the install prefix
 IF(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -37,7 +37,7 @@ IF(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspeci
     IF (CMAKE_ERROR_ON_ABSOLUTE_INSTALL_DESTINATION)
         message(FATAL_ERROR "ABSOLUTE path INSTALL DESTINATION forbidden (by caller): ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
     ENDIF (CMAKE_ERROR_ON_ABSOLUTE_INSTALL_DESTINATION)
-FILE(INSTALL DESTINATION "C:/Program Files (x86)/TrinityCore" TYPE EXECUTABLE FILES "C:/build/bin/Debug/authserver.exe")
+FILE(INSTALL DESTINATION "C:/Program Files (x86)/TrinityCore" TYPE EXECUTABLE FILES "C:/Build/bin/Debug/authserver.exe")
   ELSEIF("${CMAKE_INSTALL_CONFIG_NAME}" MATCHES "^([Rr][Ee][Ll][Ee][Aa][Ss][Ee])$")
     list(APPEND CMAKE_ABSOLUTE_DESTINATION_FILES
      "C:/Program Files (x86)/TrinityCore/authserver.exe")
@@ -47,7 +47,7 @@ FILE(INSTALL DESTINATION "C:/Program Files (x86)/TrinityCore" TYPE EXECUTABLE FI
     IF (CMAKE_ERROR_ON_ABSOLUTE_INSTALL_DESTINATION)
         message(FATAL_ERROR "ABSOLUTE path INSTALL DESTINATION forbidden (by caller): ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
     ENDIF (CMAKE_ERROR_ON_ABSOLUTE_INSTALL_DESTINATION)
-FILE(INSTALL DESTINATION "C:/Program Files (x86)/TrinityCore" TYPE EXECUTABLE FILES "C:/build/bin/Release/authserver.exe")
+FILE(INSTALL DESTINATION "C:/Program Files (x86)/TrinityCore" TYPE EXECUTABLE FILES "C:/Build/bin/Release/authserver.exe")
   ELSEIF("${CMAKE_INSTALL_CONFIG_NAME}" MATCHES "^([Mm][Ii][Nn][Ss][Ii][Zz][Ee][Rr][Ee][Ll])$")
     list(APPEND CMAKE_ABSOLUTE_DESTINATION_FILES
      "C:/Program Files (x86)/TrinityCore/authserver.exe")
@@ -57,7 +57,7 @@ FILE(INSTALL DESTINATION "C:/Program Files (x86)/TrinityCore" TYPE EXECUTABLE FI
     IF (CMAKE_ERROR_ON_ABSOLUTE_INSTALL_DESTINATION)
         message(FATAL_ERROR "ABSOLUTE path INSTALL DESTINATION forbidden (by caller): ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
     ENDIF (CMAKE_ERROR_ON_ABSOLUTE_INSTALL_DESTINATION)
-FILE(INSTALL DESTINATION "C:/Program Files (x86)/TrinityCore" TYPE EXECUTABLE FILES "C:/build/bin/MinSizeRel/authserver.exe")
+FILE(INSTALL DESTINATION "C:/Program Files (x86)/TrinityCore" TYPE EXECUTABLE FILES "C:/Build/bin/MinSizeRel/authserver.exe")
   ELSEIF("${CMAKE_INSTALL_CONFIG_NAME}" MATCHES "^([Rr][Ee][Ll][Ww][Ii][Tt][Hh][Dd][Ee][Bb][Ii][Nn][Ff][Oo])$")
     list(APPEND CMAKE_ABSOLUTE_DESTINATION_FILES
      "C:/Program Files (x86)/TrinityCore/authserver.exe")
@@ -67,7 +67,7 @@ FILE(INSTALL DESTINATION "C:/Program Files (x86)/TrinityCore" TYPE EXECUTABLE FI
     IF (CMAKE_ERROR_ON_ABSOLUTE_INSTALL_DESTINATION)
         message(FATAL_ERROR "ABSOLUTE path INSTALL DESTINATION forbidden (by caller): ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
     ENDIF (CMAKE_ERROR_ON_ABSOLUTE_INSTALL_DESTINATION)
-FILE(INSTALL DESTINATION "C:/Program Files (x86)/TrinityCore" TYPE EXECUTABLE FILES "C:/build/bin/RelWithDebInfo/authserver.exe")
+FILE(INSTALL DESTINATION "C:/Program Files (x86)/TrinityCore" TYPE EXECUTABLE FILES "C:/Build/bin/RelWithDebInfo/authserver.exe")
   ENDIF()
 ENDIF(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
 
@@ -80,6 +80,6 @@ IF(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspeci
   IF (CMAKE_ERROR_ON_ABSOLUTE_INSTALL_DESTINATION)
     message(FATAL_ERROR "ABSOLUTE path INSTALL DESTINATION forbidden (by caller): ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
   ENDIF (CMAKE_ERROR_ON_ABSOLUTE_INSTALL_DESTINATION)
-FILE(INSTALL DESTINATION "C:/Program Files (x86)/TrinityCore" TYPE FILE FILES "C:/TrinityCore/src/server/authserver/authserver.conf.dist")
+FILE(INSTALL DESTINATION "C:/Program Files (x86)/TrinityCore" TYPE FILE FILES "C:/Trinitycore/src/server/authserver/authserver.conf.dist")
 ENDIF(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
 

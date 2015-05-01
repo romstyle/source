@@ -6,8 +6,8 @@
     </ClInclude>
   </ItemGroup>
   <ItemGroup>
-    <CustomBuild Include="C:\TrinityCore\src\genrev\CMakeLists.txt" />
-    <CustomBuild Include="..\..\CMakeFiles\800482ad22158bb865f59caf6f558467\revision.h.rule">
+    <CustomBuild Include="C:\Trinitycore\src\genrev\CMakeLists.txt" />
+    <CustomBuild Include="..\..\CMakeFiles\a556dd13cfc1a66d0c07b1922c6cde79\revision.h.rule">
       <Filter>CMake Rules</Filter>
     </CustomBuild>
   </ItemGroup>

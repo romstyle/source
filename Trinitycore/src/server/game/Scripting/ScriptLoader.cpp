@@ -1319,6 +1319,7 @@ void AddOutdoorPvPScripts()
 void AddBattlegroundScripts()
 {
 #ifdef SCRIPTS
+	void AddSC_NPC_Transmogrify();
 #endif
 }
 
@@ -1337,7 +1338,6 @@ void AddSC_multi_changer();
 void AddCustomScripts()
 {
 #ifdef SCRIPTS
-    /* This is where custom scripts should be added. */
-
+	//AddSC_NPC_Transmogrify();
 #endif
 }

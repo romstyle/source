@@ -57,19 +57,19 @@
   <PropertyGroup Label="UserMacros" />
     <PropertyGroup>
       <_ProjectFileVersion>10.0.20506.1</_ProjectFileVersion>
-      <OutDir Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">C:\build\src\server\game\Debug\</OutDir>
+      <OutDir Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">C:\Build\src\server\game\Debug\</OutDir>
       <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">game.dir\Debug\</IntDir>
       <TargetName Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">game</TargetName>
       <TargetExt Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">.lib</TargetExt>
-      <OutDir Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">C:\build\src\server\game\Release\</OutDir>
+      <OutDir Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">C:\Build\src\server\game\Release\</OutDir>
       <IntDir Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">game.dir\Release\</IntDir>
       <TargetName Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">game</TargetName>
       <TargetExt Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">.lib</TargetExt>
-      <OutDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">C:\build\src\server\game\MinSizeRel\</OutDir>
+      <OutDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">C:\Build\src\server\game\MinSizeRel\</OutDir>
       <IntDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">game.dir\MinSizeRel\</IntDir>
       <TargetName Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">game</TargetName>
       <TargetExt Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">.lib</TargetExt>
-      <OutDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">C:\build\src\server\game\RelWithDebInfo\</OutDir>
+      <OutDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">C:\Build\src\server\game\RelWithDebInfo\</OutDir>
       <IntDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">game.dir\RelWithDebInfo\</IntDir>
       <TargetName Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">game</TargetName>
       <TargetExt Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">.lib</TargetExt>
@@ -77,12 +77,12 @@
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
     <ClCompile>
       <AdditionalOptions> /Zm500 %(AdditionalOptions)</AdditionalOptions>
-      <AdditionalIncludeDirectories>C:\build;C:\TrinityCore\dep\recastnavigation\Detour;C:\TrinityCore\dep\recastnavigation\Recast;C:\TrinityCore\dep\g3dlite\include;C:\TrinityCore\dep\SFMT;C:\TrinityCore\dep\zlib;C:\TrinityCore\src\server\collision;C:\TrinityCore\src\server\collision\Management;C:\TrinityCore\src\server\collision\Models;C:\TrinityCore\src\server\collision\Maps;C:\TrinityCore\src\server\shared;C:\TrinityCore\src\server\shared\Configuration;C:\TrinityCore\src\server\shared\Cryptography;C:\TrinityCore\src\server\shared\Cryptography\Authentication;C:\TrinityCore\src\server\shared\Database;C:\TrinityCore\src\server\shared\DataStores;C:\TrinityCore\src\server\shared\Debugging;C:\TrinityCore\src\server\shared\Dynamic\LinkedReference;C:\TrinityCore\src\server\shared\Dynamic;C:\TrinityCore\src\server\shared\Logging;C:\TrinityCore\src\server\shared\Packets;C:\TrinityCore\src\server\shared\Threading;C:\TrinityCore\src\server\shared\Utilities;C:\TrinityCore\src\server\game;C:\TrinityCore\src\server\game\Accounts;C:\TrinityCore\src\server\game\Achievements;C:\TrinityCore\src\server\game\Addons;C:\TrinityCore\src\server\game\AI;C:\TrinityCore\src\server\game\AI\CoreAI;C:\TrinityCore\src\server\game\AI\EventAI;C:\TrinityCore\src\server\game\AI\ScriptedAI;C:\TrinityCore\src\server\game\AI\SmartScripts;C:\TrinityCore\src\server\game\AuctionHouse;C:\TrinityCore\src\server\game\Battlefield;C:\TrinityCore\src\server\game\Battlefield\Zones;C:\TrinityCore\src\server\game\Battlegrounds;C:\TrinityCore\src\server\game\Battlegrounds\Zones;C:\TrinityCore\src\server\game\Calendar;C:\TrinityCore\src\server\game\Chat;C:\TrinityCore\src\server\game\Chat\Channels;C:\TrinityCore\src\server\game\Combat;C:\TrinityCore\src\server\game\Conditions;C:\TrinityCore\src\server\game\DataStores;C:\TrinityCore\src\server\game\DungeonFinding;C:\TrinityCore\src\server\game\Entities;C:\TrinityCore\src\server\game\Entities\Creature;C:\TrinityCore\src\server\game\Entities\Corpse;C:\TrinityCore\src\server\game\Entities\DynamicObject;C:\TrinityCore\src\server\game\Entities\GameObject;C:\TrinityCore\src\server\game\Entities\Item;C:\TrinityCore\src\server\game\Entities\Item\Container;C:\TrinityCore\src\server\game\Entities\Object;C:\TrinityCore\src\server\game\Entities\Object\Updates;C:\TrinityCore\src\server\game\Entities\Pet;C:\TrinityCore\src\server\game\Entities\Player;C:\TrinityCore\src\server\game\Entities\Totem;C:\TrinityCore\src\server\game\Entities\Unit;C:\TrinityCore\src\server\game\Entities\Vehicle;C:\TrinityCore\src\server\game\Entities\Transport;C:\TrinityCore\src\server\game\Events;C:\TrinityCore\src\server\game\Globals;C:\TrinityCore\src\server\game\Grids\Cells;C:\TrinityCore\src\server\game\Grids\Notifiers;C:\TrinityCore\src\server\game\Grids;C:\TrinityCore\src\server\game\Groups;C:\TrinityCore\src\server\game\Guilds;C:\TrinityCore\src\server\game\Handlers;C:\TrinityCore\src\server\game\Instances;C:\TrinityCore\src\server\game\Loot;C:\TrinityCore\src\server\game\Mails;C:\TrinityCore\src\server\game\Maps;C:\TrinityCore\src\server\game\Miscellaneous;C:\TrinityCore\src\server\game\Movement;C:\TrinityCore\src\server\game\Movement\Spline;C:\TrinityCore\src\server\game\Movement\MovementGenerators;C:\TrinityCore\src\server\game\Movement\Waypoints;C:\TrinityCore\src\server\game\OutdoorPvP;C:\TrinityCore\src\server\game\Pools;C:\TrinityCore\src\server\game\PrecompiledHeaders;C:\TrinityCore\src\server\game\Quests;C:\TrinityCore\src\server\game\Reputation;C:\TrinityCore\src\server\game\Scripting;C:\TrinityCore\src\server\game\Server\Protocol;C:\TrinityCore\src\server\game\Server;C:\TrinityCore\src\server\game\Skills;C:\TrinityCore\src\server\game\Spells;C:\TrinityCore\src\server\game\Spells\Auras;C:\TrinityCore\src\server\game\Texts;C:\TrinityCore\src\server\game\Tools;C:\TrinityCore\src\server\game\Tickets;C:\TrinityCore\src\server\game\Warden;C:\TrinityCore\src\server\game\Warden\Modules;C:\TrinityCore\src\server\game\Weather;C:\TrinityCore\src\server\game\World;C:\TrinityCore\src\server\scripts\PrecompiledHeaders;C:\TrinityCore\dep\acelite;C:\TrinityCore\dep\mysqllite\include;C:\OpenSSL-Win32\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>C:\Build;C:\Trinitycore\dep\recastnavigation\Detour;C:\Trinitycore\dep\recastnavigation\Recast;C:\Trinitycore\dep\g3dlite\include;C:\Trinitycore\dep\SFMT;C:\Trinitycore\dep\zlib;C:\Trinitycore\src\server\collision;C:\Trinitycore\src\server\collision\Management;C:\Trinitycore\src\server\collision\Models;C:\Trinitycore\src\server\collision\Maps;C:\Trinitycore\src\server\shared;C:\Trinitycore\src\server\shared\Configuration;C:\Trinitycore\src\server\shared\Cryptography;C:\Trinitycore\src\server\shared\Cryptography\Authentication;C:\Trinitycore\src\server\shared\Database;C:\Trinitycore\src\server\shared\DataStores;C:\Trinitycore\src\server\shared\Debugging;C:\Trinitycore\src\server\shared\Dynamic\LinkedReference;C:\Trinitycore\src\server\shared\Dynamic;C:\Trinitycore\src\server\shared\Logging;C:\Trinitycore\src\server\shared\Packets;C:\Trinitycore\src\server\shared\Threading;C:\Trinitycore\src\server\shared\Utilities;C:\Trinitycore\src\server\game;C:\Trinitycore\src\server\game\Accounts;C:\Trinitycore\src\server\game\Achievements;C:\Trinitycore\src\server\game\Addons;C:\Trinitycore\src\server\game\AI;C:\Trinitycore\src\server\game\AI\CoreAI;C:\Trinitycore\src\server\game\AI\EventAI;C:\Trinitycore\src\server\game\AI\ScriptedAI;C:\Trinitycore\src\server\game\AI\SmartScripts;C:\Trinitycore\src\server\game\AuctionHouse;C:\Trinitycore\src\server\game\Battlefield;C:\Trinitycore\src\server\game\Battlefield\Zones;C:\Trinitycore\src\server\game\Battlegrounds;C:\Trinitycore\src\server\game\Battlegrounds\Zones;C:\Trinitycore\src\server\game\Calendar;C:\Trinitycore\src\server\game\Chat;C:\Trinitycore\src\server\game\Chat\Channels;C:\Trinitycore\src\server\game\Combat;C:\Trinitycore\src\server\game\Conditions;C:\Trinitycore\src\server\game\DataStores;C:\Trinitycore\src\server\game\DungeonFinding;C:\Trinitycore\src\server\game\Entities;C:\Trinitycore\src\server\game\Entities\Creature;C:\Trinitycore\src\server\game\Entities\Corpse;C:\Trinitycore\src\server\game\Entities\DynamicObject;C:\Trinitycore\src\server\game\Entities\GameObject;C:\Trinitycore\src\server\game\Entities\Item;C:\Trinitycore\src\server\game\Entities\Item\Container;C:\Trinitycore\src\server\game\Entities\Object;C:\Trinitycore\src\server\game\Entities\Object\Updates;C:\Trinitycore\src\server\game\Entities\Pet;C:\Trinitycore\src\server\game\Entities\Player;C:\Trinitycore\src\server\game\Entities\Totem;C:\Trinitycore\src\server\game\Entities\Unit;C:\Trinitycore\src\server\game\Entities\Vehicle;C:\Trinitycore\src\server\game\Entities\Transport;C:\Trinitycore\src\server\game\Events;C:\Trinitycore\src\server\game\Globals;C:\Trinitycore\src\server\game\Grids\Cells;C:\Trinitycore\src\server\game\Grids\Notifiers;C:\Trinitycore\src\server\game\Grids;C:\Trinitycore\src\server\game\Groups;C:\Trinitycore\src\server\game\Guilds;C:\Trinitycore\src\server\game\Handlers;C:\Trinitycore\src\server\game\Instances;C:\Trinitycore\src\server\game\Loot;C:\Trinitycore\src\server\game\Mails;C:\Trinitycore\src\server\game\Maps;C:\Trinitycore\src\server\game\Miscellaneous;C:\Trinitycore\src\server\game\Movement;C:\Trinitycore\src\server\game\Movement\Spline;C:\Trinitycore\src\server\game\Movement\MovementGenerators;C:\Trinitycore\src\server\game\Movement\Waypoints;C:\Trinitycore\src\server\game\OutdoorPvP;C:\Trinitycore\src\server\game\Pools;C:\Trinitycore\src\server\game\PrecompiledHeaders;C:\Trinitycore\src\server\game\Quests;C:\Trinitycore\src\server\game\Reputation;C:\Trinitycore\src\server\game\Scripting;C:\Trinitycore\src\server\game\Server\Protocol;C:\Trinitycore\src\server\game\Server;C:\Trinitycore\src\server\game\Skills;C:\Trinitycore\src\server\game\Spells;C:\Trinitycore\src\server\game\Spells\Auras;C:\Trinitycore\src\server\game\Texts;C:\Trinitycore\src\server\game\Tools;C:\Trinitycore\src\server\game\Tickets;C:\Trinitycore\src\server\game\Warden;C:\Trinitycore\src\server\game\Warden\Modules;C:\Trinitycore\src\server\game\Weather;C:\Trinitycore\src\server\game\World;C:\Trinitycore\src\server\scripts\PrecompiledHeaders;C:\Trinitycore\dep\acelite;C:\Trinitycore\dep\mysqllite\include;C:\OpenSSL-Win32\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <AssemblerListingLocation>Debug/</AssemblerListingLocation>
       <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
       <CompileAs>CompileAsCpp</CompileAs>
       <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
-      <DisableSpecificWarnings>4996;4355;4244;4985;4267;4619;4996;4355;4244;4985;4267;4619</DisableSpecificWarnings>
+      <DisableSpecificWarnings>4996;4355;4244;4985;4267;4619;4996;4355;4244;4985;4267;4619;4996;4355;4244;4985;4267;4619</DisableSpecificWarnings>
       <EnableEnhancedInstructionSet>StreamingSIMDExtensions2</EnableEnhancedInstructionSet>
       <ExceptionHandling>Sync</ExceptionHandling>
       <ForcedIncludeFiles>gamePCH.h</ForcedIncludeFiles>
@@ -100,10 +100,10 @@
     </ClCompile>
     <ResourceCompile>
       <PreprocessorDefinitions>WIN32;_WINDOWS;_DEBUG;_BUILD_DIRECTIVE=\"$(ConfigurationName)\";_CRT_SECURE_CPP_OVERLOAD_STANDARD_NAMES;_CRT_SECURE_NO_WARNINGS;_CRT_NONSTDC_NO_WARNINGS;SCRIPTS;CMAKE_INTDIR=\"Debug\";%(PreprocessorDefinitions)</PreprocessorDefinitions>
-      <AdditionalIncludeDirectories>C:\build;C:\TrinityCore\dep\recastnavigation\Detour;C:\TrinityCore\dep\recastnavigation\Recast;C:\TrinityCore\dep\g3dlite\include;C:\TrinityCore\dep\SFMT;C:\TrinityCore\dep\zlib;C:\TrinityCore\src\server\collision;C:\TrinityCore\src\server\collision\Management;C:\TrinityCore\src\server\collision\Models;C:\TrinityCore\src\server\collision\Maps;C:\TrinityCore\src\server\shared;C:\TrinityCore\src\server\shared\Configuration;C:\TrinityCore\src\server\shared\Cryptography;C:\TrinityCore\src\server\shared\Cryptography\Authentication;C:\TrinityCore\src\server\shared\Database;C:\TrinityCore\src\server\shared\DataStores;C:\TrinityCore\src\server\shared\Debugging;C:\TrinityCore\src\server\shared\Dynamic\LinkedReference;C:\TrinityCore\src\server\shared\Dynamic;C:\TrinityCore\src\server\shared\Logging;C:\TrinityCore\src\server\shared\Packets;C:\TrinityCore\src\server\shared\Threading;C:\TrinityCore\src\server\shared\Utilities;C:\TrinityCore\src\server\game;C:\TrinityCore\src\server\game\Accounts;C:\TrinityCore\src\server\game\Achievements;C:\TrinityCore\src\server\game\Addons;C:\TrinityCore\src\server\game\AI;C:\TrinityCore\src\server\game\AI\CoreAI;C:\TrinityCore\src\server\game\AI\EventAI;C:\TrinityCore\src\server\game\AI\ScriptedAI;C:\TrinityCore\src\server\game\AI\SmartScripts;C:\TrinityCore\src\server\game\AuctionHouse;C:\TrinityCore\src\server\game\Battlefield;C:\TrinityCore\src\server\game\Battlefield\Zones;C:\TrinityCore\src\server\game\Battlegrounds;C:\TrinityCore\src\server\game\Battlegrounds\Zones;C:\TrinityCore\src\server\game\Calendar;C:\TrinityCore\src\server\game\Chat;C:\TrinityCore\src\server\game\Chat\Channels;C:\TrinityCore\src\server\game\Combat;C:\TrinityCore\src\server\game\Conditions;C:\TrinityCore\src\server\game\DataStores;C:\TrinityCore\src\server\game\DungeonFinding;C:\TrinityCore\src\server\game\Entities;C:\TrinityCore\src\server\game\Entities\Creature;C:\TrinityCore\src\server\game\Entities\Corpse;C:\TrinityCore\src\server\game\Entities\DynamicObject;C:\TrinityCore\src\server\game\Entities\GameObject;C:\TrinityCore\src\server\game\Entities\Item;C:\TrinityCore\src\server\game\Entities\Item\Container;C:\TrinityCore\src\server\game\Entities\Object;C:\TrinityCore\src\server\game\Entities\Object\Updates;C:\TrinityCore\src\server\game\Entities\Pet;C:\TrinityCore\src\server\game\Entities\Player;C:\TrinityCore\src\server\game\Entities\Totem;C:\TrinityCore\src\server\game\Entities\Unit;C:\TrinityCore\src\server\game\Entities\Vehicle;C:\TrinityCore\src\server\game\Entities\Transport;C:\TrinityCore\src\server\game\Events;C:\TrinityCore\src\server\game\Globals;C:\TrinityCore\src\server\game\Grids\Cells;C:\TrinityCore\src\server\game\Grids\Notifiers;C:\TrinityCore\src\server\game\Grids;C:\TrinityCore\src\server\game\Groups;C:\TrinityCore\src\server\game\Guilds;C:\TrinityCore\src\server\game\Handlers;C:\TrinityCore\src\server\game\Instances;C:\TrinityCore\src\server\game\Loot;C:\TrinityCore\src\server\game\Mails;C:\TrinityCore\src\server\game\Maps;C:\TrinityCore\src\server\game\Miscellaneous;C:\TrinityCore\src\server\game\Movement;C:\TrinityCore\src\server\game\Movement\Spline;C:\TrinityCore\src\server\game\Movement\MovementGenerators;C:\TrinityCore\src\server\game\Movement\Waypoints;C:\TrinityCore\src\server\game\OutdoorPvP;C:\TrinityCore\src\server\game\Pools;C:\TrinityCore\src\server\game\PrecompiledHeaders;C:\TrinityCore\src\server\game\Quests;C:\TrinityCore\src\server\game\Reputation;C:\TrinityCore\src\server\game\Scripting;C:\TrinityCore\src\server\game\Server\Protocol;C:\TrinityCore\src\server\game\Server;C:\TrinityCore\src\server\game\Skills;C:\TrinityCore\src\server\game\Spells;C:\TrinityCore\src\server\game\Spells\Auras;C:\TrinityCore\src\server\game\Texts;C:\TrinityCore\src\server\game\Tools;C:\TrinityCore\src\server\game\Tickets;C:\TrinityCore\src\server\game\Warden;C:\TrinityCore\src\server\game\Warden\Modules;C:\TrinityCore\src\server\game\Weather;C:\TrinityCore\src\server\game\World;C:\TrinityCore\src\server\scripts\PrecompiledHeaders;C:\TrinityCore\dep\acelite;C:\TrinityCore\dep\mysqllite\include;C:\OpenSSL-Win32\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>C:\Build;C:\Trinitycore\dep\recastnavigation\Detour;C:\Trinitycore\dep\recastnavigation\Recast;C:\Trinitycore\dep\g3dlite\include;C:\Trinitycore\dep\SFMT;C:\Trinitycore\dep\zlib;C:\Trinitycore\src\server\collision;C:\Trinitycore\src\server\collision\Management;C:\Trinitycore\src\server\collision\Models;C:\Trinitycore\src\server\collision\Maps;C:\Trinitycore\src\server\shared;C:\Trinitycore\src\server\shared\Configuration;C:\Trinitycore\src\server\shared\Cryptography;C:\Trinitycore\src\server\shared\Cryptography\Authentication;C:\Trinitycore\src\server\shared\Database;C:\Trinitycore\src\server\shared\DataStores;C:\Trinitycore\src\server\shared\Debugging;C:\Trinitycore\src\server\shared\Dynamic\LinkedReference;C:\Trinitycore\src\server\shared\Dynamic;C:\Trinitycore\src\server\shared\Logging;C:\Trinitycore\src\server\shared\Packets;C:\Trinitycore\src\server\shared\Threading;C:\Trinitycore\src\server\shared\Utilities;C:\Trinitycore\src\server\game;C:\Trinitycore\src\server\game\Accounts;C:\Trinitycore\src\server\game\Achievements;C:\Trinitycore\src\server\game\Addons;C:\Trinitycore\src\server\game\AI;C:\Trinitycore\src\server\game\AI\CoreAI;C:\Trinitycore\src\server\game\AI\EventAI;C:\Trinitycore\src\server\game\AI\ScriptedAI;C:\Trinitycore\src\server\game\AI\SmartScripts;C:\Trinitycore\src\server\game\AuctionHouse;C:\Trinitycore\src\server\game\Battlefield;C:\Trinitycore\src\server\game\Battlefield\Zones;C:\Trinitycore\src\server\game\Battlegrounds;C:\Trinitycore\src\server\game\Battlegrounds\Zones;C:\Trinitycore\src\server\game\Calendar;C:\Trinitycore\src\server\game\Chat;C:\Trinitycore\src\server\game\Chat\Channels;C:\Trinitycore\src\server\game\Combat;C:\Trinitycore\src\server\game\Conditions;C:\Trinitycore\src\server\game\DataStores;C:\Trinitycore\src\server\game\DungeonFinding;C:\Trinitycore\src\server\game\Entities;C:\Trinitycore\src\server\game\Entities\Creature;C:\Trinitycore\src\server\game\Entities\Corpse;C:\Trinitycore\src\server\game\Entities\DynamicObject;C:\Trinitycore\src\server\game\Entities\GameObject;C:\Trinitycore\src\server\game\Entities\Item;C:\Trinitycore\src\server\game\Entities\Item\Container;C:\Trinitycore\src\server\game\Entities\Object;C:\Trinitycore\src\server\game\Entities\Object\Updates;C:\Trinitycore\src\server\game\Entities\Pet;C:\Trinitycore\src\server\game\Entities\Player;C:\Trinitycore\src\server\game\Entities\Totem;C:\Trinitycore\src\server\game\Entities\Unit;C:\Trinitycore\src\server\game\Entities\Vehicle;C:\Trinitycore\src\server\game\Entities\Transport;C:\Trinitycore\src\server\game\Events;C:\Trinitycore\src\server\game\Globals;C:\Trinitycore\src\server\game\Grids\Cells;C:\Trinitycore\src\server\game\Grids\Notifiers;C:\Trinitycore\src\server\game\Grids;C:\Trinitycore\src\server\game\Groups;C:\Trinitycore\src\server\game\Guilds;C:\Trinitycore\src\server\game\Handlers;C:\Trinitycore\src\server\game\Instances;C:\Trinitycore\src\server\game\Loot;C:\Trinitycore\src\server\game\Mails;C:\Trinitycore\src\server\game\Maps;C:\Trinitycore\src\server\game\Miscellaneous;C:\Trinitycore\src\server\game\Movement;C:\Trinitycore\src\server\game\Movement\Spline;C:\Trinitycore\src\server\game\Movement\MovementGenerators;C:\Trinitycore\src\server\game\Movement\Waypoints;C:\Trinitycore\src\server\game\OutdoorPvP;C:\Trinitycore\src\server\game\Pools;C:\Trinitycore\src\server\game\PrecompiledHeaders;C:\Trinitycore\src\server\game\Quests;C:\Trinitycore\src\server\game\Reputation;C:\Trinitycore\src\server\game\Scripting;C:\Trinitycore\src\server\game\Server\Protocol;C:\Trinitycore\src\server\game\Server;C:\Trinitycore\src\server\game\Skills;C:\Trinitycore\src\server\game\Spells;C:\Trinitycore\src\server\game\Spells\Auras;C:\Trinitycore\src\server\game\Texts;C:\Trinitycore\src\server\game\Tools;C:\Trinitycore\src\server\game\Tickets;C:\Trinitycore\src\server\game\Warden;C:\Trinitycore\src\server\game\Warden\Modules;C:\Trinitycore\src\server\game\Weather;C:\Trinitycore\src\server\game\World;C:\Trinitycore\src\server\scripts\PrecompiledHeaders;C:\Trinitycore\dep\acelite;C:\Trinitycore\dep\mysqllite\include;C:\OpenSSL-Win32\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
     </ResourceCompile>
     <Midl>
-      <AdditionalIncludeDirectories>C:\build;C:\TrinityCore\dep\recastnavigation\Detour;C:\TrinityCore\dep\recastnavigation\Recast;C:\TrinityCore\dep\g3dlite\include;C:\TrinityCore\dep\SFMT;C:\TrinityCore\dep\zlib;C:\TrinityCore\src\server\collision;C:\TrinityCore\src\server\collision\Management;C:\TrinityCore\src\server\collision\Models;C:\TrinityCore\src\server\collision\Maps;C:\TrinityCore\src\server\shared;C:\TrinityCore\src\server\shared\Configuration;C:\TrinityCore\src\server\shared\Cryptography;C:\TrinityCore\src\server\shared\Cryptography\Authentication;C:\TrinityCore\src\server\shared\Database;C:\TrinityCore\src\server\shared\DataStores;C:\TrinityCore\src\server\shared\Debugging;C:\TrinityCore\src\server\shared\Dynamic\LinkedReference;C:\TrinityCore\src\server\shared\Dynamic;C:\TrinityCore\src\server\shared\Logging;C:\TrinityCore\src\server\shared\Packets;C:\TrinityCore\src\server\shared\Threading;C:\TrinityCore\src\server\shared\Utilities;C:\TrinityCore\src\server\game;C:\TrinityCore\src\server\game\Accounts;C:\TrinityCore\src\server\game\Achievements;C:\TrinityCore\src\server\game\Addons;C:\TrinityCore\src\server\game\AI;C:\TrinityCore\src\server\game\AI\CoreAI;C:\TrinityCore\src\server\game\AI\EventAI;C:\TrinityCore\src\server\game\AI\ScriptedAI;C:\TrinityCore\src\server\game\AI\SmartScripts;C:\TrinityCore\src\server\game\AuctionHouse;C:\TrinityCore\src\server\game\Battlefield;C:\TrinityCore\src\server\game\Battlefield\Zones;C:\TrinityCore\src\server\game\Battlegrounds;C:\TrinityCore\src\server\game\Battlegrounds\Zones;C:\TrinityCore\src\server\game\Calendar;C:\TrinityCore\src\server\game\Chat;C:\TrinityCore\src\server\game\Chat\Channels;C:\TrinityCore\src\server\game\Combat;C:\TrinityCore\src\server\game\Conditions;C:\TrinityCore\src\server\game\DataStores;C:\TrinityCore\src\server\game\DungeonFinding;C:\TrinityCore\src\server\game\Entities;C:\TrinityCore\src\server\game\Entities\Creature;C:\TrinityCore\src\server\game\Entities\Corpse;C:\TrinityCore\src\server\game\Entities\DynamicObject;C:\TrinityCore\src\server\game\Entities\GameObject;C:\TrinityCore\src\server\game\Entities\Item;C:\TrinityCore\src\server\game\Entities\Item\Container;C:\TrinityCore\src\server\game\Entities\Object;C:\TrinityCore\src\server\game\Entities\Object\Updates;C:\TrinityCore\src\server\game\Entities\Pet;C:\TrinityCore\src\server\game\Entities\Player;C:\TrinityCore\src\server\game\Entities\Totem;C:\TrinityCore\src\server\game\Entities\Unit;C:\TrinityCore\src\server\game\Entities\Vehicle;C:\TrinityCore\src\server\game\Entities\Transport;C:\TrinityCore\src\server\game\Events;C:\TrinityCore\src\server\game\Globals;C:\TrinityCore\src\server\game\Grids\Cells;C:\TrinityCore\src\server\game\Grids\Notifiers;C:\TrinityCore\src\server\game\Grids;C:\TrinityCore\src\server\game\Groups;C:\TrinityCore\src\server\game\Guilds;C:\TrinityCore\src\server\game\Handlers;C:\TrinityCore\src\server\game\Instances;C:\TrinityCore\src\server\game\Loot;C:\TrinityCore\src\server\game\Mails;C:\TrinityCore\src\server\game\Maps;C:\TrinityCore\src\server\game\Miscellaneous;C:\TrinityCore\src\server\game\Movement;C:\TrinityCore\src\server\game\Movement\Spline;C:\TrinityCore\src\server\game\Movement\MovementGenerators;C:\TrinityCore\src\server\game\Movement\Waypoints;C:\TrinityCore\src\server\game\OutdoorPvP;C:\TrinityCore\src\server\game\Pools;C:\TrinityCore\src\server\game\PrecompiledHeaders;C:\TrinityCore\src\server\game\Quests;C:\TrinityCore\src\server\game\Reputation;C:\TrinityCore\src\server\game\Scripting;C:\TrinityCore\src\server\game\Server\Protocol;C:\TrinityCore\src\server\game\Server;C:\TrinityCore\src\server\game\Skills;C:\TrinityCore\src\server\game\Spells;C:\TrinityCore\src\server\game\Spells\Auras;C:\TrinityCore\src\server\game\Texts;C:\TrinityCore\src\server\game\Tools;C:\TrinityCore\src\server\game\Tickets;C:\TrinityCore\src\server\game\Warden;C:\TrinityCore\src\server\game\Warden\Modules;C:\TrinityCore\src\server\game\Weather;C:\TrinityCore\src\server\game\World;C:\TrinityCore\src\server\scripts\PrecompiledHeaders;C:\TrinityCore\dep\acelite;C:\TrinityCore\dep\mysqllite\include;C:\OpenSSL-Win32\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>C:\Build;C:\Trinitycore\dep\recastnavigation\Detour;C:\Trinitycore\dep\recastnavigation\Recast;C:\Trinitycore\dep\g3dlite\include;C:\Trinitycore\dep\SFMT;C:\Trinitycore\dep\zlib;C:\Trinitycore\src\server\collision;C:\Trinitycore\src\server\collision\Management;C:\Trinitycore\src\server\collision\Models;C:\Trinitycore\src\server\collision\Maps;C:\Trinitycore\src\server\shared;C:\Trinitycore\src\server\shared\Configuration;C:\Trinitycore\src\server\shared\Cryptography;C:\Trinitycore\src\server\shared\Cryptography\Authentication;C:\Trinitycore\src\server\shared\Database;C:\Trinitycore\src\server\shared\DataStores;C:\Trinitycore\src\server\shared\Debugging;C:\Trinitycore\src\server\shared\Dynamic\LinkedReference;C:\Trinitycore\src\server\shared\Dynamic;C:\Trinitycore\src\server\shared\Logging;C:\Trinitycore\src\server\shared\Packets;C:\Trinitycore\src\server\shared\Threading;C:\Trinitycore\src\server\shared\Utilities;C:\Trinitycore\src\server\game;C:\Trinitycore\src\server\game\Accounts;C:\Trinitycore\src\server\game\Achievements;C:\Trinitycore\src\server\game\Addons;C:\Trinitycore\src\server\game\AI;C:\Trinitycore\src\server\game\AI\CoreAI;C:\Trinitycore\src\server\game\AI\EventAI;C:\Trinitycore\src\server\game\AI\ScriptedAI;C:\Trinitycore\src\server\game\AI\SmartScripts;C:\Trinitycore\src\server\game\AuctionHouse;C:\Trinitycore\src\server\game\Battlefield;C:\Trinitycore\src\server\game\Battlefield\Zones;C:\Trinitycore\src\server\game\Battlegrounds;C:\Trinitycore\src\server\game\Battlegrounds\Zones;C:\Trinitycore\src\server\game\Calendar;C:\Trinitycore\src\server\game\Chat;C:\Trinitycore\src\server\game\Chat\Channels;C:\Trinitycore\src\server\game\Combat;C:\Trinitycore\src\server\game\Conditions;C:\Trinitycore\src\server\game\DataStores;C:\Trinitycore\src\server\game\DungeonFinding;C:\Trinitycore\src\server\game\Entities;C:\Trinitycore\src\server\game\Entities\Creature;C:\Trinitycore\src\server\game\Entities\Corpse;C:\Trinitycore\src\server\game\Entities\DynamicObject;C:\Trinitycore\src\server\game\Entities\GameObject;C:\Trinitycore\src\server\game\Entities\Item;C:\Trinitycore\src\server\game\Entities\Item\Container;C:\Trinitycore\src\server\game\Entities\Object;C:\Trinitycore\src\server\game\Entities\Object\Updates;C:\Trinitycore\src\server\game\Entities\Pet;C:\Trinitycore\src\server\game\Entities\Player;C:\Trinitycore\src\server\game\Entities\Totem;C:\Trinitycore\src\server\game\Entities\Unit;C:\Trinitycore\src\server\game\Entities\Vehicle;C:\Trinitycore\src\server\game\Entities\Transport;C:\Trinitycore\src\server\game\Events;C:\Trinitycore\src\server\game\Globals;C:\Trinitycore\src\server\game\Grids\Cells;C:\Trinitycore\src\server\game\Grids\Notifiers;C:\Trinitycore\src\server\game\Grids;C:\Trinitycore\src\server\game\Groups;C:\Trinitycore\src\server\game\Guilds;C:\Trinitycore\src\server\game\Handlers;C:\Trinitycore\src\server\game\Instances;C:\Trinitycore\src\server\game\Loot;C:\Trinitycore\src\server\game\Mails;C:\Trinitycore\src\server\game\Maps;C:\Trinitycore\src\server\game\Miscellaneous;C:\Trinitycore\src\server\game\Movement;C:\Trinitycore\src\server\game\Movement\Spline;C:\Trinitycore\src\server\game\Movement\MovementGenerators;C:\Trinitycore\src\server\game\Movement\Waypoints;C:\Trinitycore\src\server\game\OutdoorPvP;C:\Trinitycore\src\server\game\Pools;C:\Trinitycore\src\server\game\PrecompiledHeaders;C:\Trinitycore\src\server\game\Quests;C:\Trinitycore\src\server\game\Reputation;C:\Trinitycore\src\server\game\Scripting;C:\Trinitycore\src\server\game\Server\Protocol;C:\Trinitycore\src\server\game\Server;C:\Trinitycore\src\server\game\Skills;C:\Trinitycore\src\server\game\Spells;C:\Trinitycore\src\server\game\Spells\Auras;C:\Trinitycore\src\server\game\Texts;C:\Trinitycore\src\server\game\Tools;C:\Trinitycore\src\server\game\Tickets;C:\Trinitycore\src\server\game\Warden;C:\Trinitycore\src\server\game\Warden\Modules;C:\Trinitycore\src\server\game\Weather;C:\Trinitycore\src\server\game\World;C:\Trinitycore\src\server\scripts\PrecompiledHeaders;C:\Trinitycore\dep\acelite;C:\Trinitycore\dep\mysqllite\include;C:\OpenSSL-Win32\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <OutputDirectory>$(IntDir)</OutputDirectory>
       <HeaderFileName>%(Filename).h</HeaderFileName>
       <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
@@ -114,10 +114,10 @@
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
     <ClCompile>
       <AdditionalOptions> /Zm500 %(AdditionalOptions)</AdditionalOptions>
-      <AdditionalIncludeDirectories>C:\build;C:\TrinityCore\dep\recastnavigation\Detour;C:\TrinityCore\dep\recastnavigation\Recast;C:\TrinityCore\dep\g3dlite\include;C:\TrinityCore\dep\SFMT;C:\TrinityCore\dep\zlib;C:\TrinityCore\src\server\collision;C:\TrinityCore\src\server\collision\Management;C:\TrinityCore\src\server\collision\Models;C:\TrinityCore\src\server\collision\Maps;C:\TrinityCore\src\server\shared;C:\TrinityCore\src\server\shared\Configuration;C:\TrinityCore\src\server\shared\Cryptography;C:\TrinityCore\src\server\shared\Cryptography\Authentication;C:\TrinityCore\src\server\shared\Database;C:\TrinityCore\src\server\shared\DataStores;C:\TrinityCore\src\server\shared\Debugging;C:\TrinityCore\src\server\shared\Dynamic\LinkedReference;C:\TrinityCore\src\server\shared\Dynamic;C:\TrinityCore\src\server\shared\Logging;C:\TrinityCore\src\server\shared\Packets;C:\TrinityCore\src\server\shared\Threading;C:\TrinityCore\src\server\shared\Utilities;C:\TrinityCore\src\server\game;C:\TrinityCore\src\server\game\Accounts;C:\TrinityCore\src\server\game\Achievements;C:\TrinityCore\src\server\game\Addons;C:\TrinityCore\src\server\game\AI;C:\TrinityCore\src\server\game\AI\CoreAI;C:\TrinityCore\src\server\game\AI\EventAI;C:\TrinityCore\src\server\game\AI\ScriptedAI;C:\TrinityCore\src\server\game\AI\SmartScripts;C:\TrinityCore\src\server\game\AuctionHouse;C:\TrinityCore\src\server\game\Battlefield;C:\TrinityCore\src\server\game\Battlefield\Zones;C:\TrinityCore\src\server\game\Battlegrounds;C:\TrinityCore\src\server\game\Battlegrounds\Zones;C:\TrinityCore\src\server\game\Calendar;C:\TrinityCore\src\server\game\Chat;C:\TrinityCore\src\server\game\Chat\Channels;C:\TrinityCore\src\server\game\Combat;C:\TrinityCore\src\server\game\Conditions;C:\TrinityCore\src\server\game\DataStores;C:\TrinityCore\src\server\game\DungeonFinding;C:\TrinityCore\src\server\game\Entities;C:\TrinityCore\src\server\game\Entities\Creature;C:\TrinityCore\src\server\game\Entities\Corpse;C:\TrinityCore\src\server\game\Entities\DynamicObject;C:\TrinityCore\src\server\game\Entities\GameObject;C:\TrinityCore\src\server\game\Entities\Item;C:\TrinityCore\src\server\game\Entities\Item\Container;C:\TrinityCore\src\server\game\Entities\Object;C:\TrinityCore\src\server\game\Entities\Object\Updates;C:\TrinityCore\src\server\game\Entities\Pet;C:\TrinityCore\src\server\game\Entities\Player;C:\TrinityCore\src\server\game\Entities\Totem;C:\TrinityCore\src\server\game\Entities\Unit;C:\TrinityCore\src\server\game\Entities\Vehicle;C:\TrinityCore\src\server\game\Entities\Transport;C:\TrinityCore\src\server\game\Events;C:\TrinityCore\src\server\game\Globals;C:\TrinityCore\src\server\game\Grids\Cells;C:\TrinityCore\src\server\game\Grids\Notifiers;C:\TrinityCore\src\server\game\Grids;C:\TrinityCore\src\server\game\Groups;C:\TrinityCore\src\server\game\Guilds;C:\TrinityCore\src\server\game\Handlers;C:\TrinityCore\src\server\game\Instances;C:\TrinityCore\src\server\game\Loot;C:\TrinityCore\src\server\game\Mails;C:\TrinityCore\src\server\game\Maps;C:\TrinityCore\src\server\game\Miscellaneous;C:\TrinityCore\src\server\game\Movement;C:\TrinityCore\src\server\game\Movement\Spline;C:\TrinityCore\src\server\game\Movement\MovementGenerators;C:\TrinityCore\src\server\game\Movement\Waypoints;C:\TrinityCore\src\server\game\OutdoorPvP;C:\TrinityCore\src\server\game\Pools;C:\TrinityCore\src\server\game\PrecompiledHeaders;C:\TrinityCore\src\server\game\Quests;C:\TrinityCore\src\server\game\Reputation;C:\TrinityCore\src\server\game\Scripting;C:\TrinityCore\src\server\game\Server\Protocol;C:\TrinityCore\src\server\game\Server;C:\TrinityCore\src\server\game\Skills;C:\TrinityCore\src\server\game\Spells;C:\TrinityCore\src\server\game\Spells\Auras;C:\TrinityCore\src\server\game\Texts;C:\TrinityCore\src\server\game\Tools;C:\TrinityCore\src\server\game\Tickets;C:\TrinityCore\src\server\game\Warden;C:\TrinityCore\src\server\game\Warden\Modules;C:\TrinityCore\src\server\game\Weather;C:\TrinityCore\src\server\game\World;C:\TrinityCore\src\server\scripts\PrecompiledHeaders;C:\TrinityCore\dep\acelite;C:\TrinityCore\dep\mysqllite\include;C:\OpenSSL-Win32\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>C:\Build;C:\Trinitycore\dep\recastnavigation\Detour;C:\Trinitycore\dep\recastnavigation\Recast;C:\Trinitycore\dep\g3dlite\include;C:\Trinitycore\dep\SFMT;C:\Trinitycore\dep\zlib;C:\Trinitycore\src\server\collision;C:\Trinitycore\src\server\collision\Management;C:\Trinitycore\src\server\collision\Models;C:\Trinitycore\src\server\collision\Maps;C:\Trinitycore\src\server\shared;C:\Trinitycore\src\server\shared\Configuration;C:\Trinitycore\src\server\shared\Cryptography;C:\Trinitycore\src\server\shared\Cryptography\Authentication;C:\Trinitycore\src\server\shared\Database;C:\Trinitycore\src\server\shared\DataStores;C:\Trinitycore\src\server\shared\Debugging;C:\Trinitycore\src\server\shared\Dynamic\LinkedReference;C:\Trinitycore\src\server\shared\Dynamic;C:\Trinitycore\src\server\shared\Logging;C:\Trinitycore\src\server\shared\Packets;C:\Trinitycore\src\server\shared\Threading;C:\Trinitycore\src\server\shared\Utilities;C:\Trinitycore\src\server\game;C:\Trinitycore\src\server\game\Accounts;C:\Trinitycore\src\server\game\Achievements;C:\Trinitycore\src\server\game\Addons;C:\Trinitycore\src\server\game\AI;C:\Trinitycore\src\server\game\AI\CoreAI;C:\Trinitycore\src\server\game\AI\EventAI;C:\Trinitycore\src\server\game\AI\ScriptedAI;C:\Trinitycore\src\server\game\AI\SmartScripts;C:\Trinitycore\src\server\game\AuctionHouse;C:\Trinitycore\src\server\game\Battlefield;C:\Trinitycore\src\server\game\Battlefield\Zones;C:\Trinitycore\src\server\game\Battlegrounds;C:\Trinitycore\src\server\game\Battlegrounds\Zones;C:\Trinitycore\src\server\game\Calendar;C:\Trinitycore\src\server\game\Chat;C:\Trinitycore\src\server\game\Chat\Channels;C:\Trinitycore\src\server\game\Combat;C:\Trinitycore\src\server\game\Conditions;C:\Trinitycore\src\server\game\DataStores;C:\Trinitycore\src\server\game\DungeonFinding;C:\Trinitycore\src\server\game\Entities;C:\Trinitycore\src\server\game\Entities\Creature;C:\Trinitycore\src\server\game\Entities\Corpse;C:\Trinitycore\src\server\game\Entities\DynamicObject;C:\Trinitycore\src\server\game\Entities\GameObject;C:\Trinitycore\src\server\game\Entities\Item;C:\Trinitycore\src\server\game\Entities\Item\Container;C:\Trinitycore\src\server\game\Entities\Object;C:\Trinitycore\src\server\game\Entities\Object\Updates;C:\Trinitycore\src\server\game\Entities\Pet;C:\Trinitycore\src\server\game\Entities\Player;C:\Trinitycore\src\server\game\Entities\Totem;C:\Trinitycore\src\server\game\Entities\Unit;C:\Trinitycore\src\server\game\Entities\Vehicle;C:\Trinitycore\src\server\game\Entities\Transport;C:\Trinitycore\src\server\game\Events;C:\Trinitycore\src\server\game\Globals;C:\Trinitycore\src\server\game\Grids\Cells;C:\Trinitycore\src\server\game\Grids\Notifiers;C:\Trinitycore\src\server\game\Grids;C:\Trinitycore\src\server\game\Groups;C:\Trinitycore\src\server\game\Guilds;C:\Trinitycore\src\server\game\Handlers;C:\Trinitycore\src\server\game\Instances;C:\Trinitycore\src\server\game\Loot;C:\Trinitycore\src\server\game\Mails;C:\Trinitycore\src\server\game\Maps;C:\Trinitycore\src\server\game\Miscellaneous;C:\Trinitycore\src\server\game\Movement;C:\Trinitycore\src\server\game\Movement\Spline;C:\Trinitycore\src\server\game\Movement\MovementGenerators;C:\Trinitycore\src\server\game\Movement\Waypoints;C:\Trinitycore\src\server\game\OutdoorPvP;C:\Trinitycore\src\server\game\Pools;C:\Trinitycore\src\server\game\PrecompiledHeaders;C:\Trinitycore\src\server\game\Quests;C:\Trinitycore\src\server\game\Reputation;C:\Trinitycore\src\server\game\Scripting;C:\Trinitycore\src\server\game\Server\Protocol;C:\Trinitycore\src\server\game\Server;C:\Trinitycore\src\server\game\Skills;C:\Trinitycore\src\server\game\Spells;C:\Trinitycore\src\server\game\Spells\Auras;C:\Trinitycore\src\server\game\Texts;C:\Trinitycore\src\server\game\Tools;C:\Trinitycore\src\server\game\Tickets;C:\Trinitycore\src\server\game\Warden;C:\Trinitycore\src\server\game\Warden\Modules;C:\Trinitycore\src\server\game\Weather;C:\Trinitycore\src\server\game\World;C:\Trinitycore\src\server\scripts\PrecompiledHeaders;C:\Trinitycore\dep\acelite;C:\Trinitycore\dep\mysqllite\include;C:\OpenSSL-Win32\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <AssemblerListingLocation>Release/</AssemblerListingLocation>
       <CompileAs>CompileAsCpp</CompileAs>
-      <DisableSpecificWarnings>4996;4355;4244;4985;4267;4619;4996;4355;4244;4985;4267;4619</DisableSpecificWarnings>
+      <DisableSpecificWarnings>4996;4355;4244;4985;4267;4619;4996;4355;4244;4985;4267;4619;4996;4355;4244;4985;4267;4619</DisableSpecificWarnings>
       <EnableEnhancedInstructionSet>StreamingSIMDExtensions2</EnableEnhancedInstructionSet>
       <ExceptionHandling>Sync</ExceptionHandling>
       <ForcedIncludeFiles>gamePCH.h</ForcedIncludeFiles>
@@ -136,10 +136,10 @@
     </ClCompile>
     <ResourceCompile>
       <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;_BUILD_DIRECTIVE=\"$(ConfigurationName)\";_CRT_SECURE_CPP_OVERLOAD_STANDARD_NAMES;_CRT_SECURE_NO_WARNINGS;_CRT_NONSTDC_NO_WARNINGS;SCRIPTS;CMAKE_INTDIR=\"Release\";%(PreprocessorDefinitions)</PreprocessorDefinitions>
-      <AdditionalIncludeDirectories>C:\build;C:\TrinityCore\dep\recastnavigation\Detour;C:\TrinityCore\dep\recastnavigation\Recast;C:\TrinityCore\dep\g3dlite\include;C:\TrinityCore\dep\SFMT;C:\TrinityCore\dep\zlib;C:\TrinityCore\src\server\collision;C:\TrinityCore\src\server\collision\Management;C:\TrinityCore\src\server\collision\Models;C:\TrinityCore\src\server\collision\Maps;C:\TrinityCore\src\server\shared;C:\TrinityCore\src\server\shared\Configuration;C:\TrinityCore\src\server\shared\Cryptography;C:\TrinityCore\src\server\shared\Cryptography\Authentication;C:\TrinityCore\src\server\shared\Database;C:\TrinityCore\src\server\shared\DataStores;C:\TrinityCore\src\server\shared\Debugging;C:\TrinityCore\src\server\shared\Dynamic\LinkedReference;C:\TrinityCore\src\server\shared\Dynamic;C:\TrinityCore\src\server\shared\Logging;C:\TrinityCore\src\server\shared\Packets;C:\TrinityCore\src\server\shared\Threading;C:\TrinityCore\src\server\shared\Utilities;C:\TrinityCore\src\server\game;C:\TrinityCore\src\server\game\Accounts;C:\TrinityCore\src\server\game\Achievements;C:\TrinityCore\src\server\game\Addons;C:\TrinityCore\src\server\game\AI;C:\TrinityCore\src\server\game\AI\CoreAI;C:\TrinityCore\src\server\game\AI\EventAI;C:\TrinityCore\src\server\game\AI\ScriptedAI;C:\TrinityCore\src\server\game\AI\SmartScripts;C:\TrinityCore\src\server\game\AuctionHouse;C:\TrinityCore\src\server\game\Battlefield;C:\TrinityCore\src\server\game\Battlefield\Zones;C:\TrinityCore\src\server\game\Battlegrounds;C:\TrinityCore\src\server\game\Battlegrounds\Zones;C:\TrinityCore\src\server\game\Calendar;C:\TrinityCore\src\server\game\Chat;C:\TrinityCore\src\server\game\Chat\Channels;C:\TrinityCore\src\server\game\Combat;C:\TrinityCore\src\server\game\Conditions;C:\TrinityCore\src\server\game\DataStores;C:\TrinityCore\src\server\game\DungeonFinding;C:\TrinityCore\src\server\game\Entities;C:\TrinityCore\src\server\game\Entities\Creature;C:\TrinityCore\src\server\game\Entities\Corpse;C:\TrinityCore\src\server\game\Entities\DynamicObject;C:\TrinityCore\src\server\game\Entities\GameObject;C:\TrinityCore\src\server\game\Entities\Item;C:\TrinityCore\src\server\game\Entities\Item\Container;C:\TrinityCore\src\server\game\Entities\Object;C:\TrinityCore\src\server\game\Entities\Object\Updates;C:\TrinityCore\src\server\game\Entities\Pet;C:\TrinityCore\src\server\game\Entities\Player;C:\TrinityCore\src\server\game\Entities\Totem;C:\TrinityCore\src\server\game\Entities\Unit;C:\TrinityCore\src\server\game\Entities\Vehicle;C:\TrinityCore\src\server\game\Entities\Transport;C:\TrinityCore\src\server\game\Events;C:\TrinityCore\src\server\game\Globals;C:\TrinityCore\src\server\game\Grids\Cells;C:\TrinityCore\src\server\game\Grids\Notifiers;C:\TrinityCore\src\server\game\Grids;C:\TrinityCore\src\server\game\Groups;C:\TrinityCore\src\server\game\Guilds;C:\TrinityCore\src\server\game\Handlers;C:\TrinityCore\src\server\game\Instances;C:\TrinityCore\src\server\game\Loot;C:\TrinityCore\src\server\game\Mails;C:\TrinityCore\src\server\game\Maps;C:\TrinityCore\src\server\game\Miscellaneous;C:\TrinityCore\src\server\game\Movement;C:\TrinityCore\src\server\game\Movement\Spline;C:\TrinityCore\src\server\game\Movement\MovementGenerators;C:\TrinityCore\src\server\game\Movement\Waypoints;C:\TrinityCore\src\server\game\OutdoorPvP;C:\TrinityCore\src\server\game\Pools;C:\TrinityCore\src\server\game\PrecompiledHeaders;C:\TrinityCore\src\server\game\Quests;C:\TrinityCore\src\server\game\Reputation;C:\TrinityCore\src\server\game\Scripting;C:\TrinityCore\src\server\game\Server\Protocol;C:\TrinityCore\src\server\game\Server;C:\TrinityCore\src\server\game\Skills;C:\TrinityCore\src\server\game\Spells;C:\TrinityCore\src\server\game\Spells\Auras;C:\TrinityCore\src\server\game\Texts;C:\TrinityCore\src\server\game\Tools;C:\TrinityCore\src\server\game\Tickets;C:\TrinityCore\src\server\game\Warden;C:\TrinityCore\src\server\game\Warden\Modules;C:\TrinityCore\src\server\game\Weather;C:\TrinityCore\src\server\game\World;C:\TrinityCore\src\server\scripts\PrecompiledHeaders;C:\TrinityCore\dep\acelite;C:\TrinityCore\dep\mysqllite\include;C:\OpenSSL-Win32\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>C:\Build;C:\Trinitycore\dep\recastnavigation\Detour;C:\Trinitycore\dep\recastnavigation\Recast;C:\Trinitycore\dep\g3dlite\include;C:\Trinitycore\dep\SFMT;C:\Trinitycore\dep\zlib;C:\Trinitycore\src\server\collision;C:\Trinitycore\src\server\collision\Management;C:\Trinitycore\src\server\collision\Models;C:\Trinitycore\src\server\collision\Maps;C:\Trinitycore\src\server\shared;C:\Trinitycore\src\server\shared\Configuration;C:\Trinitycore\src\server\shared\Cryptography;C:\Trinitycore\src\server\shared\Cryptography\Authentication;C:\Trinitycore\src\server\shared\Database;C:\Trinitycore\src\server\shared\DataStores;C:\Trinitycore\src\server\shared\Debugging;C:\Trinitycore\src\server\shared\Dynamic\LinkedReference;C:\Trinitycore\src\server\shared\Dynamic;C:\Trinitycore\src\server\shared\Logging;C:\Trinitycore\src\server\shared\Packets;C:\Trinitycore\src\server\shared\Threading;C:\Trinitycore\src\server\shared\Utilities;C:\Trinitycore\src\server\game;C:\Trinitycore\src\server\game\Accounts;C:\Trinitycore\src\server\game\Achievements;C:\Trinitycore\src\server\game\Addons;C:\Trinitycore\src\server\game\AI;C:\Trinitycore\src\server\game\AI\CoreAI;C:\Trinitycore\src\server\game\AI\EventAI;C:\Trinitycore\src\server\game\AI\ScriptedAI;C:\Trinitycore\src\server\game\AI\SmartScripts;C:\Trinitycore\src\server\game\AuctionHouse;C:\Trinitycore\src\server\game\Battlefield;C:\Trinitycore\src\server\game\Battlefield\Zones;C:\Trinitycore\src\server\game\Battlegrounds;C:\Trinitycore\src\server\game\Battlegrounds\Zones;C:\Trinitycore\src\server\game\Calendar;C:\Trinitycore\src\server\game\Chat;C:\Trinitycore\src\server\game\Chat\Channels;C:\Trinitycore\src\server\game\Combat;C:\Trinitycore\src\server\game\Conditions;C:\Trinitycore\src\server\game\DataStores;C:\Trinitycore\src\server\game\DungeonFinding;C:\Trinitycore\src\server\game\Entities;C:\Trinitycore\src\server\game\Entities\Creature;C:\Trinitycore\src\server\game\Entities\Corpse;C:\Trinitycore\src\server\game\Entities\DynamicObject;C:\Trinitycore\src\server\game\Entities\GameObject;C:\Trinitycore\src\server\game\Entities\Item;C:\Trinitycore\src\server\game\Entities\Item\Container;C:\Trinitycore\src\server\game\Entities\Object;C:\Trinitycore\src\server\game\Entities\Object\Updates;C:\Trinitycore\src\server\game\Entities\Pet;C:\Trinitycore\src\server\game\Entities\Player;C:\Trinitycore\src\server\game\Entities\Totem;C:\Trinitycore\src\server\game\Entities\Unit;C:\Trinitycore\src\server\game\Entities\Vehicle;C:\Trinitycore\src\server\game\Entities\Transport;C:\Trinitycore\src\server\game\Events;C:\Trinitycore\src\server\game\Globals;C:\Trinitycore\src\server\game\Grids\Cells;C:\Trinitycore\src\server\game\Grids\Notifiers;C:\Trinitycore\src\server\game\Grids;C:\Trinitycore\src\server\game\Groups;C:\Trinitycore\src\server\game\Guilds;C:\Trinitycore\src\server\game\Handlers;C:\Trinitycore\src\server\game\Instances;C:\Trinitycore\src\server\game\Loot;C:\Trinitycore\src\server\game\Mails;C:\Trinitycore\src\server\game\Maps;C:\Trinitycore\src\server\game\Miscellaneous;C:\Trinitycore\src\server\game\Movement;C:\Trinitycore\src\server\game\Movement\Spline;C:\Trinitycore\src\server\game\Movement\MovementGenerators;C:\Trinitycore\src\server\game\Movement\Waypoints;C:\Trinitycore\src\server\game\OutdoorPvP;C:\Trinitycore\src\server\game\Pools;C:\Trinitycore\src\server\game\PrecompiledHeaders;C:\Trinitycore\src\server\game\Quests;C:\Trinitycore\src\server\game\Reputation;C:\Trinitycore\src\server\game\Scripting;C:\Trinitycore\src\server\game\Server\Protocol;C:\Trinitycore\src\server\game\Server;C:\Trinitycore\src\server\game\Skills;C:\Trinitycore\src\server\game\Spells;C:\Trinitycore\src\server\game\Spells\Auras;C:\Trinitycore\src\server\game\Texts;C:\Trinitycore\src\server\game\Tools;C:\Trinitycore\src\server\game\Tickets;C:\Trinitycore\src\server\game\Warden;C:\Trinitycore\src\server\game\Warden\Modules;C:\Trinitycore\src\server\game\Weather;C:\Trinitycore\src\server\game\World;C:\Trinitycore\src\server\scripts\PrecompiledHeaders;C:\Trinitycore\dep\acelite;C:\Trinitycore\dep\mysqllite\include;C:\OpenSSL-Win32\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
     </ResourceCompile>
     <Midl>
-      <AdditionalIncludeDirectories>C:\build;C:\TrinityCore\dep\recastnavigation\Detour;C:\TrinityCore\dep\recastnavigation\Recast;C:\TrinityCore\dep\g3dlite\include;C:\TrinityCore\dep\SFMT;C:\TrinityCore\dep\zlib;C:\TrinityCore\src\server\collision;C:\TrinityCore\src\server\collision\Management;C:\TrinityCore\src\server\collision\Models;C:\TrinityCore\src\server\collision\Maps;C:\TrinityCore\src\server\shared;C:\TrinityCore\src\server\shared\Configuration;C:\TrinityCore\src\server\shared\Cryptography;C:\TrinityCore\src\server\shared\Cryptography\Authentication;C:\TrinityCore\src\server\shared\Database;C:\TrinityCore\src\server\shared\DataStores;C:\TrinityCore\src\server\shared\Debugging;C:\TrinityCore\src\server\shared\Dynamic\LinkedReference;C:\TrinityCore\src\server\shared\Dynamic;C:\TrinityCore\src\server\shared\Logging;C:\TrinityCore\src\server\shared\Packets;C:\TrinityCore\src\server\shared\Threading;C:\TrinityCore\src\server\shared\Utilities;C:\TrinityCore\src\server\game;C:\TrinityCore\src\server\game\Accounts;C:\TrinityCore\src\server\game\Achievements;C:\TrinityCore\src\server\game\Addons;C:\TrinityCore\src\server\game\AI;C:\TrinityCore\src\server\game\AI\CoreAI;C:\TrinityCore\src\server\game\AI\EventAI;C:\TrinityCore\src\server\game\AI\ScriptedAI;C:\TrinityCore\src\server\game\AI\SmartScripts;C:\TrinityCore\src\server\game\AuctionHouse;C:\TrinityCore\src\server\game\Battlefield;C:\TrinityCore\src\server\game\Battlefield\Zones;C:\TrinityCore\src\server\game\Battlegrounds;C:\TrinityCore\src\server\game\Battlegrounds\Zones;C:\TrinityCore\src\server\game\Calendar;C:\TrinityCore\src\server\game\Chat;C:\TrinityCore\src\server\game\Chat\Channels;C:\TrinityCore\src\server\game\Combat;C:\TrinityCore\src\server\game\Conditions;C:\TrinityCore\src\server\game\DataStores;C:\TrinityCore\src\server\game\DungeonFinding;C:\TrinityCore\src\server\game\Entities;C:\TrinityCore\src\server\game\Entities\Creature;C:\TrinityCore\src\server\game\Entities\Corpse;C:\TrinityCore\src\server\game\Entities\DynamicObject;C:\TrinityCore\src\server\game\Entities\GameObject;C:\TrinityCore\src\server\game\Entities\Item;C:\TrinityCore\src\server\game\Entities\Item\Container;C:\TrinityCore\src\server\game\Entities\Object;C:\TrinityCore\src\server\game\Entities\Object\Updates;C:\TrinityCore\src\server\game\Entities\Pet;C:\TrinityCore\src\server\game\Entities\Player;C:\TrinityCore\src\server\game\Entities\Totem;C:\TrinityCore\src\server\game\Entities\Unit;C:\TrinityCore\src\server\game\Entities\Vehicle;C:\TrinityCore\src\server\game\Entities\Transport;C:\TrinityCore\src\server\game\Events;C:\TrinityCore\src\server\game\Globals;C:\TrinityCore\src\server\game\Grids\Cells;C:\TrinityCore\src\server\game\Grids\Notifiers;C:\TrinityCore\src\server\game\Grids;C:\TrinityCore\src\server\game\Groups;C:\TrinityCore\src\server\game\Guilds;C:\TrinityCore\src\server\game\Handlers;C:\TrinityCore\src\server\game\Instances;C:\TrinityCore\src\server\game\Loot;C:\TrinityCore\src\server\game\Mails;C:\TrinityCore\src\server\game\Maps;C:\TrinityCore\src\server\game\Miscellaneous;C:\TrinityCore\src\server\game\Movement;C:\TrinityCore\src\server\game\Movement\Spline;C:\TrinityCore\src\server\game\Movement\MovementGenerators;C:\TrinityCore\src\server\game\Movement\Waypoints;C:\TrinityCore\src\server\game\OutdoorPvP;C:\TrinityCore\src\server\game\Pools;C:\TrinityCore\src\server\game\PrecompiledHeaders;C:\TrinityCore\src\server\game\Quests;C:\TrinityCore\src\server\game\Reputation;C:\TrinityCore\src\server\game\Scripting;C:\TrinityCore\src\server\game\Server\Protocol;C:\TrinityCore\src\server\game\Server;C:\TrinityCore\src\server\game\Skills;C:\TrinityCore\src\server\game\Spells;C:\TrinityCore\src\server\game\Spells\Auras;C:\TrinityCore\src\server\game\Texts;C:\TrinityCore\src\server\game\Tools;C:\TrinityCore\src\server\game\Tickets;C:\TrinityCore\src\server\game\Warden;C:\TrinityCore\src\server\game\Warden\Modules;C:\TrinityCore\src\server\game\Weather;C:\TrinityCore\src\server\game\World;C:\TrinityCore\src\server\scripts\PrecompiledHeaders;C:\TrinityCore\dep\acelite;C:\TrinityCore\dep\mysqllite\include;C:\OpenSSL-Win32\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>C:\Build;C:\Trinitycore\dep\recastnavigation\Detour;C:\Trinitycore\dep\recastnavigation\Recast;C:\Trinitycore\dep\g3dlite\include;C:\Trinitycore\dep\SFMT;C:\Trinitycore\dep\zlib;C:\Trinitycore\src\server\collision;C:\Trinitycore\src\server\collision\Management;C:\Trinitycore\src\server\collision\Models;C:\Trinitycore\src\server\collision\Maps;C:\Trinitycore\src\server\shared;C:\Trinitycore\src\server\shared\Configuration;C:\Trinitycore\src\server\shared\Cryptography;C:\Trinitycore\src\server\shared\Cryptography\Authentication;C:\Trinitycore\src\server\shared\Database;C:\Trinitycore\src\server\shared\DataStores;C:\Trinitycore\src\server\shared\Debugging;C:\Trinitycore\src\server\shared\Dynamic\LinkedReference;C:\Trinitycore\src\server\shared\Dynamic;C:\Trinitycore\src\server\shared\Logging;C:\Trinitycore\src\server\shared\Packets;C:\Trinitycore\src\server\shared\Threading;C:\Trinitycore\src\server\shared\Utilities;C:\Trinitycore\src\server\game;C:\Trinitycore\src\server\game\Accounts;C:\Trinitycore\src\server\game\Achievements;C:\Trinitycore\src\server\game\Addons;C:\Trinitycore\src\server\game\AI;C:\Trinitycore\src\server\game\AI\CoreAI;C:\Trinitycore\src\server\game\AI\EventAI;C:\Trinitycore\src\server\game\AI\ScriptedAI;C:\Trinitycore\src\server\game\AI\SmartScripts;C:\Trinitycore\src\server\game\AuctionHouse;C:\Trinitycore\src\server\game\Battlefield;C:\Trinitycore\src\server\game\Battlefield\Zones;C:\Trinitycore\src\server\game\Battlegrounds;C:\Trinitycore\src\server\game\Battlegrounds\Zones;C:\Trinitycore\src\server\game\Calendar;C:\Trinitycore\src\server\game\Chat;C:\Trinitycore\src\server\game\Chat\Channels;C:\Trinitycore\src\server\game\Combat;C:\Trinitycore\src\server\game\Conditions;C:\Trinitycore\src\server\game\DataStores;C:\Trinitycore\src\server\game\DungeonFinding;C:\Trinitycore\src\server\game\Entities;C:\Trinitycore\src\server\game\Entities\Creature;C:\Trinitycore\src\server\game\Entities\Corpse;C:\Trinitycore\src\server\game\Entities\DynamicObject;C:\Trinitycore\src\server\game\Entities\GameObject;C:\Trinitycore\src\server\game\Entities\Item;C:\Trinitycore\src\server\game\Entities\Item\Container;C:\Trinitycore\src\server\game\Entities\Object;C:\Trinitycore\src\server\game\Entities\Object\Updates;C:\Trinitycore\src\server\game\Entities\Pet;C:\Trinitycore\src\server\game\Entities\Player;C:\Trinitycore\src\server\game\Entities\Totem;C:\Trinitycore\src\server\game\Entities\Unit;C:\Trinitycore\src\server\game\Entities\Vehicle;C:\Trinitycore\src\server\game\Entities\Transport;C:\Trinitycore\src\server\game\Events;C:\Trinitycore\src\server\game\Globals;C:\Trinitycore\src\server\game\Grids\Cells;C:\Trinitycore\src\server\game\Grids\Notifiers;C:\Trinitycore\src\server\game\Grids;C:\Trinitycore\src\server\game\Groups;C:\Trinitycore\src\server\game\Guilds;C:\Trinitycore\src\server\game\Handlers;C:\Trinitycore\src\server\game\Instances;C:\Trinitycore\src\server\game\Loot;C:\Trinitycore\src\server\game\Mails;C:\Trinitycore\src\server\game\Maps;C:\Trinitycore\src\server\game\Miscellaneous;C:\Trinitycore\src\server\game\Movement;C:\Trinitycore\src\server\game\Movement\Spline;C:\Trinitycore\src\server\game\Movement\MovementGenerators;C:\Trinitycore\src\server\game\Movement\Waypoints;C:\Trinitycore\src\server\game\OutdoorPvP;C:\Trinitycore\src\server\game\Pools;C:\Trinitycore\src\server\game\PrecompiledHeaders;C:\Trinitycore\src\server\game\Quests;C:\Trinitycore\src\server\game\Reputation;C:\Trinitycore\src\server\game\Scripting;C:\Trinitycore\src\server\game\Server\Protocol;C:\Trinitycore\src\server\game\Server;C:\Trinitycore\src\server\game\Skills;C:\Trinitycore\src\server\game\Spells;C:\Trinitycore\src\server\game\Spells\Auras;C:\Trinitycore\src\server\game\Texts;C:\Trinitycore\src\server\game\Tools;C:\Trinitycore\src\server\game\Tickets;C:\Trinitycore\src\server\game\Warden;C:\Trinitycore\src\server\game\Warden\Modules;C:\Trinitycore\src\server\game\Weather;C:\Trinitycore\src\server\game\World;C:\Trinitycore\src\server\scripts\PrecompiledHeaders;C:\Trinitycore\dep\acelite;C:\Trinitycore\dep\mysqllite\include;C:\OpenSSL-Win32\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <OutputDirectory>$(IntDir)</OutputDirectory>
       <HeaderFileName>%(Filename).h</HeaderFileName>
       <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
@@ -150,10 +150,10 @@
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">
     <ClCompile>
       <AdditionalOptions> /Zm500 %(AdditionalOptions)</AdditionalOptions>
-      <AdditionalIncludeDirectories>C:\build;C:\TrinityCore\dep\recastnavigation\Detour;C:\TrinityCore\dep\recastnavigation\Recast;C:\TrinityCore\dep\g3dlite\include;C:\TrinityCore\dep\SFMT;C:\TrinityCore\dep\zlib;C:\TrinityCore\src\server\collision;C:\TrinityCore\src\server\collision\Management;C:\TrinityCore\src\server\collision\Models;C:\TrinityCore\src\server\collision\Maps;C:\TrinityCore\src\server\shared;C:\TrinityCore\src\server\shared\Configuration;C:\TrinityCore\src\server\shared\Cryptography;C:\TrinityCore\src\server\shared\Cryptography\Authentication;C:\TrinityCore\src\server\shared\Database;C:\TrinityCore\src\server\shared\DataStores;C:\TrinityCore\src\server\shared\Debugging;C:\TrinityCore\src\server\shared\Dynamic\LinkedReference;C:\TrinityCore\src\server\shared\Dynamic;C:\TrinityCore\src\server\shared\Logging;C:\TrinityCore\src\server\shared\Packets;C:\TrinityCore\src\server\shared\Threading;C:\TrinityCore\src\server\shared\Utilities;C:\TrinityCore\src\server\game;C:\TrinityCore\src\server\game\Accounts;C:\TrinityCore\src\server\game\Achievements;C:\TrinityCore\src\server\game\Addons;C:\TrinityCore\src\server\game\AI;C:\TrinityCore\src\server\game\AI\CoreAI;C:\TrinityCore\src\server\game\AI\EventAI;C:\TrinityCore\src\server\game\AI\ScriptedAI;C:\TrinityCore\src\server\game\AI\SmartScripts;C:\TrinityCore\src\server\game\AuctionHouse;C:\TrinityCore\src\server\game\Battlefield;C:\TrinityCore\src\server\game\Battlefield\Zones;C:\TrinityCore\src\server\game\Battlegrounds;C:\TrinityCore\src\server\game\Battlegrounds\Zones;C:\TrinityCore\src\server\game\Calendar;C:\TrinityCore\src\server\game\Chat;C:\TrinityCore\src\server\game\Chat\Channels;C:\TrinityCore\src\server\game\Combat;C:\TrinityCore\src\server\game\Conditions;C:\TrinityCore\src\server\game\DataStores;C:\TrinityCore\src\server\game\DungeonFinding;C:\TrinityCore\src\server\game\Entities;C:\TrinityCore\src\server\game\Entities\Creature;C:\TrinityCore\src\server\game\Entities\Corpse;C:\TrinityCore\src\server\game\Entities\DynamicObject;C:\TrinityCore\src\server\game\Entities\GameObject;C:\TrinityCore\src\server\game\Entities\Item;C:\TrinityCore\src\server\game\Entities\Item\Container;C:\TrinityCore\src\server\game\Entities\Object;C:\TrinityCore\src\server\game\Entities\Object\Updates;C:\TrinityCore\src\server\game\Entities\Pet;C:\TrinityCore\src\server\game\Entities\Player;C:\TrinityCore\src\server\game\Entities\Totem;C:\TrinityCore\src\server\game\Entities\Unit;C:\TrinityCore\src\server\game\Entities\Vehicle;C:\TrinityCore\src\server\game\Entities\Transport;C:\TrinityCore\src\server\game\Events;C:\TrinityCore\src\server\game\Globals;C:\TrinityCore\src\server\game\Grids\Cells;C:\TrinityCore\src\server\game\Grids\Notifiers;C:\TrinityCore\src\server\game\Grids;C:\TrinityCore\src\server\game\Groups;C:\TrinityCore\src\server\game\Guilds;C:\TrinityCore\src\server\game\Handlers;C:\TrinityCore\src\server\game\Instances;C:\TrinityCore\src\server\game\Loot;C:\TrinityCore\src\server\game\Mails;C:\TrinityCore\src\server\game\Maps;C:\TrinityCore\src\server\game\Miscellaneous;C:\TrinityCore\src\server\game\Movement;C:\TrinityCore\src\server\game\Movement\Spline;C:\TrinityCore\src\server\game\Movement\MovementGenerators;C:\TrinityCore\src\server\game\Movement\Waypoints;C:\TrinityCore\src\server\game\OutdoorPvP;C:\TrinityCore\src\server\game\Pools;C:\TrinityCore\src\server\game\PrecompiledHeaders;C:\TrinityCore\src\server\game\Quests;C:\TrinityCore\src\server\game\Reputation;C:\TrinityCore\src\server\game\Scripting;C:\TrinityCore\src\server\game\Server\Protocol;C:\TrinityCore\src\server\game\Server;C:\TrinityCore\src\server\game\Skills;C:\TrinityCore\src\server\game\Spells;C:\TrinityCore\src\server\game\Spells\Auras;C:\TrinityCore\src\server\game\Texts;C:\TrinityCore\src\server\game\Tools;C:\TrinityCore\src\server\game\Tickets;C:\TrinityCore\src\server\game\Warden;C:\TrinityCore\src\server\game\Warden\Modules;C:\TrinityCore\src\server\game\Weather;C:\TrinityCore\src\server\game\World;C:\TrinityCore\src\server\scripts\PrecompiledHeaders;C:\TrinityCore\dep\acelite;C:\TrinityCore\dep\mysqllite\include;C:\OpenSSL-Win32\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>C:\Build;C:\Trinitycore\dep\recastnavigation\Detour;C:\Trinitycore\dep\recastnavigation\Recast;C:\Trinitycore\dep\g3dlite\include;C:\Trinitycore\dep\SFMT;C:\Trinitycore\dep\zlib;C:\Trinitycore\src\server\collision;C:\Trinitycore\src\server\collision\Management;C:\Trinitycore\src\server\collision\Models;C:\Trinitycore\src\server\collision\Maps;C:\Trinitycore\src\server\shared;C:\Trinitycore\src\server\shared\Configuration;C:\Trinitycore\src\server\shared\Cryptography;C:\Trinitycore\src\server\shared\Cryptography\Authentication;C:\Trinitycore\src\server\shared\Database;C:\Trinitycore\src\server\shared\DataStores;C:\Trinitycore\src\server\shared\Debugging;C:\Trinitycore\src\server\shared\Dynamic\LinkedReference;C:\Trinitycore\src\server\shared\Dynamic;C:\Trinitycore\src\server\shared\Logging;C:\Trinitycore\src\server\shared\Packets;C:\Trinitycore\src\server\shared\Threading;C:\Trinitycore\src\server\shared\Utilities;C:\Trinitycore\src\server\game;C:\Trinitycore\src\server\game\Accounts;C:\Trinitycore\src\server\game\Achievements;C:\Trinitycore\src\server\game\Addons;C:\Trinitycore\src\server\game\AI;C:\Trinitycore\src\server\game\AI\CoreAI;C:\Trinitycore\src\server\game\AI\EventAI;C:\Trinitycore\src\server\game\AI\ScriptedAI;C:\Trinitycore\src\server\game\AI\SmartScripts;C:\Trinitycore\src\server\game\AuctionHouse;C:\Trinitycore\src\server\game\Battlefield;C:\Trinitycore\src\server\game\Battlefield\Zones;C:\Trinitycore\src\server\game\Battlegrounds;C:\Trinitycore\src\server\game\Battlegrounds\Zones;C:\Trinitycore\src\server\game\Calendar;C:\Trinitycore\src\server\game\Chat;C:\Trinitycore\src\server\game\Chat\Channels;C:\Trinitycore\src\server\game\Combat;C:\Trinitycore\src\server\game\Conditions;C:\Trinitycore\src\server\game\DataStores;C:\Trinitycore\src\server\game\DungeonFinding;C:\Trinitycore\src\server\game\Entities;C:\Trinitycore\src\server\game\Entities\Creature;C:\Trinitycore\src\server\game\Entities\Corpse;C:\Trinitycore\src\server\game\Entities\DynamicObject;C:\Trinitycore\src\server\game\Entities\GameObject;C:\Trinitycore\src\server\game\Entities\Item;C:\Trinitycore\src\server\game\Entities\Item\Container;C:\Trinitycore\src\server\game\Entities\Object;C:\Trinitycore\src\server\game\Entities\Object\Updates;C:\Trinitycore\src\server\game\Entities\Pet;C:\Trinitycore\src\server\game\Entities\Player;C:\Trinitycore\src\server\game\Entities\Totem;C:\Trinitycore\src\server\game\Entities\Unit;C:\Trinitycore\src\server\game\Entities\Vehicle;C:\Trinitycore\src\server\game\Entities\Transport;C:\Trinitycore\src\server\game\Events;C:\Trinitycore\src\server\game\Globals;C:\Trinitycore\src\server\game\Grids\Cells;C:\Trinitycore\src\server\game\Grids\Notifiers;C:\Trinitycore\src\server\game\Grids;C:\Trinitycore\src\server\game\Groups;C:\Trinitycore\src\server\game\Guilds;C:\Trinitycore\src\server\game\Handlers;C:\Trinitycore\src\server\game\Instances;C:\Trinitycore\src\server\game\Loot;C:\Trinitycore\src\server\game\Mails;C:\Trinitycore\src\server\game\Maps;C:\Trinitycore\src\server\game\Miscellaneous;C:\Trinitycore\src\server\game\Movement;C:\Trinitycore\src\server\game\Movement\Spline;C:\Trinitycore\src\server\game\Movement\MovementGenerators;C:\Trinitycore\src\server\game\Movement\Waypoints;C:\Trinitycore\src\server\game\OutdoorPvP;C:\Trinitycore\src\server\game\Pools;C:\Trinitycore\src\server\game\PrecompiledHeaders;C:\Trinitycore\src\server\game\Quests;C:\Trinitycore\src\server\game\Reputation;C:\Trinitycore\src\server\game\Scripting;C:\Trinitycore\src\server\game\Server\Protocol;C:\Trinitycore\src\server\game\Server;C:\Trinitycore\src\server\game\Skills;C:\Trinitycore\src\server\game\Spells;C:\Trinitycore\src\server\game\Spells\Auras;C:\Trinitycore\src\server\game\Texts;C:\Trinitycore\src\server\game\Tools;C:\Trinitycore\src\server\game\Tickets;C:\Trinitycore\src\server\game\Warden;C:\Trinitycore\src\server\game\Warden\Modules;C:\Trinitycore\src\server\game\Weather;C:\Trinitycore\src\server\game\World;C:\Trinitycore\src\server\scripts\PrecompiledHeaders;C:\Trinitycore\dep\acelite;C:\Trinitycore\dep\mysqllite\include;C:\OpenSSL-Win32\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <AssemblerListingLocation>MinSizeRel/</AssemblerListingLocation>
       <CompileAs>CompileAsCpp</CompileAs>
-      <DisableSpecificWarnings>4996;4355;4244;4985;4267;4619;4996;4355;4244;4985;4267;4619</DisableSpecificWarnings>
+      <DisableSpecificWarnings>4996;4355;4244;4985;4267;4619;4996;4355;4244;4985;4267;4619;4996;4355;4244;4985;4267;4619</DisableSpecificWarnings>
       <EnableEnhancedInstructionSet>StreamingSIMDExtensions2</EnableEnhancedInstructionSet>
       <ExceptionHandling>Sync</ExceptionHandling>
       <ForcedIncludeFiles>gamePCH.h</ForcedIncludeFiles>
@@ -172,10 +172,10 @@
     </ClCompile>
     <ResourceCompile>
       <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;_BUILD_DIRECTIVE=\"$(ConfigurationName)\";_CRT_SECURE_CPP_OVERLOAD_STANDARD_NAMES;_CRT_SECURE_NO_WARNINGS;_CRT_NONSTDC_NO_WARNINGS;SCRIPTS;CMAKE_INTDIR=\"MinSizeRel\";%(PreprocessorDefinitions)</PreprocessorDefinitions>
-      <AdditionalIncludeDirectories>C:\build;C:\TrinityCore\dep\recastnavigation\Detour;C:\TrinityCore\dep\recastnavigation\Recast;C:\TrinityCore\dep\g3dlite\include;C:\TrinityCore\dep\SFMT;C:\TrinityCore\dep\zlib;C:\TrinityCore\src\server\collision;C:\TrinityCore\src\server\collision\Management;C:\TrinityCore\src\server\collision\Models;C:\TrinityCore\src\server\collision\Maps;C:\TrinityCore\src\server\shared;C:\TrinityCore\src\server\shared\Configuration;C:\TrinityCore\src\server\shared\Cryptography;C:\TrinityCore\src\server\shared\Cryptography\Authentication;C:\TrinityCore\src\server\shared\Database;C:\TrinityCore\src\server\shared\DataStores;C:\TrinityCore\src\server\shared\Debugging;C:\TrinityCore\src\server\shared\Dynamic\LinkedReference;C:\TrinityCore\src\server\shared\Dynamic;C:\TrinityCore\src\server\shared\Logging;C:\TrinityCore\src\server\shared\Packets;C:\TrinityCore\src\server\shared\Threading;C:\TrinityCore\src\server\shared\Utilities;C:\TrinityCore\src\server\game;C:\TrinityCore\src\server\game\Accounts;C:\TrinityCore\src\server\game\Achievements;C:\TrinityCore\src\server\game\Addons;C:\TrinityCore\src\server\game\AI;C:\TrinityCore\src\server\game\AI\CoreAI;C:\TrinityCore\src\server\game\AI\EventAI;C:\TrinityCore\src\server\game\AI\ScriptedAI;C:\TrinityCore\src\server\game\AI\SmartScripts;C:\TrinityCore\src\server\game\AuctionHouse;C:\TrinityCore\src\server\game\Battlefield;C:\TrinityCore\src\server\game\Battlefield\Zones;C:\TrinityCore\src\server\game\Battlegrounds;C:\TrinityCore\src\server\game\Battlegrounds\Zones;C:\TrinityCore\src\server\game\Calendar;C:\TrinityCore\src\server\game\Chat;C:\TrinityCore\src\server\game\Chat\Channels;C:\TrinityCore\src\server\game\Combat;C:\TrinityCore\src\server\game\Conditions;C:\TrinityCore\src\server\game\DataStores;C:\TrinityCore\src\server\game\DungeonFinding;C:\TrinityCore\src\server\game\Entities;C:\TrinityCore\src\server\game\Entities\Creature;C:\TrinityCore\src\server\game\Entities\Corpse;C:\TrinityCore\src\server\game\Entities\DynamicObject;C:\TrinityCore\src\server\game\Entities\GameObject;C:\TrinityCore\src\server\game\Entities\Item;C:\TrinityCore\src\server\game\Entities\Item\Container;C:\TrinityCore\src\server\game\Entities\Object;C:\TrinityCore\src\server\game\Entities\Object\Updates;C:\TrinityCore\src\server\game\Entities\Pet;C:\TrinityCore\src\server\game\Entities\Player;C:\TrinityCore\src\server\game\Entities\Totem;C:\TrinityCore\src\server\game\Entities\Unit;C:\TrinityCore\src\server\game\Entities\Vehicle;C:\TrinityCore\src\server\game\Entities\Transport;C:\TrinityCore\src\server\game\Events;C:\TrinityCore\src\server\game\Globals;C:\TrinityCore\src\server\game\Grids\Cells;C:\TrinityCore\src\server\game\Grids\Notifiers;C:\TrinityCore\src\server\game\Grids;C:\TrinityCore\src\server\game\Groups;C:\TrinityCore\src\server\game\Guilds;C:\TrinityCore\src\server\game\Handlers;C:\TrinityCore\src\server\game\Instances;C:\TrinityCore\src\server\game\Loot;C:\TrinityCore\src\server\game\Mails;C:\TrinityCore\src\server\game\Maps;C:\TrinityCore\src\server\game\Miscellaneous;C:\TrinityCore\src\server\game\Movement;C:\TrinityCore\src\server\game\Movement\Spline;C:\TrinityCore\src\server\game\Movement\MovementGenerators;C:\TrinityCore\src\server\game\Movement\Waypoints;C:\TrinityCore\src\server\game\OutdoorPvP;C:\TrinityCore\src\server\game\Pools;C:\TrinityCore\src\server\game\PrecompiledHeaders;C:\TrinityCore\src\server\game\Quests;C:\TrinityCore\src\server\game\Reputation;C:\TrinityCore\src\server\game\Scripting;C:\TrinityCore\src\server\game\Server\Protocol;C:\TrinityCore\src\server\game\Server;C:\TrinityCore\src\server\game\Skills;C:\TrinityCore\src\server\game\Spells;C:\TrinityCore\src\server\game\Spells\Auras;C:\TrinityCore\src\server\game\Texts;C:\TrinityCore\src\server\game\Tools;C:\TrinityCore\src\server\game\Tickets;C:\TrinityCore\src\server\game\Warden;C:\TrinityCore\src\server\game\Warden\Modules;C:\TrinityCore\src\server\game\Weather;C:\TrinityCore\src\server\game\World;C:\TrinityCore\src\server\scripts\PrecompiledHeaders;C:\TrinityCore\dep\acelite;C:\TrinityCore\dep\mysqllite\include;C:\OpenSSL-Win32\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>C:\Build;C:\Trinitycore\dep\recastnavigation\Detour;C:\Trinitycore\dep\recastnavigation\Recast;C:\Trinitycore\dep\g3dlite\include;C:\Trinitycore\dep\SFMT;C:\Trinitycore\dep\zlib;C:\Trinitycore\src\server\collision;C:\Trinitycore\src\server\collision\Management;C:\Trinitycore\src\server\collision\Models;C:\Trinitycore\src\server\collision\Maps;C:\Trinitycore\src\server\shared;C:\Trinitycore\src\server\shared\Configuration;C:\Trinitycore\src\server\shared\Cryptography;C:\Trinitycore\src\server\shared\Cryptography\Authentication;C:\Trinitycore\src\server\shared\Database;C:\Trinitycore\src\server\shared\DataStores;C:\Trinitycore\src\server\shared\Debugging;C:\Trinitycore\src\server\shared\Dynamic\LinkedReference;C:\Trinitycore\src\server\shared\Dynamic;C:\Trinitycore\src\server\shared\Logging;C:\Trinitycore\src\server\shared\Packets;C:\Trinitycore\src\server\shared\Threading;C:\Trinitycore\src\server\shared\Utilities;C:\Trinitycore\src\server\game;C:\Trinitycore\src\server\game\Accounts;C:\Trinitycore\src\server\game\Achievements;C:\Trinitycore\src\server\game\Addons;C:\Trinitycore\src\server\game\AI;C:\Trinitycore\src\server\game\AI\CoreAI;C:\Trinitycore\src\server\game\AI\EventAI;C:\Trinitycore\src\server\game\AI\ScriptedAI;C:\Trinitycore\src\server\game\AI\SmartScripts;C:\Trinitycore\src\server\game\AuctionHouse;C:\Trinitycore\src\server\game\Battlefield;C:\Trinitycore\src\server\game\Battlefield\Zones;C:\Trinitycore\src\server\game\Battlegrounds;C:\Trinitycore\src\server\game\Battlegrounds\Zones;C:\Trinitycore\src\server\game\Calendar;C:\Trinitycore\src\server\game\Chat;C:\Trinitycore\src\server\game\Chat\Channels;C:\Trinitycore\src\server\game\Combat;C:\Trinitycore\src\server\game\Conditions;C:\Trinitycore\src\server\game\DataStores;C:\Trinitycore\src\server\game\DungeonFinding;C:\Trinitycore\src\server\game\Entities;C:\Trinitycore\src\server\game\Entities\Creature;C:\Trinitycore\src\server\game\Entities\Corpse;C:\Trinitycore\src\server\game\Entities\DynamicObject;C:\Trinitycore\src\server\game\Entities\GameObject;C:\Trinitycore\src\server\game\Entities\Item;C:\Trinitycore\src\server\game\Entities\Item\Container;C:\Trinitycore\src\server\game\Entities\Object;C:\Trinitycore\src\server\game\Entities\Object\Updates;C:\Trinitycore\src\server\game\Entities\Pet;C:\Trinitycore\src\server\game\Entities\Player;C:\Trinitycore\src\server\game\Entities\Totem;C:\Trinitycore\src\server\game\Entities\Unit;C:\Trinitycore\src\server\game\Entities\Vehicle;C:\Trinitycore\src\server\game\Entities\Transport;C:\Trinitycore\src\server\game\Events;C:\Trinitycore\src\server\game\Globals;C:\Trinitycore\src\server\game\Grids\Cells;C:\Trinitycore\src\server\game\Grids\Notifiers;C:\Trinitycore\src\server\game\Grids;C:\Trinitycore\src\server\game\Groups;C:\Trinitycore\src\server\game\Guilds;C:\Trinitycore\src\server\game\Handlers;C:\Trinitycore\src\server\game\Instances;C:\Trinitycore\src\server\game\Loot;C:\Trinitycore\src\server\game\Mails;C:\Trinitycore\src\server\game\Maps;C:\Trinitycore\src\server\game\Miscellaneous;C:\Trinitycore\src\server\game\Movement;C:\Trinitycore\src\server\game\Movement\Spline;C:\Trinitycore\src\server\game\Movement\MovementGenerators;C:\Trinitycore\src\server\game\Movement\Waypoints;C:\Trinitycore\src\server\game\OutdoorPvP;C:\Trinitycore\src\server\game\Pools;C:\Trinitycore\src\server\game\PrecompiledHeaders;C:\Trinitycore\src\server\game\Quests;C:\Trinitycore\src\server\game\Reputation;C:\Trinitycore\src\server\game\Scripting;C:\Trinitycore\src\server\game\Server\Protocol;C:\Trinitycore\src\server\game\Server;C:\Trinitycore\src\server\game\Skills;C:\Trinitycore\src\server\game\Spells;C:\Trinitycore\src\server\game\Spells\Auras;C:\Trinitycore\src\server\game\Texts;C:\Trinitycore\src\server\game\Tools;C:\Trinitycore\src\server\game\Tickets;C:\Trinitycore\src\server\game\Warden;C:\Trinitycore\src\server\game\Warden\Modules;C:\Trinitycore\src\server\game\Weather;C:\Trinitycore\src\server\game\World;C:\Trinitycore\src\server\scripts\PrecompiledHeaders;C:\Trinitycore\dep\acelite;C:\Trinitycore\dep\mysqllite\include;C:\OpenSSL-Win32\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
     </ResourceCompile>
     <Midl>
-      <AdditionalIncludeDirectories>C:\build;C:\TrinityCore\dep\recastnavigation\Detour;C:\TrinityCore\dep\recastnavigation\Recast;C:\TrinityCore\dep\g3dlite\include;C:\TrinityCore\dep\SFMT;C:\TrinityCore\dep\zlib;C:\TrinityCore\src\server\collision;C:\TrinityCore\src\server\collision\Management;C:\TrinityCore\src\server\collision\Models;C:\TrinityCore\src\server\collision\Maps;C:\TrinityCore\src\server\shared;C:\TrinityCore\src\server\shared\Configuration;C:\TrinityCore\src\server\shared\Cryptography;C:\TrinityCore\src\server\shared\Cryptography\Authentication;C:\TrinityCore\src\server\shared\Database;C:\TrinityCore\src\server\shared\DataStores;C:\TrinityCore\src\server\shared\Debugging;C:\TrinityCore\src\server\shared\Dynamic\LinkedReference;C:\TrinityCore\src\server\shared\Dynamic;C:\TrinityCore\src\server\shared\Logging;C:\TrinityCore\src\server\shared\Packets;C:\TrinityCore\src\server\shared\Threading;C:\TrinityCore\src\server\shared\Utilities;C:\TrinityCore\src\server\game;C:\TrinityCore\src\server\game\Accounts;C:\TrinityCore\src\server\game\Achievements;C:\TrinityCore\src\server\game\Addons;C:\TrinityCore\src\server\game\AI;C:\TrinityCore\src\server\game\AI\CoreAI;C:\TrinityCore\src\server\game\AI\EventAI;C:\TrinityCore\src\server\game\AI\ScriptedAI;C:\TrinityCore\src\server\game\AI\SmartScripts;C:\TrinityCore\src\server\game\AuctionHouse;C:\TrinityCore\src\server\game\Battlefield;C:\TrinityCore\src\server\game\Battlefield\Zones;C:\TrinityCore\src\server\game\Battlegrounds;C:\TrinityCore\src\server\game\Battlegrounds\Zones;C:\TrinityCore\src\server\game\Calendar;C:\TrinityCore\src\server\game\Chat;C:\TrinityCore\src\server\game\Chat\Channels;C:\TrinityCore\src\server\game\Combat;C:\TrinityCore\src\server\game\Conditions;C:\TrinityCore\src\server\game\DataStores;C:\TrinityCore\src\server\game\DungeonFinding;C:\TrinityCore\src\server\game\Entities;C:\TrinityCore\src\server\game\Entities\Creature;C:\TrinityCore\src\server\game\Entities\Corpse;C:\TrinityCore\src\server\game\Entities\DynamicObject;C:\TrinityCore\src\server\game\Entities\GameObject;C:\TrinityCore\src\server\game\Entities\Item;C:\TrinityCore\src\server\game\Entities\Item\Container;C:\TrinityCore\src\server\game\Entities\Object;C:\TrinityCore\src\server\game\Entities\Object\Updates;C:\TrinityCore\src\server\game\Entities\Pet;C:\TrinityCore\src\server\game\Entities\Player;C:\TrinityCore\src\server\game\Entities\Totem;C:\TrinityCore\src\server\game\Entities\Unit;C:\TrinityCore\src\server\game\Entities\Vehicle;C:\TrinityCore\src\server\game\Entities\Transport;C:\TrinityCore\src\server\game\Events;C:\TrinityCore\src\server\game\Globals;C:\TrinityCore\src\server\game\Grids\Cells;C:\TrinityCore\src\server\game\Grids\Notifiers;C:\TrinityCore\src\server\game\Grids;C:\TrinityCore\src\server\game\Groups;C:\TrinityCore\src\server\game\Guilds;C:\TrinityCore\src\server\game\Handlers;C:\TrinityCore\src\server\game\Instances;C:\TrinityCore\src\server\game\Loot;C:\TrinityCore\src\server\game\Mails;C:\TrinityCore\src\server\game\Maps;C:\TrinityCore\src\server\game\Miscellaneous;C:\TrinityCore\src\server\game\Movement;C:\TrinityCore\src\server\game\Movement\Spline;C:\TrinityCore\src\server\game\Movement\MovementGenerators;C:\TrinityCore\src\server\game\Movement\Waypoints;C:\TrinityCore\src\server\game\OutdoorPvP;C:\TrinityCore\src\server\game\Pools;C:\TrinityCore\src\server\game\PrecompiledHeaders;C:\TrinityCore\src\server\game\Quests;C:\TrinityCore\src\server\game\Reputation;C:\TrinityCore\src\server\game\Scripting;C:\TrinityCore\src\server\game\Server\Protocol;C:\TrinityCore\src\server\game\Server;C:\TrinityCore\src\server\game\Skills;C:\TrinityCore\src\server\game\Spells;C:\TrinityCore\src\server\game\Spells\Auras;C:\TrinityCore\src\server\game\Texts;C:\TrinityCore\src\server\game\Tools;C:\TrinityCore\src\server\game\Tickets;C:\TrinityCore\src\server\game\Warden;C:\TrinityCore\src\server\game\Warden\Modules;C:\TrinityCore\src\server\game\Weather;C:\TrinityCore\src\server\game\World;C:\TrinityCore\src\server\scripts\PrecompiledHeaders;C:\TrinityCore\dep\acelite;C:\TrinityCore\dep\mysqllite\include;C:\OpenSSL-Win32\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>C:\Build;C:\Trinitycore\dep\recastnavigation\Detour;C:\Trinitycore\dep\recastnavigation\Recast;C:\Trinitycore\dep\g3dlite\include;C:\Trinitycore\dep\SFMT;C:\Trinitycore\dep\zlib;C:\Trinitycore\src\server\collision;C:\Trinitycore\src\server\collision\Management;C:\Trinitycore\src\server\collision\Models;C:\Trinitycore\src\server\collision\Maps;C:\Trinitycore\src\server\shared;C:\Trinitycore\src\server\shared\Configuration;C:\Trinitycore\src\server\shared\Cryptography;C:\Trinitycore\src\server\shared\Cryptography\Authentication;C:\Trinitycore\src\server\shared\Database;C:\Trinitycore\src\server\shared\DataStores;C:\Trinitycore\src\server\shared\Debugging;C:\Trinitycore\src\server\shared\Dynamic\LinkedReference;C:\Trinitycore\src\server\shared\Dynamic;C:\Trinitycore\src\server\shared\Logging;C:\Trinitycore\src\server\shared\Packets;C:\Trinitycore\src\server\shared\Threading;C:\Trinitycore\src\server\shared\Utilities;C:\Trinitycore\src\server\game;C:\Trinitycore\src\server\game\Accounts;C:\Trinitycore\src\server\game\Achievements;C:\Trinitycore\src\server\game\Addons;C:\Trinitycore\src\server\game\AI;C:\Trinitycore\src\server\game\AI\CoreAI;C:\Trinitycore\src\server\game\AI\EventAI;C:\Trinitycore\src\server\game\AI\ScriptedAI;C:\Trinitycore\src\server\game\AI\SmartScripts;C:\Trinitycore\src\server\game\AuctionHouse;C:\Trinitycore\src\server\game\Battlefield;C:\Trinitycore\src\server\game\Battlefield\Zones;C:\Trinitycore\src\server\game\Battlegrounds;C:\Trinitycore\src\server\game\Battlegrounds\Zones;C:\Trinitycore\src\server\game\Calendar;C:\Trinitycore\src\server\game\Chat;C:\Trinitycore\src\server\game\Chat\Channels;C:\Trinitycore\src\server\game\Combat;C:\Trinitycore\src\server\game\Conditions;C:\Trinitycore\src\server\game\DataStores;C:\Trinitycore\src\server\game\DungeonFinding;C:\Trinitycore\src\server\game\Entities;C:\Trinitycore\src\server\game\Entities\Creature;C:\Trinitycore\src\server\game\Entities\Corpse;C:\Trinitycore\src\server\game\Entities\DynamicObject;C:\Trinitycore\src\server\game\Entities\GameObject;C:\Trinitycore\src\server\game\Entities\Item;C:\Trinitycore\src\server\game\Entities\Item\Container;C:\Trinitycore\src\server\game\Entities\Object;C:\Trinitycore\src\server\game\Entities\Object\Updates;C:\Trinitycore\src\server\game\Entities\Pet;C:\Trinitycore\src\server\game\Entities\Player;C:\Trinitycore\src\server\game\Entities\Totem;C:\Trinitycore\src\server\game\Entities\Unit;C:\Trinitycore\src\server\game\Entities\Vehicle;C:\Trinitycore\src\server\game\Entities\Transport;C:\Trinitycore\src\server\game\Events;C:\Trinitycore\src\server\game\Globals;C:\Trinitycore\src\server\game\Grids\Cells;C:\Trinitycore\src\server\game\Grids\Notifiers;C:\Trinitycore\src\server\game\Grids;C:\Trinitycore\src\server\game\Groups;C:\Trinitycore\src\server\game\Guilds;C:\Trinitycore\src\server\game\Handlers;C:\Trinitycore\src\server\game\Instances;C:\Trinitycore\src\server\game\Loot;C:\Trinitycore\src\server\game\Mails;C:\Trinitycore\src\server\game\Maps;C:\Trinitycore\src\server\game\Miscellaneous;C:\Trinitycore\src\server\game\Movement;C:\Trinitycore\src\server\game\Movement\Spline;C:\Trinitycore\src\server\game\Movement\MovementGenerators;C:\Trinitycore\src\server\game\Movement\Waypoints;C:\Trinitycore\src\server\game\OutdoorPvP;C:\Trinitycore\src\server\game\Pools;C:\Trinitycore\src\server\game\PrecompiledHeaders;C:\Trinitycore\src\server\game\Quests;C:\Trinitycore\src\server\game\Reputation;C:\Trinitycore\src\server\game\Scripting;C:\Trinitycore\src\server\game\Server\Protocol;C:\Trinitycore\src\server\game\Server;C:\Trinitycore\src\server\game\Skills;C:\Trinitycore\src\server\game\Spells;C:\Trinitycore\src\server\game\Spells\Auras;C:\Trinitycore\src\server\game\Texts;C:\Trinitycore\src\server\game\Tools;C:\Trinitycore\src\server\game\Tickets;C:\Trinitycore\src\server\game\Warden;C:\Trinitycore\src\server\game\Warden\Modules;C:\Trinitycore\src\server\game\Weather;C:\Trinitycore\src\server\game\World;C:\Trinitycore\src\server\scripts\PrecompiledHeaders;C:\Trinitycore\dep\acelite;C:\Trinitycore\dep\mysqllite\include;C:\OpenSSL-Win32\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <OutputDirectory>$(IntDir)</OutputDirectory>
       <HeaderFileName>%(Filename).h</HeaderFileName>
       <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
@@ -186,11 +186,11 @@
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">
     <ClCompile>
       <AdditionalOptions> /Zm500 %(AdditionalOptions)</AdditionalOptions>
-      <AdditionalIncludeDirectories>C:\build;C:\TrinityCore\dep\recastnavigation\Detour;C:\TrinityCore\dep\recastnavigation\Recast;C:\TrinityCore\dep\g3dlite\include;C:\TrinityCore\dep\SFMT;C:\TrinityCore\dep\zlib;C:\TrinityCore\src\server\collision;C:\TrinityCore\src\server\collision\Management;C:\TrinityCore\src\server\collision\Models;C:\TrinityCore\src\server\collision\Maps;C:\TrinityCore\src\server\shared;C:\TrinityCore\src\server\shared\Configuration;C:\TrinityCore\src\server\shared\Cryptography;C:\TrinityCore\src\server\shared\Cryptography\Authentication;C:\TrinityCore\src\server\shared\Database;C:\TrinityCore\src\server\shared\DataStores;C:\TrinityCore\src\server\shared\Debugging;C:\TrinityCore\src\server\shared\Dynamic\LinkedReference;C:\TrinityCore\src\server\shared\Dynamic;C:\TrinityCore\src\server\shared\Logging;C:\TrinityCore\src\server\shared\Packets;C:\TrinityCore\src\server\shared\Threading;C:\TrinityCore\src\server\shared\Utilities;C:\TrinityCore\src\server\game;C:\TrinityCore\src\server\game\Accounts;C:\TrinityCore\src\server\game\Achievements;C:\TrinityCore\src\server\game\Addons;C:\TrinityCore\src\server\game\AI;C:\TrinityCore\src\server\game\AI\CoreAI;C:\TrinityCore\src\server\game\AI\EventAI;C:\TrinityCore\src\server\game\AI\ScriptedAI;C:\TrinityCore\src\server\game\AI\SmartScripts;C:\TrinityCore\src\server\game\AuctionHouse;C:\TrinityCore\src\server\game\Battlefield;C:\TrinityCore\src\server\game\Battlefield\Zones;C:\TrinityCore\src\server\game\Battlegrounds;C:\TrinityCore\src\server\game\Battlegrounds\Zones;C:\TrinityCore\src\server\game\Calendar;C:\TrinityCore\src\server\game\Chat;C:\TrinityCore\src\server\game\Chat\Channels;C:\TrinityCore\src\server\game\Combat;C:\TrinityCore\src\server\game\Conditions;C:\TrinityCore\src\server\game\DataStores;C:\TrinityCore\src\server\game\DungeonFinding;C:\TrinityCore\src\server\game\Entities;C:\TrinityCore\src\server\game\Entities\Creature;C:\TrinityCore\src\server\game\Entities\Corpse;C:\TrinityCore\src\server\game\Entities\DynamicObject;C:\TrinityCore\src\server\game\Entities\GameObject;C:\TrinityCore\src\server\game\Entities\Item;C:\TrinityCore\src\server\game\Entities\Item\Container;C:\TrinityCore\src\server\game\Entities\Object;C:\TrinityCore\src\server\game\Entities\Object\Updates;C:\TrinityCore\src\server\game\Entities\Pet;C:\TrinityCore\src\server\game\Entities\Player;C:\TrinityCore\src\server\game\Entities\Totem;C:\TrinityCore\src\server\game\Entities\Unit;C:\TrinityCore\src\server\game\Entities\Vehicle;C:\TrinityCore\src\server\game\Entities\Transport;C:\TrinityCore\src\server\game\Events;C:\TrinityCore\src\server\game\Globals;C:\TrinityCore\src\server\game\Grids\Cells;C:\TrinityCore\src\server\game\Grids\Notifiers;C:\TrinityCore\src\server\game\Grids;C:\TrinityCore\src\server\game\Groups;C:\TrinityCore\src\server\game\Guilds;C:\TrinityCore\src\server\game\Handlers;C:\TrinityCore\src\server\game\Instances;C:\TrinityCore\src\server\game\Loot;C:\TrinityCore\src\server\game\Mails;C:\TrinityCore\src\server\game\Maps;C:\TrinityCore\src\server\game\Miscellaneous;C:\TrinityCore\src\server\game\Movement;C:\TrinityCore\src\server\game\Movement\Spline;C:\TrinityCore\src\server\game\Movement\MovementGenerators;C:\TrinityCore\src\server\game\Movement\Waypoints;C:\TrinityCore\src\server\game\OutdoorPvP;C:\TrinityCore\src\server\game\Pools;C:\TrinityCore\src\server\game\PrecompiledHeaders;C:\TrinityCore\src\server\game\Quests;C:\TrinityCore\src\server\game\Reputation;C:\TrinityCore\src\server\game\Scripting;C:\TrinityCore\src\server\game\Server\Protocol;C:\TrinityCore\src\server\game\Server;C:\TrinityCore\src\server\game\Skills;C:\TrinityCore\src\server\game\Spells;C:\TrinityCore\src\server\game\Spells\Auras;C:\TrinityCore\src\server\game\Texts;C:\TrinityCore\src\server\game\Tools;C:\TrinityCore\src\server\game\Tickets;C:\TrinityCore\src\server\game\Warden;C:\TrinityCore\src\server\game\Warden\Modules;C:\TrinityCore\src\server\game\Weather;C:\TrinityCore\src\server\game\World;C:\TrinityCore\src\server\scripts\PrecompiledHeaders;C:\TrinityCore\dep\acelite;C:\TrinityCore\dep\mysqllite\include;C:\OpenSSL-Win32\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>C:\Build;C:\Trinitycore\dep\recastnavigation\Detour;C:\Trinitycore\dep\recastnavigation\Recast;C:\Trinitycore\dep\g3dlite\include;C:\Trinitycore\dep\SFMT;C:\Trinitycore\dep\zlib;C:\Trinitycore\src\server\collision;C:\Trinitycore\src\server\collision\Management;C:\Trinitycore\src\server\collision\Models;C:\Trinitycore\src\server\collision\Maps;C:\Trinitycore\src\server\shared;C:\Trinitycore\src\server\shared\Configuration;C:\Trinitycore\src\server\shared\Cryptography;C:\Trinitycore\src\server\shared\Cryptography\Authentication;C:\Trinitycore\src\server\shared\Database;C:\Trinitycore\src\server\shared\DataStores;C:\Trinitycore\src\server\shared\Debugging;C:\Trinitycore\src\server\shared\Dynamic\LinkedReference;C:\Trinitycore\src\server\shared\Dynamic;C:\Trinitycore\src\server\shared\Logging;C:\Trinitycore\src\server\shared\Packets;C:\Trinitycore\src\server\shared\Threading;C:\Trinitycore\src\server\shared\Utilities;C:\Trinitycore\src\server\game;C:\Trinitycore\src\server\game\Accounts;C:\Trinitycore\src\server\game\Achievements;C:\Trinitycore\src\server\game\Addons;C:\Trinitycore\src\server\game\AI;C:\Trinitycore\src\server\game\AI\CoreAI;C:\Trinitycore\src\server\game\AI\EventAI;C:\Trinitycore\src\server\game\AI\ScriptedAI;C:\Trinitycore\src\server\game\AI\SmartScripts;C:\Trinitycore\src\server\game\AuctionHouse;C:\Trinitycore\src\server\game\Battlefield;C:\Trinitycore\src\server\game\Battlefield\Zones;C:\Trinitycore\src\server\game\Battlegrounds;C:\Trinitycore\src\server\game\Battlegrounds\Zones;C:\Trinitycore\src\server\game\Calendar;C:\Trinitycore\src\server\game\Chat;C:\Trinitycore\src\server\game\Chat\Channels;C:\Trinitycore\src\server\game\Combat;C:\Trinitycore\src\server\game\Conditions;C:\Trinitycore\src\server\game\DataStores;C:\Trinitycore\src\server\game\DungeonFinding;C:\Trinitycore\src\server\game\Entities;C:\Trinitycore\src\server\game\Entities\Creature;C:\Trinitycore\src\server\game\Entities\Corpse;C:\Trinitycore\src\server\game\Entities\DynamicObject;C:\Trinitycore\src\server\game\Entities\GameObject;C:\Trinitycore\src\server\game\Entities\Item;C:\Trinitycore\src\server\game\Entities\Item\Container;C:\Trinitycore\src\server\game\Entities\Object;C:\Trinitycore\src\server\game\Entities\Object\Updates;C:\Trinitycore\src\server\game\Entities\Pet;C:\Trinitycore\src\server\game\Entities\Player;C:\Trinitycore\src\server\game\Entities\Totem;C:\Trinitycore\src\server\game\Entities\Unit;C:\Trinitycore\src\server\game\Entities\Vehicle;C:\Trinitycore\src\server\game\Entities\Transport;C:\Trinitycore\src\server\game\Events;C:\Trinitycore\src\server\game\Globals;C:\Trinitycore\src\server\game\Grids\Cells;C:\Trinitycore\src\server\game\Grids\Notifiers;C:\Trinitycore\src\server\game\Grids;C:\Trinitycore\src\server\game\Groups;C:\Trinitycore\src\server\game\Guilds;C:\Trinitycore\src\server\game\Handlers;C:\Trinitycore\src\server\game\Instances;C:\Trinitycore\src\server\game\Loot;C:\Trinitycore\src\server\game\Mails;C:\Trinitycore\src\server\game\Maps;C:\Trinitycore\src\server\game\Miscellaneous;C:\Trinitycore\src\server\game\Movement;C:\Trinitycore\src\server\game\Movement\Spline;C:\Trinitycore\src\server\game\Movement\MovementGenerators;C:\Trinitycore\src\server\game\Movement\Waypoints;C:\Trinitycore\src\server\game\OutdoorPvP;C:\Trinitycore\src\server\game\Pools;C:\Trinitycore\src\server\game\PrecompiledHeaders;C:\Trinitycore\src\server\game\Quests;C:\Trinitycore\src\server\game\Reputation;C:\Trinitycore\src\server\game\Scripting;C:\Trinitycore\src\server\game\Server\Protocol;C:\Trinitycore\src\server\game\Server;C:\Trinitycore\src\server\game\Skills;C:\Trinitycore\src\server\game\Spells;C:\Trinitycore\src\server\game\Spells\Auras;C:\Trinitycore\src\server\game\Texts;C:\Trinitycore\src\server\game\Tools;C:\Trinitycore\src\server\game\Tickets;C:\Trinitycore\src\server\game\Warden;C:\Trinitycore\src\server\game\Warden\Modules;C:\Trinitycore\src\server\game\Weather;C:\Trinitycore\src\server\game\World;C:\Trinitycore\src\server\scripts\PrecompiledHeaders;C:\Trinitycore\dep\acelite;C:\Trinitycore\dep\mysqllite\include;C:\OpenSSL-Win32\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <AssemblerListingLocation>RelWithDebInfo/</AssemblerListingLocation>
       <CompileAs>CompileAsCpp</CompileAs>
       <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
-      <DisableSpecificWarnings>4996;4355;4244;4985;4267;4619;4996;4355;4244;4985;4267;4619</DisableSpecificWarnings>
+      <DisableSpecificWarnings>4996;4355;4244;4985;4267;4619;4996;4355;4244;4985;4267;4619;4996;4355;4244;4985;4267;4619</DisableSpecificWarnings>
       <EnableEnhancedInstructionSet>StreamingSIMDExtensions2</EnableEnhancedInstructionSet>
       <ExceptionHandling>Sync</ExceptionHandling>
       <ForcedIncludeFiles>gamePCH.h</ForcedIncludeFiles>
@@ -208,10 +208,10 @@
     </ClCompile>
     <ResourceCompile>
       <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;_BUILD_DIRECTIVE=\"$(ConfigurationName)\";_CRT_SECURE_CPP_OVERLOAD_STANDARD_NAMES;_CRT_SECURE_NO_WARNINGS;_CRT_NONSTDC_NO_WARNINGS;SCRIPTS;CMAKE_INTDIR=\"RelWithDebInfo\";%(PreprocessorDefinitions)</PreprocessorDefinitions>
-      <AdditionalIncludeDirectories>C:\build;C:\TrinityCore\dep\recastnavigation\Detour;C:\TrinityCore\dep\recastnavigation\Recast;C:\TrinityCore\dep\g3dlite\include;C:\TrinityCore\dep\SFMT;C:\TrinityCore\dep\zlib;C:\TrinityCore\src\server\collision;C:\TrinityCore\src\server\collision\Management;C:\TrinityCore\src\server\collision\Models;C:\TrinityCore\src\server\collision\Maps;C:\TrinityCore\src\server\shared;C:\TrinityCore\src\server\shared\Configuration;C:\TrinityCore\src\server\shared\Cryptography;C:\TrinityCore\src\server\shared\Cryptography\Authentication;C:\TrinityCore\src\server\shared\Database;C:\TrinityCore\src\server\shared\DataStores;C:\TrinityCore\src\server\shared\Debugging;C:\TrinityCore\src\server\shared\Dynamic\LinkedReference;C:\TrinityCore\src\server\shared\Dynamic;C:\TrinityCore\src\server\shared\Logging;C:\TrinityCore\src\server\shared\Packets;C:\TrinityCore\src\server\shared\Threading;C:\TrinityCore\src\server\shared\Utilities;C:\TrinityCore\src\server\game;C:\TrinityCore\src\server\game\Accounts;C:\TrinityCore\src\server\game\Achievements;C:\TrinityCore\src\server\game\Addons;C:\TrinityCore\src\server\game\AI;C:\TrinityCore\src\server\game\AI\CoreAI;C:\TrinityCore\src\server\game\AI\EventAI;C:\TrinityCore\src\server\game\AI\ScriptedAI;C:\TrinityCore\src\server\game\AI\SmartScripts;C:\TrinityCore\src\server\game\AuctionHouse;C:\TrinityCore\src\server\game\Battlefield;C:\TrinityCore\src\server\game\Battlefield\Zones;C:\TrinityCore\src\server\game\Battlegrounds;C:\TrinityCore\src\server\game\Battlegrounds\Zones;C:\TrinityCore\src\server\game\Calendar;C:\TrinityCore\src\server\game\Chat;C:\TrinityCore\src\server\game\Chat\Channels;C:\TrinityCore\src\server\game\Combat;C:\TrinityCore\src\server\game\Conditions;C:\TrinityCore\src\server\game\DataStores;C:\TrinityCore\src\server\game\DungeonFinding;C:\TrinityCore\src\server\game\Entities;C:\TrinityCore\src\server\game\Entities\Creature;C:\TrinityCore\src\server\game\Entities\Corpse;C:\TrinityCore\src\server\game\Entities\DynamicObject;C:\TrinityCore\src\server\game\Entities\GameObject;C:\TrinityCore\src\server\game\Entities\Item;C:\TrinityCore\src\server\game\Entities\Item\Container;C:\TrinityCore\src\server\game\Entities\Object;C:\TrinityCore\src\server\game\Entities\Object\Updates;C:\TrinityCore\src\server\game\Entities\Pet;C:\TrinityCore\src\server\game\Entities\Player;C:\TrinityCore\src\server\game\Entities\Totem;C:\TrinityCore\src\server\game\Entities\Unit;C:\TrinityCore\src\server\game\Entities\Vehicle;C:\TrinityCore\src\server\game\Entities\Transport;C:\TrinityCore\src\server\game\Events;C:\TrinityCore\src\server\game\Globals;C:\TrinityCore\src\server\game\Grids\Cells;C:\TrinityCore\src\server\game\Grids\Notifiers;C:\TrinityCore\src\server\game\Grids;C:\TrinityCore\src\server\game\Groups;C:\TrinityCore\src\server\game\Guilds;C:\TrinityCore\src\server\game\Handlers;C:\TrinityCore\src\server\game\Instances;C:\TrinityCore\src\server\game\Loot;C:\TrinityCore\src\server\game\Mails;C:\TrinityCore\src\server\game\Maps;C:\TrinityCore\src\server\game\Miscellaneous;C:\TrinityCore\src\server\game\Movement;C:\TrinityCore\src\server\game\Movement\Spline;C:\TrinityCore\src\server\game\Movement\MovementGenerators;C:\TrinityCore\src\server\game\Movement\Waypoints;C:\TrinityCore\src\server\game\OutdoorPvP;C:\TrinityCore\src\server\game\Pools;C:\TrinityCore\src\server\game\PrecompiledHeaders;C:\TrinityCore\src\server\game\Quests;C:\TrinityCore\src\server\game\Reputation;C:\TrinityCore\src\server\game\Scripting;C:\TrinityCore\src\server\game\Server\Protocol;C:\TrinityCore\src\server\game\Server;C:\TrinityCore\src\server\game\Skills;C:\TrinityCore\src\server\game\Spells;C:\TrinityCore\src\server\game\Spells\Auras;C:\TrinityCore\src\server\game\Texts;C:\TrinityCore\src\server\game\Tools;C:\TrinityCore\src\server\game\Tickets;C:\TrinityCore\src\server\game\Warden;C:\TrinityCore\src\server\game\Warden\Modules;C:\TrinityCore\src\server\game\Weather;C:\TrinityCore\src\server\game\World;C:\TrinityCore\src\server\scripts\PrecompiledHeaders;C:\TrinityCore\dep\acelite;C:\TrinityCore\dep\mysqllite\include;C:\OpenSSL-Win32\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>C:\Build;C:\Trinitycore\dep\recastnavigation\Detour;C:\Trinitycore\dep\recastnavigation\Recast;C:\Trinitycore\dep\g3dlite\include;C:\Trinitycore\dep\SFMT;C:\Trinitycore\dep\zlib;C:\Trinitycore\src\server\collision;C:\Trinitycore\src\server\collision\Management;C:\Trinitycore\src\server\collision\Models;C:\Trinitycore\src\server\collision\Maps;C:\Trinitycore\src\server\shared;C:\Trinitycore\src\server\shared\Configuration;C:\Trinitycore\src\server\shared\Cryptography;C:\Trinitycore\src\server\shared\Cryptography\Authentication;C:\Trinitycore\src\server\shared\Database;C:\Trinitycore\src\server\shared\DataStores;C:\Trinitycore\src\server\shared\Debugging;C:\Trinitycore\src\server\shared\Dynamic\LinkedReference;C:\Trinitycore\src\server\shared\Dynamic;C:\Trinitycore\src\server\shared\Logging;C:\Trinitycore\src\server\shared\Packets;C:\Trinitycore\src\server\shared\Threading;C:\Trinitycore\src\server\shared\Utilities;C:\Trinitycore\src\server\game;C:\Trinitycore\src\server\game\Accounts;C:\Trinitycore\src\server\game\Achievements;C:\Trinitycore\src\server\game\Addons;C:\Trinitycore\src\server\game\AI;C:\Trinitycore\src\server\game\AI\CoreAI;C:\Trinitycore\src\server\game\AI\EventAI;C:\Trinitycore\src\server\game\AI\ScriptedAI;C:\Trinitycore\src\server\game\AI\SmartScripts;C:\Trinitycore\src\server\game\AuctionHouse;C:\Trinitycore\src\server\game\Battlefield;C:\Trinitycore\src\server\game\Battlefield\Zones;C:\Trinitycore\src\server\game\Battlegrounds;C:\Trinitycore\src\server\game\Battlegrounds\Zones;C:\Trinitycore\src\server\game\Calendar;C:\Trinitycore\src\server\game\Chat;C:\Trinitycore\src\server\game\Chat\Channels;C:\Trinitycore\src\server\game\Combat;C:\Trinitycore\src\server\game\Conditions;C:\Trinitycore\src\server\game\DataStores;C:\Trinitycore\src\server\game\DungeonFinding;C:\Trinitycore\src\server\game\Entities;C:\Trinitycore\src\server\game\Entities\Creature;C:\Trinitycore\src\server\game\Entities\Corpse;C:\Trinitycore\src\server\game\Entities\DynamicObject;C:\Trinitycore\src\server\game\Entities\GameObject;C:\Trinitycore\src\server\game\Entities\Item;C:\Trinitycore\src\server\game\Entities\Item\Container;C:\Trinitycore\src\server\game\Entities\Object;C:\Trinitycore\src\server\game\Entities\Object\Updates;C:\Trinitycore\src\server\game\Entities\Pet;C:\Trinitycore\src\server\game\Entities\Player;C:\Trinitycore\src\server\game\Entities\Totem;C:\Trinitycore\src\server\game\Entities\Unit;C:\Trinitycore\src\server\game\Entities\Vehicle;C:\Trinitycore\src\server\game\Entities\Transport;C:\Trinitycore\src\server\game\Events;C:\Trinitycore\src\server\game\Globals;C:\Trinitycore\src\server\game\Grids\Cells;C:\Trinitycore\src\server\game\Grids\Notifiers;C:\Trinitycore\src\server\game\Grids;C:\Trinitycore\src\server\game\Groups;C:\Trinitycore\src\server\game\Guilds;C:\Trinitycore\src\server\game\Handlers;C:\Trinitycore\src\server\game\Instances;C:\Trinitycore\src\server\game\Loot;C:\Trinitycore\src\server\game\Mails;C:\Trinitycore\src\server\game\Maps;C:\Trinitycore\src\server\game\Miscellaneous;C:\Trinitycore\src\server\game\Movement;C:\Trinitycore\src\server\game\Movement\Spline;C:\Trinitycore\src\server\game\Movement\MovementGenerators;C:\Trinitycore\src\server\game\Movement\Waypoints;C:\Trinitycore\src\server\game\OutdoorPvP;C:\Trinitycore\src\server\game\Pools;C:\Trinitycore\src\server\game\PrecompiledHeaders;C:\Trinitycore\src\server\game\Quests;C:\Trinitycore\src\server\game\Reputation;C:\Trinitycore\src\server\game\Scripting;C:\Trinitycore\src\server\game\Server\Protocol;C:\Trinitycore\src\server\game\Server;C:\Trinitycore\src\server\game\Skills;C:\Trinitycore\src\server\game\Spells;C:\Trinitycore\src\server\game\Spells\Auras;C:\Trinitycore\src\server\game\Texts;C:\Trinitycore\src\server\game\Tools;C:\Trinitycore\src\server\game\Tickets;C:\Trinitycore\src\server\game\Warden;C:\Trinitycore\src\server\game\Warden\Modules;C:\Trinitycore\src\server\game\Weather;C:\Trinitycore\src\server\game\World;C:\Trinitycore\src\server\scripts\PrecompiledHeaders;C:\Trinitycore\dep\acelite;C:\Trinitycore\dep\mysqllite\include;C:\OpenSSL-Win32\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
     </ResourceCompile>
     <Midl>
-      <AdditionalIncludeDirectories>C:\build;C:\TrinityCore\dep\recastnavigation\Detour;C:\TrinityCore\dep\recastnavigation\Recast;C:\TrinityCore\dep\g3dlite\include;C:\TrinityCore\dep\SFMT;C:\TrinityCore\dep\zlib;C:\TrinityCore\src\server\collision;C:\TrinityCore\src\server\collision\Management;C:\TrinityCore\src\server\collision\Models;C:\TrinityCore\src\server\collision\Maps;C:\TrinityCore\src\server\shared;C:\TrinityCore\src\server\shared\Configuration;C:\TrinityCore\src\server\shared\Cryptography;C:\TrinityCore\src\server\shared\Cryptography\Authentication;C:\TrinityCore\src\server\shared\Database;C:\TrinityCore\src\server\shared\DataStores;C:\TrinityCore\src\server\shared\Debugging;C:\TrinityCore\src\server\shared\Dynamic\LinkedReference;C:\TrinityCore\src\server\shared\Dynamic;C:\TrinityCore\src\server\shared\Logging;C:\TrinityCore\src\server\shared\Packets;C:\TrinityCore\src\server\shared\Threading;C:\TrinityCore\src\server\shared\Utilities;C:\TrinityCore\src\server\game;C:\TrinityCore\src\server\game\Accounts;C:\TrinityCore\src\server\game\Achievements;C:\TrinityCore\src\server\game\Addons;C:\TrinityCore\src\server\game\AI;C:\TrinityCore\src\server\game\AI\CoreAI;C:\TrinityCore\src\server\game\AI\EventAI;C:\TrinityCore\src\server\game\AI\ScriptedAI;C:\TrinityCore\src\server\game\AI\SmartScripts;C:\TrinityCore\src\server\game\AuctionHouse;C:\TrinityCore\src\server\game\Battlefield;C:\TrinityCore\src\server\game\Battlefield\Zones;C:\TrinityCore\src\server\game\Battlegrounds;C:\TrinityCore\src\server\game\Battlegrounds\Zones;C:\TrinityCore\src\server\game\Calendar;C:\TrinityCore\src\server\game\Chat;C:\TrinityCore\src\server\game\Chat\Channels;C:\TrinityCore\src\server\game\Combat;C:\TrinityCore\src\server\game\Conditions;C:\TrinityCore\src\server\game\DataStores;C:\TrinityCore\src\server\game\DungeonFinding;C:\TrinityCore\src\server\game\Entities;C:\TrinityCore\src\server\game\Entities\Creature;C:\TrinityCore\src\server\game\Entities\Corpse;C:\TrinityCore\src\server\game\Entities\DynamicObject;C:\TrinityCore\src\server\game\Entities\GameObject;C:\TrinityCore\src\server\game\Entities\Item;C:\TrinityCore\src\server\game\Entities\Item\Container;C:\TrinityCore\src\server\game\Entities\Object;C:\TrinityCore\src\server\game\Entities\Object\Updates;C:\TrinityCore\src\server\game\Entities\Pet;C:\TrinityCore\src\server\game\Entities\Player;C:\TrinityCore\src\server\game\Entities\Totem;C:\TrinityCore\src\server\game\Entities\Unit;C:\TrinityCore\src\server\game\Entities\Vehicle;C:\TrinityCore\src\server\game\Entities\Transport;C:\TrinityCore\src\server\game\Events;C:\TrinityCore\src\server\game\Globals;C:\TrinityCore\src\server\game\Grids\Cells;C:\TrinityCore\src\server\game\Grids\Notifiers;C:\TrinityCore\src\server\game\Grids;C:\TrinityCore\src\server\game\Groups;C:\TrinityCore\src\server\game\Guilds;C:\TrinityCore\src\server\game\Handlers;C:\TrinityCore\src\server\game\Instances;C:\TrinityCore\src\server\game\Loot;C:\TrinityCore\src\server\game\Mails;C:\TrinityCore\src\server\game\Maps;C:\TrinityCore\src\server\game\Miscellaneous;C:\TrinityCore\src\server\game\Movement;C:\TrinityCore\src\server\game\Movement\Spline;C:\TrinityCore\src\server\game\Movement\MovementGenerators;C:\TrinityCore\src\server\game\Movement\Waypoints;C:\TrinityCore\src\server\game\OutdoorPvP;C:\TrinityCore\src\server\game\Pools;C:\TrinityCore\src\server\game\PrecompiledHeaders;C:\TrinityCore\src\server\game\Quests;C:\TrinityCore\src\server\game\Reputation;C:\TrinityCore\src\server\game\Scripting;C:\TrinityCore\src\server\game\Server\Protocol;C:\TrinityCore\src\server\game\Server;C:\TrinityCore\src\server\game\Skills;C:\TrinityCore\src\server\game\Spells;C:\TrinityCore\src\server\game\Spells\Auras;C:\TrinityCore\src\server\game\Texts;C:\TrinityCore\src\server\game\Tools;C:\TrinityCore\src\server\game\Tickets;C:\TrinityCore\src\server\game\Warden;C:\TrinityCore\src\server\game\Warden\Modules;C:\TrinityCore\src\server\game\Weather;C:\TrinityCore\src\server\game\World;C:\TrinityCore\src\server\scripts\PrecompiledHeaders;C:\TrinityCore\dep\acelite;C:\TrinityCore\dep\mysqllite\include;C:\OpenSSL-Win32\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>C:\Build;C:\Trinitycore\dep\recastnavigation\Detour;C:\Trinitycore\dep\recastnavigation\Recast;C:\Trinitycore\dep\g3dlite\include;C:\Trinitycore\dep\SFMT;C:\Trinitycore\dep\zlib;C:\Trinitycore\src\server\collision;C:\Trinitycore\src\server\collision\Management;C:\Trinitycore\src\server\collision\Models;C:\Trinitycore\src\server\collision\Maps;C:\Trinitycore\src\server\shared;C:\Trinitycore\src\server\shared\Configuration;C:\Trinitycore\src\server\shared\Cryptography;C:\Trinitycore\src\server\shared\Cryptography\Authentication;C:\Trinitycore\src\server\shared\Database;C:\Trinitycore\src\server\shared\DataStores;C:\Trinitycore\src\server\shared\Debugging;C:\Trinitycore\src\server\shared\Dynamic\LinkedReference;C:\Trinitycore\src\server\shared\Dynamic;C:\Trinitycore\src\server\shared\Logging;C:\Trinitycore\src\server\shared\Packets;C:\Trinitycore\src\server\shared\Threading;C:\Trinitycore\src\server\shared\Utilities;C:\Trinitycore\src\server\game;C:\Trinitycore\src\server\game\Accounts;C:\Trinitycore\src\server\game\Achievements;C:\Trinitycore\src\server\game\Addons;C:\Trinitycore\src\server\game\AI;C:\Trinitycore\src\server\game\AI\CoreAI;C:\Trinitycore\src\server\game\AI\EventAI;C:\Trinitycore\src\server\game\AI\ScriptedAI;C:\Trinitycore\src\server\game\AI\SmartScripts;C:\Trinitycore\src\server\game\AuctionHouse;C:\Trinitycore\src\server\game\Battlefield;C:\Trinitycore\src\server\game\Battlefield\Zones;C:\Trinitycore\src\server\game\Battlegrounds;C:\Trinitycore\src\server\game\Battlegrounds\Zones;C:\Trinitycore\src\server\game\Calendar;C:\Trinitycore\src\server\game\Chat;C:\Trinitycore\src\server\game\Chat\Channels;C:\Trinitycore\src\server\game\Combat;C:\Trinitycore\src\server\game\Conditions;C:\Trinitycore\src\server\game\DataStores;C:\Trinitycore\src\server\game\DungeonFinding;C:\Trinitycore\src\server\game\Entities;C:\Trinitycore\src\server\game\Entities\Creature;C:\Trinitycore\src\server\game\Entities\Corpse;C:\Trinitycore\src\server\game\Entities\DynamicObject;C:\Trinitycore\src\server\game\Entities\GameObject;C:\Trinitycore\src\server\game\Entities\Item;C:\Trinitycore\src\server\game\Entities\Item\Container;C:\Trinitycore\src\server\game\Entities\Object;C:\Trinitycore\src\server\game\Entities\Object\Updates;C:\Trinitycore\src\server\game\Entities\Pet;C:\Trinitycore\src\server\game\Entities\Player;C:\Trinitycore\src\server\game\Entities\Totem;C:\Trinitycore\src\server\game\Entities\Unit;C:\Trinitycore\src\server\game\Entities\Vehicle;C:\Trinitycore\src\server\game\Entities\Transport;C:\Trinitycore\src\server\game\Events;C:\Trinitycore\src\server\game\Globals;C:\Trinitycore\src\server\game\Grids\Cells;C:\Trinitycore\src\server\game\Grids\Notifiers;C:\Trinitycore\src\server\game\Grids;C:\Trinitycore\src\server\game\Groups;C:\Trinitycore\src\server\game\Guilds;C:\Trinitycore\src\server\game\Handlers;C:\Trinitycore\src\server\game\Instances;C:\Trinitycore\src\server\game\Loot;C:\Trinitycore\src\server\game\Mails;C:\Trinitycore\src\server\game\Maps;C:\Trinitycore\src\server\game\Miscellaneous;C:\Trinitycore\src\server\game\Movement;C:\Trinitycore\src\server\game\Movement\Spline;C:\Trinitycore\src\server\game\Movement\MovementGenerators;C:\Trinitycore\src\server\game\Movement\Waypoints;C:\Trinitycore\src\server\game\OutdoorPvP;C:\Trinitycore\src\server\game\Pools;C:\Trinitycore\src\server\game\PrecompiledHeaders;C:\Trinitycore\src\server\game\Quests;C:\Trinitycore\src\server\game\Reputation;C:\Trinitycore\src\server\game\Scripting;C:\Trinitycore\src\server\game\Server\Protocol;C:\Trinitycore\src\server\game\Server;C:\Trinitycore\src\server\game\Skills;C:\Trinitycore\src\server\game\Spells;C:\Trinitycore\src\server\game\Spells\Auras;C:\Trinitycore\src\server\game\Texts;C:\Trinitycore\src\server\game\Tools;C:\Trinitycore\src\server\game\Tickets;C:\Trinitycore\src\server\game\Warden;C:\Trinitycore\src\server\game\Warden\Modules;C:\Trinitycore\src\server\game\Weather;C:\Trinitycore\src\server\game\World;C:\Trinitycore\src\server\scripts\PrecompiledHeaders;C:\Trinitycore\dep\acelite;C:\Trinitycore\dep\mysqllite\include;C:\OpenSSL-Win32\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <OutputDirectory>$(IntDir)</OutputDirectory>
       <HeaderFileName>%(Filename).h</HeaderFileName>
       <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
@@ -220,10 +220,10 @@
     </Midl>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <CustomBuild Include="C:\TrinityCore\src\server\game\CMakeLists.txt">
-      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Building Custom Rule C:/TrinityCore/src/server/game/CMakeLists.txt</Message>
+    <CustomBuild Include="C:\Trinitycore\src\server\game\CMakeLists.txt">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Building Custom Rule C:/Trinitycore/src/server/game/CMakeLists.txt</Message>
       <Command Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">setlocal
-"C:\Program Files (x86)\CMake 2.8\bin\cmake.exe" -HC:/TrinityCore -BC:/build --check-stamp-file C:\build\src\server\game\CMakeFiles\generate.stamp
+"C:\Program Files (x86)\CMake 2.8\bin\cmake.exe" -HC:/Trinitycore -BC:/Build --check-stamp-file C:\Build\src\server\game\CMakeFiles\generate.stamp
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
@@ -231,12 +231,12 @@ endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
 exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd</Command>
-      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">C:/TrinityCore/src/server/game/CMakeLists.txt;C:\TrinityCore\src\server\game\CMakeLists.txt;C:\TrinityCore\src\server\game\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">C:\build\src\server\game\CMakeFiles\generate.stamp</Outputs>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">C:/Trinitycore/src/server/game/CMakeLists.txt;C:\Trinitycore\src\server\game\CMakeLists.txt;C:\Trinitycore\src\server\game\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">C:\Build\src\server\game\CMakeFiles\generate.stamp</Outputs>
       <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">false</LinkObjects>
-      <Message Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Building Custom Rule C:/TrinityCore/src/server/game/CMakeLists.txt</Message>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Building Custom Rule C:/Trinitycore/src/server/game/CMakeLists.txt</Message>
       <Command Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">setlocal
-"C:\Program Files (x86)\CMake 2.8\bin\cmake.exe" -HC:/TrinityCore -BC:/build --check-stamp-file C:\build\src\server\game\CMakeFiles\generate.stamp
+"C:\Program Files (x86)\CMake 2.8\bin\cmake.exe" -HC:/Trinitycore -BC:/Build --check-stamp-file C:\Build\src\server\game\CMakeFiles\generate.stamp
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
@@ -244,12 +244,12 @@ endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
 exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd</Command>
-      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">C:/TrinityCore/src/server/game/CMakeLists.txt;C:\TrinityCore\src\server\game\CMakeLists.txt;C:\TrinityCore\src\server\game\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">C:\build\src\server\game\CMakeFiles\generate.stamp</Outputs>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">C:/Trinitycore/src/server/game/CMakeLists.txt;C:\Trinitycore\src\server\game\CMakeLists.txt;C:\Trinitycore\src\server\game\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">C:\Build\src\server\game\CMakeFiles\generate.stamp</Outputs>
       <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">false</LinkObjects>
-      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">Building Custom Rule C:/TrinityCore/src/server/game/CMakeLists.txt</Message>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">Building Custom Rule C:/Trinitycore/src/server/game/CMakeLists.txt</Message>
       <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">setlocal
-"C:\Program Files (x86)\CMake 2.8\bin\cmake.exe" -HC:/TrinityCore -BC:/build --check-stamp-file C:\build\src\server\game\CMakeFiles\generate.stamp
+"C:\Program Files (x86)\CMake 2.8\bin\cmake.exe" -HC:/Trinitycore -BC:/Build --check-stamp-file C:\Build\src\server\game\CMakeFiles\generate.stamp
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
@@ -257,12 +257,12 @@ endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
 exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd</Command>
-      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">C:/TrinityCore/src/server/game/CMakeLists.txt;C:\TrinityCore\src\server\game\CMakeLists.txt;C:\TrinityCore\src\server\game\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">C:\build\src\server\game\CMakeFiles\generate.stamp</Outputs>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">C:/Trinitycore/src/server/game/CMakeLists.txt;C:\Trinitycore\src\server\game\CMakeLists.txt;C:\Trinitycore\src\server\game\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">C:\Build\src\server\game\CMakeFiles\generate.stamp</Outputs>
       <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">false</LinkObjects>
-      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">Building Custom Rule C:/TrinityCore/src/server/game/CMakeLists.txt</Message>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">Building Custom Rule C:/Trinitycore/src/server/game/CMakeLists.txt</Message>
       <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">setlocal
-"C:\Program Files (x86)\CMake 2.8\bin\cmake.exe" -HC:/TrinityCore -BC:/build --check-stamp-file C:\build\src\server\game\CMakeFiles\generate.stamp
+"C:\Program Files (x86)\CMake 2.8\bin\cmake.exe" -HC:/Trinitycore -BC:/Build --check-stamp-file C:\Build\src\server\game\CMakeFiles\generate.stamp
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
@@ -270,388 +270,388 @@ endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
 exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd</Command>
-      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">C:/TrinityCore/src/server/game/CMakeLists.txt;C:\TrinityCore\src\server\game\CMakeLists.txt;C:\TrinityCore\src\server\game\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">C:\build\src\server\game\CMakeFiles\generate.stamp</Outputs>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">C:/Trinitycore/src/server/game/CMakeLists.txt;C:\Trinitycore\src\server\game\CMakeLists.txt;C:\Trinitycore\src\server\game\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">C:\Build\src\server\game\CMakeFiles\generate.stamp</Outputs>
       <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">false</LinkObjects>
     </CustomBuild>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="C:\TrinityCore\src\server\game\Accounts\AccountMgr.h" />
-    <ClInclude Include="C:\TrinityCore\src\server\game\Accounts\RBAC.h" />
-    <ClInclude Include="C:\TrinityCore\src\server\game\Achievements\AchievementMgr.h" />
-    <ClInclude Include="C:\TrinityCore\src\server\game\Addons\AddonMgr.h" />
-    <ClInclude Include="C:\TrinityCore\src\server\game\AI\CoreAI\CombatAI.h" />
-    <ClInclude Include="C:\TrinityCore\src\server\game\AI\CoreAI\GameObjectAI.h" />
-    <ClInclude Include="C:\TrinityCore\src\server\game\AI\CoreAI\GuardAI.h" />
-    <ClInclude Include="C:\TrinityCore\src\server\game\AI\CoreAI\PassiveAI.h" />
-    <ClInclude Include="C:\TrinityCore\src\server\game\AI\CoreAI\PetAI.h" />
-    <ClInclude Include="C:\TrinityCore\src\server\game\AI\CoreAI\ReactorAI.h" />
-    <ClInclude Include="C:\TrinityCore\src\server\game\AI\CoreAI\TotemAI.h" />
-    <ClInclude Include="C:\TrinityCore\src\server\game\AI\CoreAI\UnitAI.h" />
-    <ClInclude Include="C:\TrinityCore\src\server\game\AI\CreatureAI.h" />
-    <ClInclude Include="C:\TrinityCore\src\server\game\AI\CreatureAIFactory.h" />
-    <ClInclude Include="C:\TrinityCore\src\server\game\AI\CreatureAIImpl.h" />
-    <ClInclude Include="C:\TrinityCore\src\server\game\AI\CreatureAIRegistry.h" />
-    <ClInclude Include="C:\TrinityCore\src\server\game\AI\CreatureAISelector.h" />
-    <ClInclude Include="C:\TrinityCore\src\server\game\AI\EventAI\CreatureEventAI.h" />
-    <ClInclude Include="C:\TrinityCore\src\server\game\AI\EventAI\CreatureEventAIMgr.h" />
-    <ClInclude Include="C:\TrinityCore\src\server\game\AI\ScriptedAI\ScriptedCreature.h" />
-    <ClInclude Include="C:\TrinityCore\src\server\game\AI\ScriptedAI\ScriptedEscortAI.h" />
-    <ClInclude Include="C:\TrinityCore\src\server\game\AI\ScriptedAI\ScriptedFollowerAI.h" />
-    <ClInclude Include="C:\TrinityCore\src\server\game\AI\ScriptedAI\ScriptedGossip.h" />
-    <ClInclude Include="C:\TrinityCore\src\server\game\AI\SmartScripts\SmartAI.h" />
-    <ClInclude Include="C:\TrinityCore\src\server\game\AI\SmartScripts\SmartScript.h" />
-    <ClInclude Include="C:\TrinityCore\src\server\game\AI\SmartScripts\SmartScriptMgr.h" />
-    <ClInclude Include="C:\TrinityCore\src\server\game\AuctionHouse\AuctionHouseMgr.h" />
-    <ClInclude Include="C:\TrinityCore\src\server\game\Battlefield\Battlefield.h" />
-    <ClInclude Include="C:\TrinityCore\src\server\game\Battlefield\BattlefieldMgr.h" />
-    <ClInclude Include="C:\TrinityCore\src\server\game\Battlefield\Zones\BattlefieldWG.h" />
-    <ClInclude Include="C:\TrinityCore\src\server\game\Battlegrounds\ArenaTeam.h" />
-    <ClInclude Include="C:\TrinityCore\src\server\game\Battlegrounds\ArenaTeamMgr.h" />
-    <ClInclude Include="C:\TrinityCore\src\server\game\Battlegrounds\Battleground.h" />
-    <ClInclude Include="C:\TrinityCore\src\server\game\Battlegrounds\BattlegroundMgr.h" />
-    <ClInclude Include="C:\TrinityCore\src\server\game\Battlegrounds\BattlegroundQueue.h" />
-    <ClInclude Include="C:\TrinityCore\src\server\game\Battlegrounds\Zones\BattlegroundAB.h" />
-    <ClInclude Include="C:\TrinityCore\src\server\game\Battlegrounds\Zones\BattlegroundAV.h" />
-    <ClInclude Include="C:\TrinityCore\src\server\game\Battlegrounds\Zones\BattlegroundBE.h" />
-    <ClInclude Include="C:\TrinityCore\src\server\game\Battlegrounds\Zones\BattlegroundDS.h" />
-    <ClInclude Include="C:\TrinityCore\src\server\game\Battlegrounds\Zones\BattlegroundEY.h" />
-    <ClInclude Include="C:\TrinityCore\src\server\game\Battlegrounds\Zones\BattlegroundIC.h" />
-    <ClInclude Include="C:\TrinityCore\src\server\game\Battlegrounds\Zones\BattlegroundNA.h" />
-    <ClInclude Include="C:\TrinityCore\src\server\game\Battlegrounds\Zones\BattlegroundRL.h" />
-    <ClInclude Include="C:\TrinityCore\src\server\game\Battlegrounds\Zones\BattlegroundRV.h" />
-    <ClInclude Include="C:\TrinityCore\src\server\game\Battlegrounds\Zones\BattlegroundSA.h" />
-    <ClInclude Include="C:\TrinityCore\src\server\game\Battlegrounds\Zones\BattlegroundWS.h" />
-    <ClInclude Include="C:\TrinityCore\src\server\game\Calendar\CalendarMgr.h" />
-    <ClInclude Include="C:\TrinityCore\src\server\game\Chat\Channels\Channel.h" />
-    <ClInclude Include="C:\TrinityCore\src\server\game\Chat\Channels\ChannelMgr.h" />
-    <ClInclude Include="C:\TrinityCore\src\server\game\Chat\Chat.h" />
-    <ClInclude Include="C:\TrinityCore\src\server\game\Chat\ChatLink.h" />
-    <ClInclude Include="C:\TrinityCore\src\server\game\Combat\HostileRefManager.h" />
-    <ClInclude Include="C:\TrinityCore\src\server\game\Combat\ThreatManager.h" />
-    <ClInclude Include="C:\TrinityCore\src\server\game\Combat\UnitEvents.h" />
-    <ClInclude Include="C:\TrinityCore\src\server\game\Conditions\ConditionMgr.h" />
-    <ClInclude Include="C:\TrinityCore\src\server\game\Conditions\DisableMgr.h" />
-    <ClInclude Include="C:\TrinityCore\src\server\game\DataStores\DBCEnums.h" />
-    <ClInclude Include="C:\TrinityCore\src\server\game\DataStores\DBCfmt.h" />
-    <ClInclude Include="C:\TrinityCore\src\server\game\DataStores\DBCStores.h" />
-    <ClInclude Include="C:\TrinityCore\src\server\game\DataStores\DBCStructure.h" />
-    <ClInclude Include="C:\TrinityCore\src\server\game\DungeonFinding\LFG.h" />
-    <ClInclude Include="C:\TrinityCore\src\server\game\DungeonFinding\LFGGroupData.h" />
-    <ClInclude Include="C:\TrinityCore\src\server\game\DungeonFinding\LFGMgr.h" />
-    <ClInclude Include="C:\TrinityCore\src\server\game\DungeonFinding\LFGPlayerData.h" />
-    <ClInclude Include="C:\TrinityCore\src\server\game\DungeonFinding\LFGQueue.h" />
-    <ClInclude Include="C:\TrinityCore\src\server\game\DungeonFinding\LFGScripts.h" />
-    <ClInclude Include="C:\TrinityCore\src\server\game\Entities\Corpse\Corpse.h" />
-    <ClInclude Include="C:\TrinityCore\src\server\game\Entities\Creature\Creature.h" />
-    <ClInclude Include="C:\TrinityCore\src\server\game\Entities\Creature\CreatureGroups.h" />
-    <ClInclude Include="C:\TrinityCore\src\server\game\Entities\Creature\GossipDef.h" />
-    <ClInclude Include="C:\TrinityCore\src\server\game\Entities\Creature\TemporarySummon.h" />
-    <ClInclude Include="C:\TrinityCore\src\server\game\Entities\DynamicObject\DynamicObject.h" />
-    <ClInclude Include="C:\TrinityCore\src\server\game\Entities\GameObject\GameObject.h" />
-    <ClInclude Include="C:\TrinityCore\src\server\game\Entities\Item\Container\Bag.h" />
-    <ClInclude Include="C:\TrinityCore\src\server\game\Entities\Item\Item.h" />
-    <ClInclude Include="C:\TrinityCore\src\server\game\Entities\Item\ItemEnchantmentMgr.h" />
-    <ClInclude Include="C:\TrinityCore\src\server\game\Entities\Item\ItemPrototype.h" />
-    <ClInclude Include="C:\TrinityCore\src\server\game\Entities\Object\Object.h" />
-    <ClInclude Include="C:\TrinityCore\src\server\game\Entities\Object\ObjectDefines.h" />
-    <ClInclude Include="C:\TrinityCore\src\server\game\Entities\Object\ObjectPosSelector.h" />
-    <ClInclude Include="C:\TrinityCore\src\server\game\Entities\Object\Updates\UpdateData.h" />
-    <ClInclude Include="C:\TrinityCore\src\server\game\Entities\Object\Updates\UpdateFieldFlags.h" />
-    <ClInclude Include="C:\TrinityCore\src\server\game\Entities\Object\Updates\UpdateFields.h" />
-    <ClInclude Include="C:\TrinityCore\src\server\game\Entities\Object\Updates\UpdateMask.h" />
-    <ClInclude Include="C:\TrinityCore\src\server\game\Entities\Pet\Pet.h" />
-    <ClInclude Include="C:\TrinityCore\src\server\game\Entities\Pet\PetDefines.h" />
-    <ClInclude Include="C:\TrinityCore\src\server\game\Entities\Player\Player.h" />
-    <ClInclude Include="C:\TrinityCore\src\server\game\Entities\Player\SocialMgr.h" />
-    <ClInclude Include="C:\TrinityCore\src\server\game\Entities\Totem\Totem.h" />
-    <ClInclude Include="C:\TrinityCore\src\server\game\Entities\Transport\Transport.h" />
-    <ClInclude Include="C:\TrinityCore\src\server\game\Entities\Unit\Unit.h" />
-    <ClInclude Include="C:\TrinityCore\src\server\game\Entities\Vehicle\Vehicle.h" />
-    <ClInclude Include="C:\TrinityCore\src\server\game\Entities\Vehicle\VehicleDefines.h" />
-    <ClInclude Include="C:\TrinityCore\src\server\game\Events\GameEventMgr.h" />
-    <ClInclude Include="C:\TrinityCore\src\server\game\Globals\ObjectAccessor.h" />
-    <ClInclude Include="C:\TrinityCore\src\server\game\Globals\ObjectMgr.h" />
-    <ClInclude Include="C:\TrinityCore\src\server\game\Grids\Cells\Cell.h" />
-    <ClInclude Include="C:\TrinityCore\src\server\game\Grids\Cells\CellImpl.h" />
-    <ClInclude Include="C:\TrinityCore\src\server\game\Grids\Grid.h" />
-    <ClInclude Include="C:\TrinityCore\src\server\game\Grids\GridDefines.h" />
-    <ClInclude Include="C:\TrinityCore\src\server\game\Grids\GridLoader.h" />
-    <ClInclude Include="C:\TrinityCore\src\server\game\Grids\GridReference.h" />
-    <ClInclude Include="C:\TrinityCore\src\server\game\Grids\GridRefManager.h" />
-    <ClInclude Include="C:\TrinityCore\src\server\game\Grids\GridStates.h" />
-    <ClInclude Include="C:\TrinityCore\src\server\game\Grids\NGrid.h" />
-    <ClInclude Include="C:\TrinityCore\src\server\game\Grids\Notifiers\GridNotifiers.h" />
-    <ClInclude Include="C:\TrinityCore\src\server\game\Grids\Notifiers\GridNotifiersImpl.h" />
-    <ClInclude Include="C:\TrinityCore\src\server\game\Grids\ObjectGridLoader.h" />
-    <ClInclude Include="C:\TrinityCore\src\server\game\Groups\Group.h" />
-    <ClInclude Include="C:\TrinityCore\src\server\game\Groups\GroupMgr.h" />
-    <ClInclude Include="C:\TrinityCore\src\server\game\Groups\GroupReference.h" />
-    <ClInclude Include="C:\TrinityCore\src\server\game\Groups\GroupRefManager.h" />
-    <ClInclude Include="C:\TrinityCore\src\server\game\Guilds\Guild.h" />
-    <ClInclude Include="C:\TrinityCore\src\server\game\Guilds\GuildMgr.h" />
-    <ClInclude Include="C:\TrinityCore\src\server\game\Handlers\AddonHandler.h" />
-    <ClInclude Include="C:\TrinityCore\src\server\game\Handlers\NPCHandler.h" />
-    <ClInclude Include="C:\TrinityCore\src\server\game\Instances\InstanceSaveMgr.h" />
-    <ClInclude Include="C:\TrinityCore\src\server\game\Instances\InstanceScript.h" />
-    <ClInclude Include="C:\TrinityCore\src\server\game\Loot\LootMgr.h" />
-    <ClInclude Include="C:\TrinityCore\src\server\game\Mails\Mail.h" />
-    <ClInclude Include="C:\TrinityCore\src\server\game\Maps\Map.h" />
-    <ClInclude Include="C:\TrinityCore\src\server\game\Maps\MapInstanced.h" />
-    <ClInclude Include="C:\TrinityCore\src\server\game\Maps\MapManager.h" />
-    <ClInclude Include="C:\TrinityCore\src\server\game\Maps\MapReference.h" />
-    <ClInclude Include="C:\TrinityCore\src\server\game\Maps\MapRefManager.h" />
-    <ClInclude Include="C:\TrinityCore\src\server\game\Maps\MapUpdater.h" />
-    <ClInclude Include="C:\TrinityCore\src\server\game\Maps\ZoneScript.h" />
-    <ClInclude Include="C:\TrinityCore\src\server\game\Miscellaneous\Formulas.h" />
-    <ClInclude Include="C:\TrinityCore\src\server\game\Miscellaneous\Language.h" />
-    <ClInclude Include="C:\TrinityCore\src\server\game\Miscellaneous\SharedDefines.h" />
-    <ClInclude Include="C:\TrinityCore\src\server\game\Movement\FollowerReference.h" />
-    <ClInclude Include="C:\TrinityCore\src\server\game\Movement\FollowerRefManager.h" />
-    <ClInclude Include="C:\TrinityCore\src\server\game\Movement\MotionMaster.h" />
-    <ClInclude Include="C:\TrinityCore\src\server\game\Movement\MovementGenerator.h" />
-    <ClInclude Include="C:\TrinityCore\src\server\game\Movement\MovementGeneratorImpl.h" />
-    <ClInclude Include="C:\TrinityCore\src\server\game\Movement\MovementGenerators\ConfusedMovementGenerator.h" />
-    <ClInclude Include="C:\TrinityCore\src\server\game\Movement\MovementGenerators\FleeingMovementGenerator.h" />
-    <ClInclude Include="C:\TrinityCore\src\server\game\Movement\MovementGenerators\HomeMovementGenerator.h" />
-    <ClInclude Include="C:\TrinityCore\src\server\game\Movement\MovementGenerators\IdleMovementGenerator.h" />
-    <ClInclude Include="C:\TrinityCore\src\server\game\Movement\MovementGenerators\PointMovementGenerator.h" />
-    <ClInclude Include="C:\TrinityCore\src\server\game\Movement\MovementGenerators\RandomMovementGenerator.h" />
-    <ClInclude Include="C:\TrinityCore\src\server\game\Movement\MovementGenerators\TargetedMovementGenerator.h" />
-    <ClInclude Include="C:\TrinityCore\src\server\game\Movement\MovementGenerators\WaypointMovementGenerator.h" />
-    <ClInclude Include="C:\TrinityCore\src\server\game\Movement\PathGenerator.h" />
-    <ClInclude Include="C:\TrinityCore\src\server\game\Movement\Spline\MovementPacketBuilder.h" />
-    <ClInclude Include="C:\TrinityCore\src\server\game\Movement\Spline\MovementTypedefs.h" />
-    <ClInclude Include="C:\TrinityCore\src\server\game\Movement\Spline\MoveSpline.h" />
-    <ClInclude Include="C:\TrinityCore\src\server\game\Movement\Spline\MoveSplineFlag.h" />
-    <ClInclude Include="C:\TrinityCore\src\server\game\Movement\Spline\MoveSplineInit.h" />
-    <ClInclude Include="C:\TrinityCore\src\server\game\Movement\Spline\MoveSplineInitArgs.h" />
-    <ClInclude Include="C:\TrinityCore\src\server\game\Movement\Spline\Spline.h" />
-    <ClInclude Include="C:\TrinityCore\src\server\game\Movement\Spline\SplineImpl.h" />
-    <ClInclude Include="C:\TrinityCore\src\server\game\Movement\Waypoints\Path.h" />
-    <ClInclude Include="C:\TrinityCore\src\server\game\Movement\Waypoints\WaypointManager.h" />
-    <ClInclude Include="C:\TrinityCore\src\server\game\OutdoorPvP\OutdoorPvP.h" />
-    <ClInclude Include="C:\TrinityCore\src\server\game\OutdoorPvP\OutdoorPvPMgr.h" />
-    <ClInclude Include="C:\TrinityCore\src\server\game\Pools\PoolMgr.h" />
-    <ClInclude Include="C:\TrinityCore\src\server\game\Quests\QuestDef.h" />
-    <ClInclude Include="C:\TrinityCore\src\server\game\Reputation\ReputationMgr.h" />
-    <ClInclude Include="C:\TrinityCore\src\server\game\Scripting\ScriptLoader.h" />
-    <ClInclude Include="C:\TrinityCore\src\server\game\Scripting\ScriptMgr.h" />
-    <ClInclude Include="C:\TrinityCore\src\server\game\Scripting\ScriptSystem.h" />
-    <ClInclude Include="C:\TrinityCore\src\server\game\Server\Protocol\Opcodes.h" />
-    <ClInclude Include="C:\TrinityCore\src\server\game\Server\Protocol\PacketLog.h" />
-    <ClInclude Include="C:\TrinityCore\src\server\game\Server\WorldSession.h" />
-    <ClInclude Include="C:\TrinityCore\src\server\game\Server\WorldSocket.h" />
-    <ClInclude Include="C:\TrinityCore\src\server\game\Server\WorldSocketAcceptor.h" />
-    <ClInclude Include="C:\TrinityCore\src\server\game\Server\WorldSocketMgr.h" />
-    <ClInclude Include="C:\TrinityCore\src\server\game\Skills\SkillDiscovery.h" />
-    <ClInclude Include="C:\TrinityCore\src\server\game\Skills\SkillExtraItems.h" />
-    <ClInclude Include="C:\TrinityCore\src\server\game\Spells\Auras\SpellAuraDefines.h" />
-    <ClInclude Include="C:\TrinityCore\src\server\game\Spells\Auras\SpellAuraEffects.h" />
-    <ClInclude Include="C:\TrinityCore\src\server\game\Spells\Auras\SpellAuras.h" />
-    <ClInclude Include="C:\TrinityCore\src\server\game\Spells\Spell.h" />
-    <ClInclude Include="C:\TrinityCore\src\server\game\Spells\SpellInfo.h" />
-    <ClInclude Include="C:\TrinityCore\src\server\game\Spells\SpellMgr.h" />
-    <ClInclude Include="C:\TrinityCore\src\server\game\Spells\SpellScript.h" />
-    <ClInclude Include="C:\TrinityCore\src\server\game\Texts\CreatureTextMgr.h" />
-    <ClInclude Include="C:\TrinityCore\src\server\game\Tools\CharacterDatabaseCleaner.h" />
-    <ClInclude Include="C:\TrinityCore\src\server\game\Tools\PlayerDump.h" />
-    <ClInclude Include="C:\TrinityCore\src\server\game\Tickets\TicketMgr.h" />
-    <ClInclude Include="C:\TrinityCore\src\server\game\Warden\Modules\WardenModuleMac.h" />
-    <ClInclude Include="C:\TrinityCore\src\server\game\Warden\Modules\WardenModuleWin.h" />
-    <ClInclude Include="C:\TrinityCore\src\server\game\Warden\Warden.h" />
-    <ClInclude Include="C:\TrinityCore\src\server\game\Warden\WardenCheckMgr.h" />
-    <ClInclude Include="C:\TrinityCore\src\server\game\Warden\WardenMac.h" />
-    <ClInclude Include="C:\TrinityCore\src\server\game\Warden\WardenWin.h" />
-    <ClInclude Include="C:\TrinityCore\src\server\game\Weather\Weather.h" />
-    <ClInclude Include="C:\TrinityCore\src\server\game\Weather\WeatherMgr.h" />
-    <ClInclude Include="C:\TrinityCore\src\server\game\World\World.h" />
-    <ClCompile Include="C:\TrinityCore\src\server\game\Accounts\AccountMgr.cpp"  />
-    <ClCompile Include="C:\TrinityCore\src\server\game\Accounts\RBAC.cpp"  />
-    <ClCompile Include="C:\TrinityCore\src\server\game\Achievements\AchievementMgr.cpp"  />
-    <ClCompile Include="C:\TrinityCore\src\server\game\Addons\AddonMgr.cpp"  />
-    <ClCompile Include="C:\TrinityCore\src\server\game\AI\CoreAI\CombatAI.cpp"  />
-    <ClCompile Include="C:\TrinityCore\src\server\game\AI\CoreAI\GameObjectAI.cpp"  />
-    <ClCompile Include="C:\TrinityCore\src\server\game\AI\CoreAI\GuardAI.cpp"  />
-    <ClCompile Include="C:\TrinityCore\src\server\game\AI\CoreAI\PassiveAI.cpp"  />
-    <ClCompile Include="C:\TrinityCore\src\server\game\AI\CoreAI\PetAI.cpp"  />
-    <ClCompile Include="C:\TrinityCore\src\server\game\AI\CoreAI\ReactorAI.cpp"  />
-    <ClCompile Include="C:\TrinityCore\src\server\game\AI\CoreAI\TotemAI.cpp"  />
-    <ClCompile Include="C:\TrinityCore\src\server\game\AI\CoreAI\UnitAI.cpp"  />
-    <ClCompile Include="C:\TrinityCore\src\server\game\AI\CreatureAI.cpp"  />
-    <ClCompile Include="C:\TrinityCore\src\server\game\AI\CreatureAIRegistry.cpp"  />
-    <ClCompile Include="C:\TrinityCore\src\server\game\AI\CreatureAISelector.cpp"  />
-    <ClCompile Include="C:\TrinityCore\src\server\game\AI\EventAI\CreatureEventAI.cpp"  />
-    <ClCompile Include="C:\TrinityCore\src\server\game\AI\EventAI\CreatureEventAIMgr.cpp"  />
-    <ClCompile Include="C:\TrinityCore\src\server\game\AI\ScriptedAI\ScriptedCreature.cpp"  />
-    <ClCompile Include="C:\TrinityCore\src\server\game\AI\ScriptedAI\ScriptedEscortAI.cpp"  />
-    <ClCompile Include="C:\TrinityCore\src\server\game\AI\ScriptedAI\ScriptedFollowerAI.cpp"  />
-    <ClCompile Include="C:\TrinityCore\src\server\game\AI\SmartScripts\SmartAI.cpp"  />
-    <ClCompile Include="C:\TrinityCore\src\server\game\AI\SmartScripts\SmartScript.cpp"  />
-    <ClCompile Include="C:\TrinityCore\src\server\game\AI\SmartScripts\SmartScriptMgr.cpp"  />
-    <ClCompile Include="C:\TrinityCore\src\server\game\AuctionHouse\AuctionHouseMgr.cpp"  />
-    <ClCompile Include="C:\TrinityCore\src\server\game\Battlefield\Battlefield.cpp"  />
-    <ClCompile Include="C:\TrinityCore\src\server\game\Battlefield\BattlefieldMgr.cpp"  />
-    <ClCompile Include="C:\TrinityCore\src\server\game\Battlefield\Zones\BattlefieldWG.cpp"  />
-    <ClCompile Include="C:\TrinityCore\src\server\game\Battlegrounds\ArenaTeam.cpp"  />
-    <ClCompile Include="C:\TrinityCore\src\server\game\Battlegrounds\ArenaTeamMgr.cpp"  />
-    <ClCompile Include="C:\TrinityCore\src\server\game\Battlegrounds\Battleground.cpp"  />
-    <ClCompile Include="C:\TrinityCore\src\server\game\Battlegrounds\BattlegroundMgr.cpp"  />
-    <ClCompile Include="C:\TrinityCore\src\server\game\Battlegrounds\BattlegroundQueue.cpp"  />
-    <ClCompile Include="C:\TrinityCore\src\server\game\Battlegrounds\Zones\BattlegroundAB.cpp"  />
-    <ClCompile Include="C:\TrinityCore\src\server\game\Battlegrounds\Zones\BattlegroundAV.cpp"  />
-    <ClCompile Include="C:\TrinityCore\src\server\game\Battlegrounds\Zones\BattlegroundBE.cpp"  />
-    <ClCompile Include="C:\TrinityCore\src\server\game\Battlegrounds\Zones\BattlegroundDS.cpp"  />
-    <ClCompile Include="C:\TrinityCore\src\server\game\Battlegrounds\Zones\BattlegroundEY.cpp"  />
-    <ClCompile Include="C:\TrinityCore\src\server\game\Battlegrounds\Zones\BattlegroundIC.cpp"  />
-    <ClCompile Include="C:\TrinityCore\src\server\game\Battlegrounds\Zones\BattlegroundNA.cpp"  />
-    <ClCompile Include="C:\TrinityCore\src\server\game\Battlegrounds\Zones\BattlegroundRL.cpp"  />
-    <ClCompile Include="C:\TrinityCore\src\server\game\Battlegrounds\Zones\BattlegroundRV.cpp"  />
-    <ClCompile Include="C:\TrinityCore\src\server\game\Battlegrounds\Zones\BattlegroundSA.cpp"  />
-    <ClCompile Include="C:\TrinityCore\src\server\game\Battlegrounds\Zones\BattlegroundWS.cpp"  />
-    <ClCompile Include="C:\TrinityCore\src\server\game\Calendar\CalendarMgr.cpp"  />
-    <ClCompile Include="C:\TrinityCore\src\server\game\Chat\Channels\Channel.cpp"  />
-    <ClCompile Include="C:\TrinityCore\src\server\game\Chat\Channels\ChannelMgr.cpp"  />
-    <ClCompile Include="C:\TrinityCore\src\server\game\Chat\Chat.cpp"  />
-    <ClCompile Include="C:\TrinityCore\src\server\game\Chat\ChatLink.cpp"  />
-    <ClCompile Include="C:\TrinityCore\src\server\game\Combat\HostileRefManager.cpp"  />
-    <ClCompile Include="C:\TrinityCore\src\server\game\Combat\ThreatManager.cpp"  />
-    <ClCompile Include="C:\TrinityCore\src\server\game\Conditions\ConditionMgr.cpp"  />
-    <ClCompile Include="C:\TrinityCore\src\server\game\Conditions\DisableMgr.cpp"  />
-    <ClCompile Include="C:\TrinityCore\src\server\game\DataStores\DBCStores.cpp"  />
-    <ClCompile Include="C:\TrinityCore\src\server\game\DungeonFinding\LFG.cpp"  />
-    <ClCompile Include="C:\TrinityCore\src\server\game\DungeonFinding\LFGGroupData.cpp"  />
-    <ClCompile Include="C:\TrinityCore\src\server\game\DungeonFinding\LFGMgr.cpp"  />
-    <ClCompile Include="C:\TrinityCore\src\server\game\DungeonFinding\LFGPlayerData.cpp"  />
-    <ClCompile Include="C:\TrinityCore\src\server\game\DungeonFinding\LFGQueue.cpp"  />
-    <ClCompile Include="C:\TrinityCore\src\server\game\DungeonFinding\LFGScripts.cpp"  />
-    <ClCompile Include="C:\TrinityCore\src\server\game\Entities\Corpse\Corpse.cpp"  />
-    <ClCompile Include="C:\TrinityCore\src\server\game\Entities\Creature\Creature.cpp"  />
-    <ClCompile Include="C:\TrinityCore\src\server\game\Entities\Creature\CreatureGroups.cpp"  />
-    <ClCompile Include="C:\TrinityCore\src\server\game\Entities\Creature\GossipDef.cpp"  />
-    <ClCompile Include="C:\TrinityCore\src\server\game\Entities\Creature\TemporarySummon.cpp"  />
-    <ClCompile Include="C:\TrinityCore\src\server\game\Entities\DynamicObject\DynamicObject.cpp"  />
-    <ClCompile Include="C:\TrinityCore\src\server\game\Entities\GameObject\GameObject.cpp"  />
-    <ClCompile Include="C:\TrinityCore\src\server\game\Entities\Item\Container\Bag.cpp"  />
-    <ClCompile Include="C:\TrinityCore\src\server\game\Entities\Item\Item.cpp"  />
-    <ClCompile Include="C:\TrinityCore\src\server\game\Entities\Item\ItemEnchantmentMgr.cpp"  />
-    <ClCompile Include="C:\TrinityCore\src\server\game\Entities\Object\Object.cpp"  />
-    <ClCompile Include="C:\TrinityCore\src\server\game\Entities\Object\ObjectPosSelector.cpp"  />
-    <ClCompile Include="C:\TrinityCore\src\server\game\Entities\Object\Updates\UpdateData.cpp"  />
-    <ClCompile Include="C:\TrinityCore\src\server\game\Entities\Object\Updates\UpdateFieldFlags.cpp"  />
-    <ClCompile Include="C:\TrinityCore\src\server\game\Entities\Pet\Pet.cpp"  />
-    <ClCompile Include="C:\TrinityCore\src\server\game\Entities\Player\Player.cpp"  />
-    <ClCompile Include="C:\TrinityCore\src\server\game\Entities\Player\SocialMgr.cpp"  />
-    <ClCompile Include="C:\TrinityCore\src\server\game\Entities\Totem\Totem.cpp"  />
-    <ClCompile Include="C:\TrinityCore\src\server\game\Entities\Transport\Transport.cpp"  />
-    <ClCompile Include="C:\TrinityCore\src\server\game\Entities\Unit\StatSystem.cpp"  />
-    <ClCompile Include="C:\TrinityCore\src\server\game\Entities\Unit\Unit.cpp"  />
-    <ClCompile Include="C:\TrinityCore\src\server\game\Entities\Vehicle\Vehicle.cpp"  />
-    <ClCompile Include="C:\TrinityCore\src\server\game\Events\GameEventMgr.cpp"  />
-    <ClCompile Include="C:\TrinityCore\src\server\game\Globals\ObjectAccessor.cpp"  />
-    <ClCompile Include="C:\TrinityCore\src\server\game\Globals\ObjectMgr.cpp"  />
-    <ClCompile Include="C:\TrinityCore\src\server\game\Grids\GridStates.cpp"  />
-    <ClCompile Include="C:\TrinityCore\src\server\game\Grids\Notifiers\GridNotifiers.cpp"  />
-    <ClCompile Include="C:\TrinityCore\src\server\game\Grids\ObjectGridLoader.cpp"  />
-    <ClCompile Include="C:\TrinityCore\src\server\game\Groups\Group.cpp"  />
-    <ClCompile Include="C:\TrinityCore\src\server\game\Groups\GroupMgr.cpp"  />
-    <ClCompile Include="C:\TrinityCore\src\server\game\Groups\GroupReference.cpp"  />
-    <ClCompile Include="C:\TrinityCore\src\server\game\Guilds\Guild.cpp"  />
-    <ClCompile Include="C:\TrinityCore\src\server\game\Guilds\GuildMgr.cpp"  />
-    <ClCompile Include="C:\TrinityCore\src\server\game\Handlers\AddonHandler.cpp"  />
-    <ClCompile Include="C:\TrinityCore\src\server\game\Handlers\ArenaTeamHandler.cpp"  />
-    <ClCompile Include="C:\TrinityCore\src\server\game\Handlers\AuctionHouseHandler.cpp"  />
-    <ClCompile Include="C:\TrinityCore\src\server\game\Handlers\AuthHandler.cpp"  />
-    <ClCompile Include="C:\TrinityCore\src\server\game\Handlers\BattlefieldHandler.cpp"  />
-    <ClCompile Include="C:\TrinityCore\src\server\game\Handlers\BattleGroundHandler.cpp"  />
-    <ClCompile Include="C:\TrinityCore\src\server\game\Handlers\CalendarHandler.cpp"  />
-    <ClCompile Include="C:\TrinityCore\src\server\game\Handlers\ChannelHandler.cpp"  />
-    <ClCompile Include="C:\TrinityCore\src\server\game\Handlers\CharacterHandler.cpp"  />
-    <ClCompile Include="C:\TrinityCore\src\server\game\Handlers\ChatHandler.cpp"  />
-    <ClCompile Include="C:\TrinityCore\src\server\game\Handlers\CombatHandler.cpp"  />
-    <ClCompile Include="C:\TrinityCore\src\server\game\Handlers\DuelHandler.cpp"  />
-    <ClCompile Include="C:\TrinityCore\src\server\game\Handlers\GroupHandler.cpp"  />
-    <ClCompile Include="C:\TrinityCore\src\server\game\Handlers\GuildHandler.cpp"  />
-    <ClCompile Include="C:\TrinityCore\src\server\game\Handlers\ItemHandler.cpp"  />
-    <ClCompile Include="C:\TrinityCore\src\server\game\Handlers\LFGHandler.cpp"  />
-    <ClCompile Include="C:\TrinityCore\src\server\game\Handlers\LootHandler.cpp"  />
-    <ClCompile Include="C:\TrinityCore\src\server\game\Handlers\MailHandler.cpp"  />
-    <ClCompile Include="C:\TrinityCore\src\server\game\Handlers\MiscHandler.cpp"  />
-    <ClCompile Include="C:\TrinityCore\src\server\game\Handlers\MovementHandler.cpp"  />
-    <ClCompile Include="C:\TrinityCore\src\server\game\Handlers\NPCHandler.cpp"  />
-    <ClCompile Include="C:\TrinityCore\src\server\game\Handlers\PetHandler.cpp"  />
-    <ClCompile Include="C:\TrinityCore\src\server\game\Handlers\PetitionsHandler.cpp"  />
-    <ClCompile Include="C:\TrinityCore\src\server\game\Handlers\QueryHandler.cpp"  />
-    <ClCompile Include="C:\TrinityCore\src\server\game\Handlers\QuestHandler.cpp"  />
-    <ClCompile Include="C:\TrinityCore\src\server\game\Handlers\ReferAFriendHandler.cpp"  />
-    <ClCompile Include="C:\TrinityCore\src\server\game\Handlers\SkillHandler.cpp"  />
-    <ClCompile Include="C:\TrinityCore\src\server\game\Handlers\SpellHandler.cpp"  />
-    <ClCompile Include="C:\TrinityCore\src\server\game\Handlers\TaxiHandler.cpp"  />
-    <ClCompile Include="C:\TrinityCore\src\server\game\Handlers\TicketHandler.cpp"  />
-    <ClCompile Include="C:\TrinityCore\src\server\game\Handlers\TradeHandler.cpp"  />
-    <ClCompile Include="C:\TrinityCore\src\server\game\Handlers\VehicleHandler.cpp"  />
-    <ClCompile Include="C:\TrinityCore\src\server\game\Handlers\VoiceChatHandler.cpp"  />
-    <ClCompile Include="C:\TrinityCore\src\server\game\Instances\InstanceSaveMgr.cpp"  />
-    <ClCompile Include="C:\TrinityCore\src\server\game\Instances\InstanceScript.cpp"  />
-    <ClCompile Include="C:\TrinityCore\src\server\game\Loot\LootMgr.cpp"  />
-    <ClCompile Include="C:\TrinityCore\src\server\game\Mails\Mail.cpp"  />
-    <ClCompile Include="C:\TrinityCore\src\server\game\Maps\Map.cpp"  />
-    <ClCompile Include="C:\TrinityCore\src\server\game\Maps\MapInstanced.cpp"  />
-    <ClCompile Include="C:\TrinityCore\src\server\game\Maps\MapManager.cpp"  />
-    <ClCompile Include="C:\TrinityCore\src\server\game\Maps\MapUpdater.cpp"  />
-    <ClCompile Include="C:\TrinityCore\src\server\game\Movement\FollowerReference.cpp"  />
-    <ClCompile Include="C:\TrinityCore\src\server\game\Movement\MotionMaster.cpp"  />
-    <ClCompile Include="C:\TrinityCore\src\server\game\Movement\MovementGenerator.cpp"  />
-    <ClCompile Include="C:\TrinityCore\src\server\game\Movement\MovementGenerators\ConfusedMovementGenerator.cpp"  />
-    <ClCompile Include="C:\TrinityCore\src\server\game\Movement\MovementGenerators\FleeingMovementGenerator.cpp"  />
-    <ClCompile Include="C:\TrinityCore\src\server\game\Movement\MovementGenerators\HomeMovementGenerator.cpp"  />
-    <ClCompile Include="C:\TrinityCore\src\server\game\Movement\MovementGenerators\IdleMovementGenerator.cpp"  />
-    <ClCompile Include="C:\TrinityCore\src\server\game\Movement\MovementGenerators\PointMovementGenerator.cpp"  />
-    <ClCompile Include="C:\TrinityCore\src\server\game\Movement\MovementGenerators\RandomMovementGenerator.cpp"  />
-    <ClCompile Include="C:\TrinityCore\src\server\game\Movement\MovementGenerators\TargetedMovementGenerator.cpp"  />
-    <ClCompile Include="C:\TrinityCore\src\server\game\Movement\MovementGenerators\WaypointMovementGenerator.cpp"  />
-    <ClCompile Include="C:\TrinityCore\src\server\game\Movement\PathGenerator.cpp"  />
-    <ClCompile Include="C:\TrinityCore\src\server\game\Movement\Spline\MovementPacketBuilder.cpp"  />
-    <ClCompile Include="C:\TrinityCore\src\server\game\Movement\Spline\MovementUtil.cpp"  />
-    <ClCompile Include="C:\TrinityCore\src\server\game\Movement\Spline\MoveSpline.cpp"  />
-    <ClCompile Include="C:\TrinityCore\src\server\game\Movement\Spline\MoveSplineInit.cpp"  />
-    <ClCompile Include="C:\TrinityCore\src\server\game\Movement\Spline\Spline.cpp"  />
-    <ClCompile Include="C:\TrinityCore\src\server\game\Movement\Waypoints\WaypointManager.cpp"  />
-    <ClCompile Include="C:\TrinityCore\src\server\game\OutdoorPvP\OutdoorPvP.cpp"  />
-    <ClCompile Include="C:\TrinityCore\src\server\game\OutdoorPvP\OutdoorPvPMgr.cpp"  />
-    <ClCompile Include="C:\TrinityCore\src\server\game\Pools\PoolMgr.cpp"  />
-    <ClCompile Include="C:\TrinityCore\src\server\game\Quests\QuestDef.cpp"  />
-    <ClCompile Include="C:\TrinityCore\src\server\game\Reputation\ReputationMgr.cpp"  />
-    <ClCompile Include="C:\TrinityCore\src\server\game\Scripting\MapScripts.cpp"  />
-    <ClCompile Include="C:\TrinityCore\src\server\game\Scripting\ScriptLoader.cpp"  />
-    <ClCompile Include="C:\TrinityCore\src\server\game\Scripting\ScriptMgr.cpp"  />
-    <ClCompile Include="C:\TrinityCore\src\server\game\Scripting\ScriptSystem.cpp"  />
-    <ClCompile Include="C:\TrinityCore\src\server\game\Server\Protocol\Opcodes.cpp"  />
-    <ClCompile Include="C:\TrinityCore\src\server\game\Server\Protocol\PacketLog.cpp"  />
-    <ClCompile Include="C:\TrinityCore\src\server\game\Server\WorldSession.cpp"  />
-    <ClCompile Include="C:\TrinityCore\src\server\game\Server\WorldSocket.cpp"  />
-    <ClCompile Include="C:\TrinityCore\src\server\game\Server\WorldSocketMgr.cpp"  />
-    <ClCompile Include="C:\TrinityCore\src\server\game\Skills\SkillDiscovery.cpp"  />
-    <ClCompile Include="C:\TrinityCore\src\server\game\Skills\SkillExtraItems.cpp"  />
-    <ClCompile Include="C:\TrinityCore\src\server\game\Spells\Auras\SpellAuraEffects.cpp"  />
-    <ClCompile Include="C:\TrinityCore\src\server\game\Spells\Auras\SpellAuras.cpp"  />
-    <ClCompile Include="C:\TrinityCore\src\server\game\Spells\Spell.cpp"  />
-    <ClCompile Include="C:\TrinityCore\src\server\game\Spells\SpellEffects.cpp"  />
-    <ClCompile Include="C:\TrinityCore\src\server\game\Spells\SpellInfo.cpp"  />
-    <ClCompile Include="C:\TrinityCore\src\server\game\Spells\SpellMgr.cpp"  />
-    <ClCompile Include="C:\TrinityCore\src\server\game\Spells\SpellScript.cpp"  />
-    <ClCompile Include="C:\TrinityCore\src\server\game\Texts\CreatureTextMgr.cpp"  />
-    <ClCompile Include="C:\TrinityCore\src\server\game\Tools\CharacterDatabaseCleaner.cpp"  />
-    <ClCompile Include="C:\TrinityCore\src\server\game\Tools\PlayerDump.cpp"  />
-    <ClCompile Include="C:\TrinityCore\src\server\game\Tickets\TicketMgr.cpp"  />
-    <ClCompile Include="C:\TrinityCore\src\server\game\Warden\Warden.cpp"  />
-    <ClCompile Include="C:\TrinityCore\src\server\game\Warden\WardenCheckMgr.cpp"  />
-    <ClCompile Include="C:\TrinityCore\src\server\game\Warden\WardenMac.cpp"  />
-    <ClCompile Include="C:\TrinityCore\src\server\game\Warden\WardenWin.cpp"  />
-    <ClCompile Include="C:\TrinityCore\src\server\game\Weather\Weather.cpp"  />
-    <ClCompile Include="C:\TrinityCore\src\server\game\Weather\WeatherMgr.cpp"  />
-    <ClCompile Include="C:\TrinityCore\src\server\game\World\World.cpp"  />
-    <ClCompile Include="C:\TrinityCore\src\server\game\PrecompiledHeaders\gamePCH.cpp" >
+    <ClInclude Include="C:\Trinitycore\src\server\game\Accounts\AccountMgr.h" />
+    <ClInclude Include="C:\Trinitycore\src\server\game\Accounts\RBAC.h" />
+    <ClInclude Include="C:\Trinitycore\src\server\game\Achievements\AchievementMgr.h" />
+    <ClInclude Include="C:\Trinitycore\src\server\game\Addons\AddonMgr.h" />
+    <ClInclude Include="C:\Trinitycore\src\server\game\AI\CoreAI\CombatAI.h" />
+    <ClInclude Include="C:\Trinitycore\src\server\game\AI\CoreAI\GameObjectAI.h" />
+    <ClInclude Include="C:\Trinitycore\src\server\game\AI\CoreAI\GuardAI.h" />
+    <ClInclude Include="C:\Trinitycore\src\server\game\AI\CoreAI\PassiveAI.h" />
+    <ClInclude Include="C:\Trinitycore\src\server\game\AI\CoreAI\PetAI.h" />
+    <ClInclude Include="C:\Trinitycore\src\server\game\AI\CoreAI\ReactorAI.h" />
+    <ClInclude Include="C:\Trinitycore\src\server\game\AI\CoreAI\TotemAI.h" />
+    <ClInclude Include="C:\Trinitycore\src\server\game\AI\CoreAI\UnitAI.h" />
+    <ClInclude Include="C:\Trinitycore\src\server\game\AI\CreatureAI.h" />
+    <ClInclude Include="C:\Trinitycore\src\server\game\AI\CreatureAIFactory.h" />
+    <ClInclude Include="C:\Trinitycore\src\server\game\AI\CreatureAIImpl.h" />
+    <ClInclude Include="C:\Trinitycore\src\server\game\AI\CreatureAIRegistry.h" />
+    <ClInclude Include="C:\Trinitycore\src\server\game\AI\CreatureAISelector.h" />
+    <ClInclude Include="C:\Trinitycore\src\server\game\AI\EventAI\CreatureEventAI.h" />
+    <ClInclude Include="C:\Trinitycore\src\server\game\AI\EventAI\CreatureEventAIMgr.h" />
+    <ClInclude Include="C:\Trinitycore\src\server\game\AI\ScriptedAI\ScriptedCreature.h" />
+    <ClInclude Include="C:\Trinitycore\src\server\game\AI\ScriptedAI\ScriptedEscortAI.h" />
+    <ClInclude Include="C:\Trinitycore\src\server\game\AI\ScriptedAI\ScriptedFollowerAI.h" />
+    <ClInclude Include="C:\Trinitycore\src\server\game\AI\ScriptedAI\ScriptedGossip.h" />
+    <ClInclude Include="C:\Trinitycore\src\server\game\AI\SmartScripts\SmartAI.h" />
+    <ClInclude Include="C:\Trinitycore\src\server\game\AI\SmartScripts\SmartScript.h" />
+    <ClInclude Include="C:\Trinitycore\src\server\game\AI\SmartScripts\SmartScriptMgr.h" />
+    <ClInclude Include="C:\Trinitycore\src\server\game\AuctionHouse\AuctionHouseMgr.h" />
+    <ClInclude Include="C:\Trinitycore\src\server\game\Battlefield\Battlefield.h" />
+    <ClInclude Include="C:\Trinitycore\src\server\game\Battlefield\BattlefieldMgr.h" />
+    <ClInclude Include="C:\Trinitycore\src\server\game\Battlefield\Zones\BattlefieldWG.h" />
+    <ClInclude Include="C:\Trinitycore\src\server\game\Battlegrounds\ArenaTeam.h" />
+    <ClInclude Include="C:\Trinitycore\src\server\game\Battlegrounds\ArenaTeamMgr.h" />
+    <ClInclude Include="C:\Trinitycore\src\server\game\Battlegrounds\Battleground.h" />
+    <ClInclude Include="C:\Trinitycore\src\server\game\Battlegrounds\BattlegroundMgr.h" />
+    <ClInclude Include="C:\Trinitycore\src\server\game\Battlegrounds\BattlegroundQueue.h" />
+    <ClInclude Include="C:\Trinitycore\src\server\game\Battlegrounds\Zones\BattlegroundAB.h" />
+    <ClInclude Include="C:\Trinitycore\src\server\game\Battlegrounds\Zones\BattlegroundAV.h" />
+    <ClInclude Include="C:\Trinitycore\src\server\game\Battlegrounds\Zones\BattlegroundBE.h" />
+    <ClInclude Include="C:\Trinitycore\src\server\game\Battlegrounds\Zones\BattlegroundDS.h" />
+    <ClInclude Include="C:\Trinitycore\src\server\game\Battlegrounds\Zones\BattlegroundEY.h" />
+    <ClInclude Include="C:\Trinitycore\src\server\game\Battlegrounds\Zones\BattlegroundIC.h" />
+    <ClInclude Include="C:\Trinitycore\src\server\game\Battlegrounds\Zones\BattlegroundNA.h" />
+    <ClInclude Include="C:\Trinitycore\src\server\game\Battlegrounds\Zones\BattlegroundRL.h" />
+    <ClInclude Include="C:\Trinitycore\src\server\game\Battlegrounds\Zones\BattlegroundRV.h" />
+    <ClInclude Include="C:\Trinitycore\src\server\game\Battlegrounds\Zones\BattlegroundSA.h" />
+    <ClInclude Include="C:\Trinitycore\src\server\game\Battlegrounds\Zones\BattlegroundWS.h" />
+    <ClInclude Include="C:\Trinitycore\src\server\game\Calendar\CalendarMgr.h" />
+    <ClInclude Include="C:\Trinitycore\src\server\game\Chat\Channels\Channel.h" />
+    <ClInclude Include="C:\Trinitycore\src\server\game\Chat\Channels\ChannelMgr.h" />
+    <ClInclude Include="C:\Trinitycore\src\server\game\Chat\Chat.h" />
+    <ClInclude Include="C:\Trinitycore\src\server\game\Chat\ChatLink.h" />
+    <ClInclude Include="C:\Trinitycore\src\server\game\Combat\HostileRefManager.h" />
+    <ClInclude Include="C:\Trinitycore\src\server\game\Combat\ThreatManager.h" />
+    <ClInclude Include="C:\Trinitycore\src\server\game\Combat\UnitEvents.h" />
+    <ClInclude Include="C:\Trinitycore\src\server\game\Conditions\ConditionMgr.h" />
+    <ClInclude Include="C:\Trinitycore\src\server\game\Conditions\DisableMgr.h" />
+    <ClInclude Include="C:\Trinitycore\src\server\game\DataStores\DBCEnums.h" />
+    <ClInclude Include="C:\Trinitycore\src\server\game\DataStores\DBCfmt.h" />
+    <ClInclude Include="C:\Trinitycore\src\server\game\DataStores\DBCStores.h" />
+    <ClInclude Include="C:\Trinitycore\src\server\game\DataStores\DBCStructure.h" />
+    <ClInclude Include="C:\Trinitycore\src\server\game\DungeonFinding\LFG.h" />
+    <ClInclude Include="C:\Trinitycore\src\server\game\DungeonFinding\LFGGroupData.h" />
+    <ClInclude Include="C:\Trinitycore\src\server\game\DungeonFinding\LFGMgr.h" />
+    <ClInclude Include="C:\Trinitycore\src\server\game\DungeonFinding\LFGPlayerData.h" />
+    <ClInclude Include="C:\Trinitycore\src\server\game\DungeonFinding\LFGQueue.h" />
+    <ClInclude Include="C:\Trinitycore\src\server\game\DungeonFinding\LFGScripts.h" />
+    <ClInclude Include="C:\Trinitycore\src\server\game\Entities\Corpse\Corpse.h" />
+    <ClInclude Include="C:\Trinitycore\src\server\game\Entities\Creature\Creature.h" />
+    <ClInclude Include="C:\Trinitycore\src\server\game\Entities\Creature\CreatureGroups.h" />
+    <ClInclude Include="C:\Trinitycore\src\server\game\Entities\Creature\GossipDef.h" />
+    <ClInclude Include="C:\Trinitycore\src\server\game\Entities\Creature\TemporarySummon.h" />
+    <ClInclude Include="C:\Trinitycore\src\server\game\Entities\DynamicObject\DynamicObject.h" />
+    <ClInclude Include="C:\Trinitycore\src\server\game\Entities\GameObject\GameObject.h" />
+    <ClInclude Include="C:\Trinitycore\src\server\game\Entities\Item\Container\Bag.h" />
+    <ClInclude Include="C:\Trinitycore\src\server\game\Entities\Item\Item.h" />
+    <ClInclude Include="C:\Trinitycore\src\server\game\Entities\Item\ItemEnchantmentMgr.h" />
+    <ClInclude Include="C:\Trinitycore\src\server\game\Entities\Item\ItemPrototype.h" />
+    <ClInclude Include="C:\Trinitycore\src\server\game\Entities\Object\Object.h" />
+    <ClInclude Include="C:\Trinitycore\src\server\game\Entities\Object\ObjectDefines.h" />
+    <ClInclude Include="C:\Trinitycore\src\server\game\Entities\Object\ObjectPosSelector.h" />
+    <ClInclude Include="C:\Trinitycore\src\server\game\Entities\Object\Updates\UpdateData.h" />
+    <ClInclude Include="C:\Trinitycore\src\server\game\Entities\Object\Updates\UpdateFieldFlags.h" />
+    <ClInclude Include="C:\Trinitycore\src\server\game\Entities\Object\Updates\UpdateFields.h" />
+    <ClInclude Include="C:\Trinitycore\src\server\game\Entities\Object\Updates\UpdateMask.h" />
+    <ClInclude Include="C:\Trinitycore\src\server\game\Entities\Pet\Pet.h" />
+    <ClInclude Include="C:\Trinitycore\src\server\game\Entities\Pet\PetDefines.h" />
+    <ClInclude Include="C:\Trinitycore\src\server\game\Entities\Player\Player.h" />
+    <ClInclude Include="C:\Trinitycore\src\server\game\Entities\Player\SocialMgr.h" />
+    <ClInclude Include="C:\Trinitycore\src\server\game\Entities\Totem\Totem.h" />
+    <ClInclude Include="C:\Trinitycore\src\server\game\Entities\Transport\Transport.h" />
+    <ClInclude Include="C:\Trinitycore\src\server\game\Entities\Unit\Unit.h" />
+    <ClInclude Include="C:\Trinitycore\src\server\game\Entities\Vehicle\Vehicle.h" />
+    <ClInclude Include="C:\Trinitycore\src\server\game\Entities\Vehicle\VehicleDefines.h" />
+    <ClInclude Include="C:\Trinitycore\src\server\game\Events\GameEventMgr.h" />
+    <ClInclude Include="C:\Trinitycore\src\server\game\Globals\ObjectAccessor.h" />
+    <ClInclude Include="C:\Trinitycore\src\server\game\Globals\ObjectMgr.h" />
+    <ClInclude Include="C:\Trinitycore\src\server\game\Grids\Cells\Cell.h" />
+    <ClInclude Include="C:\Trinitycore\src\server\game\Grids\Cells\CellImpl.h" />
+    <ClInclude Include="C:\Trinitycore\src\server\game\Grids\Grid.h" />
+    <ClInclude Include="C:\Trinitycore\src\server\game\Grids\GridDefines.h" />
+    <ClInclude Include="C:\Trinitycore\src\server\game\Grids\GridLoader.h" />
+    <ClInclude Include="C:\Trinitycore\src\server\game\Grids\GridReference.h" />
+    <ClInclude Include="C:\Trinitycore\src\server\game\Grids\GridRefManager.h" />
+    <ClInclude Include="C:\Trinitycore\src\server\game\Grids\GridStates.h" />
+    <ClInclude Include="C:\Trinitycore\src\server\game\Grids\NGrid.h" />
+    <ClInclude Include="C:\Trinitycore\src\server\game\Grids\Notifiers\GridNotifiers.h" />
+    <ClInclude Include="C:\Trinitycore\src\server\game\Grids\Notifiers\GridNotifiersImpl.h" />
+    <ClInclude Include="C:\Trinitycore\src\server\game\Grids\ObjectGridLoader.h" />
+    <ClInclude Include="C:\Trinitycore\src\server\game\Groups\Group.h" />
+    <ClInclude Include="C:\Trinitycore\src\server\game\Groups\GroupMgr.h" />
+    <ClInclude Include="C:\Trinitycore\src\server\game\Groups\GroupReference.h" />
+    <ClInclude Include="C:\Trinitycore\src\server\game\Groups\GroupRefManager.h" />
+    <ClInclude Include="C:\Trinitycore\src\server\game\Guilds\Guild.h" />
+    <ClInclude Include="C:\Trinitycore\src\server\game\Guilds\GuildMgr.h" />
+    <ClInclude Include="C:\Trinitycore\src\server\game\Handlers\AddonHandler.h" />
+    <ClInclude Include="C:\Trinitycore\src\server\game\Handlers\NPCHandler.h" />
+    <ClInclude Include="C:\Trinitycore\src\server\game\Instances\InstanceSaveMgr.h" />
+    <ClInclude Include="C:\Trinitycore\src\server\game\Instances\InstanceScript.h" />
+    <ClInclude Include="C:\Trinitycore\src\server\game\Loot\LootMgr.h" />
+    <ClInclude Include="C:\Trinitycore\src\server\game\Mails\Mail.h" />
+    <ClInclude Include="C:\Trinitycore\src\server\game\Maps\Map.h" />
+    <ClInclude Include="C:\Trinitycore\src\server\game\Maps\MapInstanced.h" />
+    <ClInclude Include="C:\Trinitycore\src\server\game\Maps\MapManager.h" />
+    <ClInclude Include="C:\Trinitycore\src\server\game\Maps\MapReference.h" />
+    <ClInclude Include="C:\Trinitycore\src\server\game\Maps\MapRefManager.h" />
+    <ClInclude Include="C:\Trinitycore\src\server\game\Maps\MapUpdater.h" />
+    <ClInclude Include="C:\Trinitycore\src\server\game\Maps\ZoneScript.h" />
+    <ClInclude Include="C:\Trinitycore\src\server\game\Miscellaneous\Formulas.h" />
+    <ClInclude Include="C:\Trinitycore\src\server\game\Miscellaneous\Language.h" />
+    <ClInclude Include="C:\Trinitycore\src\server\game\Miscellaneous\SharedDefines.h" />
+    <ClInclude Include="C:\Trinitycore\src\server\game\Movement\FollowerReference.h" />
+    <ClInclude Include="C:\Trinitycore\src\server\game\Movement\FollowerRefManager.h" />
+    <ClInclude Include="C:\Trinitycore\src\server\game\Movement\MotionMaster.h" />
+    <ClInclude Include="C:\Trinitycore\src\server\game\Movement\MovementGenerator.h" />
+    <ClInclude Include="C:\Trinitycore\src\server\game\Movement\MovementGeneratorImpl.h" />
+    <ClInclude Include="C:\Trinitycore\src\server\game\Movement\MovementGenerators\ConfusedMovementGenerator.h" />
+    <ClInclude Include="C:\Trinitycore\src\server\game\Movement\MovementGenerators\FleeingMovementGenerator.h" />
+    <ClInclude Include="C:\Trinitycore\src\server\game\Movement\MovementGenerators\HomeMovementGenerator.h" />
+    <ClInclude Include="C:\Trinitycore\src\server\game\Movement\MovementGenerators\IdleMovementGenerator.h" />
+    <ClInclude Include="C:\Trinitycore\src\server\game\Movement\MovementGenerators\PointMovementGenerator.h" />
+    <ClInclude Include="C:\Trinitycore\src\server\game\Movement\MovementGenerators\RandomMovementGenerator.h" />
+    <ClInclude Include="C:\Trinitycore\src\server\game\Movement\MovementGenerators\TargetedMovementGenerator.h" />
+    <ClInclude Include="C:\Trinitycore\src\server\game\Movement\MovementGenerators\WaypointMovementGenerator.h" />
+    <ClInclude Include="C:\Trinitycore\src\server\game\Movement\PathGenerator.h" />
+    <ClInclude Include="C:\Trinitycore\src\server\game\Movement\Spline\MovementPacketBuilder.h" />
+    <ClInclude Include="C:\Trinitycore\src\server\game\Movement\Spline\MovementTypedefs.h" />
+    <ClInclude Include="C:\Trinitycore\src\server\game\Movement\Spline\MoveSpline.h" />
+    <ClInclude Include="C:\Trinitycore\src\server\game\Movement\Spline\MoveSplineFlag.h" />
+    <ClInclude Include="C:\Trinitycore\src\server\game\Movement\Spline\MoveSplineInit.h" />
+    <ClInclude Include="C:\Trinitycore\src\server\game\Movement\Spline\MoveSplineInitArgs.h" />
+    <ClInclude Include="C:\Trinitycore\src\server\game\Movement\Spline\Spline.h" />
+    <ClInclude Include="C:\Trinitycore\src\server\game\Movement\Spline\SplineImpl.h" />
+    <ClInclude Include="C:\Trinitycore\src\server\game\Movement\Waypoints\Path.h" />
+    <ClInclude Include="C:\Trinitycore\src\server\game\Movement\Waypoints\WaypointManager.h" />
+    <ClInclude Include="C:\Trinitycore\src\server\game\OutdoorPvP\OutdoorPvP.h" />
+    <ClInclude Include="C:\Trinitycore\src\server\game\OutdoorPvP\OutdoorPvPMgr.h" />
+    <ClInclude Include="C:\Trinitycore\src\server\game\Pools\PoolMgr.h" />
+    <ClInclude Include="C:\Trinitycore\src\server\game\Quests\QuestDef.h" />
+    <ClInclude Include="C:\Trinitycore\src\server\game\Reputation\ReputationMgr.h" />
+    <ClInclude Include="C:\Trinitycore\src\server\game\Scripting\ScriptLoader.h" />
+    <ClInclude Include="C:\Trinitycore\src\server\game\Scripting\ScriptMgr.h" />
+    <ClInclude Include="C:\Trinitycore\src\server\game\Scripting\ScriptSystem.h" />
+    <ClInclude Include="C:\Trinitycore\src\server\game\Server\Protocol\Opcodes.h" />
+    <ClInclude Include="C:\Trinitycore\src\server\game\Server\Protocol\PacketLog.h" />
+    <ClInclude Include="C:\Trinitycore\src\server\game\Server\WorldSession.h" />
+    <ClInclude Include="C:\Trinitycore\src\server\game\Server\WorldSocket.h" />
+    <ClInclude Include="C:\Trinitycore\src\server\game\Server\WorldSocketAcceptor.h" />
+    <ClInclude Include="C:\Trinitycore\src\server\game\Server\WorldSocketMgr.h" />
+    <ClInclude Include="C:\Trinitycore\src\server\game\Skills\SkillDiscovery.h" />
+    <ClInclude Include="C:\Trinitycore\src\server\game\Skills\SkillExtraItems.h" />
+    <ClInclude Include="C:\Trinitycore\src\server\game\Spells\Auras\SpellAuraDefines.h" />
+    <ClInclude Include="C:\Trinitycore\src\server\game\Spells\Auras\SpellAuraEffects.h" />
+    <ClInclude Include="C:\Trinitycore\src\server\game\Spells\Auras\SpellAuras.h" />
+    <ClInclude Include="C:\Trinitycore\src\server\game\Spells\Spell.h" />
+    <ClInclude Include="C:\Trinitycore\src\server\game\Spells\SpellInfo.h" />
+    <ClInclude Include="C:\Trinitycore\src\server\game\Spells\SpellMgr.h" />
+    <ClInclude Include="C:\Trinitycore\src\server\game\Spells\SpellScript.h" />
+    <ClInclude Include="C:\Trinitycore\src\server\game\Texts\CreatureTextMgr.h" />
+    <ClInclude Include="C:\Trinitycore\src\server\game\Tools\CharacterDatabaseCleaner.h" />
+    <ClInclude Include="C:\Trinitycore\src\server\game\Tools\PlayerDump.h" />
+    <ClInclude Include="C:\Trinitycore\src\server\game\Tickets\TicketMgr.h" />
+    <ClInclude Include="C:\Trinitycore\src\server\game\Warden\Modules\WardenModuleMac.h" />
+    <ClInclude Include="C:\Trinitycore\src\server\game\Warden\Modules\WardenModuleWin.h" />
+    <ClInclude Include="C:\Trinitycore\src\server\game\Warden\Warden.h" />
+    <ClInclude Include="C:\Trinitycore\src\server\game\Warden\WardenCheckMgr.h" />
+    <ClInclude Include="C:\Trinitycore\src\server\game\Warden\WardenMac.h" />
+    <ClInclude Include="C:\Trinitycore\src\server\game\Warden\WardenWin.h" />
+    <ClInclude Include="C:\Trinitycore\src\server\game\Weather\Weather.h" />
+    <ClInclude Include="C:\Trinitycore\src\server\game\Weather\WeatherMgr.h" />
+    <ClInclude Include="C:\Trinitycore\src\server\game\World\World.h" />
+    <ClCompile Include="C:\Trinitycore\src\server\game\Accounts\AccountMgr.cpp"  />
+    <ClCompile Include="C:\Trinitycore\src\server\game\Accounts\RBAC.cpp"  />
+    <ClCompile Include="C:\Trinitycore\src\server\game\Achievements\AchievementMgr.cpp"  />
+    <ClCompile Include="C:\Trinitycore\src\server\game\Addons\AddonMgr.cpp"  />
+    <ClCompile Include="C:\Trinitycore\src\server\game\AI\CoreAI\CombatAI.cpp"  />
+    <ClCompile Include="C:\Trinitycore\src\server\game\AI\CoreAI\GameObjectAI.cpp"  />
+    <ClCompile Include="C:\Trinitycore\src\server\game\AI\CoreAI\GuardAI.cpp"  />
+    <ClCompile Include="C:\Trinitycore\src\server\game\AI\CoreAI\PassiveAI.cpp"  />
+    <ClCompile Include="C:\Trinitycore\src\server\game\AI\CoreAI\PetAI.cpp"  />
+    <ClCompile Include="C:\Trinitycore\src\server\game\AI\CoreAI\ReactorAI.cpp"  />
+    <ClCompile Include="C:\Trinitycore\src\server\game\AI\CoreAI\TotemAI.cpp"  />
+    <ClCompile Include="C:\Trinitycore\src\server\game\AI\CoreAI\UnitAI.cpp"  />
+    <ClCompile Include="C:\Trinitycore\src\server\game\AI\CreatureAI.cpp"  />
+    <ClCompile Include="C:\Trinitycore\src\server\game\AI\CreatureAIRegistry.cpp"  />
+    <ClCompile Include="C:\Trinitycore\src\server\game\AI\CreatureAISelector.cpp"  />
+    <ClCompile Include="C:\Trinitycore\src\server\game\AI\EventAI\CreatureEventAI.cpp"  />
+    <ClCompile Include="C:\Trinitycore\src\server\game\AI\EventAI\CreatureEventAIMgr.cpp"  />
+    <ClCompile Include="C:\Trinitycore\src\server\game\AI\ScriptedAI\ScriptedCreature.cpp"  />
+    <ClCompile Include="C:\Trinitycore\src\server\game\AI\ScriptedAI\ScriptedEscortAI.cpp"  />
+    <ClCompile Include="C:\Trinitycore\src\server\game\AI\ScriptedAI\ScriptedFollowerAI.cpp"  />
+    <ClCompile Include="C:\Trinitycore\src\server\game\AI\SmartScripts\SmartAI.cpp"  />
+    <ClCompile Include="C:\Trinitycore\src\server\game\AI\SmartScripts\SmartScript.cpp"  />
+    <ClCompile Include="C:\Trinitycore\src\server\game\AI\SmartScripts\SmartScriptMgr.cpp"  />
+    <ClCompile Include="C:\Trinitycore\src\server\game\AuctionHouse\AuctionHouseMgr.cpp"  />
+    <ClCompile Include="C:\Trinitycore\src\server\game\Battlefield\Battlefield.cpp"  />
+    <ClCompile Include="C:\Trinitycore\src\server\game\Battlefield\BattlefieldMgr.cpp"  />
+    <ClCompile Include="C:\Trinitycore\src\server\game\Battlefield\Zones\BattlefieldWG.cpp"  />
+    <ClCompile Include="C:\Trinitycore\src\server\game\Battlegrounds\ArenaTeam.cpp"  />
+    <ClCompile Include="C:\Trinitycore\src\server\game\Battlegrounds\ArenaTeamMgr.cpp"  />
+    <ClCompile Include="C:\Trinitycore\src\server\game\Battlegrounds\Battleground.cpp"  />
+    <ClCompile Include="C:\Trinitycore\src\server\game\Battlegrounds\BattlegroundMgr.cpp"  />
+    <ClCompile Include="C:\Trinitycore\src\server\game\Battlegrounds\BattlegroundQueue.cpp"  />
+    <ClCompile Include="C:\Trinitycore\src\server\game\Battlegrounds\Zones\BattlegroundAB.cpp"  />
+    <ClCompile Include="C:\Trinitycore\src\server\game\Battlegrounds\Zones\BattlegroundAV.cpp"  />
+    <ClCompile Include="C:\Trinitycore\src\server\game\Battlegrounds\Zones\BattlegroundBE.cpp"  />
+    <ClCompile Include="C:\Trinitycore\src\server\game\Battlegrounds\Zones\BattlegroundDS.cpp"  />
+    <ClCompile Include="C:\Trinitycore\src\server\game\Battlegrounds\Zones\BattlegroundEY.cpp"  />
+    <ClCompile Include="C:\Trinitycore\src\server\game\Battlegrounds\Zones\BattlegroundIC.cpp"  />
+    <ClCompile Include="C:\Trinitycore\src\server\game\Battlegrounds\Zones\BattlegroundNA.cpp"  />
+    <ClCompile Include="C:\Trinitycore\src\server\game\Battlegrounds\Zones\BattlegroundRL.cpp"  />
+    <ClCompile Include="C:\Trinitycore\src\server\game\Battlegrounds\Zones\BattlegroundRV.cpp"  />
+    <ClCompile Include="C:\Trinitycore\src\server\game\Battlegrounds\Zones\BattlegroundSA.cpp"  />
+    <ClCompile Include="C:\Trinitycore\src\server\game\Battlegrounds\Zones\BattlegroundWS.cpp"  />
+    <ClCompile Include="C:\Trinitycore\src\server\game\Calendar\CalendarMgr.cpp"  />
+    <ClCompile Include="C:\Trinitycore\src\server\game\Chat\Channels\Channel.cpp"  />
+    <ClCompile Include="C:\Trinitycore\src\server\game\Chat\Channels\ChannelMgr.cpp"  />
+    <ClCompile Include="C:\Trinitycore\src\server\game\Chat\Chat.cpp"  />
+    <ClCompile Include="C:\Trinitycore\src\server\game\Chat\ChatLink.cpp"  />
+    <ClCompile Include="C:\Trinitycore\src\server\game\Combat\HostileRefManager.cpp"  />
+    <ClCompile Include="C:\Trinitycore\src\server\game\Combat\ThreatManager.cpp"  />
+    <ClCompile Include="C:\Trinitycore\src\server\game\Conditions\ConditionMgr.cpp"  />
+    <ClCompile Include="C:\Trinitycore\src\server\game\Conditions\DisableMgr.cpp"  />
+    <ClCompile Include="C:\Trinitycore\src\server\game\DataStores\DBCStores.cpp"  />
+    <ClCompile Include="C:\Trinitycore\src\server\game\DungeonFinding\LFG.cpp"  />
+    <ClCompile Include="C:\Trinitycore\src\server\game\DungeonFinding\LFGGroupData.cpp"  />
+    <ClCompile Include="C:\Trinitycore\src\server\game\DungeonFinding\LFGMgr.cpp"  />
+    <ClCompile Include="C:\Trinitycore\src\server\game\DungeonFinding\LFGPlayerData.cpp"  />
+    <ClCompile Include="C:\Trinitycore\src\server\game\DungeonFinding\LFGQueue.cpp"  />
+    <ClCompile Include="C:\Trinitycore\src\server\game\DungeonFinding\LFGScripts.cpp"  />
+    <ClCompile Include="C:\Trinitycore\src\server\game\Entities\Corpse\Corpse.cpp"  />
+    <ClCompile Include="C:\Trinitycore\src\server\game\Entities\Creature\Creature.cpp"  />
+    <ClCompile Include="C:\Trinitycore\src\server\game\Entities\Creature\CreatureGroups.cpp"  />
+    <ClCompile Include="C:\Trinitycore\src\server\game\Entities\Creature\GossipDef.cpp"  />
+    <ClCompile Include="C:\Trinitycore\src\server\game\Entities\Creature\TemporarySummon.cpp"  />
+    <ClCompile Include="C:\Trinitycore\src\server\game\Entities\DynamicObject\DynamicObject.cpp"  />
+    <ClCompile Include="C:\Trinitycore\src\server\game\Entities\GameObject\GameObject.cpp"  />
+    <ClCompile Include="C:\Trinitycore\src\server\game\Entities\Item\Container\Bag.cpp"  />
+    <ClCompile Include="C:\Trinitycore\src\server\game\Entities\Item\Item.cpp"  />
+    <ClCompile Include="C:\Trinitycore\src\server\game\Entities\Item\ItemEnchantmentMgr.cpp"  />
+    <ClCompile Include="C:\Trinitycore\src\server\game\Entities\Object\Object.cpp"  />
+    <ClCompile Include="C:\Trinitycore\src\server\game\Entities\Object\ObjectPosSelector.cpp"  />
+    <ClCompile Include="C:\Trinitycore\src\server\game\Entities\Object\Updates\UpdateData.cpp"  />
+    <ClCompile Include="C:\Trinitycore\src\server\game\Entities\Object\Updates\UpdateFieldFlags.cpp"  />
+    <ClCompile Include="C:\Trinitycore\src\server\game\Entities\Pet\Pet.cpp"  />
+    <ClCompile Include="C:\Trinitycore\src\server\game\Entities\Player\Player.cpp"  />
+    <ClCompile Include="C:\Trinitycore\src\server\game\Entities\Player\SocialMgr.cpp"  />
+    <ClCompile Include="C:\Trinitycore\src\server\game\Entities\Totem\Totem.cpp"  />
+    <ClCompile Include="C:\Trinitycore\src\server\game\Entities\Transport\Transport.cpp"  />
+    <ClCompile Include="C:\Trinitycore\src\server\game\Entities\Unit\StatSystem.cpp"  />
+    <ClCompile Include="C:\Trinitycore\src\server\game\Entities\Unit\Unit.cpp"  />
+    <ClCompile Include="C:\Trinitycore\src\server\game\Entities\Vehicle\Vehicle.cpp"  />
+    <ClCompile Include="C:\Trinitycore\src\server\game\Events\GameEventMgr.cpp"  />
+    <ClCompile Include="C:\Trinitycore\src\server\game\Globals\ObjectAccessor.cpp"  />
+    <ClCompile Include="C:\Trinitycore\src\server\game\Globals\ObjectMgr.cpp"  />
+    <ClCompile Include="C:\Trinitycore\src\server\game\Grids\GridStates.cpp"  />
+    <ClCompile Include="C:\Trinitycore\src\server\game\Grids\Notifiers\GridNotifiers.cpp"  />
+    <ClCompile Include="C:\Trinitycore\src\server\game\Grids\ObjectGridLoader.cpp"  />
+    <ClCompile Include="C:\Trinitycore\src\server\game\Groups\Group.cpp"  />
+    <ClCompile Include="C:\Trinitycore\src\server\game\Groups\GroupMgr.cpp"  />
+    <ClCompile Include="C:\Trinitycore\src\server\game\Groups\GroupReference.cpp"  />
+    <ClCompile Include="C:\Trinitycore\src\server\game\Guilds\Guild.cpp"  />
+    <ClCompile Include="C:\Trinitycore\src\server\game\Guilds\GuildMgr.cpp"  />
+    <ClCompile Include="C:\Trinitycore\src\server\game\Handlers\AddonHandler.cpp"  />
+    <ClCompile Include="C:\Trinitycore\src\server\game\Handlers\ArenaTeamHandler.cpp"  />
+    <ClCompile Include="C:\Trinitycore\src\server\game\Handlers\AuctionHouseHandler.cpp"  />
+    <ClCompile Include="C:\Trinitycore\src\server\game\Handlers\AuthHandler.cpp"  />
+    <ClCompile Include="C:\Trinitycore\src\server\game\Handlers\BattlefieldHandler.cpp"  />
+    <ClCompile Include="C:\Trinitycore\src\server\game\Handlers\BattleGroundHandler.cpp"  />
+    <ClCompile Include="C:\Trinitycore\src\server\game\Handlers\CalendarHandler.cpp"  />
+    <ClCompile Include="C:\Trinitycore\src\server\game\Handlers\ChannelHandler.cpp"  />
+    <ClCompile Include="C:\Trinitycore\src\server\game\Handlers\CharacterHandler.cpp"  />
+    <ClCompile Include="C:\Trinitycore\src\server\game\Handlers\ChatHandler.cpp"  />
+    <ClCompile Include="C:\Trinitycore\src\server\game\Handlers\CombatHandler.cpp"  />
+    <ClCompile Include="C:\Trinitycore\src\server\game\Handlers\DuelHandler.cpp"  />
+    <ClCompile Include="C:\Trinitycore\src\server\game\Handlers\GroupHandler.cpp"  />
+    <ClCompile Include="C:\Trinitycore\src\server\game\Handlers\GuildHandler.cpp"  />
+    <ClCompile Include="C:\Trinitycore\src\server\game\Handlers\ItemHandler.cpp"  />
+    <ClCompile Include="C:\Trinitycore\src\server\game\Handlers\LFGHandler.cpp"  />
+    <ClCompile Include="C:\Trinitycore\src\server\game\Handlers\LootHandler.cpp"  />
+    <ClCompile Include="C:\Trinitycore\src\server\game\Handlers\MailHandler.cpp"  />
+    <ClCompile Include="C:\Trinitycore\src\server\game\Handlers\MiscHandler.cpp"  />
+    <ClCompile Include="C:\Trinitycore\src\server\game\Handlers\MovementHandler.cpp"  />
+    <ClCompile Include="C:\Trinitycore\src\server\game\Handlers\NPCHandler.cpp"  />
+    <ClCompile Include="C:\Trinitycore\src\server\game\Handlers\PetHandler.cpp"  />
+    <ClCompile Include="C:\Trinitycore\src\server\game\Handlers\PetitionsHandler.cpp"  />
+    <ClCompile Include="C:\Trinitycore\src\server\game\Handlers\QueryHandler.cpp"  />
+    <ClCompile Include="C:\Trinitycore\src\server\game\Handlers\QuestHandler.cpp"  />
+    <ClCompile Include="C:\Trinitycore\src\server\game\Handlers\ReferAFriendHandler.cpp"  />
+    <ClCompile Include="C:\Trinitycore\src\server\game\Handlers\SkillHandler.cpp"  />
+    <ClCompile Include="C:\Trinitycore\src\server\game\Handlers\SpellHandler.cpp"  />
+    <ClCompile Include="C:\Trinitycore\src\server\game\Handlers\TaxiHandler.cpp"  />
+    <ClCompile Include="C:\Trinitycore\src\server\game\Handlers\TicketHandler.cpp"  />
+    <ClCompile Include="C:\Trinitycore\src\server\game\Handlers\TradeHandler.cpp"  />
+    <ClCompile Include="C:\Trinitycore\src\server\game\Handlers\VehicleHandler.cpp"  />
+    <ClCompile Include="C:\Trinitycore\src\server\game\Handlers\VoiceChatHandler.cpp"  />
+    <ClCompile Include="C:\Trinitycore\src\server\game\Instances\InstanceSaveMgr.cpp"  />
+    <ClCompile Include="C:\Trinitycore\src\server\game\Instances\InstanceScript.cpp"  />
+    <ClCompile Include="C:\Trinitycore\src\server\game\Loot\LootMgr.cpp"  />
+    <ClCompile Include="C:\Trinitycore\src\server\game\Mails\Mail.cpp"  />
+    <ClCompile Include="C:\Trinitycore\src\server\game\Maps\Map.cpp"  />
+    <ClCompile Include="C:\Trinitycore\src\server\game\Maps\MapInstanced.cpp"  />
+    <ClCompile Include="C:\Trinitycore\src\server\game\Maps\MapManager.cpp"  />
+    <ClCompile Include="C:\Trinitycore\src\server\game\Maps\MapUpdater.cpp"  />
+    <ClCompile Include="C:\Trinitycore\src\server\game\Movement\FollowerReference.cpp"  />
+    <ClCompile Include="C:\Trinitycore\src\server\game\Movement\MotionMaster.cpp"  />
+    <ClCompile Include="C:\Trinitycore\src\server\game\Movement\MovementGenerator.cpp"  />
+    <ClCompile Include="C:\Trinitycore\src\server\game\Movement\MovementGenerators\ConfusedMovementGenerator.cpp"  />
+    <ClCompile Include="C:\Trinitycore\src\server\game\Movement\MovementGenerators\FleeingMovementGenerator.cpp"  />
+    <ClCompile Include="C:\Trinitycore\src\server\game\Movement\MovementGenerators\HomeMovementGenerator.cpp"  />
+    <ClCompile Include="C:\Trinitycore\src\server\game\Movement\MovementGenerators\IdleMovementGenerator.cpp"  />
+    <ClCompile Include="C:\Trinitycore\src\server\game\Movement\MovementGenerators\PointMovementGenerator.cpp"  />
+    <ClCompile Include="C:\Trinitycore\src\server\game\Movement\MovementGenerators\RandomMovementGenerator.cpp"  />
+    <ClCompile Include="C:\Trinitycore\src\server\game\Movement\MovementGenerators\TargetedMovementGenerator.cpp"  />
+    <ClCompile Include="C:\Trinitycore\src\server\game\Movement\MovementGenerators\WaypointMovementGenerator.cpp"  />
+    <ClCompile Include="C:\Trinitycore\src\server\game\Movement\PathGenerator.cpp"  />
+    <ClCompile Include="C:\Trinitycore\src\server\game\Movement\Spline\MovementPacketBuilder.cpp"  />
+    <ClCompile Include="C:\Trinitycore\src\server\game\Movement\Spline\MovementUtil.cpp"  />
+    <ClCompile Include="C:\Trinitycore\src\server\game\Movement\Spline\MoveSpline.cpp"  />
+    <ClCompile Include="C:\Trinitycore\src\server\game\Movement\Spline\MoveSplineInit.cpp"  />
+    <ClCompile Include="C:\Trinitycore\src\server\game\Movement\Spline\Spline.cpp"  />
+    <ClCompile Include="C:\Trinitycore\src\server\game\Movement\Waypoints\WaypointManager.cpp"  />
+    <ClCompile Include="C:\Trinitycore\src\server\game\OutdoorPvP\OutdoorPvP.cpp"  />
+    <ClCompile Include="C:\Trinitycore\src\server\game\OutdoorPvP\OutdoorPvPMgr.cpp"  />
+    <ClCompile Include="C:\Trinitycore\src\server\game\Pools\PoolMgr.cpp"  />
+    <ClCompile Include="C:\Trinitycore\src\server\game\Quests\QuestDef.cpp"  />
+    <ClCompile Include="C:\Trinitycore\src\server\game\Reputation\ReputationMgr.cpp"  />
+    <ClCompile Include="C:\Trinitycore\src\server\game\Scripting\MapScripts.cpp"  />
+    <ClCompile Include="C:\Trinitycore\src\server\game\Scripting\ScriptLoader.cpp"  />
+    <ClCompile Include="C:\Trinitycore\src\server\game\Scripting\ScriptMgr.cpp"  />
+    <ClCompile Include="C:\Trinitycore\src\server\game\Scripting\ScriptSystem.cpp"  />
+    <ClCompile Include="C:\Trinitycore\src\server\game\Server\Protocol\Opcodes.cpp"  />
+    <ClCompile Include="C:\Trinitycore\src\server\game\Server\Protocol\PacketLog.cpp"  />
+    <ClCompile Include="C:\Trinitycore\src\server\game\Server\WorldSession.cpp"  />
+    <ClCompile Include="C:\Trinitycore\src\server\game\Server\WorldSocket.cpp"  />
+    <ClCompile Include="C:\Trinitycore\src\server\game\Server\WorldSocketMgr.cpp"  />
+    <ClCompile Include="C:\Trinitycore\src\server\game\Skills\SkillDiscovery.cpp"  />
+    <ClCompile Include="C:\Trinitycore\src\server\game\Skills\SkillExtraItems.cpp"  />
+    <ClCompile Include="C:\Trinitycore\src\server\game\Spells\Auras\SpellAuraEffects.cpp"  />
+    <ClCompile Include="C:\Trinitycore\src\server\game\Spells\Auras\SpellAuras.cpp"  />
+    <ClCompile Include="C:\Trinitycore\src\server\game\Spells\Spell.cpp"  />
+    <ClCompile Include="C:\Trinitycore\src\server\game\Spells\SpellEffects.cpp"  />
+    <ClCompile Include="C:\Trinitycore\src\server\game\Spells\SpellInfo.cpp"  />
+    <ClCompile Include="C:\Trinitycore\src\server\game\Spells\SpellMgr.cpp"  />
+    <ClCompile Include="C:\Trinitycore\src\server\game\Spells\SpellScript.cpp"  />
+    <ClCompile Include="C:\Trinitycore\src\server\game\Texts\CreatureTextMgr.cpp"  />
+    <ClCompile Include="C:\Trinitycore\src\server\game\Tools\CharacterDatabaseCleaner.cpp"  />
+    <ClCompile Include="C:\Trinitycore\src\server\game\Tools\PlayerDump.cpp"  />
+    <ClCompile Include="C:\Trinitycore\src\server\game\Tickets\TicketMgr.cpp"  />
+    <ClCompile Include="C:\Trinitycore\src\server\game\Warden\Warden.cpp"  />
+    <ClCompile Include="C:\Trinitycore\src\server\game\Warden\WardenCheckMgr.cpp"  />
+    <ClCompile Include="C:\Trinitycore\src\server\game\Warden\WardenMac.cpp"  />
+    <ClCompile Include="C:\Trinitycore\src\server\game\Warden\WardenWin.cpp"  />
+    <ClCompile Include="C:\Trinitycore\src\server\game\Weather\Weather.cpp"  />
+    <ClCompile Include="C:\Trinitycore\src\server\game\Weather\WeatherMgr.cpp"  />
+    <ClCompile Include="C:\Trinitycore\src\server\game\World\World.cpp"  />
+    <ClCompile Include="C:\Trinitycore\src\server\game\PrecompiledHeaders\gamePCH.cpp" >
       <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Create</PrecompiledHeader>
       <PrecompiledHeaderFile Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">gamePCH.h</PrecompiledHeaderFile>
       <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Create</PrecompiledHeader>
@@ -663,10 +663,10 @@ if %errorlevel% neq 0 goto :VCEnd</Command>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="C:/build/ZERO_CHECK.vcxproj">
+    <ProjectReference Include="C:/Build/ZERO_CHECK.vcxproj">
       <Project>85338E16-3437-4B4D-A270-6A7C004CD9A1</Project>
     </ProjectReference>
-    <ProjectReference Include="C:/build/src/genrev/revision.h.vcxproj">
+    <ProjectReference Include="C:/Build/src/genrev/revision.h.vcxproj">
       <Project>E35E6F5C-78B0-4B93-9CD6-6FC3B065BFB1</Project>
     </ProjectReference>
   </ItemGroup>

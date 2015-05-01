@@ -64,7 +64,7 @@
     </PropertyGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
     <Midl>
-      <AdditionalIncludeDirectories>C:\build\dep\mysqllite;C:\build;C:\OpenSSL-Win32\include;C:\TrinityCore\dep\zlib;C:\TrinityCore\dep\mysqllite\include;C:\TrinityCore\dep\mysqllite\include\internal;C:\TrinityCore\dep\mysqllite\dbug;C:\TrinityCore\dep\mysqllite\strings;C:\TrinityCore\dep\mysqllite\mysys;C:\TrinityCore\dep\mysqllite\libmysql;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>C:\Build\dep\mysqllite;C:\Build;C:\OpenSSL-Win32\include;C:\Trinitycore\dep\zlib;C:\Trinitycore\dep\mysqllite\include;C:\Trinitycore\dep\mysqllite\include\internal;C:\Trinitycore\dep\mysqllite\dbug;C:\Trinitycore\dep\mysqllite\strings;C:\Trinitycore\dep\mysqllite\mysys;C:\Trinitycore\dep\mysqllite\libmysql;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <OutputDirectory>$(IntDir)</OutputDirectory>
       <HeaderFileName>%(Filename).h</HeaderFileName>
       <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
@@ -86,7 +86,7 @@ if %errorlevel% neq 0 goto :VCEnd</Command>
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
     <Midl>
-      <AdditionalIncludeDirectories>C:\build\dep\mysqllite;C:\build;C:\OpenSSL-Win32\include;C:\TrinityCore\dep\zlib;C:\TrinityCore\dep\mysqllite\include;C:\TrinityCore\dep\mysqllite\include\internal;C:\TrinityCore\dep\mysqllite\dbug;C:\TrinityCore\dep\mysqllite\strings;C:\TrinityCore\dep\mysqllite\mysys;C:\TrinityCore\dep\mysqllite\libmysql;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>C:\Build\dep\mysqllite;C:\Build;C:\OpenSSL-Win32\include;C:\Trinitycore\dep\zlib;C:\Trinitycore\dep\mysqllite\include;C:\Trinitycore\dep\mysqllite\include\internal;C:\Trinitycore\dep\mysqllite\dbug;C:\Trinitycore\dep\mysqllite\strings;C:\Trinitycore\dep\mysqllite\mysys;C:\Trinitycore\dep\mysqllite\libmysql;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <OutputDirectory>$(IntDir)</OutputDirectory>
       <HeaderFileName>%(Filename).h</HeaderFileName>
       <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
@@ -108,7 +108,7 @@ if %errorlevel% neq 0 goto :VCEnd</Command>
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">
     <Midl>
-      <AdditionalIncludeDirectories>C:\build\dep\mysqllite;C:\build;C:\OpenSSL-Win32\include;C:\TrinityCore\dep\zlib;C:\TrinityCore\dep\mysqllite\include;C:\TrinityCore\dep\mysqllite\include\internal;C:\TrinityCore\dep\mysqllite\dbug;C:\TrinityCore\dep\mysqllite\strings;C:\TrinityCore\dep\mysqllite\mysys;C:\TrinityCore\dep\mysqllite\libmysql;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>C:\Build\dep\mysqllite;C:\Build;C:\OpenSSL-Win32\include;C:\Trinitycore\dep\zlib;C:\Trinitycore\dep\mysqllite\include;C:\Trinitycore\dep\mysqllite\include\internal;C:\Trinitycore\dep\mysqllite\dbug;C:\Trinitycore\dep\mysqllite\strings;C:\Trinitycore\dep\mysqllite\mysys;C:\Trinitycore\dep\mysqllite\libmysql;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <OutputDirectory>$(IntDir)</OutputDirectory>
       <HeaderFileName>%(Filename).h</HeaderFileName>
       <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
@@ -130,7 +130,7 @@ if %errorlevel% neq 0 goto :VCEnd</Command>
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">
     <Midl>
-      <AdditionalIncludeDirectories>C:\build\dep\mysqllite;C:\build;C:\OpenSSL-Win32\include;C:\TrinityCore\dep\zlib;C:\TrinityCore\dep\mysqllite\include;C:\TrinityCore\dep\mysqllite\include\internal;C:\TrinityCore\dep\mysqllite\dbug;C:\TrinityCore\dep\mysqllite\strings;C:\TrinityCore\dep\mysqllite\mysys;C:\TrinityCore\dep\mysqllite\libmysql;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>C:\Build\dep\mysqllite;C:\Build;C:\OpenSSL-Win32\include;C:\Trinitycore\dep\zlib;C:\Trinitycore\dep\mysqllite\include;C:\Trinitycore\dep\mysqllite\include\internal;C:\Trinitycore\dep\mysqllite\dbug;C:\Trinitycore\dep\mysqllite\strings;C:\Trinitycore\dep\mysqllite\mysys;C:\Trinitycore\dep\mysqllite\libmysql;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <OutputDirectory>$(IntDir)</OutputDirectory>
       <HeaderFileName>%(Filename).h</HeaderFileName>
       <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
@@ -151,7 +151,7 @@ if %errorlevel% neq 0 goto :VCEnd</Command>
     </PostBuildEvent>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <CustomBuild Include="..\..\CMakeFiles\9e1ee5b25e0d5ea5883609eeb5099385\INSTALL_force.rule">
+    <CustomBuild Include="..\..\CMakeFiles\81edb6f562736c0a7750c7a9f34ef642\INSTALL_force.rule">
       <Message Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'"> </Message>
       <Command Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">setlocal
 cd .
@@ -162,8 +162,8 @@ endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
 exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd</Command>
-      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">C:/build/CMakeFiles/9e1ee5b25e0d5ea5883609eeb5099385/INSTALL_force.rule;%(AdditionalInputs)</AdditionalInputs>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">C:\build\dep\mysqllite\CMakeFiles\INSTALL_force</Outputs>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">C:/Build/CMakeFiles/81edb6f562736c0a7750c7a9f34ef642/INSTALL_force.rule;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">C:\Build\dep\mysqllite\CMakeFiles\INSTALL_force</Outputs>
       <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">false</LinkObjects>
       <Message Condition="'$(Configuration)|$(Platform)'=='Release|Win32'"> </Message>
       <Command Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">setlocal
@@ -175,8 +175,8 @@ endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
 exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd</Command>
-      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">C:/build/CMakeFiles/9e1ee5b25e0d5ea5883609eeb5099385/INSTALL_force.rule;%(AdditionalInputs)</AdditionalInputs>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">C:\build\dep\mysqllite\CMakeFiles\INSTALL_force</Outputs>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">C:/Build/CMakeFiles/81edb6f562736c0a7750c7a9f34ef642/INSTALL_force.rule;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">C:\Build\dep\mysqllite\CMakeFiles\INSTALL_force</Outputs>
       <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">false</LinkObjects>
       <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'"> </Message>
       <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">setlocal
@@ -188,8 +188,8 @@ endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
 exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd</Command>
-      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">C:/build/CMakeFiles/9e1ee5b25e0d5ea5883609eeb5099385/INSTALL_force.rule;%(AdditionalInputs)</AdditionalInputs>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">C:\build\dep\mysqllite\CMakeFiles\INSTALL_force</Outputs>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">C:/Build/CMakeFiles/81edb6f562736c0a7750c7a9f34ef642/INSTALL_force.rule;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">C:\Build\dep\mysqllite\CMakeFiles\INSTALL_force</Outputs>
       <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">false</LinkObjects>
       <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'"> </Message>
       <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">setlocal
@@ -201,13 +201,13 @@ endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
 exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd</Command>
-      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">C:/build/CMakeFiles/9e1ee5b25e0d5ea5883609eeb5099385/INSTALL_force.rule;%(AdditionalInputs)</AdditionalInputs>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">C:\build\dep\mysqllite\CMakeFiles\INSTALL_force</Outputs>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">C:/Build/CMakeFiles/81edb6f562736c0a7750c7a9f34ef642/INSTALL_force.rule;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">C:\Build\dep\mysqllite\CMakeFiles\INSTALL_force</Outputs>
       <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">false</LinkObjects>
     </CustomBuild>
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="C:/build/ALL_BUILD.vcxproj">
+    <ProjectReference Include="C:/Build/ALL_BUILD.vcxproj">
       <Project>C7079994-1ED8-4AD0-AFA0-81A1208AF4E5</Project>
     </ProjectReference>
   </ItemGroup>

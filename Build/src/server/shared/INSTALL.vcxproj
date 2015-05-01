@@ -64,7 +64,7 @@
     </PropertyGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
     <Midl>
-      <AdditionalIncludeDirectories>C:\build\src\server\shared;C:\build;C:\TrinityCore\dep\recastnavigation\Detour;C:\TrinityCore\dep\SFMT;C:\TrinityCore\dep\sockets\include;C:\TrinityCore\dep\utf8cpp;C:\TrinityCore\src\server;C:\TrinityCore\src\server\shared;C:\TrinityCore\src\server\shared\Configuration;C:\TrinityCore\src\server\shared\Cryptography;C:\TrinityCore\src\server\shared\Database;C:\TrinityCore\src\server\shared\DataStores;C:\TrinityCore\src\server\shared\Debugging;C:\TrinityCore\src\server\shared\Dynamic;C:\TrinityCore\src\server\shared\Logging;C:\TrinityCore\src\server\shared\Packets;C:\TrinityCore\src\server\shared\Threading;C:\TrinityCore\src\server\shared\Utilities;C:\TrinityCore\src\server\game\Entities\Object;C:\TrinityCore\dep\acelite;C:\TrinityCore\dep\mysqllite\include;C:\OpenSSL-Win32\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>C:\Build\src\server\shared;C:\Build;C:\Trinitycore\dep\recastnavigation\Detour;C:\Trinitycore\dep\SFMT;C:\Trinitycore\dep\sockets\include;C:\Trinitycore\dep\utf8cpp;C:\Trinitycore\src\server;C:\Trinitycore\src\server\shared;C:\Trinitycore\src\server\shared\Configuration;C:\Trinitycore\src\server\shared\Cryptography;C:\Trinitycore\src\server\shared\Database;C:\Trinitycore\src\server\shared\DataStores;C:\Trinitycore\src\server\shared\Debugging;C:\Trinitycore\src\server\shared\Dynamic;C:\Trinitycore\src\server\shared\Logging;C:\Trinitycore\src\server\shared\Packets;C:\Trinitycore\src\server\shared\Threading;C:\Trinitycore\src\server\shared\Utilities;C:\Trinitycore\src\server\game\Entities\Object;C:\Trinitycore\dep\acelite;C:\Trinitycore\dep\mysqllite\include;C:\OpenSSL-Win32\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <OutputDirectory>$(IntDir)</OutputDirectory>
       <HeaderFileName>%(Filename).h</HeaderFileName>
       <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
@@ -86,7 +86,7 @@ if %errorlevel% neq 0 goto :VCEnd</Command>
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
     <Midl>
-      <AdditionalIncludeDirectories>C:\build\src\server\shared;C:\build;C:\TrinityCore\dep\recastnavigation\Detour;C:\TrinityCore\dep\SFMT;C:\TrinityCore\dep\sockets\include;C:\TrinityCore\dep\utf8cpp;C:\TrinityCore\src\server;C:\TrinityCore\src\server\shared;C:\TrinityCore\src\server\shared\Configuration;C:\TrinityCore\src\server\shared\Cryptography;C:\TrinityCore\src\server\shared\Database;C:\TrinityCore\src\server\shared\DataStores;C:\TrinityCore\src\server\shared\Debugging;C:\TrinityCore\src\server\shared\Dynamic;C:\TrinityCore\src\server\shared\Logging;C:\TrinityCore\src\server\shared\Packets;C:\TrinityCore\src\server\shared\Threading;C:\TrinityCore\src\server\shared\Utilities;C:\TrinityCore\src\server\game\Entities\Object;C:\TrinityCore\dep\acelite;C:\TrinityCore\dep\mysqllite\include;C:\OpenSSL-Win32\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>C:\Build\src\server\shared;C:\Build;C:\Trinitycore\dep\recastnavigation\Detour;C:\Trinitycore\dep\SFMT;C:\Trinitycore\dep\sockets\include;C:\Trinitycore\dep\utf8cpp;C:\Trinitycore\src\server;C:\Trinitycore\src\server\shared;C:\Trinitycore\src\server\shared\Configuration;C:\Trinitycore\src\server\shared\Cryptography;C:\Trinitycore\src\server\shared\Database;C:\Trinitycore\src\server\shared\DataStores;C:\Trinitycore\src\server\shared\Debugging;C:\Trinitycore\src\server\shared\Dynamic;C:\Trinitycore\src\server\shared\Logging;C:\Trinitycore\src\server\shared\Packets;C:\Trinitycore\src\server\shared\Threading;C:\Trinitycore\src\server\shared\Utilities;C:\Trinitycore\src\server\game\Entities\Object;C:\Trinitycore\dep\acelite;C:\Trinitycore\dep\mysqllite\include;C:\OpenSSL-Win32\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <OutputDirectory>$(IntDir)</OutputDirectory>
       <HeaderFileName>%(Filename).h</HeaderFileName>
       <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
@@ -108,7 +108,7 @@ if %errorlevel% neq 0 goto :VCEnd</Command>
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">
     <Midl>
-      <AdditionalIncludeDirectories>C:\build\src\server\shared;C:\build;C:\TrinityCore\dep\recastnavigation\Detour;C:\TrinityCore\dep\SFMT;C:\TrinityCore\dep\sockets\include;C:\TrinityCore\dep\utf8cpp;C:\TrinityCore\src\server;C:\TrinityCore\src\server\shared;C:\TrinityCore\src\server\shared\Configuration;C:\TrinityCore\src\server\shared\Cryptography;C:\TrinityCore\src\server\shared\Database;C:\TrinityCore\src\server\shared\DataStores;C:\TrinityCore\src\server\shared\Debugging;C:\TrinityCore\src\server\shared\Dynamic;C:\TrinityCore\src\server\shared\Logging;C:\TrinityCore\src\server\shared\Packets;C:\TrinityCore\src\server\shared\Threading;C:\TrinityCore\src\server\shared\Utilities;C:\TrinityCore\src\server\game\Entities\Object;C:\TrinityCore\dep\acelite;C:\TrinityCore\dep\mysqllite\include;C:\OpenSSL-Win32\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>C:\Build\src\server\shared;C:\Build;C:\Trinitycore\dep\recastnavigation\Detour;C:\Trinitycore\dep\SFMT;C:\Trinitycore\dep\sockets\include;C:\Trinitycore\dep\utf8cpp;C:\Trinitycore\src\server;C:\Trinitycore\src\server\shared;C:\Trinitycore\src\server\shared\Configuration;C:\Trinitycore\src\server\shared\Cryptography;C:\Trinitycore\src\server\shared\Database;C:\Trinitycore\src\server\shared\DataStores;C:\Trinitycore\src\server\shared\Debugging;C:\Trinitycore\src\server\shared\Dynamic;C:\Trinitycore\src\server\shared\Logging;C:\Trinitycore\src\server\shared\Packets;C:\Trinitycore\src\server\shared\Threading;C:\Trinitycore\src\server\shared\Utilities;C:\Trinitycore\src\server\game\Entities\Object;C:\Trinitycore\dep\acelite;C:\Trinitycore\dep\mysqllite\include;C:\OpenSSL-Win32\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <OutputDirectory>$(IntDir)</OutputDirectory>
       <HeaderFileName>%(Filename).h</HeaderFileName>
       <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
@@ -130,7 +130,7 @@ if %errorlevel% neq 0 goto :VCEnd</Command>
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">
     <Midl>
-      <AdditionalIncludeDirectories>C:\build\src\server\shared;C:\build;C:\TrinityCore\dep\recastnavigation\Detour;C:\TrinityCore\dep\SFMT;C:\TrinityCore\dep\sockets\include;C:\TrinityCore\dep\utf8cpp;C:\TrinityCore\src\server;C:\TrinityCore\src\server\shared;C:\TrinityCore\src\server\shared\Configuration;C:\TrinityCore\src\server\shared\Cryptography;C:\TrinityCore\src\server\shared\Database;C:\TrinityCore\src\server\shared\DataStores;C:\TrinityCore\src\server\shared\Debugging;C:\TrinityCore\src\server\shared\Dynamic;C:\TrinityCore\src\server\shared\Logging;C:\TrinityCore\src\server\shared\Packets;C:\TrinityCore\src\server\shared\Threading;C:\TrinityCore\src\server\shared\Utilities;C:\TrinityCore\src\server\game\Entities\Object;C:\TrinityCore\dep\acelite;C:\TrinityCore\dep\mysqllite\include;C:\OpenSSL-Win32\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>C:\Build\src\server\shared;C:\Build;C:\Trinitycore\dep\recastnavigation\Detour;C:\Trinitycore\dep\SFMT;C:\Trinitycore\dep\sockets\include;C:\Trinitycore\dep\utf8cpp;C:\Trinitycore\src\server;C:\Trinitycore\src\server\shared;C:\Trinitycore\src\server\shared\Configuration;C:\Trinitycore\src\server\shared\Cryptography;C:\Trinitycore\src\server\shared\Database;C:\Trinitycore\src\server\shared\DataStores;C:\Trinitycore\src\server\shared\Debugging;C:\Trinitycore\src\server\shared\Dynamic;C:\Trinitycore\src\server\shared\Logging;C:\Trinitycore\src\server\shared\Packets;C:\Trinitycore\src\server\shared\Threading;C:\Trinitycore\src\server\shared\Utilities;C:\Trinitycore\src\server\game\Entities\Object;C:\Trinitycore\dep\acelite;C:\Trinitycore\dep\mysqllite\include;C:\OpenSSL-Win32\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <OutputDirectory>$(IntDir)</OutputDirectory>
       <HeaderFileName>%(Filename).h</HeaderFileName>
       <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
@@ -151,7 +151,7 @@ if %errorlevel% neq 0 goto :VCEnd</Command>
     </PostBuildEvent>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <CustomBuild Include="..\..\..\CMakeFiles\63420b37cdea8ad6cadfcf23a69c6ca1\INSTALL_force.rule">
+    <CustomBuild Include="..\..\..\CMakeFiles\3e2c9e5aa458fa772f5715e9222a7d81\INSTALL_force.rule">
       <Message Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'"> </Message>
       <Command Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">setlocal
 cd .
@@ -162,8 +162,8 @@ endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
 exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd</Command>
-      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">C:/build/CMakeFiles/63420b37cdea8ad6cadfcf23a69c6ca1/INSTALL_force.rule;%(AdditionalInputs)</AdditionalInputs>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">C:\build\src\server\shared\CMakeFiles\INSTALL_force</Outputs>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">C:/Build/CMakeFiles/3e2c9e5aa458fa772f5715e9222a7d81/INSTALL_force.rule;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">C:\Build\src\server\shared\CMakeFiles\INSTALL_force</Outputs>
       <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">false</LinkObjects>
       <Message Condition="'$(Configuration)|$(Platform)'=='Release|Win32'"> </Message>
       <Command Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">setlocal
@@ -175,8 +175,8 @@ endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
 exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd</Command>
-      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">C:/build/CMakeFiles/63420b37cdea8ad6cadfcf23a69c6ca1/INSTALL_force.rule;%(AdditionalInputs)</AdditionalInputs>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">C:\build\src\server\shared\CMakeFiles\INSTALL_force</Outputs>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">C:/Build/CMakeFiles/3e2c9e5aa458fa772f5715e9222a7d81/INSTALL_force.rule;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">C:\Build\src\server\shared\CMakeFiles\INSTALL_force</Outputs>
       <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">false</LinkObjects>
       <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'"> </Message>
       <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">setlocal
@@ -188,8 +188,8 @@ endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
 exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd</Command>
-      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">C:/build/CMakeFiles/63420b37cdea8ad6cadfcf23a69c6ca1/INSTALL_force.rule;%(AdditionalInputs)</AdditionalInputs>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">C:\build\src\server\shared\CMakeFiles\INSTALL_force</Outputs>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">C:/Build/CMakeFiles/3e2c9e5aa458fa772f5715e9222a7d81/INSTALL_force.rule;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">C:\Build\src\server\shared\CMakeFiles\INSTALL_force</Outputs>
       <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">false</LinkObjects>
       <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'"> </Message>
       <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">setlocal
@@ -201,13 +201,13 @@ endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
 exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd</Command>
-      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">C:/build/CMakeFiles/63420b37cdea8ad6cadfcf23a69c6ca1/INSTALL_force.rule;%(AdditionalInputs)</AdditionalInputs>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">C:\build\src\server\shared\CMakeFiles\INSTALL_force</Outputs>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">C:/Build/CMakeFiles/3e2c9e5aa458fa772f5715e9222a7d81/INSTALL_force.rule;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">C:\Build\src\server\shared\CMakeFiles\INSTALL_force</Outputs>
       <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">false</LinkObjects>
     </CustomBuild>
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="C:/build/ALL_BUILD.vcxproj">
+    <ProjectReference Include="C:/Build/ALL_BUILD.vcxproj">
       <Project>C7079994-1ED8-4AD0-AFA0-81A1208AF4E5</Project>
     </ProjectReference>
   </ItemGroup>

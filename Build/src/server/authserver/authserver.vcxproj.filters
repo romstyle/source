@@ -1,56 +1,56 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Project ToolsVersion="12.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <ItemGroup>
-    <ClCompile Include="C:\TrinityCore\src\server\authserver\Authentication\AuthCodes.cpp">
+    <ClCompile Include="C:\Trinitycore\src\server\authserver\Authentication\AuthCodes.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="C:\TrinityCore\src\server\authserver\Realms\RealmList.cpp">
+    <ClCompile Include="C:\Trinitycore\src\server\authserver\Realms\RealmList.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="C:\TrinityCore\src\server\authserver\Server\AuthSocket.cpp">
+    <ClCompile Include="C:\Trinitycore\src\server\authserver\Server\AuthSocket.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="C:\TrinityCore\src\server\authserver\Server\RealmSocket.cpp">
+    <ClCompile Include="C:\Trinitycore\src\server\authserver\Server\RealmSocket.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="C:\TrinityCore\src\server\authserver\Main.cpp">
+    <ClCompile Include="C:\Trinitycore\src\server\authserver\Main.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="C:\TrinityCore\src\server\shared\Debugging\WheatyExceptionReport.cpp">
+    <ClCompile Include="C:\Trinitycore\src\server\shared\Debugging\WheatyExceptionReport.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="C:\TrinityCore\src\server\authserver\PrecompiledHeaders\authPCH.cpp">
+    <ClCompile Include="C:\Trinitycore\src\server\authserver\PrecompiledHeaders\authPCH.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="C:\TrinityCore\src\server\authserver\Authentication\AuthCodes.h">
+    <ClInclude Include="C:\Trinitycore\src\server\authserver\Authentication\AuthCodes.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="C:\TrinityCore\src\server\authserver\Realms\RealmList.h">
+    <ClInclude Include="C:\Trinitycore\src\server\authserver\Realms\RealmList.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="C:\TrinityCore\src\server\authserver\Server\AuthSocket.h">
+    <ClInclude Include="C:\Trinitycore\src\server\authserver\Server\AuthSocket.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="C:\TrinityCore\src\server\authserver\Server\RealmAcceptor.h">
+    <ClInclude Include="C:\Trinitycore\src\server\authserver\Server\RealmAcceptor.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="C:\TrinityCore\src\server\authserver\Server\RealmSocket.h">
+    <ClInclude Include="C:\Trinitycore\src\server\authserver\Server\RealmSocket.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="C:\TrinityCore\src\server\authserver\resource.h">
+    <ClInclude Include="C:\Trinitycore\src\server\authserver\resource.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="C:\TrinityCore\src\server\shared\Debugging\WheatyExceptionReport.h">
+    <ClInclude Include="C:\Trinitycore\src\server\shared\Debugging\WheatyExceptionReport.h">
       <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>
   <ItemGroup>
-    <CustomBuild Include="C:\TrinityCore\src\server\authserver\CMakeLists.txt" />
+    <CustomBuild Include="C:\Trinitycore\src\server\authserver\CMakeLists.txt" />
   </ItemGroup>
   <ItemGroup>
-    <ResourceCompile Include="C:\TrinityCore\src\server\authserver\authserver.rc">
+    <ResourceCompile Include="C:\Trinitycore\src\server\authserver\authserver.rc">
       <Filter>Source Files</Filter>
     </ResourceCompile>
   </ItemGroup>

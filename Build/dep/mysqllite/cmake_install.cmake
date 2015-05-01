@@ -1,4 +1,4 @@
-# Install script for directory: C:/TrinityCore/dep/mysqllite
+# Install script for directory: C:/Trinitycore/dep/mysqllite
 
 # Set the install prefix
 IF(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -37,7 +37,7 @@ IF(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspeci
     IF (CMAKE_ERROR_ON_ABSOLUTE_INSTALL_DESTINATION)
         message(FATAL_ERROR "ABSOLUTE path INSTALL DESTINATION forbidden (by caller): ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
     ENDIF (CMAKE_ERROR_ON_ABSOLUTE_INSTALL_DESTINATION)
-FILE(INSTALL DESTINATION "C:/Program Files (x86)/TrinityCore" TYPE SHARED_LIBRARY FILES "C:/build/bin/Debug/libmysql.dll")
+FILE(INSTALL DESTINATION "C:/Program Files (x86)/TrinityCore" TYPE SHARED_LIBRARY FILES "C:/Build/bin/Debug/libmysql.dll")
   ELSEIF("${CMAKE_INSTALL_CONFIG_NAME}" MATCHES "^([Rr][Ee][Ll][Ee][Aa][Ss][Ee])$")
     list(APPEND CMAKE_ABSOLUTE_DESTINATION_FILES
      "C:/Program Files (x86)/TrinityCore/libmysql.dll")
@@ -47,7 +47,7 @@ FILE(INSTALL DESTINATION "C:/Program Files (x86)/TrinityCore" TYPE SHARED_LIBRAR
     IF (CMAKE_ERROR_ON_ABSOLUTE_INSTALL_DESTINATION)
         message(FATAL_ERROR "ABSOLUTE path INSTALL DESTINATION forbidden (by caller): ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
     ENDIF (CMAKE_ERROR_ON_ABSOLUTE_INSTALL_DESTINATION)
-FILE(INSTALL DESTINATION "C:/Program Files (x86)/TrinityCore" TYPE SHARED_LIBRARY FILES "C:/build/bin/Release/libmysql.dll")
+FILE(INSTALL DESTINATION "C:/Program Files (x86)/TrinityCore" TYPE SHARED_LIBRARY FILES "C:/Build/bin/Release/libmysql.dll")
   ELSEIF("${CMAKE_INSTALL_CONFIG_NAME}" MATCHES "^([Mm][Ii][Nn][Ss][Ii][Zz][Ee][Rr][Ee][Ll])$")
     list(APPEND CMAKE_ABSOLUTE_DESTINATION_FILES
      "C:/Program Files (x86)/TrinityCore/libmysql.dll")
@@ -57,7 +57,7 @@ FILE(INSTALL DESTINATION "C:/Program Files (x86)/TrinityCore" TYPE SHARED_LIBRAR
     IF (CMAKE_ERROR_ON_ABSOLUTE_INSTALL_DESTINATION)
         message(FATAL_ERROR "ABSOLUTE path INSTALL DESTINATION forbidden (by caller): ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
     ENDIF (CMAKE_ERROR_ON_ABSOLUTE_INSTALL_DESTINATION)
-FILE(INSTALL DESTINATION "C:/Program Files (x86)/TrinityCore" TYPE SHARED_LIBRARY FILES "C:/build/bin/MinSizeRel/libmysql.dll")
+FILE(INSTALL DESTINATION "C:/Program Files (x86)/TrinityCore" TYPE SHARED_LIBRARY FILES "C:/Build/bin/MinSizeRel/libmysql.dll")
   ELSEIF("${CMAKE_INSTALL_CONFIG_NAME}" MATCHES "^([Rr][Ee][Ll][Ww][Ii][Tt][Hh][Dd][Ee][Bb][Ii][Nn][Ff][Oo])$")
     list(APPEND CMAKE_ABSOLUTE_DESTINATION_FILES
      "C:/Program Files (x86)/TrinityCore/libmysql.dll")
@@ -67,7 +67,7 @@ FILE(INSTALL DESTINATION "C:/Program Files (x86)/TrinityCore" TYPE SHARED_LIBRAR
     IF (CMAKE_ERROR_ON_ABSOLUTE_INSTALL_DESTINATION)
         message(FATAL_ERROR "ABSOLUTE path INSTALL DESTINATION forbidden (by caller): ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
     ENDIF (CMAKE_ERROR_ON_ABSOLUTE_INSTALL_DESTINATION)
-FILE(INSTALL DESTINATION "C:/Program Files (x86)/TrinityCore" TYPE SHARED_LIBRARY FILES "C:/build/bin/RelWithDebInfo/libmysql.dll")
+FILE(INSTALL DESTINATION "C:/Program Files (x86)/TrinityCore" TYPE SHARED_LIBRARY FILES "C:/Build/bin/RelWithDebInfo/libmysql.dll")
   ENDIF()
 ENDIF(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
 

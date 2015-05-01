@@ -1,4 +1,4 @@
-# Install script for directory: C:/TrinityCore/dep/gsoap
+# Install script for directory: C:/Trinitycore/dep/gsoap
 
 # Set the install prefix
 IF(NOT DEFINED CMAKE_INSTALL_PREFIX)

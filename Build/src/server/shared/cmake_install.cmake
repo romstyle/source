@@ -1,4 +1,4 @@
-# Install script for directory: C:/TrinityCore/src/server/shared
+# Install script for directory: C:/Trinitycore/src/server/shared
 
 # Set the install prefix
 IF(NOT DEFINED CMAKE_INSTALL_PREFIX)

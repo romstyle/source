@@ -1,4 +1,4 @@
-# Install script for directory: C:/TrinityCore/src/server/collision
+# Install script for directory: C:/Trinitycore/src/server/collision
 
 # Set the install prefix
 IF(NOT DEFINED CMAKE_INSTALL_PREFIX)

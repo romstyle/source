@@ -1,27 +1,27 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Project ToolsVersion="12.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <ItemGroup>
-    <ClCompile Include="C:\TrinityCore\dep\recastnavigation\Detour\DetourAlloc.cpp">
+    <ClCompile Include="C:\Trinitycore\dep\recastnavigation\Detour\DetourAlloc.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="C:\TrinityCore\dep\recastnavigation\Detour\DetourCommon.cpp">
+    <ClCompile Include="C:\Trinitycore\dep\recastnavigation\Detour\DetourCommon.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="C:\TrinityCore\dep\recastnavigation\Detour\DetourNavMesh.cpp">
+    <ClCompile Include="C:\Trinitycore\dep\recastnavigation\Detour\DetourNavMesh.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="C:\TrinityCore\dep\recastnavigation\Detour\DetourNavMeshBuilder.cpp">
+    <ClCompile Include="C:\Trinitycore\dep\recastnavigation\Detour\DetourNavMeshBuilder.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="C:\TrinityCore\dep\recastnavigation\Detour\DetourNavMeshQuery.cpp">
+    <ClCompile Include="C:\Trinitycore\dep\recastnavigation\Detour\DetourNavMeshQuery.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="C:\TrinityCore\dep\recastnavigation\Detour\DetourNode.cpp">
+    <ClCompile Include="C:\Trinitycore\dep\recastnavigation\Detour\DetourNode.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
-    <CustomBuild Include="C:\TrinityCore\dep\recastnavigation\Detour\CMakeLists.txt" />
+    <CustomBuild Include="C:\Trinitycore\dep\recastnavigation\Detour\CMakeLists.txt" />
   </ItemGroup>
   <ItemGroup>
     <Filter Include="Source Files">

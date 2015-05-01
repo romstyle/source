@@ -1,14 +1,14 @@
 # CMake generation dependency list for this directory.
-C:/TrinityCore/src/server/scripts/CMakeLists.txt
-C:/TrinityCore/src/server/scripts/Spells/CMakeLists.txt
-C:/TrinityCore/src/server/scripts/Commands/CMakeLists.txt
-C:/TrinityCore/src/server/scripts/Examples/CMakeLists.txt
-C:/TrinityCore/src/server/scripts/Custom/CMakeLists.txt
-C:/TrinityCore/src/server/scripts/World/CMakeLists.txt
-C:/TrinityCore/src/server/scripts/OutdoorPvP/CMakeLists.txt
-C:/TrinityCore/src/server/scripts/EasternKingdoms/CMakeLists.txt
-C:/TrinityCore/src/server/scripts/Kalimdor/CMakeLists.txt
-C:/TrinityCore/src/server/scripts/Outland/CMakeLists.txt
-C:/TrinityCore/src/server/scripts/Northrend/CMakeLists.txt
-C:/TrinityCore/src/server/scripts/Events/CMakeLists.txt
-C:/TrinityCore/src/server/scripts/Pet/CMakeLists.txt
+C:/Trinitycore/src/server/scripts/CMakeLists.txt
+C:/Trinitycore/src/server/scripts/Spells/CMakeLists.txt
+C:/Trinitycore/src/server/scripts/Commands/CMakeLists.txt
+C:/Trinitycore/src/server/scripts/Examples/CMakeLists.txt
+C:/Trinitycore/src/server/scripts/Custom/CMakeLists.txt
+C:/Trinitycore/src/server/scripts/World/CMakeLists.txt
+C:/Trinitycore/src/server/scripts/OutdoorPvP/CMakeLists.txt
+C:/Trinitycore/src/server/scripts/EasternKingdoms/CMakeLists.txt
+C:/Trinitycore/src/server/scripts/Kalimdor/CMakeLists.txt
+C:/Trinitycore/src/server/scripts/Outland/CMakeLists.txt
+C:/Trinitycore/src/server/scripts/Northrend/CMakeLists.txt
+C:/Trinitycore/src/server/scripts/Events/CMakeLists.txt
+C:/Trinitycore/src/server/scripts/Pet/CMakeLists.txt

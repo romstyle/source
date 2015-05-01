@@ -1,4 +1,4 @@
-# Install script for directory: C:/TrinityCore/dep/acelite
+# Install script for directory: C:/Trinitycore/dep/acelite
 
 # Set the install prefix
 IF(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -29,7 +29,7 @@ ENDIF(NOT CMAKE_INSTALL_COMPONENT)
 
 IF(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for each subdirectory.
-  INCLUDE("C:/build/dep/acelite/ace/cmake_install.cmake")
+  INCLUDE("C:/Build/dep/acelite/ace/cmake_install.cmake")
 
 ENDIF(NOT CMAKE_INSTALL_LOCAL_ONLY)
 

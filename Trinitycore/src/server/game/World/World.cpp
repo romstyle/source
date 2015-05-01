@@ -1399,8 +1399,11 @@ void World::SetInitialWorldSettings()
 
     TC_LOG_INFO(LOG_FILTER_SERVER_LOADING, "Loading Item set names...");                // must be after LoadItemPrototypes
     sObjectMgr->LoadItemSetNames();
-
-    TC_LOG_INFO(LOG_FILTER_SERVER_LOADING, "Loading Creature Model Based Info Data...");
+	
+	sLog->outInfo(LOG_FILTER_GENERAL, "Loading Transmogrifications yolo swag of the dead...");           // custom must be after LoadItemTemplates
+	sObjectMgr->LoadTransmogrifications();
+    
+	TC_LOG_INFO(LOG_FILTER_SERVER_LOADING, "Loading Creature Model Based Info Data...");
     sObjectMgr->LoadCreatureModelInfo();
 
     TC_LOG_INFO(LOG_FILTER_SERVER_LOADING, "Loading Creature templates...");

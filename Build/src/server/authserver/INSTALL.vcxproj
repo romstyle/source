@@ -64,7 +64,7 @@
     </PropertyGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
     <Midl>
-      <AdditionalIncludeDirectories>C:\build;C:\TrinityCore\src\server\shared;C:\TrinityCore\src\server\shared\Database;C:\TrinityCore\src\server\shared\Debugging;C:\TrinityCore\src\server\shared\Packets;C:\TrinityCore\src\server\shared\Cryptography;C:\TrinityCore\src\server\shared\Cryptography\Authentication;C:\TrinityCore\src\server\shared\Logging;C:\TrinityCore\src\server\shared\Threading;C:\TrinityCore\src\server\shared\Utilities;C:\TrinityCore\src\server\authserver;C:\TrinityCore\src\server\authserver\Authentication;C:\TrinityCore\src\server\authserver\Realms;C:\TrinityCore\src\server\authserver\Server;C:\TrinityCore\dep\acelite;C:\TrinityCore\dep\mysqllite\include;C:\OpenSSL-Win32\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>C:\Build;C:\Trinitycore\src\server\shared;C:\Trinitycore\src\server\shared\Database;C:\Trinitycore\src\server\shared\Debugging;C:\Trinitycore\src\server\shared\Packets;C:\Trinitycore\src\server\shared\Cryptography;C:\Trinitycore\src\server\shared\Cryptography\Authentication;C:\Trinitycore\src\server\shared\Logging;C:\Trinitycore\src\server\shared\Threading;C:\Trinitycore\src\server\shared\Utilities;C:\Trinitycore\src\server\authserver;C:\Trinitycore\src\server\authserver\Authentication;C:\Trinitycore\src\server\authserver\Realms;C:\Trinitycore\src\server\authserver\Server;C:\Trinitycore\dep\acelite;C:\Trinitycore\dep\mysqllite\include;C:\OpenSSL-Win32\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <OutputDirectory>$(IntDir)</OutputDirectory>
       <HeaderFileName>%(Filename).h</HeaderFileName>
       <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
@@ -86,7 +86,7 @@ if %errorlevel% neq 0 goto :VCEnd</Command>
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
     <Midl>
-      <AdditionalIncludeDirectories>C:\build;C:\TrinityCore\src\server\shared;C:\TrinityCore\src\server\shared\Database;C:\TrinityCore\src\server\shared\Debugging;C:\TrinityCore\src\server\shared\Packets;C:\TrinityCore\src\server\shared\Cryptography;C:\TrinityCore\src\server\shared\Cryptography\Authentication;C:\TrinityCore\src\server\shared\Logging;C:\TrinityCore\src\server\shared\Threading;C:\TrinityCore\src\server\shared\Utilities;C:\TrinityCore\src\server\authserver;C:\TrinityCore\src\server\authserver\Authentication;C:\TrinityCore\src\server\authserver\Realms;C:\TrinityCore\src\server\authserver\Server;C:\TrinityCore\dep\acelite;C:\TrinityCore\dep\mysqllite\include;C:\OpenSSL-Win32\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>C:\Build;C:\Trinitycore\src\server\shared;C:\Trinitycore\src\server\shared\Database;C:\Trinitycore\src\server\shared\Debugging;C:\Trinitycore\src\server\shared\Packets;C:\Trinitycore\src\server\shared\Cryptography;C:\Trinitycore\src\server\shared\Cryptography\Authentication;C:\Trinitycore\src\server\shared\Logging;C:\Trinitycore\src\server\shared\Threading;C:\Trinitycore\src\server\shared\Utilities;C:\Trinitycore\src\server\authserver;C:\Trinitycore\src\server\authserver\Authentication;C:\Trinitycore\src\server\authserver\Realms;C:\Trinitycore\src\server\authserver\Server;C:\Trinitycore\dep\acelite;C:\Trinitycore\dep\mysqllite\include;C:\OpenSSL-Win32\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <OutputDirectory>$(IntDir)</OutputDirectory>
       <HeaderFileName>%(Filename).h</HeaderFileName>
       <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
@@ -108,7 +108,7 @@ if %errorlevel% neq 0 goto :VCEnd</Command>
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">
     <Midl>
-      <AdditionalIncludeDirectories>C:\build;C:\TrinityCore\src\server\shared;C:\TrinityCore\src\server\shared\Database;C:\TrinityCore\src\server\shared\Debugging;C:\TrinityCore\src\server\shared\Packets;C:\TrinityCore\src\server\shared\Cryptography;C:\TrinityCore\src\server\shared\Cryptography\Authentication;C:\TrinityCore\src\server\shared\Logging;C:\TrinityCore\src\server\shared\Threading;C:\TrinityCore\src\server\shared\Utilities;C:\TrinityCore\src\server\authserver;C:\TrinityCore\src\server\authserver\Authentication;C:\TrinityCore\src\server\authserver\Realms;C:\TrinityCore\src\server\authserver\Server;C:\TrinityCore\dep\acelite;C:\TrinityCore\dep\mysqllite\include;C:\OpenSSL-Win32\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>C:\Build;C:\Trinitycore\src\server\shared;C:\Trinitycore\src\server\shared\Database;C:\Trinitycore\src\server\shared\Debugging;C:\Trinitycore\src\server\shared\Packets;C:\Trinitycore\src\server\shared\Cryptography;C:\Trinitycore\src\server\shared\Cryptography\Authentication;C:\Trinitycore\src\server\shared\Logging;C:\Trinitycore\src\server\shared\Threading;C:\Trinitycore\src\server\shared\Utilities;C:\Trinitycore\src\server\authserver;C:\Trinitycore\src\server\authserver\Authentication;C:\Trinitycore\src\server\authserver\Realms;C:\Trinitycore\src\server\authserver\Server;C:\Trinitycore\dep\acelite;C:\Trinitycore\dep\mysqllite\include;C:\OpenSSL-Win32\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <OutputDirectory>$(IntDir)</OutputDirectory>
       <HeaderFileName>%(Filename).h</HeaderFileName>
       <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
@@ -130,7 +130,7 @@ if %errorlevel% neq 0 goto :VCEnd</Command>
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">
     <Midl>
-      <AdditionalIncludeDirectories>C:\build;C:\TrinityCore\src\server\shared;C:\TrinityCore\src\server\shared\Database;C:\TrinityCore\src\server\shared\Debugging;C:\TrinityCore\src\server\shared\Packets;C:\TrinityCore\src\server\shared\Cryptography;C:\TrinityCore\src\server\shared\Cryptography\Authentication;C:\TrinityCore\src\server\shared\Logging;C:\TrinityCore\src\server\shared\Threading;C:\TrinityCore\src\server\shared\Utilities;C:\TrinityCore\src\server\authserver;C:\TrinityCore\src\server\authserver\Authentication;C:\TrinityCore\src\server\authserver\Realms;C:\TrinityCore\src\server\authserver\Server;C:\TrinityCore\dep\acelite;C:\TrinityCore\dep\mysqllite\include;C:\OpenSSL-Win32\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>C:\Build;C:\Trinitycore\src\server\shared;C:\Trinitycore\src\server\shared\Database;C:\Trinitycore\src\server\shared\Debugging;C:\Trinitycore\src\server\shared\Packets;C:\Trinitycore\src\server\shared\Cryptography;C:\Trinitycore\src\server\shared\Cryptography\Authentication;C:\Trinitycore\src\server\shared\Logging;C:\Trinitycore\src\server\shared\Threading;C:\Trinitycore\src\server\shared\Utilities;C:\Trinitycore\src\server\authserver;C:\Trinitycore\src\server\authserver\Authentication;C:\Trinitycore\src\server\authserver\Realms;C:\Trinitycore\src\server\authserver\Server;C:\Trinitycore\dep\acelite;C:\Trinitycore\dep\mysqllite\include;C:\OpenSSL-Win32\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <OutputDirectory>$(IntDir)</OutputDirectory>
       <HeaderFileName>%(Filename).h</HeaderFileName>
       <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
@@ -151,7 +151,7 @@ if %errorlevel% neq 0 goto :VCEnd</Command>
     </PostBuildEvent>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <CustomBuild Include="..\..\..\CMakeFiles\205c07b3cf9e71499eff85f6cb48d4dc\INSTALL_force.rule">
+    <CustomBuild Include="..\..\..\CMakeFiles\dce6205a1dbfe73b3576e847ac4b1d94\INSTALL_force.rule">
       <Message Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'"> </Message>
       <Command Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">setlocal
 cd .
@@ -162,8 +162,8 @@ endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
 exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd</Command>
-      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">C:/build/CMakeFiles/205c07b3cf9e71499eff85f6cb48d4dc/INSTALL_force.rule;%(AdditionalInputs)</AdditionalInputs>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">C:\build\src\server\authserver\CMakeFiles\INSTALL_force</Outputs>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">C:/Build/CMakeFiles/dce6205a1dbfe73b3576e847ac4b1d94/INSTALL_force.rule;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">C:\Build\src\server\authserver\CMakeFiles\INSTALL_force</Outputs>
       <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">false</LinkObjects>
       <Message Condition="'$(Configuration)|$(Platform)'=='Release|Win32'"> </Message>
       <Command Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">setlocal
@@ -175,8 +175,8 @@ endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
 exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd</Command>
-      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">C:/build/CMakeFiles/205c07b3cf9e71499eff85f6cb48d4dc/INSTALL_force.rule;%(AdditionalInputs)</AdditionalInputs>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">C:\build\src\server\authserver\CMakeFiles\INSTALL_force</Outputs>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">C:/Build/CMakeFiles/dce6205a1dbfe73b3576e847ac4b1d94/INSTALL_force.rule;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">C:\Build\src\server\authserver\CMakeFiles\INSTALL_force</Outputs>
       <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">false</LinkObjects>
       <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'"> </Message>
       <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">setlocal
@@ -188,8 +188,8 @@ endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
 exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd</Command>
-      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">C:/build/CMakeFiles/205c07b3cf9e71499eff85f6cb48d4dc/INSTALL_force.rule;%(AdditionalInputs)</AdditionalInputs>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">C:\build\src\server\authserver\CMakeFiles\INSTALL_force</Outputs>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">C:/Build/CMakeFiles/dce6205a1dbfe73b3576e847ac4b1d94/INSTALL_force.rule;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">C:\Build\src\server\authserver\CMakeFiles\INSTALL_force</Outputs>
       <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">false</LinkObjects>
       <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'"> </Message>
       <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">setlocal
@@ -201,13 +201,13 @@ endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
 exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd</Command>
-      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">C:/build/CMakeFiles/205c07b3cf9e71499eff85f6cb48d4dc/INSTALL_force.rule;%(AdditionalInputs)</AdditionalInputs>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">C:\build\src\server\authserver\CMakeFiles\INSTALL_force</Outputs>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">C:/Build/CMakeFiles/dce6205a1dbfe73b3576e847ac4b1d94/INSTALL_force.rule;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">C:\Build\src\server\authserver\CMakeFiles\INSTALL_force</Outputs>
       <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">false</LinkObjects>
     </CustomBuild>
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="C:/build/ALL_BUILD.vcxproj">
+    <ProjectReference Include="C:/Build/ALL_BUILD.vcxproj">
       <Project>C7079994-1ED8-4AD0-AFA0-81A1208AF4E5</Project>
     </ProjectReference>
   </ItemGroup>

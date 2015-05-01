@@ -1,95 +1,95 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Project ToolsVersion="12.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <ItemGroup>
-    <ClCompile Include="C:\TrinityCore\src\server\collision\Management\MMapFactory.cpp">
+    <ClCompile Include="C:\Trinitycore\src\server\collision\Management\MMapFactory.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="C:\TrinityCore\src\server\collision\Management\MMapManager.cpp">
+    <ClCompile Include="C:\Trinitycore\src\server\collision\Management\MMapManager.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="C:\TrinityCore\src\server\collision\Management\VMapFactory.cpp">
+    <ClCompile Include="C:\Trinitycore\src\server\collision\Management\VMapFactory.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="C:\TrinityCore\src\server\collision\Management\VMapManager2.cpp">
+    <ClCompile Include="C:\Trinitycore\src\server\collision\Management\VMapManager2.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="C:\TrinityCore\src\server\collision\Maps\MapTree.cpp">
+    <ClCompile Include="C:\Trinitycore\src\server\collision\Maps\MapTree.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="C:\TrinityCore\src\server\collision\Maps\TileAssembler.cpp">
+    <ClCompile Include="C:\Trinitycore\src\server\collision\Maps\TileAssembler.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="C:\TrinityCore\src\server\collision\Models\GameObjectModel.cpp">
+    <ClCompile Include="C:\Trinitycore\src\server\collision\Models\GameObjectModel.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="C:\TrinityCore\src\server\collision\Models\ModelInstance.cpp">
+    <ClCompile Include="C:\Trinitycore\src\server\collision\Models\ModelInstance.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="C:\TrinityCore\src\server\collision\Models\WorldModel.cpp">
+    <ClCompile Include="C:\Trinitycore\src\server\collision\Models\WorldModel.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="C:\TrinityCore\src\server\collision\BoundingIntervalHierarchy.cpp">
+    <ClCompile Include="C:\Trinitycore\src\server\collision\BoundingIntervalHierarchy.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="C:\TrinityCore\src\server\collision\DynamicTree.cpp">
+    <ClCompile Include="C:\Trinitycore\src\server\collision\DynamicTree.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="C:\TrinityCore\src\server\collision\PrecompiledHeaders\collisionPCH.cpp">
+    <ClCompile Include="C:\Trinitycore\src\server\collision\PrecompiledHeaders\collisionPCH.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="C:\TrinityCore\src\server\collision\Management\IVMapManager.h">
+    <ClInclude Include="C:\Trinitycore\src\server\collision\Management\IVMapManager.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="C:\TrinityCore\src\server\collision\Management\MMapFactory.h">
+    <ClInclude Include="C:\Trinitycore\src\server\collision\Management\MMapFactory.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="C:\TrinityCore\src\server\collision\Management\MMapManager.h">
+    <ClInclude Include="C:\Trinitycore\src\server\collision\Management\MMapManager.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="C:\TrinityCore\src\server\collision\Management\VMapFactory.h">
+    <ClInclude Include="C:\Trinitycore\src\server\collision\Management\VMapFactory.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="C:\TrinityCore\src\server\collision\Management\VMapManager2.h">
+    <ClInclude Include="C:\Trinitycore\src\server\collision\Management\VMapManager2.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="C:\TrinityCore\src\server\collision\Maps\MapTree.h">
+    <ClInclude Include="C:\Trinitycore\src\server\collision\Maps\MapTree.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="C:\TrinityCore\src\server\collision\Maps\TileAssembler.h">
+    <ClInclude Include="C:\Trinitycore\src\server\collision\Maps\TileAssembler.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="C:\TrinityCore\src\server\collision\Models\GameObjectModel.h">
+    <ClInclude Include="C:\Trinitycore\src\server\collision\Models\GameObjectModel.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="C:\TrinityCore\src\server\collision\Models\ModelInstance.h">
+    <ClInclude Include="C:\Trinitycore\src\server\collision\Models\ModelInstance.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="C:\TrinityCore\src\server\collision\Models\WorldModel.h">
+    <ClInclude Include="C:\Trinitycore\src\server\collision\Models\WorldModel.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="C:\TrinityCore\src\server\collision\BoundingIntervalHierarchy.h">
+    <ClInclude Include="C:\Trinitycore\src\server\collision\BoundingIntervalHierarchy.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="C:\TrinityCore\src\server\collision\BoundingIntervalHierarchyWrapper.h">
+    <ClInclude Include="C:\Trinitycore\src\server\collision\BoundingIntervalHierarchyWrapper.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="C:\TrinityCore\src\server\collision\DynamicTree.h">
+    <ClInclude Include="C:\Trinitycore\src\server\collision\DynamicTree.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="C:\TrinityCore\src\server\collision\RegularGrid.h">
+    <ClInclude Include="C:\Trinitycore\src\server\collision\RegularGrid.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="C:\TrinityCore\src\server\collision\VMapDefinitions.h">
+    <ClInclude Include="C:\Trinitycore\src\server\collision\VMapDefinitions.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="C:\TrinityCore\src\server\collision\VMapTools.h">
+    <ClInclude Include="C:\Trinitycore\src\server\collision\VMapTools.h">
       <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>
   <ItemGroup>
-    <CustomBuild Include="C:\TrinityCore\src\server\collision\CMakeLists.txt" />
+    <CustomBuild Include="C:\Trinitycore\src\server\collision\CMakeLists.txt" />
   </ItemGroup>
   <ItemGroup>
     <Filter Include="Source Files">

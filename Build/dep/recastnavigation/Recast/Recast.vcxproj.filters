@@ -1,39 +1,39 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Project ToolsVersion="12.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <ItemGroup>
-    <ClCompile Include="C:\TrinityCore\dep\recastnavigation\Recast\Recast.cpp">
+    <ClCompile Include="C:\Trinitycore\dep\recastnavigation\Recast\Recast.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="C:\TrinityCore\dep\recastnavigation\Recast\RecastAlloc.cpp">
+    <ClCompile Include="C:\Trinitycore\dep\recastnavigation\Recast\RecastAlloc.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="C:\TrinityCore\dep\recastnavigation\Recast\RecastArea.cpp">
+    <ClCompile Include="C:\Trinitycore\dep\recastnavigation\Recast\RecastArea.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="C:\TrinityCore\dep\recastnavigation\Recast\RecastContour.cpp">
+    <ClCompile Include="C:\Trinitycore\dep\recastnavigation\Recast\RecastContour.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="C:\TrinityCore\dep\recastnavigation\Recast\RecastFilter.cpp">
+    <ClCompile Include="C:\Trinitycore\dep\recastnavigation\Recast\RecastFilter.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="C:\TrinityCore\dep\recastnavigation\Recast\RecastLayers.cpp">
+    <ClCompile Include="C:\Trinitycore\dep\recastnavigation\Recast\RecastLayers.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="C:\TrinityCore\dep\recastnavigation\Recast\RecastMesh.cpp">
+    <ClCompile Include="C:\Trinitycore\dep\recastnavigation\Recast\RecastMesh.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="C:\TrinityCore\dep\recastnavigation\Recast\RecastMeshDetail.cpp">
+    <ClCompile Include="C:\Trinitycore\dep\recastnavigation\Recast\RecastMeshDetail.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="C:\TrinityCore\dep\recastnavigation\Recast\RecastRasterization.cpp">
+    <ClCompile Include="C:\Trinitycore\dep\recastnavigation\Recast\RecastRasterization.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="C:\TrinityCore\dep\recastnavigation\Recast\RecastRegion.cpp">
+    <ClCompile Include="C:\Trinitycore\dep\recastnavigation\Recast\RecastRegion.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
-    <CustomBuild Include="C:\TrinityCore\dep\recastnavigation\Recast\CMakeLists.txt" />
+    <CustomBuild Include="C:\Trinitycore\dep\recastnavigation\Recast\CMakeLists.txt" />
   </ItemGroup>
   <ItemGroup>
     <Filter Include="Source Files">

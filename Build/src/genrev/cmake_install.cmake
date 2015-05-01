@@ -1,4 +1,4 @@
-# Install script for directory: C:/TrinityCore/src/genrev
+# Install script for directory: C:/Trinitycore/src/genrev
 
 # Set the install prefix
 IF(NOT DEFINED CMAKE_INSTALL_PREFIX)

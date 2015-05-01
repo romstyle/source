@@ -1,4 +1,4 @@
-# Install script for directory: C:/TrinityCore/dep/g3dlite
+# Install script for directory: C:/Trinitycore/dep/g3dlite
 
 # Set the install prefix
 IF(NOT DEFINED CMAKE_INSTALL_PREFIX)

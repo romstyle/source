@@ -1,4 +1,4 @@
-# Install script for directory: C:/TrinityCore/dep/acelite/ace
+# Install script for directory: C:/Trinitycore/dep/acelite/ace
 
 # Set the install prefix
 IF(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -37,7 +37,7 @@ IF(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspeci
     IF (CMAKE_ERROR_ON_ABSOLUTE_INSTALL_DESTINATION)
         message(FATAL_ERROR "ABSOLUTE path INSTALL DESTINATION forbidden (by caller): ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
     ENDIF (CMAKE_ERROR_ON_ABSOLUTE_INSTALL_DESTINATION)
-FILE(INSTALL DESTINATION "C:/Program Files (x86)/TrinityCore" TYPE SHARED_LIBRARY FILES "C:/build/bin/Debug/ace.dll")
+FILE(INSTALL DESTINATION "C:/Program Files (x86)/TrinityCore" TYPE SHARED_LIBRARY FILES "C:/Build/bin/Debug/ace.dll")
   ELSEIF("${CMAKE_INSTALL_CONFIG_NAME}" MATCHES "^([Rr][Ee][Ll][Ee][Aa][Ss][Ee])$")
     list(APPEND CMAKE_ABSOLUTE_DESTINATION_FILES
      "C:/Program Files (x86)/TrinityCore/ace.dll")
@@ -47,7 +47,7 @@ FILE(INSTALL DESTINATION "C:/Program Files (x86)/TrinityCore" TYPE SHARED_LIBRAR
     IF (CMAKE_ERROR_ON_ABSOLUTE_INSTALL_DESTINATION)
         message(FATAL_ERROR "ABSOLUTE path INSTALL DESTINATION forbidden (by caller): ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
     ENDIF (CMAKE_ERROR_ON_ABSOLUTE_INSTALL_DESTINATION)
-FILE(INSTALL DESTINATION "C:/Program Files (x86)/TrinityCore" TYPE SHARED_LIBRARY FILES "C:/build/bin/Release/ace.dll")
+FILE(INSTALL DESTINATION "C:/Program Files (x86)/TrinityCore" TYPE SHARED_LIBRARY FILES "C:/Build/bin/Release/ace.dll")
   ELSEIF("${CMAKE_INSTALL_CONFIG_NAME}" MATCHES "^([Mm][Ii][Nn][Ss][Ii][Zz][Ee][Rr][Ee][Ll])$")
     list(APPEND CMAKE_ABSOLUTE_DESTINATION_FILES
      "C:/Program Files (x86)/TrinityCore/ace.dll")
@@ -57,7 +57,7 @@ FILE(INSTALL DESTINATION "C:/Program Files (x86)/TrinityCore" TYPE SHARED_LIBRAR
     IF (CMAKE_ERROR_ON_ABSOLUTE_INSTALL_DESTINATION)
         message(FATAL_ERROR "ABSOLUTE path INSTALL DESTINATION forbidden (by caller): ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
     ENDIF (CMAKE_ERROR_ON_ABSOLUTE_INSTALL_DESTINATION)
-FILE(INSTALL DESTINATION "C:/Program Files (x86)/TrinityCore" TYPE SHARED_LIBRARY FILES "C:/build/bin/MinSizeRel/ace.dll")
+FILE(INSTALL DESTINATION "C:/Program Files (x86)/TrinityCore" TYPE SHARED_LIBRARY FILES "C:/Build/bin/MinSizeRel/ace.dll")
   ELSEIF("${CMAKE_INSTALL_CONFIG_NAME}" MATCHES "^([Rr][Ee][Ll][Ww][Ii][Tt][Hh][Dd][Ee][Bb][Ii][Nn][Ff][Oo])$")
     list(APPEND CMAKE_ABSOLUTE_DESTINATION_FILES
      "C:/Program Files (x86)/TrinityCore/ace.dll")
@@ -67,7 +67,7 @@ FILE(INSTALL DESTINATION "C:/Program Files (x86)/TrinityCore" TYPE SHARED_LIBRAR
     IF (CMAKE_ERROR_ON_ABSOLUTE_INSTALL_DESTINATION)
         message(FATAL_ERROR "ABSOLUTE path INSTALL DESTINATION forbidden (by caller): ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
     ENDIF (CMAKE_ERROR_ON_ABSOLUTE_INSTALL_DESTINATION)
-FILE(INSTALL DESTINATION "C:/Program Files (x86)/TrinityCore" TYPE SHARED_LIBRARY FILES "C:/build/bin/RelWithDebInfo/ace.dll")
+FILE(INSTALL DESTINATION "C:/Program Files (x86)/TrinityCore" TYPE SHARED_LIBRARY FILES "C:/Build/bin/RelWithDebInfo/ace.dll")
   ENDIF()
 ENDIF(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
 

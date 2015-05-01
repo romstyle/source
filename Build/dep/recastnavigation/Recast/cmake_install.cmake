@@ -1,4 +1,4 @@
-# Install script for directory: C:/TrinityCore/dep/recastnavigation/Recast
+# Install script for directory: C:/Trinitycore/dep/recastnavigation/Recast
 
 # Set the install prefix
 IF(NOT DEFINED CMAKE_INSTALL_PREFIX)

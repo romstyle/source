@@ -1,4 +1,4 @@
-# Install script for directory: C:/TrinityCore/src
+# Install script for directory: C:/Trinitycore/src
 
 # Set the install prefix
 IF(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -29,8 +29,8 @@ ENDIF(NOT CMAKE_INSTALL_COMPONENT)
 
 IF(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for each subdirectory.
-  INCLUDE("C:/build/src/genrev/cmake_install.cmake")
-  INCLUDE("C:/build/src/server/cmake_install.cmake")
+  INCLUDE("C:/Build/src/genrev/cmake_install.cmake")
+  INCLUDE("C:/Build/src/server/cmake_install.cmake")
 
 ENDIF(NOT CMAKE_INSTALL_LOCAL_ONLY)
 

@@ -1,6 +1,6 @@
 # CMake generation dependency list for this directory.
-C:/TrinityCore/dep/mysqllite/CMakeLists.txt
-C:/TrinityCore/dep/mysqllite/cmake/os/Windows.cmake
+C:/Trinitycore/dep/mysqllite/CMakeLists.txt
+C:/Trinitycore/dep/mysqllite/cmake/os/Windows.cmake
 C:/Program Files (x86)/CMake 2.8/share/cmake-2.8/Modules/CheckCSourceCompiles.cmake
 C:/Program Files (x86)/CMake 2.8/share/cmake-2.8/Modules/CheckCXXSourceCompiles.cmake
 C:/Program Files (x86)/CMake 2.8/share/cmake-2.8/Modules/CheckStructHasMember.cmake
@@ -13,12 +13,12 @@ C:/Program Files (x86)/CMake 2.8/share/cmake-2.8/Modules/CheckCSourceRuns.cmake
 C:/Program Files (x86)/CMake 2.8/share/cmake-2.8/Modules/CheckSymbolExists.cmake
 C:/Program Files (x86)/CMake 2.8/share/cmake-2.8/Modules/CheckTypeSize.cmake
 C:/Program Files (x86)/CMake 2.8/share/cmake-2.8/Modules/CheckIncludeFile.cmake
-C:/TrinityCore/dep/mysqllite/cmake/os/WindowsCache.cmake
-C:/TrinityCore/dep/mysqllite/cmake/character_sets.cmake
-C:/TrinityCore/dep/mysqllite/cmake/mysql_version.cmake
-C:/TrinityCore/dep/mysqllite/VERSION
-C:/TrinityCore/dep/mysqllite/cmake/versioninfo.rc.in
-C:/TrinityCore/dep/mysqllite/configure.cmake
+C:/Trinitycore/dep/mysqllite/cmake/os/WindowsCache.cmake
+C:/Trinitycore/dep/mysqllite/cmake/character_sets.cmake
+C:/Trinitycore/dep/mysqllite/cmake/mysql_version.cmake
+C:/Trinitycore/dep/mysqllite/VERSION
+C:/Trinitycore/dep/mysqllite/cmake/versioninfo.rc.in
+C:/Trinitycore/dep/mysqllite/configure.cmake
 C:/Program Files (x86)/CMake 2.8/share/cmake-2.8/Modules/CheckCSourceCompiles.cmake
 C:/Program Files (x86)/CMake 2.8/share/cmake-2.8/Modules/CheckCXXSourceCompiles.cmake
 C:/Program Files (x86)/CMake 2.8/share/cmake-2.8/Modules/CheckStructHasMember.cmake
@@ -40,8 +40,6 @@ C:/Program Files (x86)/CMake 2.8/share/cmake-2.8/Modules/CMakeParseArguments.cma
 C:/Program Files (x86)/CMake 2.8/share/cmake-2.8/Modules/TestBigEndian.cmake
 C:/Program Files (x86)/CMake 2.8/share/cmake-2.8/Modules/CheckTypeSize.cmake
 C:/Program Files (x86)/CMake 2.8/share/cmake-2.8/Modules/CheckIncludeFile.cmake
-C:/Program Files (x86)/CMake 2.8/share/cmake-2.8/Modules/CheckTypeSize.c.in
-C:/build/CMakeFiles/CheckTypeSize/SIZEOF_VOIDP.c
-C:/TrinityCore/dep/mysqllite/config.h.cmake
-C:/TrinityCore/dep/mysqllite/config.h.cmake
-C:/TrinityCore/dep/mysqllite/include/internal/mysql_version.h.in
+C:/Trinitycore/dep/mysqllite/config.h.cmake
+C:/Trinitycore/dep/mysqllite/config.h.cmake
+C:/Trinitycore/dep/mysqllite/include/internal/mysql_version.h.in

@@ -1,308 +1,308 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Project ToolsVersion="12.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <ItemGroup>
-    <ClCompile Include="C:\TrinityCore\src\server\shared\Configuration\Config.cpp">
+    <ClCompile Include="C:\Trinitycore\src\server\shared\Configuration\Config.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="C:\TrinityCore\src\server\shared\Cryptography\ARC4.cpp">
+    <ClCompile Include="C:\Trinitycore\src\server\shared\Cryptography\ARC4.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="C:\TrinityCore\src\server\shared\Cryptography\Authentication\AuthCrypt.cpp">
+    <ClCompile Include="C:\Trinitycore\src\server\shared\Cryptography\Authentication\AuthCrypt.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="C:\TrinityCore\src\server\shared\Cryptography\BigNumber.cpp">
+    <ClCompile Include="C:\Trinitycore\src\server\shared\Cryptography\BigNumber.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="C:\TrinityCore\src\server\shared\Cryptography\HMACSHA1.cpp">
+    <ClCompile Include="C:\Trinitycore\src\server\shared\Cryptography\HMACSHA1.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="C:\TrinityCore\src\server\shared\Cryptography\SHA1.cpp">
+    <ClCompile Include="C:\Trinitycore\src\server\shared\Cryptography\SHA1.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="C:\TrinityCore\src\server\shared\Database\AdhocStatement.cpp">
+    <ClCompile Include="C:\Trinitycore\src\server\shared\Database\AdhocStatement.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="C:\TrinityCore\src\server\shared\Database\DatabaseWorker.cpp">
+    <ClCompile Include="C:\Trinitycore\src\server\shared\Database\DatabaseWorker.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="C:\TrinityCore\src\server\shared\Database\Field.cpp">
+    <ClCompile Include="C:\Trinitycore\src\server\shared\Database\Field.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="C:\TrinityCore\src\server\shared\Database\Implementation\CharacterDatabase.cpp">
+    <ClCompile Include="C:\Trinitycore\src\server\shared\Database\Implementation\CharacterDatabase.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="C:\TrinityCore\src\server\shared\Database\Implementation\LoginDatabase.cpp">
+    <ClCompile Include="C:\Trinitycore\src\server\shared\Database\Implementation\LoginDatabase.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="C:\TrinityCore\src\server\shared\Database\Implementation\WorldDatabase.cpp">
+    <ClCompile Include="C:\Trinitycore\src\server\shared\Database\Implementation\WorldDatabase.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="C:\TrinityCore\src\server\shared\Database\MySQLConnection.cpp">
+    <ClCompile Include="C:\Trinitycore\src\server\shared\Database\MySQLConnection.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="C:\TrinityCore\src\server\shared\Database\PreparedStatement.cpp">
+    <ClCompile Include="C:\Trinitycore\src\server\shared\Database\PreparedStatement.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="C:\TrinityCore\src\server\shared\Database\QueryHolder.cpp">
+    <ClCompile Include="C:\Trinitycore\src\server\shared\Database\QueryHolder.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="C:\TrinityCore\src\server\shared\Database\QueryResult.cpp">
+    <ClCompile Include="C:\Trinitycore\src\server\shared\Database\QueryResult.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="C:\TrinityCore\src\server\shared\Database\Transaction.cpp">
+    <ClCompile Include="C:\Trinitycore\src\server\shared\Database\Transaction.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="C:\TrinityCore\src\server\shared\DataStores\DBCFileLoader.cpp">
+    <ClCompile Include="C:\Trinitycore\src\server\shared\DataStores\DBCFileLoader.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="C:\TrinityCore\src\server\shared\Debugging\Errors.cpp">
+    <ClCompile Include="C:\Trinitycore\src\server\shared\Debugging\Errors.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="C:\TrinityCore\src\server\shared\Logging\Appender.cpp">
+    <ClCompile Include="C:\Trinitycore\src\server\shared\Logging\Appender.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="C:\TrinityCore\src\server\shared\Logging\AppenderConsole.cpp">
+    <ClCompile Include="C:\Trinitycore\src\server\shared\Logging\AppenderConsole.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="C:\TrinityCore\src\server\shared\Logging\AppenderDB.cpp">
+    <ClCompile Include="C:\Trinitycore\src\server\shared\Logging\AppenderDB.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="C:\TrinityCore\src\server\shared\Logging\AppenderFile.cpp">
+    <ClCompile Include="C:\Trinitycore\src\server\shared\Logging\AppenderFile.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="C:\TrinityCore\src\server\shared\Logging\Log.cpp">
+    <ClCompile Include="C:\Trinitycore\src\server\shared\Logging\Log.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="C:\TrinityCore\src\server\shared\Logging\Logger.cpp">
+    <ClCompile Include="C:\Trinitycore\src\server\shared\Logging\Logger.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="C:\TrinityCore\src\server\shared\Logging\LogOperation.cpp">
+    <ClCompile Include="C:\Trinitycore\src\server\shared\Logging\LogOperation.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="C:\TrinityCore\src\server\shared\Logging\LogWorker.cpp">
+    <ClCompile Include="C:\Trinitycore\src\server\shared\Logging\LogWorker.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="C:\TrinityCore\src\server\shared\Packets\ByteBuffer.cpp">
+    <ClCompile Include="C:\Trinitycore\src\server\shared\Packets\ByteBuffer.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="C:\TrinityCore\src\server\shared\Threading\DelayExecutor.cpp">
+    <ClCompile Include="C:\Trinitycore\src\server\shared\Threading\DelayExecutor.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="C:\TrinityCore\src\server\shared\Threading\Threading.cpp">
+    <ClCompile Include="C:\Trinitycore\src\server\shared\Threading\Threading.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="C:\TrinityCore\src\server\shared\Utilities\EventProcessor.cpp">
+    <ClCompile Include="C:\Trinitycore\src\server\shared\Utilities\EventProcessor.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="C:\TrinityCore\src\server\shared\Utilities\ServiceWin32.cpp">
+    <ClCompile Include="C:\Trinitycore\src\server\shared\Utilities\ServiceWin32.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="C:\TrinityCore\src\server\shared\Utilities\Util.cpp">
+    <ClCompile Include="C:\Trinitycore\src\server\shared\Utilities\Util.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="C:\TrinityCore\src\server\shared\Common.cpp">
+    <ClCompile Include="C:\Trinitycore\src\server\shared\Common.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="C:\TrinityCore\src\server\shared\PrecompiledHeaders\sharedPCH.cpp">
+    <ClCompile Include="C:\Trinitycore\src\server\shared\PrecompiledHeaders\sharedPCH.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="C:\TrinityCore\src\server\shared\Configuration\Config.h">
+    <ClInclude Include="C:\Trinitycore\src\server\shared\Configuration\Config.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="C:\TrinityCore\src\server\shared\Cryptography\ARC4.h">
+    <ClInclude Include="C:\Trinitycore\src\server\shared\Cryptography\ARC4.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="C:\TrinityCore\src\server\shared\Cryptography\Authentication\AuthCrypt.h">
+    <ClInclude Include="C:\Trinitycore\src\server\shared\Cryptography\Authentication\AuthCrypt.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="C:\TrinityCore\src\server\shared\Cryptography\BigNumber.h">
+    <ClInclude Include="C:\Trinitycore\src\server\shared\Cryptography\BigNumber.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="C:\TrinityCore\src\server\shared\Cryptography\HMACSHA1.h">
+    <ClInclude Include="C:\Trinitycore\src\server\shared\Cryptography\HMACSHA1.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="C:\TrinityCore\src\server\shared\Cryptography\SHA1.h">
+    <ClInclude Include="C:\Trinitycore\src\server\shared\Cryptography\SHA1.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="C:\TrinityCore\src\server\shared\Cryptography\WardenKeyGeneration.h">
+    <ClInclude Include="C:\Trinitycore\src\server\shared\Cryptography\WardenKeyGeneration.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="C:\TrinityCore\src\server\shared\Database\AdhocStatement.h">
+    <ClInclude Include="C:\Trinitycore\src\server\shared\Database\AdhocStatement.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="C:\TrinityCore\src\server\shared\Database\DatabaseEnv.h">
+    <ClInclude Include="C:\Trinitycore\src\server\shared\Database\DatabaseEnv.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="C:\TrinityCore\src\server\shared\Database\DatabaseWorker.h">
+    <ClInclude Include="C:\Trinitycore\src\server\shared\Database\DatabaseWorker.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="C:\TrinityCore\src\server\shared\Database\DatabaseWorkerPool.h">
+    <ClInclude Include="C:\Trinitycore\src\server\shared\Database\DatabaseWorkerPool.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="C:\TrinityCore\src\server\shared\Database\Field.h">
+    <ClInclude Include="C:\Trinitycore\src\server\shared\Database\Field.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="C:\TrinityCore\src\server\shared\Database\Implementation\CharacterDatabase.h">
+    <ClInclude Include="C:\Trinitycore\src\server\shared\Database\Implementation\CharacterDatabase.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="C:\TrinityCore\src\server\shared\Database\Implementation\LoginDatabase.h">
+    <ClInclude Include="C:\Trinitycore\src\server\shared\Database\Implementation\LoginDatabase.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="C:\TrinityCore\src\server\shared\Database\Implementation\WorldDatabase.h">
+    <ClInclude Include="C:\Trinitycore\src\server\shared\Database\Implementation\WorldDatabase.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="C:\TrinityCore\src\server\shared\Database\MySQLConnection.h">
+    <ClInclude Include="C:\Trinitycore\src\server\shared\Database\MySQLConnection.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="C:\TrinityCore\src\server\shared\Database\MySQLThreading.h">
+    <ClInclude Include="C:\Trinitycore\src\server\shared\Database\MySQLThreading.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="C:\TrinityCore\src\server\shared\Database\PreparedStatement.h">
+    <ClInclude Include="C:\Trinitycore\src\server\shared\Database\PreparedStatement.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="C:\TrinityCore\src\server\shared\Database\QueryHolder.h">
+    <ClInclude Include="C:\Trinitycore\src\server\shared\Database\QueryHolder.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="C:\TrinityCore\src\server\shared\Database\QueryResult.h">
+    <ClInclude Include="C:\Trinitycore\src\server\shared\Database\QueryResult.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="C:\TrinityCore\src\server\shared\Database\SQLOperation.h">
+    <ClInclude Include="C:\Trinitycore\src\server\shared\Database\SQLOperation.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="C:\TrinityCore\src\server\shared\Database\Transaction.h">
+    <ClInclude Include="C:\Trinitycore\src\server\shared\Database\Transaction.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="C:\TrinityCore\src\server\shared\DataStores\DBCFileLoader.h">
+    <ClInclude Include="C:\Trinitycore\src\server\shared\DataStores\DBCFileLoader.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="C:\TrinityCore\src\server\shared\DataStores\DBCStore.h">
+    <ClInclude Include="C:\Trinitycore\src\server\shared\DataStores\DBCStore.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="C:\TrinityCore\src\server\shared\Debugging\Errors.h">
+    <ClInclude Include="C:\Trinitycore\src\server\shared\Debugging\Errors.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="C:\TrinityCore\src\server\shared\Dynamic\FactoryHolder.h">
+    <ClInclude Include="C:\Trinitycore\src\server\shared\Dynamic\FactoryHolder.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="C:\TrinityCore\src\server\shared\Dynamic\HashNamespace.h">
+    <ClInclude Include="C:\Trinitycore\src\server\shared\Dynamic\HashNamespace.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="C:\TrinityCore\src\server\shared\Dynamic\LinkedList.h">
+    <ClInclude Include="C:\Trinitycore\src\server\shared\Dynamic\LinkedList.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="C:\TrinityCore\src\server\shared\Dynamic\LinkedReference\Reference.h">
+    <ClInclude Include="C:\Trinitycore\src\server\shared\Dynamic\LinkedReference\Reference.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="C:\TrinityCore\src\server\shared\Dynamic\LinkedReference\RefManager.h">
+    <ClInclude Include="C:\Trinitycore\src\server\shared\Dynamic\LinkedReference\RefManager.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="C:\TrinityCore\src\server\shared\Dynamic\ObjectRegistry.h">
+    <ClInclude Include="C:\Trinitycore\src\server\shared\Dynamic\ObjectRegistry.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="C:\TrinityCore\src\server\shared\Dynamic\TypeContainer.h">
+    <ClInclude Include="C:\Trinitycore\src\server\shared\Dynamic\TypeContainer.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="C:\TrinityCore\src\server\shared\Dynamic\TypeContainerFunctions.h">
+    <ClInclude Include="C:\Trinitycore\src\server\shared\Dynamic\TypeContainerFunctions.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="C:\TrinityCore\src\server\shared\Dynamic\TypeContainerVisitor.h">
+    <ClInclude Include="C:\Trinitycore\src\server\shared\Dynamic\TypeContainerVisitor.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="C:\TrinityCore\src\server\shared\Dynamic\TypeList.h">
+    <ClInclude Include="C:\Trinitycore\src\server\shared\Dynamic\TypeList.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="C:\TrinityCore\src\server\shared\Dynamic\UnorderedMap.h">
+    <ClInclude Include="C:\Trinitycore\src\server\shared\Dynamic\UnorderedMap.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="C:\TrinityCore\src\server\shared\Dynamic\UnorderedSet.h">
+    <ClInclude Include="C:\Trinitycore\src\server\shared\Dynamic\UnorderedSet.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="C:\TrinityCore\src\server\shared\Logging\Appender.h">
+    <ClInclude Include="C:\Trinitycore\src\server\shared\Logging\Appender.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="C:\TrinityCore\src\server\shared\Logging\AppenderConsole.h">
+    <ClInclude Include="C:\Trinitycore\src\server\shared\Logging\AppenderConsole.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="C:\TrinityCore\src\server\shared\Logging\AppenderDB.h">
+    <ClInclude Include="C:\Trinitycore\src\server\shared\Logging\AppenderDB.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="C:\TrinityCore\src\server\shared\Logging\AppenderFile.h">
+    <ClInclude Include="C:\Trinitycore\src\server\shared\Logging\AppenderFile.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="C:\TrinityCore\src\server\shared\Logging\Log.h">
+    <ClInclude Include="C:\Trinitycore\src\server\shared\Logging\Log.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="C:\TrinityCore\src\server\shared\Logging\Logger.h">
+    <ClInclude Include="C:\Trinitycore\src\server\shared\Logging\Logger.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="C:\TrinityCore\src\server\shared\Logging\LogOperation.h">
+    <ClInclude Include="C:\Trinitycore\src\server\shared\Logging\LogOperation.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="C:\TrinityCore\src\server\shared\Logging\LogWorker.h">
+    <ClInclude Include="C:\Trinitycore\src\server\shared\Logging\LogWorker.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="C:\TrinityCore\src\server\shared\Packets\ByteBuffer.h">
+    <ClInclude Include="C:\Trinitycore\src\server\shared\Packets\ByteBuffer.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="C:\TrinityCore\src\server\shared\Packets\WorldPacket.h">
+    <ClInclude Include="C:\Trinitycore\src\server\shared\Packets\WorldPacket.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="C:\TrinityCore\src\server\shared\Threading\Callback.h">
+    <ClInclude Include="C:\Trinitycore\src\server\shared\Threading\Callback.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="C:\TrinityCore\src\server\shared\Threading\DelayExecutor.h">
+    <ClInclude Include="C:\Trinitycore\src\server\shared\Threading\DelayExecutor.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="C:\TrinityCore\src\server\shared\Threading\LockedQueue.h">
+    <ClInclude Include="C:\Trinitycore\src\server\shared\Threading\LockedQueue.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="C:\TrinityCore\src\server\shared\Threading\Threading.h">
+    <ClInclude Include="C:\Trinitycore\src\server\shared\Threading\Threading.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="C:\TrinityCore\src\server\shared\Utilities\ByteConverter.h">
+    <ClInclude Include="C:\Trinitycore\src\server\shared\Utilities\ByteConverter.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="C:\TrinityCore\src\server\shared\Utilities\EventProcessor.h">
+    <ClInclude Include="C:\Trinitycore\src\server\shared\Utilities\EventProcessor.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="C:\TrinityCore\src\server\shared\Utilities\ServiceWin32.h">
+    <ClInclude Include="C:\Trinitycore\src\server\shared\Utilities\ServiceWin32.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="C:\TrinityCore\src\server\shared\Utilities\SignalHandler.h">
+    <ClInclude Include="C:\Trinitycore\src\server\shared\Utilities\SignalHandler.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="C:\TrinityCore\src\server\shared\Utilities\Timer.h">
+    <ClInclude Include="C:\Trinitycore\src\server\shared\Utilities\Timer.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="C:\TrinityCore\src\server\shared\Utilities\Util.h">
+    <ClInclude Include="C:\Trinitycore\src\server\shared\Utilities\Util.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="C:\TrinityCore\src\server\shared\AutoPtr.h">
+    <ClInclude Include="C:\Trinitycore\src\server\shared\AutoPtr.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="C:\TrinityCore\src\server\shared\Common.h">
+    <ClInclude Include="C:\Trinitycore\src\server\shared\Common.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="C:\TrinityCore\src\server\shared\CompilerDefs.h">
+    <ClInclude Include="C:\Trinitycore\src\server\shared\CompilerDefs.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="C:\TrinityCore\src\server\shared\Containers.h">
+    <ClInclude Include="C:\Trinitycore\src\server\shared\Containers.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="C:\TrinityCore\src\server\shared\Define.h">
+    <ClInclude Include="C:\Trinitycore\src\server\shared\Define.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="C:\TrinityCore\src\server\shared\Memory.h">
+    <ClInclude Include="C:\Trinitycore\src\server\shared\Memory.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="C:\TrinityCore\src\server\shared\SystemConfig.h">
+    <ClInclude Include="C:\Trinitycore\src\server\shared\SystemConfig.h">
       <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>
   <ItemGroup>
-    <CustomBuild Include="C:\TrinityCore\src\server\shared\CMakeLists.txt" />
+    <CustomBuild Include="C:\Trinitycore\src\server\shared\CMakeLists.txt" />
   </ItemGroup>
   <ItemGroup>
     <Filter Include="Source Files">

@@ -1,4 +1,4 @@
-# Install script for directory: C:/TrinityCore/dep/recastnavigation
+# Install script for directory: C:/Trinitycore/dep/recastnavigation
 
 # Set the install prefix
 IF(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -29,8 +29,8 @@ ENDIF(NOT CMAKE_INSTALL_COMPONENT)
 
 IF(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for each subdirectory.
-  INCLUDE("C:/build/dep/recastnavigation/Detour/cmake_install.cmake")
-  INCLUDE("C:/build/dep/recastnavigation/Recast/cmake_install.cmake")
+  INCLUDE("C:/Build/dep/recastnavigation/Detour/cmake_install.cmake")
+  INCLUDE("C:/Build/dep/recastnavigation/Recast/cmake_install.cmake")
 
 ENDIF(NOT CMAKE_INSTALL_LOCAL_ONLY)
 
