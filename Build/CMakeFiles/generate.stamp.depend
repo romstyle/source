@@ -1,0 +1,42 @@
+# CMake generation dependency list for this directory.
+C:/TrinityCore/CMakeLists.txt
+C:/build/CMakeFiles/2.8.12.2/CMakeSystem.cmake
+C:/build/CMakeFiles/2.8.12.2/CMakeCCompiler.cmake
+C:/build/CMakeFiles/2.8.12.2/CMakeCXXCompiler.cmake
+C:/Program Files (x86)/CMake 2.8/share/cmake-2.8/Modules/CMakeSystemSpecificInformation.cmake
+C:/Program Files (x86)/CMake 2.8/share/cmake-2.8/Modules/CMakeGenericSystem.cmake
+C:/Program Files (x86)/CMake 2.8/share/cmake-2.8/Modules/Platform/Windows.cmake
+C:/Program Files (x86)/CMake 2.8/share/cmake-2.8/Modules/Platform/WindowsPaths.cmake
+C:/Program Files (x86)/CMake 2.8/share/cmake-2.8/Modules/CMakeCInformation.cmake
+C:/Program Files (x86)/CMake 2.8/share/cmake-2.8/Modules/Platform/Windows-MSVC-C.cmake
+C:/Program Files (x86)/CMake 2.8/share/cmake-2.8/Modules/Platform/Windows-MSVC.cmake
+C:/build/CMakeFiles/2.8.12.2/CMakeRCCompiler.cmake
+C:/Program Files (x86)/CMake 2.8/share/cmake-2.8/Modules/CMakeRCInformation.cmake
+C:/Program Files (x86)/CMake 2.8/share/cmake-2.8/Modules/CMakeCommonLanguageInclude.cmake
+C:/Program Files (x86)/CMake 2.8/share/cmake-2.8/Modules/CMakeCXXInformation.cmake
+C:/Program Files (x86)/CMake 2.8/share/cmake-2.8/Modules/Platform/Windows-MSVC-CXX.cmake
+C:/Program Files (x86)/CMake 2.8/share/cmake-2.8/Modules/Platform/Windows-MSVC.cmake
+C:/Program Files (x86)/CMake 2.8/share/cmake-2.8/Modules/CMakeCommonLanguageInclude.cmake
+C:/Program Files (x86)/CMake 2.8/share/cmake-2.8/Modules/CheckCXXSourceRuns.cmake
+C:/Program Files (x86)/CMake 2.8/share/cmake-2.8/Modules/CheckIncludeFiles.cmake
+C:/TrinityCore/cmake/options.cmake
+C:/TrinityCore/cmake/macros/CheckPlatform.cmake
+C:/TrinityCore/cmake/platform/settings.cmake
+C:/TrinityCore/cmake/platform/win/settings.cmake
+C:/TrinityCore/cmake/compiler/msvc/settings.cmake
+C:/TrinityCore/cmake/macros/FindPCHSupport.cmake
+C:/TrinityCore/cmake/macros/FindACE.cmake
+C:/TrinityCore/cmake/macros/FindOpenSSL.cmake
+C:/Program Files (x86)/CMake 2.8/share/cmake-2.8/Modules/FindPackageHandleStandardArgs.cmake
+C:/Program Files (x86)/CMake 2.8/share/cmake-2.8/Modules/FindPackageMessage.cmake
+C:/Program Files (x86)/CMake 2.8/share/cmake-2.8/Modules/CMakeParseArguments.cmake
+C:/Program Files (x86)/CMake 2.8/share/cmake-2.8/Modules/FindThreads.cmake
+C:/Program Files (x86)/CMake 2.8/share/cmake-2.8/Modules/CheckIncludeFiles.cmake
+C:/Program Files (x86)/CMake 2.8/share/cmake-2.8/Modules/CheckLibraryExists.cmake
+C:/Program Files (x86)/CMake 2.8/share/cmake-2.8/Modules/CheckSymbolExists.cmake
+C:/Program Files (x86)/CMake 2.8/share/cmake-2.8/Modules/FindPackageHandleStandardArgs.cmake
+C:/Program Files (x86)/CMake 2.8/share/cmake-2.8/Modules/FindPackageMessage.cmake
+C:/Program Files (x86)/CMake 2.8/share/cmake-2.8/Modules/CMakeParseArguments.cmake
+C:/TrinityCore/cmake/genrev.cmake
+C:/TrinityCore/revision.h.in.cmake
+C:/TrinityCore/cmake/showoptions.cmake

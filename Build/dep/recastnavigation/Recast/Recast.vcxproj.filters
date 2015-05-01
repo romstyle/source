@@ -1,0 +1,43 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="12.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="C:\TrinityCore\dep\recastnavigation\Recast\Recast.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\TrinityCore\dep\recastnavigation\Recast\RecastAlloc.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\TrinityCore\dep\recastnavigation\Recast\RecastArea.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\TrinityCore\dep\recastnavigation\Recast\RecastContour.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\TrinityCore\dep\recastnavigation\Recast\RecastFilter.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\TrinityCore\dep\recastnavigation\Recast\RecastLayers.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\TrinityCore\dep\recastnavigation\Recast\RecastMesh.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\TrinityCore\dep\recastnavigation\Recast\RecastMeshDetail.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\TrinityCore\dep\recastnavigation\Recast\RecastRasterization.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\TrinityCore\dep\recastnavigation\Recast\RecastRegion.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\TrinityCore\dep\recastnavigation\Recast\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{66B83F8E-57D8-4F1D-ADCF-63EFFB67AC86}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

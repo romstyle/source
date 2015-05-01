@@ -1,0 +1,16 @@
+C:/build/CMakeFiles/ALL_BUILD.dir
+C:/build/dep/recastnavigation/Detour/CMakeFiles/Detour.dir
+C:/build/dep/recastnavigation/Recast/CMakeFiles/Recast.dir
+C:/build/CMakeFiles/ZERO_CHECK.dir
+C:/build/dep/acelite/ace/CMakeFiles/ace.dir
+C:/build/src/server/authserver/CMakeFiles/authserver.dir
+C:/build/src/server/collision/CMakeFiles/collision.dir
+C:/build/dep/g3dlite/CMakeFiles/g3dlib.dir
+C:/build/src/server/game/CMakeFiles/game.dir
+C:/build/dep/gsoap/CMakeFiles/gsoap.dir
+C:/build/dep/mysqllite/CMakeFiles/libmysql.dir
+C:/build/src/genrev/CMakeFiles/revision.h.dir
+C:/build/src/server/scripts/CMakeFiles/scripts.dir
+C:/build/src/server/shared/CMakeFiles/shared.dir
+C:/build/src/server/worldserver/CMakeFiles/worldserver.dir
+C:/build/dep/zlib/CMakeFiles/zlib.dir

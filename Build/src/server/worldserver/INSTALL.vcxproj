@@ -1,0 +1,217 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="12.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="MinSizeRel|Win32">
+      <Configuration>MinSizeRel</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="RelWithDebInfo|Win32">
+      <Configuration>RelWithDebInfo</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGUID>{F310D88C-C2DA-444B-8992-0E5AC5DD8F3E}</ProjectGUID>
+    <Keyword>Win32Proj</Keyword>
+    <Platform>Win32</Platform>
+    <ProjectName>INSTALL</ProjectName>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType></ConfigurationType>
+    <UseOfMfc>false</UseOfMfc>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v120</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType></ConfigurationType>
+    <UseOfMfc>false</UseOfMfc>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v120</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'" Label="Configuration">
+    <ConfigurationType></ConfigurationType>
+    <UseOfMfc>false</UseOfMfc>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v120</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'" Label="Configuration">
+    <ConfigurationType></ConfigurationType>
+    <UseOfMfc>false</UseOfMfc>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v120</PlatformToolset>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+    <PropertyGroup>
+      <_ProjectFileVersion>10.0.20506.1</_ProjectFileVersion>
+      <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+      <IntDir Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+      <IntDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+      <IntDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+    </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Midl>
+      <AdditionalIncludeDirectories>C:\build;C:\TrinityCore\dep\g3dlite\include;C:\TrinityCore\dep\recastnavigation\Detour;C:\TrinityCore\dep\gsoap;C:\TrinityCore\dep\sockets\include;C:\TrinityCore\dep\SFMT;C:\TrinityCore\src\server\collision;C:\TrinityCore\src\server\collision\Management;C:\TrinityCore\src\server\collision\Models;C:\TrinityCore\src\server\shared;C:\TrinityCore\src\server\shared\Configuration;C:\TrinityCore\src\server\shared\Cryptography;C:\TrinityCore\src\server\shared\Cryptography\Authentication;C:\TrinityCore\src\server\shared\Database;C:\TrinityCore\src\server\shared\DataStores;C:\TrinityCore\src\server\shared\Debugging;C:\TrinityCore\src\server\shared\Dynamic\LinkedReference;C:\TrinityCore\src\server\shared\Dynamic;C:\TrinityCore\src\server\shared\Logging;C:\TrinityCore\src\server\shared\Packets;C:\TrinityCore\src\server\shared\Threading;C:\TrinityCore\src\server\shared\Utilities;C:\TrinityCore\src\server\game;C:\TrinityCore\src\server\game\Accounts;C:\TrinityCore\src\server\game\Achievements;C:\TrinityCore\src\server\game\Addons;C:\TrinityCore\src\server\game\AI;C:\TrinityCore\src\server\game\AI\CoreAI;C:\TrinityCore\src\server\game\AI\EventAI;C:\TrinityCore\src\server\game\AI\ScriptedAI;C:\TrinityCore\src\server\game\AI\SmartScripts;C:\TrinityCore\src\server\game\AuctionHouse;C:\TrinityCore\src\server\game\AuctionHouse\AuctionHouseBot;C:\TrinityCore\src\server\game\Battlegrounds;C:\TrinityCore\src\server\game\Battlegrounds\Zones;C:\TrinityCore\src\server\game\Calendar;C:\TrinityCore\src\server\game\Chat;C:\TrinityCore\src\server\game\Chat\Channels;C:\TrinityCore\src\server\game\Combat;C:\TrinityCore\src\server\game\Conditions;C:\TrinityCore\src\server\game\DataStores;C:\TrinityCore\src\server\game\DungeonFinding;C:\TrinityCore\src\server\game\Entities;C:\TrinityCore\src\server\game\Entities\Creature;C:\TrinityCore\src\server\game\Entities\Corpse;C:\TrinityCore\src\server\game\Entities\DynamicObject;C:\TrinityCore\src\server\game\Entities\GameObject;C:\TrinityCore\src\server\game\Entities\Item;C:\TrinityCore\src\server\game\Entities\Item\Container;C:\TrinityCore\src\server\game\Entities\Object;C:\TrinityCore\src\server\game\Entities\Object\Updates;C:\TrinityCore\src\server\game\Entities\Pet;C:\TrinityCore\src\server\game\Entities\Player;C:\TrinityCore\src\server\game\Entities\Totem;C:\TrinityCore\src\server\game\Entities\Unit;C:\TrinityCore\src\server\game\Entities\Vehicle;C:\TrinityCore\src\server\game\Entities\Transport;C:\TrinityCore\src\server\game\Events;C:\TrinityCore\src\server\game\Globals;C:\TrinityCore\src\server\game\Grids\Cells;C:\TrinityCore\src\server\game\Grids\Notifiers;C:\TrinityCore\src\server\game\Grids;C:\TrinityCore\src\server\game\Groups;C:\TrinityCore\src\server\game\Guilds;C:\TrinityCore\src\server\game\Handlers;C:\TrinityCore\src\server\game\Instances;C:\TrinityCore\src\server\game\Loot;C:\TrinityCore\src\server\game\Mails;C:\TrinityCore\src\server\game\Maps;C:\TrinityCore\src\server\game\Miscellaneous;C:\TrinityCore\src\server\game\Movement;C:\TrinityCore\src\server\game\Movement\MovementGenerators;C:\TrinityCore\src\server\game\Movement\Waypoints;C:\TrinityCore\src\server\game\OutdoorPvP;C:\TrinityCore\src\server\game\Pools;C:\TrinityCore\src\server\game\PrecompiledHeaders;C:\TrinityCore\src\server\game\Quests;C:\TrinityCore\src\server\game\Reputation;C:\TrinityCore\src\server\game\Scripting;C:\TrinityCore\src\server\game\Server\Protocol;C:\TrinityCore\src\server\game\Server;C:\TrinityCore\src\server\game\Skills;C:\TrinityCore\src\server\game\Spells;C:\TrinityCore\src\server\game\Spells\Auras;C:\TrinityCore\src\server\game\Tools;C:\TrinityCore\src\server\game\Warden;C:\TrinityCore\src\server\game\Warden\Modules;C:\TrinityCore\src\server\game\Weather;C:\TrinityCore\src\server\game\World;C:\TrinityCore\src\server\authserver\Server;C:\TrinityCore\src\server\authserver\Realms;C:\TrinityCore\src\server\worldserver;C:\TrinityCore\src\server\worldserver\CommandLine;C:\TrinityCore\src\server\worldserver\RemoteAccess;C:\TrinityCore\src\server\worldserver\TCSoap;C:\TrinityCore\src\server\worldserver\WorldThread;C:\TrinityCore\dep\acelite;C:\TrinityCore\dep\mysqllite\include;C:\OpenSSL-Win32\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <PostBuildEvent>
+      <Message></Message>
+      <Command>setlocal
+"C:\Program Files (x86)\CMake 2.8\bin\cmake.exe" -DBUILD_TYPE=$(Configuration) -P cmake_install.cmake
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+    </PostBuildEvent>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Midl>
+      <AdditionalIncludeDirectories>C:\build;C:\TrinityCore\dep\g3dlite\include;C:\TrinityCore\dep\recastnavigation\Detour;C:\TrinityCore\dep\gsoap;C:\TrinityCore\dep\sockets\include;C:\TrinityCore\dep\SFMT;C:\TrinityCore\src\server\collision;C:\TrinityCore\src\server\collision\Management;C:\TrinityCore\src\server\collision\Models;C:\TrinityCore\src\server\shared;C:\TrinityCore\src\server\shared\Configuration;C:\TrinityCore\src\server\shared\Cryptography;C:\TrinityCore\src\server\shared\Cryptography\Authentication;C:\TrinityCore\src\server\shared\Database;C:\TrinityCore\src\server\shared\DataStores;C:\TrinityCore\src\server\shared\Debugging;C:\TrinityCore\src\server\shared\Dynamic\LinkedReference;C:\TrinityCore\src\server\shared\Dynamic;C:\TrinityCore\src\server\shared\Logging;C:\TrinityCore\src\server\shared\Packets;C:\TrinityCore\src\server\shared\Threading;C:\TrinityCore\src\server\shared\Utilities;C:\TrinityCore\src\server\game;C:\TrinityCore\src\server\game\Accounts;C:\TrinityCore\src\server\game\Achievements;C:\TrinityCore\src\server\game\Addons;C:\TrinityCore\src\server\game\AI;C:\TrinityCore\src\server\game\AI\CoreAI;C:\TrinityCore\src\server\game\AI\EventAI;C:\TrinityCore\src\server\game\AI\ScriptedAI;C:\TrinityCore\src\server\game\AI\SmartScripts;C:\TrinityCore\src\server\game\AuctionHouse;C:\TrinityCore\src\server\game\AuctionHouse\AuctionHouseBot;C:\TrinityCore\src\server\game\Battlegrounds;C:\TrinityCore\src\server\game\Battlegrounds\Zones;C:\TrinityCore\src\server\game\Calendar;C:\TrinityCore\src\server\game\Chat;C:\TrinityCore\src\server\game\Chat\Channels;C:\TrinityCore\src\server\game\Combat;C:\TrinityCore\src\server\game\Conditions;C:\TrinityCore\src\server\game\DataStores;C:\TrinityCore\src\server\game\DungeonFinding;C:\TrinityCore\src\server\game\Entities;C:\TrinityCore\src\server\game\Entities\Creature;C:\TrinityCore\src\server\game\Entities\Corpse;C:\TrinityCore\src\server\game\Entities\DynamicObject;C:\TrinityCore\src\server\game\Entities\GameObject;C:\TrinityCore\src\server\game\Entities\Item;C:\TrinityCore\src\server\game\Entities\Item\Container;C:\TrinityCore\src\server\game\Entities\Object;C:\TrinityCore\src\server\game\Entities\Object\Updates;C:\TrinityCore\src\server\game\Entities\Pet;C:\TrinityCore\src\server\game\Entities\Player;C:\TrinityCore\src\server\game\Entities\Totem;C:\TrinityCore\src\server\game\Entities\Unit;C:\TrinityCore\src\server\game\Entities\Vehicle;C:\TrinityCore\src\server\game\Entities\Transport;C:\TrinityCore\src\server\game\Events;C:\TrinityCore\src\server\game\Globals;C:\TrinityCore\src\server\game\Grids\Cells;C:\TrinityCore\src\server\game\Grids\Notifiers;C:\TrinityCore\src\server\game\Grids;C:\TrinityCore\src\server\game\Groups;C:\TrinityCore\src\server\game\Guilds;C:\TrinityCore\src\server\game\Handlers;C:\TrinityCore\src\server\game\Instances;C:\TrinityCore\src\server\game\Loot;C:\TrinityCore\src\server\game\Mails;C:\TrinityCore\src\server\game\Maps;C:\TrinityCore\src\server\game\Miscellaneous;C:\TrinityCore\src\server\game\Movement;C:\TrinityCore\src\server\game\Movement\MovementGenerators;C:\TrinityCore\src\server\game\Movement\Waypoints;C:\TrinityCore\src\server\game\OutdoorPvP;C:\TrinityCore\src\server\game\Pools;C:\TrinityCore\src\server\game\PrecompiledHeaders;C:\TrinityCore\src\server\game\Quests;C:\TrinityCore\src\server\game\Reputation;C:\TrinityCore\src\server\game\Scripting;C:\TrinityCore\src\server\game\Server\Protocol;C:\TrinityCore\src\server\game\Server;C:\TrinityCore\src\server\game\Skills;C:\TrinityCore\src\server\game\Spells;C:\TrinityCore\src\server\game\Spells\Auras;C:\TrinityCore\src\server\game\Tools;C:\TrinityCore\src\server\game\Warden;C:\TrinityCore\src\server\game\Warden\Modules;C:\TrinityCore\src\server\game\Weather;C:\TrinityCore\src\server\game\World;C:\TrinityCore\src\server\authserver\Server;C:\TrinityCore\src\server\authserver\Realms;C:\TrinityCore\src\server\worldserver;C:\TrinityCore\src\server\worldserver\CommandLine;C:\TrinityCore\src\server\worldserver\RemoteAccess;C:\TrinityCore\src\server\worldserver\TCSoap;C:\TrinityCore\src\server\worldserver\WorldThread;C:\TrinityCore\dep\acelite;C:\TrinityCore\dep\mysqllite\include;C:\OpenSSL-Win32\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <PostBuildEvent>
+      <Message></Message>
+      <Command>setlocal
+"C:\Program Files (x86)\CMake 2.8\bin\cmake.exe" -DBUILD_TYPE=$(Configuration) -P cmake_install.cmake
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+    </PostBuildEvent>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">
+    <Midl>
+      <AdditionalIncludeDirectories>C:\build;C:\TrinityCore\dep\g3dlite\include;C:\TrinityCore\dep\recastnavigation\Detour;C:\TrinityCore\dep\gsoap;C:\TrinityCore\dep\sockets\include;C:\TrinityCore\dep\SFMT;C:\TrinityCore\src\server\collision;C:\TrinityCore\src\server\collision\Management;C:\TrinityCore\src\server\collision\Models;C:\TrinityCore\src\server\shared;C:\TrinityCore\src\server\shared\Configuration;C:\TrinityCore\src\server\shared\Cryptography;C:\TrinityCore\src\server\shared\Cryptography\Authentication;C:\TrinityCore\src\server\shared\Database;C:\TrinityCore\src\server\shared\DataStores;C:\TrinityCore\src\server\shared\Debugging;C:\TrinityCore\src\server\shared\Dynamic\LinkedReference;C:\TrinityCore\src\server\shared\Dynamic;C:\TrinityCore\src\server\shared\Logging;C:\TrinityCore\src\server\shared\Packets;C:\TrinityCore\src\server\shared\Threading;C:\TrinityCore\src\server\shared\Utilities;C:\TrinityCore\src\server\game;C:\TrinityCore\src\server\game\Accounts;C:\TrinityCore\src\server\game\Achievements;C:\TrinityCore\src\server\game\Addons;C:\TrinityCore\src\server\game\AI;C:\TrinityCore\src\server\game\AI\CoreAI;C:\TrinityCore\src\server\game\AI\EventAI;C:\TrinityCore\src\server\game\AI\ScriptedAI;C:\TrinityCore\src\server\game\AI\SmartScripts;C:\TrinityCore\src\server\game\AuctionHouse;C:\TrinityCore\src\server\game\AuctionHouse\AuctionHouseBot;C:\TrinityCore\src\server\game\Battlegrounds;C:\TrinityCore\src\server\game\Battlegrounds\Zones;C:\TrinityCore\src\server\game\Calendar;C:\TrinityCore\src\server\game\Chat;C:\TrinityCore\src\server\game\Chat\Channels;C:\TrinityCore\src\server\game\Combat;C:\TrinityCore\src\server\game\Conditions;C:\TrinityCore\src\server\game\DataStores;C:\TrinityCore\src\server\game\DungeonFinding;C:\TrinityCore\src\server\game\Entities;C:\TrinityCore\src\server\game\Entities\Creature;C:\TrinityCore\src\server\game\Entities\Corpse;C:\TrinityCore\src\server\game\Entities\DynamicObject;C:\TrinityCore\src\server\game\Entities\GameObject;C:\TrinityCore\src\server\game\Entities\Item;C:\TrinityCore\src\server\game\Entities\Item\Container;C:\TrinityCore\src\server\game\Entities\Object;C:\TrinityCore\src\server\game\Entities\Object\Updates;C:\TrinityCore\src\server\game\Entities\Pet;C:\TrinityCore\src\server\game\Entities\Player;C:\TrinityCore\src\server\game\Entities\Totem;C:\TrinityCore\src\server\game\Entities\Unit;C:\TrinityCore\src\server\game\Entities\Vehicle;C:\TrinityCore\src\server\game\Entities\Transport;C:\TrinityCore\src\server\game\Events;C:\TrinityCore\src\server\game\Globals;C:\TrinityCore\src\server\game\Grids\Cells;C:\TrinityCore\src\server\game\Grids\Notifiers;C:\TrinityCore\src\server\game\Grids;C:\TrinityCore\src\server\game\Groups;C:\TrinityCore\src\server\game\Guilds;C:\TrinityCore\src\server\game\Handlers;C:\TrinityCore\src\server\game\Instances;C:\TrinityCore\src\server\game\Loot;C:\TrinityCore\src\server\game\Mails;C:\TrinityCore\src\server\game\Maps;C:\TrinityCore\src\server\game\Miscellaneous;C:\TrinityCore\src\server\game\Movement;C:\TrinityCore\src\server\game\Movement\MovementGenerators;C:\TrinityCore\src\server\game\Movement\Waypoints;C:\TrinityCore\src\server\game\OutdoorPvP;C:\TrinityCore\src\server\game\Pools;C:\TrinityCore\src\server\game\PrecompiledHeaders;C:\TrinityCore\src\server\game\Quests;C:\TrinityCore\src\server\game\Reputation;C:\TrinityCore\src\server\game\Scripting;C:\TrinityCore\src\server\game\Server\Protocol;C:\TrinityCore\src\server\game\Server;C:\TrinityCore\src\server\game\Skills;C:\TrinityCore\src\server\game\Spells;C:\TrinityCore\src\server\game\Spells\Auras;C:\TrinityCore\src\server\game\Tools;C:\TrinityCore\src\server\game\Warden;C:\TrinityCore\src\server\game\Warden\Modules;C:\TrinityCore\src\server\game\Weather;C:\TrinityCore\src\server\game\World;C:\TrinityCore\src\server\authserver\Server;C:\TrinityCore\src\server\authserver\Realms;C:\TrinityCore\src\server\worldserver;C:\TrinityCore\src\server\worldserver\CommandLine;C:\TrinityCore\src\server\worldserver\RemoteAccess;C:\TrinityCore\src\server\worldserver\TCSoap;C:\TrinityCore\src\server\worldserver\WorldThread;C:\TrinityCore\dep\acelite;C:\TrinityCore\dep\mysqllite\include;C:\OpenSSL-Win32\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <PostBuildEvent>
+      <Message></Message>
+      <Command>setlocal
+"C:\Program Files (x86)\CMake 2.8\bin\cmake.exe" -DBUILD_TYPE=$(Configuration) -P cmake_install.cmake
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+    </PostBuildEvent>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">
+    <Midl>
+      <AdditionalIncludeDirectories>C:\build;C:\TrinityCore\dep\g3dlite\include;C:\TrinityCore\dep\recastnavigation\Detour;C:\TrinityCore\dep\gsoap;C:\TrinityCore\dep\sockets\include;C:\TrinityCore\dep\SFMT;C:\TrinityCore\src\server\collision;C:\TrinityCore\src\server\collision\Management;C:\TrinityCore\src\server\collision\Models;C:\TrinityCore\src\server\shared;C:\TrinityCore\src\server\shared\Configuration;C:\TrinityCore\src\server\shared\Cryptography;C:\TrinityCore\src\server\shared\Cryptography\Authentication;C:\TrinityCore\src\server\shared\Database;C:\TrinityCore\src\server\shared\DataStores;C:\TrinityCore\src\server\shared\Debugging;C:\TrinityCore\src\server\shared\Dynamic\LinkedReference;C:\TrinityCore\src\server\shared\Dynamic;C:\TrinityCore\src\server\shared\Logging;C:\TrinityCore\src\server\shared\Packets;C:\TrinityCore\src\server\shared\Threading;C:\TrinityCore\src\server\shared\Utilities;C:\TrinityCore\src\server\game;C:\TrinityCore\src\server\game\Accounts;C:\TrinityCore\src\server\game\Achievements;C:\TrinityCore\src\server\game\Addons;C:\TrinityCore\src\server\game\AI;C:\TrinityCore\src\server\game\AI\CoreAI;C:\TrinityCore\src\server\game\AI\EventAI;C:\TrinityCore\src\server\game\AI\ScriptedAI;C:\TrinityCore\src\server\game\AI\SmartScripts;C:\TrinityCore\src\server\game\AuctionHouse;C:\TrinityCore\src\server\game\AuctionHouse\AuctionHouseBot;C:\TrinityCore\src\server\game\Battlegrounds;C:\TrinityCore\src\server\game\Battlegrounds\Zones;C:\TrinityCore\src\server\game\Calendar;C:\TrinityCore\src\server\game\Chat;C:\TrinityCore\src\server\game\Chat\Channels;C:\TrinityCore\src\server\game\Combat;C:\TrinityCore\src\server\game\Conditions;C:\TrinityCore\src\server\game\DataStores;C:\TrinityCore\src\server\game\DungeonFinding;C:\TrinityCore\src\server\game\Entities;C:\TrinityCore\src\server\game\Entities\Creature;C:\TrinityCore\src\server\game\Entities\Corpse;C:\TrinityCore\src\server\game\Entities\DynamicObject;C:\TrinityCore\src\server\game\Entities\GameObject;C:\TrinityCore\src\server\game\Entities\Item;C:\TrinityCore\src\server\game\Entities\Item\Container;C:\TrinityCore\src\server\game\Entities\Object;C:\TrinityCore\src\server\game\Entities\Object\Updates;C:\TrinityCore\src\server\game\Entities\Pet;C:\TrinityCore\src\server\game\Entities\Player;C:\TrinityCore\src\server\game\Entities\Totem;C:\TrinityCore\src\server\game\Entities\Unit;C:\TrinityCore\src\server\game\Entities\Vehicle;C:\TrinityCore\src\server\game\Entities\Transport;C:\TrinityCore\src\server\game\Events;C:\TrinityCore\src\server\game\Globals;C:\TrinityCore\src\server\game\Grids\Cells;C:\TrinityCore\src\server\game\Grids\Notifiers;C:\TrinityCore\src\server\game\Grids;C:\TrinityCore\src\server\game\Groups;C:\TrinityCore\src\server\game\Guilds;C:\TrinityCore\src\server\game\Handlers;C:\TrinityCore\src\server\game\Instances;C:\TrinityCore\src\server\game\Loot;C:\TrinityCore\src\server\game\Mails;C:\TrinityCore\src\server\game\Maps;C:\TrinityCore\src\server\game\Miscellaneous;C:\TrinityCore\src\server\game\Movement;C:\TrinityCore\src\server\game\Movement\MovementGenerators;C:\TrinityCore\src\server\game\Movement\Waypoints;C:\TrinityCore\src\server\game\OutdoorPvP;C:\TrinityCore\src\server\game\Pools;C:\TrinityCore\src\server\game\PrecompiledHeaders;C:\TrinityCore\src\server\game\Quests;C:\TrinityCore\src\server\game\Reputation;C:\TrinityCore\src\server\game\Scripting;C:\TrinityCore\src\server\game\Server\Protocol;C:\TrinityCore\src\server\game\Server;C:\TrinityCore\src\server\game\Skills;C:\TrinityCore\src\server\game\Spells;C:\TrinityCore\src\server\game\Spells\Auras;C:\TrinityCore\src\server\game\Tools;C:\TrinityCore\src\server\game\Warden;C:\TrinityCore\src\server\game\Warden\Modules;C:\TrinityCore\src\server\game\Weather;C:\TrinityCore\src\server\game\World;C:\TrinityCore\src\server\authserver\Server;C:\TrinityCore\src\server\authserver\Realms;C:\TrinityCore\src\server\worldserver;C:\TrinityCore\src\server\worldserver\CommandLine;C:\TrinityCore\src\server\worldserver\RemoteAccess;C:\TrinityCore\src\server\worldserver\TCSoap;C:\TrinityCore\src\server\worldserver\WorldThread;C:\TrinityCore\dep\acelite;C:\TrinityCore\dep\mysqllite\include;C:\OpenSSL-Win32\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <PostBuildEvent>
+      <Message></Message>
+      <Command>setlocal
+"C:\Program Files (x86)\CMake 2.8\bin\cmake.exe" -DBUILD_TYPE=$(Configuration) -P cmake_install.cmake
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+    </PostBuildEvent>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <CustomBuild Include="..\..\..\CMakeFiles\8fe7a7f6670f48b10933556e9cef785f\INSTALL_force.rule">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'"> </Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">setlocal
+cd .
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">C:/build/CMakeFiles/8fe7a7f6670f48b10933556e9cef785f/INSTALL_force.rule;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">C:\build\src\server\worldserver\CMakeFiles\INSTALL_force</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|Win32'"> </Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">setlocal
+cd .
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">C:/build/CMakeFiles/8fe7a7f6670f48b10933556e9cef785f/INSTALL_force.rule;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">C:\build\src\server\worldserver\CMakeFiles\INSTALL_force</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'"> </Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">setlocal
+cd .
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">C:/build/CMakeFiles/8fe7a7f6670f48b10933556e9cef785f/INSTALL_force.rule;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">C:\build\src\server\worldserver\CMakeFiles\INSTALL_force</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'"> </Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">setlocal
+cd .
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">C:/build/CMakeFiles/8fe7a7f6670f48b10933556e9cef785f/INSTALL_force.rule;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">C:\build\src\server\worldserver\CMakeFiles\INSTALL_force</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="C:/build/ALL_BUILD.vcxproj">
+      <Project>C7079994-1ED8-4AD0-AFA0-81A1208AF4E5</Project>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>
