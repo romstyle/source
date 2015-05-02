@@ -30,7 +30,6 @@ public:
         uint32 dechainement_de_lame;
 		uint32 agitation;
 		InstanceScript* instance;
-		uint32 curHealth;
 		bool buffed = false;
 
 		void Reset() OVERRIDE
@@ -43,7 +42,6 @@ public:
 		void EnterCombat(Unit* /*who*/) OVERRIDE
         {
 			me->MonsterYell("Je vais vous arracher le cœur !!", LANG_UNIVERSAL, me->GetGUID());
-			curHealth = me->GetHealth();
         }
 		void KilledUnit(Unit* /*victim*/) OVERRIDE
         {
@@ -52,6 +50,9 @@ public:
 		void JustDied(Unit* killer) OVERRIDE
         {
 			me->MonsterYell("Imp-imposs-Aaaaaaaaaaarrrrh...", LANG_UNIVERSAL, me->GetGUID());
+			char msg[255];
+			snprintf(msg, 255, "Felicitation ! %s ainsi que sa guilde on vaincu Ahn'Karok le berserk", killer->GetName());
+			sWorld->SendServerMessage(SERVER_MSG_STRING, msg);
         }
 		void UpdateAI(uint32 diff) OVERRIDE
         {
