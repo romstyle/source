@@ -184,6 +184,9 @@
     <ClCompile Include="C:\Trinitycore\src\server\scripts\Custom\Transmogrification.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="C:\Trinitycore\src\server\scripts\Custom\AhnKarok.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
     <ClCompile Include="C:\Trinitycore\src\server\scripts\World\achievement_scripts.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>

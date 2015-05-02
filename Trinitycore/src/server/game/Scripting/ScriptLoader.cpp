@@ -1319,7 +1319,6 @@ void AddOutdoorPvPScripts()
 void AddBattlegroundScripts()
 {
 #ifdef SCRIPTS
-	void AddSC_NPC_Transmogrify();
 #endif
 }
 
@@ -1332,12 +1331,15 @@ void AddSC_npc_customizeur();
 void AddSC_npc_morph();
 void AddSC_Boss_Announcer();
 void AddSC_multi_changer();
+void AddSC_NPC_Transmogrify();
+void AddSC_boss_ahnkarok();
 
 #endif
 
 void AddCustomScripts()
 {
 #ifdef SCRIPTS
-	//AddSC_NPC_Transmogrify();
+	AddSC_NPC_Transmogrify();
+	AddSC_boss_ahnkarok();
 #endif
 }

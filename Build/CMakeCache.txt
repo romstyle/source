@@ -19,7 +19,7 @@
 // else will be ignored.
 CMAKE_CONFIGURATION_TYPES:STRING=Debug;Release;MinSizeRel;RelWithDebInfo
 
-CMAKE_CXX_FLAGS:STRING= /DWIN32 /D_WINDOWS /W3 /GR /EHsc /MP /wd4996 /wd4355 /wd4244 /wd4985 /wd4267 /wd4619 /MP /wd4996 /wd4355 /wd4244 /wd4985 /wd4267 /wd4619 /MP /wd4996 /wd4355 /wd4244 /wd4985 /wd4267 /wd4619 /Zm500
+CMAKE_CXX_FLAGS:STRING= /DWIN32 /D_WINDOWS /W3 /GR /EHsc /MP /wd4996 /wd4355 /wd4244 /wd4985 /wd4267 /wd4619 /MP /wd4996 /wd4355 /wd4244 /wd4985 /wd4267 /wd4619 /MP /wd4996 /wd4355 /wd4244 /wd4985 /wd4267 /wd4619 /MP /wd4996 /wd4355 /wd4244 /wd4985 /wd4267 /wd4619 /Zm500
 
 //Flags used by the compiler during debug builds.
 CMAKE_CXX_FLAGS_DEBUG:STRING=/D_DEBUG /MDd /Zi /Ob0 /Od /RTC1

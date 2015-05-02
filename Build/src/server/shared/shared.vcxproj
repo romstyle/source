@@ -82,7 +82,7 @@
       <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
       <CompileAs>CompileAsCpp</CompileAs>
       <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
-      <DisableSpecificWarnings>4996;4355;4244;4985;4267;4619;4996;4355;4244;4985;4267;4619;4996;4355;4244;4985;4267;4619</DisableSpecificWarnings>
+      <DisableSpecificWarnings>4996;4355;4244;4985;4267;4619;4996;4355;4244;4985;4267;4619;4996;4355;4244;4985;4267;4619;4996;4355;4244;4985;4267;4619</DisableSpecificWarnings>
       <EnableEnhancedInstructionSet>StreamingSIMDExtensions2</EnableEnhancedInstructionSet>
       <ExceptionHandling>Sync</ExceptionHandling>
       <ForcedIncludeFiles>sharedPCH.h</ForcedIncludeFiles>
@@ -117,7 +117,7 @@
       <AdditionalIncludeDirectories>C:\Build\src\server\shared;C:\Build;C:\Trinitycore\dep\recastnavigation\Detour;C:\Trinitycore\dep\SFMT;C:\Trinitycore\dep\sockets\include;C:\Trinitycore\dep\utf8cpp;C:\Trinitycore\src\server;C:\Trinitycore\src\server\shared;C:\Trinitycore\src\server\shared\Configuration;C:\Trinitycore\src\server\shared\Cryptography;C:\Trinitycore\src\server\shared\Database;C:\Trinitycore\src\server\shared\DataStores;C:\Trinitycore\src\server\shared\Debugging;C:\Trinitycore\src\server\shared\Dynamic;C:\Trinitycore\src\server\shared\Logging;C:\Trinitycore\src\server\shared\Packets;C:\Trinitycore\src\server\shared\Threading;C:\Trinitycore\src\server\shared\Utilities;C:\Trinitycore\src\server\game\Entities\Object;C:\Trinitycore\dep\acelite;C:\Trinitycore\dep\mysqllite\include;C:\OpenSSL-Win32\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <AssemblerListingLocation>Release/</AssemblerListingLocation>
       <CompileAs>CompileAsCpp</CompileAs>
-      <DisableSpecificWarnings>4996;4355;4244;4985;4267;4619;4996;4355;4244;4985;4267;4619;4996;4355;4244;4985;4267;4619</DisableSpecificWarnings>
+      <DisableSpecificWarnings>4996;4355;4244;4985;4267;4619;4996;4355;4244;4985;4267;4619;4996;4355;4244;4985;4267;4619;4996;4355;4244;4985;4267;4619</DisableSpecificWarnings>
       <EnableEnhancedInstructionSet>StreamingSIMDExtensions2</EnableEnhancedInstructionSet>
       <ExceptionHandling>Sync</ExceptionHandling>
       <ForcedIncludeFiles>sharedPCH.h</ForcedIncludeFiles>
@@ -153,7 +153,7 @@
       <AdditionalIncludeDirectories>C:\Build\src\server\shared;C:\Build;C:\Trinitycore\dep\recastnavigation\Detour;C:\Trinitycore\dep\SFMT;C:\Trinitycore\dep\sockets\include;C:\Trinitycore\dep\utf8cpp;C:\Trinitycore\src\server;C:\Trinitycore\src\server\shared;C:\Trinitycore\src\server\shared\Configuration;C:\Trinitycore\src\server\shared\Cryptography;C:\Trinitycore\src\server\shared\Database;C:\Trinitycore\src\server\shared\DataStores;C:\Trinitycore\src\server\shared\Debugging;C:\Trinitycore\src\server\shared\Dynamic;C:\Trinitycore\src\server\shared\Logging;C:\Trinitycore\src\server\shared\Packets;C:\Trinitycore\src\server\shared\Threading;C:\Trinitycore\src\server\shared\Utilities;C:\Trinitycore\src\server\game\Entities\Object;C:\Trinitycore\dep\acelite;C:\Trinitycore\dep\mysqllite\include;C:\OpenSSL-Win32\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <AssemblerListingLocation>MinSizeRel/</AssemblerListingLocation>
       <CompileAs>CompileAsCpp</CompileAs>
-      <DisableSpecificWarnings>4996;4355;4244;4985;4267;4619;4996;4355;4244;4985;4267;4619;4996;4355;4244;4985;4267;4619</DisableSpecificWarnings>
+      <DisableSpecificWarnings>4996;4355;4244;4985;4267;4619;4996;4355;4244;4985;4267;4619;4996;4355;4244;4985;4267;4619;4996;4355;4244;4985;4267;4619</DisableSpecificWarnings>
       <EnableEnhancedInstructionSet>StreamingSIMDExtensions2</EnableEnhancedInstructionSet>
       <ExceptionHandling>Sync</ExceptionHandling>
       <ForcedIncludeFiles>sharedPCH.h</ForcedIncludeFiles>
@@ -190,7 +190,7 @@
       <AssemblerListingLocation>RelWithDebInfo/</AssemblerListingLocation>
       <CompileAs>CompileAsCpp</CompileAs>
       <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
-      <DisableSpecificWarnings>4996;4355;4244;4985;4267;4619;4996;4355;4244;4985;4267;4619;4996;4355;4244;4985;4267;4619</DisableSpecificWarnings>
+      <DisableSpecificWarnings>4996;4355;4244;4985;4267;4619;4996;4355;4244;4985;4267;4619;4996;4355;4244;4985;4267;4619;4996;4355;4244;4985;4267;4619</DisableSpecificWarnings>
       <EnableEnhancedInstructionSet>StreamingSIMDExtensions2</EnableEnhancedInstructionSet>
       <ExceptionHandling>Sync</ExceptionHandling>
       <ForcedIncludeFiles>sharedPCH.h</ForcedIncludeFiles>
