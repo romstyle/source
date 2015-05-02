@@ -87,6 +87,7 @@ public:
 			else agitation -= diff;
 			if (me->HealthBelowPct(10) && buffed == false)
 			{
+				me->MonsterYell("JE VAIS BRISER VOS OS !", LANG_UNIVERSAL, me->GetGUID());
 				DoCast(me, SPELL_BERSERK, true);
 				buffed = true;
 			}
