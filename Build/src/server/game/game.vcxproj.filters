@@ -559,6 +559,9 @@
     <ClCompile Include="C:\Trinitycore\src\server\game\PrecompiledHeaders\gamePCH.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="..\..\..\..\Trinitycore\src\server\game\Battlegrounds\Zones\BattlegroundFD.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="C:\Trinitycore\src\server\game\Accounts\AccountMgr.h">
@@ -1129,6 +1132,9 @@
       <Filter>Header Files</Filter>
     </ClInclude>
     <ClInclude Include="C:\Trinitycore\src\server\game\World\World.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\Trinitycore\src\server\game\Battlegrounds\Zones\BattleGroundFD.h">
       <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>

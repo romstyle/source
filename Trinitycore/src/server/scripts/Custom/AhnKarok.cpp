@@ -9,7 +9,10 @@ enum Spells
 	SPELL_AGITTION_FRENETIQUE			 = 50188,
 	SPELL_BERSERK						 = 41107,
 };
-
+enum Sounds
+{
+	SANG_ET_CHAIR = 20000,
+};
 class boss_ahnkarok : public CreatureScript
 {
 public:
@@ -19,9 +22,9 @@ public:
     {
 		return new boss_ahnkarokAI(creature);
     }
-	struct boss_ahnkarokAI : public ScriptedAI
+	struct boss_ahnkarokAI : public BossAI
 	{
-		boss_ahnkarokAI(Creature* creature) : ScriptedAI(creature)
+		boss_ahnkarokAI(Creature* creature) : BossAI(creature, 0)
         {
             instance = creature->GetInstanceScript();
         }
@@ -31,9 +34,14 @@ public:
 		uint32 agitation;
 		InstanceScript* instance;
 		bool buffed = false;
-
+		void Talk(uint32 id)
+		{
+			DoPlaySoundToSet(me, id);
+		}
 		void Reset() OVERRIDE
         {
+			_Reset();
+			me->RemoveAllAuras();
             enchainement = 60000;
             dechainement_de_lame = 5000;
             fendre_armure = 45000;
@@ -41,6 +49,7 @@ public:
         }
 		void EnterCombat(Unit* /*who*/) OVERRIDE
         {
+			_EnterCombat();
 			me->MonsterYell("Je vais vous arracher le cœur !!", LANG_UNIVERSAL, me->GetGUID());
         }
 		void KilledUnit(Unit* /*victim*/) OVERRIDE
@@ -49,10 +58,8 @@ public:
         }
 		void JustDied(Unit* killer) OVERRIDE
         {
+			_JustDied();
 			me->MonsterYell("Imp-imposs-Aaaaaaaaaaarrrrh...", LANG_UNIVERSAL, me->GetGUID());
-			char msg[255];
-			snprintf(msg, 255, "Felicitation ! %s ainsi que sa guilde on vaincu Ahn'Karok le berserk", killer->GetName());
-			sWorld->SendServerMessage(SERVER_MSG_STRING, msg);
         }
 		void UpdateAI(uint32 diff) OVERRIDE
         {
@@ -77,11 +84,12 @@ public:
 				DoCast(SelectTarget(SELECT_TARGET_TOPAGGRO, 0, 100, true), SPELL_DECHAINEMENT_DE_LAME);
                 dechainement_de_lame = 45000;
 				me->MonsterYell("SANG ET CHAIR !!!", LANG_UNIVERSAL, me->GetGUID());
+				Talk(SANG_ET_CHAIR);
             }
 			else dechainement_de_lame -= diff;
 			if (agitation <= diff)
             {
-                DoCast(SelectTarget(SELECT_TARGET_RANDOM, 0, 100, true), SPELL_DECHAINEMENT_DE_LAME);
+				DoCast(SelectTarget(SELECT_TARGET_RANDOM, 0, 100, true), SPELL_AGITTION_FRENETIQUE);
                 agitation = 75000;
 				me->MonsterYell("Rhaaaaaaa MOURREZ !!", LANG_UNIVERSAL, me->GetGUID());
             }

@@ -53,27 +53,28 @@
   <ImportGroup Label="ExtensionSettings">
   </ImportGroup>
   <ImportGroup Label="PropertySheets">
-    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />  </ImportGroup>
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
   <PropertyGroup Label="UserMacros" />
-    <PropertyGroup>
-      <_ProjectFileVersion>10.0.20506.1</_ProjectFileVersion>
-      <OutDir Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">C:\Build\src\server\game\Debug\</OutDir>
-      <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">game.dir\Debug\</IntDir>
-      <TargetName Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">game</TargetName>
-      <TargetExt Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">.lib</TargetExt>
-      <OutDir Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">C:\Build\src\server\game\Release\</OutDir>
-      <IntDir Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">game.dir\Release\</IntDir>
-      <TargetName Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">game</TargetName>
-      <TargetExt Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">.lib</TargetExt>
-      <OutDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">C:\Build\src\server\game\MinSizeRel\</OutDir>
-      <IntDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">game.dir\MinSizeRel\</IntDir>
-      <TargetName Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">game</TargetName>
-      <TargetExt Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">.lib</TargetExt>
-      <OutDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">C:\Build\src\server\game\RelWithDebInfo\</OutDir>
-      <IntDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">game.dir\RelWithDebInfo\</IntDir>
-      <TargetName Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">game</TargetName>
-      <TargetExt Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">.lib</TargetExt>
-    </PropertyGroup>
+  <PropertyGroup>
+    <_ProjectFileVersion>10.0.20506.1</_ProjectFileVersion>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">C:\Build\src\server\game\Debug\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">game.dir\Debug\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">game</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">.lib</TargetExt>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">C:\Build\src\server\game\Release\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">game.dir\Release\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">game</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">.lib</TargetExt>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">C:\Build\src\server\game\MinSizeRel\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">game.dir\MinSizeRel\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">game</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">.lib</TargetExt>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">C:\Build\src\server\game\RelWithDebInfo\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">game.dir\RelWithDebInfo\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">game</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">.lib</TargetExt>
+  </PropertyGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
     <ClCompile>
       <AdditionalOptions> /Zm500 %(AdditionalOptions)</AdditionalOptions>
@@ -130,7 +131,8 @@
       <RuntimeTypeInfo>true</RuntimeTypeInfo>
       <TreatSpecificWarningsAsErrors>4263;4264</TreatSpecificWarningsAsErrors>
       <WarningLevel>Level3</WarningLevel>
-      <DebugInformationFormat></DebugInformationFormat>
+      <DebugInformationFormat>
+      </DebugInformationFormat>
       <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;_BUILD_DIRECTIVE="$(ConfigurationName)";_CRT_SECURE_CPP_OVERLOAD_STANDARD_NAMES;_CRT_SECURE_NO_WARNINGS;_CRT_NONSTDC_NO_WARNINGS;SCRIPTS;CMAKE_INTDIR="Release";%(PreprocessorDefinitions)</PreprocessorDefinitions>
       <ObjectFileName>$(IntDir)</ObjectFileName>
     </ClCompile>
@@ -166,7 +168,8 @@
       <RuntimeTypeInfo>true</RuntimeTypeInfo>
       <TreatSpecificWarningsAsErrors>4263;4264</TreatSpecificWarningsAsErrors>
       <WarningLevel>Level3</WarningLevel>
-      <DebugInformationFormat></DebugInformationFormat>
+      <DebugInformationFormat>
+      </DebugInformationFormat>
       <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;_BUILD_DIRECTIVE="$(ConfigurationName)";_CRT_SECURE_CPP_OVERLOAD_STANDARD_NAMES;_CRT_SECURE_NO_WARNINGS;_CRT_NONSTDC_NO_WARNINGS;SCRIPTS;CMAKE_INTDIR="MinSizeRel";%(PreprocessorDefinitions)</PreprocessorDefinitions>
       <ObjectFileName>$(IntDir)</ObjectFileName>
     </ClCompile>
@@ -276,6 +279,7 @@ if %errorlevel% neq 0 goto :VCEnd</Command>
     </CustomBuild>
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="..\..\..\..\Trinitycore\src\server\game\Battlegrounds\Zones\BattleGroundFD.h" />
     <ClInclude Include="C:\Trinitycore\src\server\game\Accounts\AccountMgr.h" />
     <ClInclude Include="C:\Trinitycore\src\server\game\Accounts\RBAC.h" />
     <ClInclude Include="C:\Trinitycore\src\server\game\Achievements\AchievementMgr.h" />
@@ -466,192 +470,193 @@ if %errorlevel% neq 0 goto :VCEnd</Command>
     <ClInclude Include="C:\Trinitycore\src\server\game\Weather\Weather.h" />
     <ClInclude Include="C:\Trinitycore\src\server\game\Weather\WeatherMgr.h" />
     <ClInclude Include="C:\Trinitycore\src\server\game\World\World.h" />
-    <ClCompile Include="C:\Trinitycore\src\server\game\Accounts\AccountMgr.cpp"  />
-    <ClCompile Include="C:\Trinitycore\src\server\game\Accounts\RBAC.cpp"  />
-    <ClCompile Include="C:\Trinitycore\src\server\game\Achievements\AchievementMgr.cpp"  />
-    <ClCompile Include="C:\Trinitycore\src\server\game\Addons\AddonMgr.cpp"  />
-    <ClCompile Include="C:\Trinitycore\src\server\game\AI\CoreAI\CombatAI.cpp"  />
-    <ClCompile Include="C:\Trinitycore\src\server\game\AI\CoreAI\GameObjectAI.cpp"  />
-    <ClCompile Include="C:\Trinitycore\src\server\game\AI\CoreAI\GuardAI.cpp"  />
-    <ClCompile Include="C:\Trinitycore\src\server\game\AI\CoreAI\PassiveAI.cpp"  />
-    <ClCompile Include="C:\Trinitycore\src\server\game\AI\CoreAI\PetAI.cpp"  />
-    <ClCompile Include="C:\Trinitycore\src\server\game\AI\CoreAI\ReactorAI.cpp"  />
-    <ClCompile Include="C:\Trinitycore\src\server\game\AI\CoreAI\TotemAI.cpp"  />
-    <ClCompile Include="C:\Trinitycore\src\server\game\AI\CoreAI\UnitAI.cpp"  />
-    <ClCompile Include="C:\Trinitycore\src\server\game\AI\CreatureAI.cpp"  />
-    <ClCompile Include="C:\Trinitycore\src\server\game\AI\CreatureAIRegistry.cpp"  />
-    <ClCompile Include="C:\Trinitycore\src\server\game\AI\CreatureAISelector.cpp"  />
-    <ClCompile Include="C:\Trinitycore\src\server\game\AI\EventAI\CreatureEventAI.cpp"  />
-    <ClCompile Include="C:\Trinitycore\src\server\game\AI\EventAI\CreatureEventAIMgr.cpp"  />
-    <ClCompile Include="C:\Trinitycore\src\server\game\AI\ScriptedAI\ScriptedCreature.cpp"  />
-    <ClCompile Include="C:\Trinitycore\src\server\game\AI\ScriptedAI\ScriptedEscortAI.cpp"  />
-    <ClCompile Include="C:\Trinitycore\src\server\game\AI\ScriptedAI\ScriptedFollowerAI.cpp"  />
-    <ClCompile Include="C:\Trinitycore\src\server\game\AI\SmartScripts\SmartAI.cpp"  />
-    <ClCompile Include="C:\Trinitycore\src\server\game\AI\SmartScripts\SmartScript.cpp"  />
-    <ClCompile Include="C:\Trinitycore\src\server\game\AI\SmartScripts\SmartScriptMgr.cpp"  />
-    <ClCompile Include="C:\Trinitycore\src\server\game\AuctionHouse\AuctionHouseMgr.cpp"  />
-    <ClCompile Include="C:\Trinitycore\src\server\game\Battlefield\Battlefield.cpp"  />
-    <ClCompile Include="C:\Trinitycore\src\server\game\Battlefield\BattlefieldMgr.cpp"  />
-    <ClCompile Include="C:\Trinitycore\src\server\game\Battlefield\Zones\BattlefieldWG.cpp"  />
-    <ClCompile Include="C:\Trinitycore\src\server\game\Battlegrounds\ArenaTeam.cpp"  />
-    <ClCompile Include="C:\Trinitycore\src\server\game\Battlegrounds\ArenaTeamMgr.cpp"  />
-    <ClCompile Include="C:\Trinitycore\src\server\game\Battlegrounds\Battleground.cpp"  />
-    <ClCompile Include="C:\Trinitycore\src\server\game\Battlegrounds\BattlegroundMgr.cpp"  />
-    <ClCompile Include="C:\Trinitycore\src\server\game\Battlegrounds\BattlegroundQueue.cpp"  />
-    <ClCompile Include="C:\Trinitycore\src\server\game\Battlegrounds\Zones\BattlegroundAB.cpp"  />
-    <ClCompile Include="C:\Trinitycore\src\server\game\Battlegrounds\Zones\BattlegroundAV.cpp"  />
-    <ClCompile Include="C:\Trinitycore\src\server\game\Battlegrounds\Zones\BattlegroundBE.cpp"  />
-    <ClCompile Include="C:\Trinitycore\src\server\game\Battlegrounds\Zones\BattlegroundDS.cpp"  />
-    <ClCompile Include="C:\Trinitycore\src\server\game\Battlegrounds\Zones\BattlegroundEY.cpp"  />
-    <ClCompile Include="C:\Trinitycore\src\server\game\Battlegrounds\Zones\BattlegroundIC.cpp"  />
-    <ClCompile Include="C:\Trinitycore\src\server\game\Battlegrounds\Zones\BattlegroundNA.cpp"  />
-    <ClCompile Include="C:\Trinitycore\src\server\game\Battlegrounds\Zones\BattlegroundRL.cpp"  />
-    <ClCompile Include="C:\Trinitycore\src\server\game\Battlegrounds\Zones\BattlegroundRV.cpp"  />
-    <ClCompile Include="C:\Trinitycore\src\server\game\Battlegrounds\Zones\BattlegroundSA.cpp"  />
-    <ClCompile Include="C:\Trinitycore\src\server\game\Battlegrounds\Zones\BattlegroundWS.cpp"  />
-    <ClCompile Include="C:\Trinitycore\src\server\game\Calendar\CalendarMgr.cpp"  />
-    <ClCompile Include="C:\Trinitycore\src\server\game\Chat\Channels\Channel.cpp"  />
-    <ClCompile Include="C:\Trinitycore\src\server\game\Chat\Channels\ChannelMgr.cpp"  />
-    <ClCompile Include="C:\Trinitycore\src\server\game\Chat\Chat.cpp"  />
-    <ClCompile Include="C:\Trinitycore\src\server\game\Chat\ChatLink.cpp"  />
-    <ClCompile Include="C:\Trinitycore\src\server\game\Combat\HostileRefManager.cpp"  />
-    <ClCompile Include="C:\Trinitycore\src\server\game\Combat\ThreatManager.cpp"  />
-    <ClCompile Include="C:\Trinitycore\src\server\game\Conditions\ConditionMgr.cpp"  />
-    <ClCompile Include="C:\Trinitycore\src\server\game\Conditions\DisableMgr.cpp"  />
-    <ClCompile Include="C:\Trinitycore\src\server\game\DataStores\DBCStores.cpp"  />
-    <ClCompile Include="C:\Trinitycore\src\server\game\DungeonFinding\LFG.cpp"  />
-    <ClCompile Include="C:\Trinitycore\src\server\game\DungeonFinding\LFGGroupData.cpp"  />
-    <ClCompile Include="C:\Trinitycore\src\server\game\DungeonFinding\LFGMgr.cpp"  />
-    <ClCompile Include="C:\Trinitycore\src\server\game\DungeonFinding\LFGPlayerData.cpp"  />
-    <ClCompile Include="C:\Trinitycore\src\server\game\DungeonFinding\LFGQueue.cpp"  />
-    <ClCompile Include="C:\Trinitycore\src\server\game\DungeonFinding\LFGScripts.cpp"  />
-    <ClCompile Include="C:\Trinitycore\src\server\game\Entities\Corpse\Corpse.cpp"  />
-    <ClCompile Include="C:\Trinitycore\src\server\game\Entities\Creature\Creature.cpp"  />
-    <ClCompile Include="C:\Trinitycore\src\server\game\Entities\Creature\CreatureGroups.cpp"  />
-    <ClCompile Include="C:\Trinitycore\src\server\game\Entities\Creature\GossipDef.cpp"  />
-    <ClCompile Include="C:\Trinitycore\src\server\game\Entities\Creature\TemporarySummon.cpp"  />
-    <ClCompile Include="C:\Trinitycore\src\server\game\Entities\DynamicObject\DynamicObject.cpp"  />
-    <ClCompile Include="C:\Trinitycore\src\server\game\Entities\GameObject\GameObject.cpp"  />
-    <ClCompile Include="C:\Trinitycore\src\server\game\Entities\Item\Container\Bag.cpp"  />
-    <ClCompile Include="C:\Trinitycore\src\server\game\Entities\Item\Item.cpp"  />
-    <ClCompile Include="C:\Trinitycore\src\server\game\Entities\Item\ItemEnchantmentMgr.cpp"  />
-    <ClCompile Include="C:\Trinitycore\src\server\game\Entities\Object\Object.cpp"  />
-    <ClCompile Include="C:\Trinitycore\src\server\game\Entities\Object\ObjectPosSelector.cpp"  />
-    <ClCompile Include="C:\Trinitycore\src\server\game\Entities\Object\Updates\UpdateData.cpp"  />
-    <ClCompile Include="C:\Trinitycore\src\server\game\Entities\Object\Updates\UpdateFieldFlags.cpp"  />
-    <ClCompile Include="C:\Trinitycore\src\server\game\Entities\Pet\Pet.cpp"  />
-    <ClCompile Include="C:\Trinitycore\src\server\game\Entities\Player\Player.cpp"  />
-    <ClCompile Include="C:\Trinitycore\src\server\game\Entities\Player\SocialMgr.cpp"  />
-    <ClCompile Include="C:\Trinitycore\src\server\game\Entities\Totem\Totem.cpp"  />
-    <ClCompile Include="C:\Trinitycore\src\server\game\Entities\Transport\Transport.cpp"  />
-    <ClCompile Include="C:\Trinitycore\src\server\game\Entities\Unit\StatSystem.cpp"  />
-    <ClCompile Include="C:\Trinitycore\src\server\game\Entities\Unit\Unit.cpp"  />
-    <ClCompile Include="C:\Trinitycore\src\server\game\Entities\Vehicle\Vehicle.cpp"  />
-    <ClCompile Include="C:\Trinitycore\src\server\game\Events\GameEventMgr.cpp"  />
-    <ClCompile Include="C:\Trinitycore\src\server\game\Globals\ObjectAccessor.cpp"  />
-    <ClCompile Include="C:\Trinitycore\src\server\game\Globals\ObjectMgr.cpp"  />
-    <ClCompile Include="C:\Trinitycore\src\server\game\Grids\GridStates.cpp"  />
-    <ClCompile Include="C:\Trinitycore\src\server\game\Grids\Notifiers\GridNotifiers.cpp"  />
-    <ClCompile Include="C:\Trinitycore\src\server\game\Grids\ObjectGridLoader.cpp"  />
-    <ClCompile Include="C:\Trinitycore\src\server\game\Groups\Group.cpp"  />
-    <ClCompile Include="C:\Trinitycore\src\server\game\Groups\GroupMgr.cpp"  />
-    <ClCompile Include="C:\Trinitycore\src\server\game\Groups\GroupReference.cpp"  />
-    <ClCompile Include="C:\Trinitycore\src\server\game\Guilds\Guild.cpp"  />
-    <ClCompile Include="C:\Trinitycore\src\server\game\Guilds\GuildMgr.cpp"  />
-    <ClCompile Include="C:\Trinitycore\src\server\game\Handlers\AddonHandler.cpp"  />
-    <ClCompile Include="C:\Trinitycore\src\server\game\Handlers\ArenaTeamHandler.cpp"  />
-    <ClCompile Include="C:\Trinitycore\src\server\game\Handlers\AuctionHouseHandler.cpp"  />
-    <ClCompile Include="C:\Trinitycore\src\server\game\Handlers\AuthHandler.cpp"  />
-    <ClCompile Include="C:\Trinitycore\src\server\game\Handlers\BattlefieldHandler.cpp"  />
-    <ClCompile Include="C:\Trinitycore\src\server\game\Handlers\BattleGroundHandler.cpp"  />
-    <ClCompile Include="C:\Trinitycore\src\server\game\Handlers\CalendarHandler.cpp"  />
-    <ClCompile Include="C:\Trinitycore\src\server\game\Handlers\ChannelHandler.cpp"  />
-    <ClCompile Include="C:\Trinitycore\src\server\game\Handlers\CharacterHandler.cpp"  />
-    <ClCompile Include="C:\Trinitycore\src\server\game\Handlers\ChatHandler.cpp"  />
-    <ClCompile Include="C:\Trinitycore\src\server\game\Handlers\CombatHandler.cpp"  />
-    <ClCompile Include="C:\Trinitycore\src\server\game\Handlers\DuelHandler.cpp"  />
-    <ClCompile Include="C:\Trinitycore\src\server\game\Handlers\GroupHandler.cpp"  />
-    <ClCompile Include="C:\Trinitycore\src\server\game\Handlers\GuildHandler.cpp"  />
-    <ClCompile Include="C:\Trinitycore\src\server\game\Handlers\ItemHandler.cpp"  />
-    <ClCompile Include="C:\Trinitycore\src\server\game\Handlers\LFGHandler.cpp"  />
-    <ClCompile Include="C:\Trinitycore\src\server\game\Handlers\LootHandler.cpp"  />
-    <ClCompile Include="C:\Trinitycore\src\server\game\Handlers\MailHandler.cpp"  />
-    <ClCompile Include="C:\Trinitycore\src\server\game\Handlers\MiscHandler.cpp"  />
-    <ClCompile Include="C:\Trinitycore\src\server\game\Handlers\MovementHandler.cpp"  />
-    <ClCompile Include="C:\Trinitycore\src\server\game\Handlers\NPCHandler.cpp"  />
-    <ClCompile Include="C:\Trinitycore\src\server\game\Handlers\PetHandler.cpp"  />
-    <ClCompile Include="C:\Trinitycore\src\server\game\Handlers\PetitionsHandler.cpp"  />
-    <ClCompile Include="C:\Trinitycore\src\server\game\Handlers\QueryHandler.cpp"  />
-    <ClCompile Include="C:\Trinitycore\src\server\game\Handlers\QuestHandler.cpp"  />
-    <ClCompile Include="C:\Trinitycore\src\server\game\Handlers\ReferAFriendHandler.cpp"  />
-    <ClCompile Include="C:\Trinitycore\src\server\game\Handlers\SkillHandler.cpp"  />
-    <ClCompile Include="C:\Trinitycore\src\server\game\Handlers\SpellHandler.cpp"  />
-    <ClCompile Include="C:\Trinitycore\src\server\game\Handlers\TaxiHandler.cpp"  />
-    <ClCompile Include="C:\Trinitycore\src\server\game\Handlers\TicketHandler.cpp"  />
-    <ClCompile Include="C:\Trinitycore\src\server\game\Handlers\TradeHandler.cpp"  />
-    <ClCompile Include="C:\Trinitycore\src\server\game\Handlers\VehicleHandler.cpp"  />
-    <ClCompile Include="C:\Trinitycore\src\server\game\Handlers\VoiceChatHandler.cpp"  />
-    <ClCompile Include="C:\Trinitycore\src\server\game\Instances\InstanceSaveMgr.cpp"  />
-    <ClCompile Include="C:\Trinitycore\src\server\game\Instances\InstanceScript.cpp"  />
-    <ClCompile Include="C:\Trinitycore\src\server\game\Loot\LootMgr.cpp"  />
-    <ClCompile Include="C:\Trinitycore\src\server\game\Mails\Mail.cpp"  />
-    <ClCompile Include="C:\Trinitycore\src\server\game\Maps\Map.cpp"  />
-    <ClCompile Include="C:\Trinitycore\src\server\game\Maps\MapInstanced.cpp"  />
-    <ClCompile Include="C:\Trinitycore\src\server\game\Maps\MapManager.cpp"  />
-    <ClCompile Include="C:\Trinitycore\src\server\game\Maps\MapUpdater.cpp"  />
-    <ClCompile Include="C:\Trinitycore\src\server\game\Movement\FollowerReference.cpp"  />
-    <ClCompile Include="C:\Trinitycore\src\server\game\Movement\MotionMaster.cpp"  />
-    <ClCompile Include="C:\Trinitycore\src\server\game\Movement\MovementGenerator.cpp"  />
-    <ClCompile Include="C:\Trinitycore\src\server\game\Movement\MovementGenerators\ConfusedMovementGenerator.cpp"  />
-    <ClCompile Include="C:\Trinitycore\src\server\game\Movement\MovementGenerators\FleeingMovementGenerator.cpp"  />
-    <ClCompile Include="C:\Trinitycore\src\server\game\Movement\MovementGenerators\HomeMovementGenerator.cpp"  />
-    <ClCompile Include="C:\Trinitycore\src\server\game\Movement\MovementGenerators\IdleMovementGenerator.cpp"  />
-    <ClCompile Include="C:\Trinitycore\src\server\game\Movement\MovementGenerators\PointMovementGenerator.cpp"  />
-    <ClCompile Include="C:\Trinitycore\src\server\game\Movement\MovementGenerators\RandomMovementGenerator.cpp"  />
-    <ClCompile Include="C:\Trinitycore\src\server\game\Movement\MovementGenerators\TargetedMovementGenerator.cpp"  />
-    <ClCompile Include="C:\Trinitycore\src\server\game\Movement\MovementGenerators\WaypointMovementGenerator.cpp"  />
-    <ClCompile Include="C:\Trinitycore\src\server\game\Movement\PathGenerator.cpp"  />
-    <ClCompile Include="C:\Trinitycore\src\server\game\Movement\Spline\MovementPacketBuilder.cpp"  />
-    <ClCompile Include="C:\Trinitycore\src\server\game\Movement\Spline\MovementUtil.cpp"  />
-    <ClCompile Include="C:\Trinitycore\src\server\game\Movement\Spline\MoveSpline.cpp"  />
-    <ClCompile Include="C:\Trinitycore\src\server\game\Movement\Spline\MoveSplineInit.cpp"  />
-    <ClCompile Include="C:\Trinitycore\src\server\game\Movement\Spline\Spline.cpp"  />
-    <ClCompile Include="C:\Trinitycore\src\server\game\Movement\Waypoints\WaypointManager.cpp"  />
-    <ClCompile Include="C:\Trinitycore\src\server\game\OutdoorPvP\OutdoorPvP.cpp"  />
-    <ClCompile Include="C:\Trinitycore\src\server\game\OutdoorPvP\OutdoorPvPMgr.cpp"  />
-    <ClCompile Include="C:\Trinitycore\src\server\game\Pools\PoolMgr.cpp"  />
-    <ClCompile Include="C:\Trinitycore\src\server\game\Quests\QuestDef.cpp"  />
-    <ClCompile Include="C:\Trinitycore\src\server\game\Reputation\ReputationMgr.cpp"  />
-    <ClCompile Include="C:\Trinitycore\src\server\game\Scripting\MapScripts.cpp"  />
-    <ClCompile Include="C:\Trinitycore\src\server\game\Scripting\ScriptLoader.cpp"  />
-    <ClCompile Include="C:\Trinitycore\src\server\game\Scripting\ScriptMgr.cpp"  />
-    <ClCompile Include="C:\Trinitycore\src\server\game\Scripting\ScriptSystem.cpp"  />
-    <ClCompile Include="C:\Trinitycore\src\server\game\Server\Protocol\Opcodes.cpp"  />
-    <ClCompile Include="C:\Trinitycore\src\server\game\Server\Protocol\PacketLog.cpp"  />
-    <ClCompile Include="C:\Trinitycore\src\server\game\Server\WorldSession.cpp"  />
-    <ClCompile Include="C:\Trinitycore\src\server\game\Server\WorldSocket.cpp"  />
-    <ClCompile Include="C:\Trinitycore\src\server\game\Server\WorldSocketMgr.cpp"  />
-    <ClCompile Include="C:\Trinitycore\src\server\game\Skills\SkillDiscovery.cpp"  />
-    <ClCompile Include="C:\Trinitycore\src\server\game\Skills\SkillExtraItems.cpp"  />
-    <ClCompile Include="C:\Trinitycore\src\server\game\Spells\Auras\SpellAuraEffects.cpp"  />
-    <ClCompile Include="C:\Trinitycore\src\server\game\Spells\Auras\SpellAuras.cpp"  />
-    <ClCompile Include="C:\Trinitycore\src\server\game\Spells\Spell.cpp"  />
-    <ClCompile Include="C:\Trinitycore\src\server\game\Spells\SpellEffects.cpp"  />
-    <ClCompile Include="C:\Trinitycore\src\server\game\Spells\SpellInfo.cpp"  />
-    <ClCompile Include="C:\Trinitycore\src\server\game\Spells\SpellMgr.cpp"  />
-    <ClCompile Include="C:\Trinitycore\src\server\game\Spells\SpellScript.cpp"  />
-    <ClCompile Include="C:\Trinitycore\src\server\game\Texts\CreatureTextMgr.cpp"  />
-    <ClCompile Include="C:\Trinitycore\src\server\game\Tools\CharacterDatabaseCleaner.cpp"  />
-    <ClCompile Include="C:\Trinitycore\src\server\game\Tools\PlayerDump.cpp"  />
-    <ClCompile Include="C:\Trinitycore\src\server\game\Tickets\TicketMgr.cpp"  />
-    <ClCompile Include="C:\Trinitycore\src\server\game\Warden\Warden.cpp"  />
-    <ClCompile Include="C:\Trinitycore\src\server\game\Warden\WardenCheckMgr.cpp"  />
-    <ClCompile Include="C:\Trinitycore\src\server\game\Warden\WardenMac.cpp"  />
-    <ClCompile Include="C:\Trinitycore\src\server\game\Warden\WardenWin.cpp"  />
-    <ClCompile Include="C:\Trinitycore\src\server\game\Weather\Weather.cpp"  />
-    <ClCompile Include="C:\Trinitycore\src\server\game\Weather\WeatherMgr.cpp"  />
-    <ClCompile Include="C:\Trinitycore\src\server\game\World\World.cpp"  />
-    <ClCompile Include="C:\Trinitycore\src\server\game\PrecompiledHeaders\gamePCH.cpp" >
+    <ClCompile Include="..\..\..\..\Trinitycore\src\server\game\Battlegrounds\Zones\BattlegroundFD.cpp" />
+    <ClCompile Include="C:\Trinitycore\src\server\game\Accounts\AccountMgr.cpp" />
+    <ClCompile Include="C:\Trinitycore\src\server\game\Accounts\RBAC.cpp" />
+    <ClCompile Include="C:\Trinitycore\src\server\game\Achievements\AchievementMgr.cpp" />
+    <ClCompile Include="C:\Trinitycore\src\server\game\Addons\AddonMgr.cpp" />
+    <ClCompile Include="C:\Trinitycore\src\server\game\AI\CoreAI\CombatAI.cpp" />
+    <ClCompile Include="C:\Trinitycore\src\server\game\AI\CoreAI\GameObjectAI.cpp" />
+    <ClCompile Include="C:\Trinitycore\src\server\game\AI\CoreAI\GuardAI.cpp" />
+    <ClCompile Include="C:\Trinitycore\src\server\game\AI\CoreAI\PassiveAI.cpp" />
+    <ClCompile Include="C:\Trinitycore\src\server\game\AI\CoreAI\PetAI.cpp" />
+    <ClCompile Include="C:\Trinitycore\src\server\game\AI\CoreAI\ReactorAI.cpp" />
+    <ClCompile Include="C:\Trinitycore\src\server\game\AI\CoreAI\TotemAI.cpp" />
+    <ClCompile Include="C:\Trinitycore\src\server\game\AI\CoreAI\UnitAI.cpp" />
+    <ClCompile Include="C:\Trinitycore\src\server\game\AI\CreatureAI.cpp" />
+    <ClCompile Include="C:\Trinitycore\src\server\game\AI\CreatureAIRegistry.cpp" />
+    <ClCompile Include="C:\Trinitycore\src\server\game\AI\CreatureAISelector.cpp" />
+    <ClCompile Include="C:\Trinitycore\src\server\game\AI\EventAI\CreatureEventAI.cpp" />
+    <ClCompile Include="C:\Trinitycore\src\server\game\AI\EventAI\CreatureEventAIMgr.cpp" />
+    <ClCompile Include="C:\Trinitycore\src\server\game\AI\ScriptedAI\ScriptedCreature.cpp" />
+    <ClCompile Include="C:\Trinitycore\src\server\game\AI\ScriptedAI\ScriptedEscortAI.cpp" />
+    <ClCompile Include="C:\Trinitycore\src\server\game\AI\ScriptedAI\ScriptedFollowerAI.cpp" />
+    <ClCompile Include="C:\Trinitycore\src\server\game\AI\SmartScripts\SmartAI.cpp" />
+    <ClCompile Include="C:\Trinitycore\src\server\game\AI\SmartScripts\SmartScript.cpp" />
+    <ClCompile Include="C:\Trinitycore\src\server\game\AI\SmartScripts\SmartScriptMgr.cpp" />
+    <ClCompile Include="C:\Trinitycore\src\server\game\AuctionHouse\AuctionHouseMgr.cpp" />
+    <ClCompile Include="C:\Trinitycore\src\server\game\Battlefield\Battlefield.cpp" />
+    <ClCompile Include="C:\Trinitycore\src\server\game\Battlefield\BattlefieldMgr.cpp" />
+    <ClCompile Include="C:\Trinitycore\src\server\game\Battlefield\Zones\BattlefieldWG.cpp" />
+    <ClCompile Include="C:\Trinitycore\src\server\game\Battlegrounds\ArenaTeam.cpp" />
+    <ClCompile Include="C:\Trinitycore\src\server\game\Battlegrounds\ArenaTeamMgr.cpp" />
+    <ClCompile Include="C:\Trinitycore\src\server\game\Battlegrounds\Battleground.cpp" />
+    <ClCompile Include="C:\Trinitycore\src\server\game\Battlegrounds\BattlegroundMgr.cpp" />
+    <ClCompile Include="C:\Trinitycore\src\server\game\Battlegrounds\BattlegroundQueue.cpp" />
+    <ClCompile Include="C:\Trinitycore\src\server\game\Battlegrounds\Zones\BattlegroundAB.cpp" />
+    <ClCompile Include="C:\Trinitycore\src\server\game\Battlegrounds\Zones\BattlegroundAV.cpp" />
+    <ClCompile Include="C:\Trinitycore\src\server\game\Battlegrounds\Zones\BattlegroundBE.cpp" />
+    <ClCompile Include="C:\Trinitycore\src\server\game\Battlegrounds\Zones\BattlegroundDS.cpp" />
+    <ClCompile Include="C:\Trinitycore\src\server\game\Battlegrounds\Zones\BattlegroundEY.cpp" />
+    <ClCompile Include="C:\Trinitycore\src\server\game\Battlegrounds\Zones\BattlegroundIC.cpp" />
+    <ClCompile Include="C:\Trinitycore\src\server\game\Battlegrounds\Zones\BattlegroundNA.cpp" />
+    <ClCompile Include="C:\Trinitycore\src\server\game\Battlegrounds\Zones\BattlegroundRL.cpp" />
+    <ClCompile Include="C:\Trinitycore\src\server\game\Battlegrounds\Zones\BattlegroundRV.cpp" />
+    <ClCompile Include="C:\Trinitycore\src\server\game\Battlegrounds\Zones\BattlegroundSA.cpp" />
+    <ClCompile Include="C:\Trinitycore\src\server\game\Battlegrounds\Zones\BattlegroundWS.cpp" />
+    <ClCompile Include="C:\Trinitycore\src\server\game\Calendar\CalendarMgr.cpp" />
+    <ClCompile Include="C:\Trinitycore\src\server\game\Chat\Channels\Channel.cpp" />
+    <ClCompile Include="C:\Trinitycore\src\server\game\Chat\Channels\ChannelMgr.cpp" />
+    <ClCompile Include="C:\Trinitycore\src\server\game\Chat\Chat.cpp" />
+    <ClCompile Include="C:\Trinitycore\src\server\game\Chat\ChatLink.cpp" />
+    <ClCompile Include="C:\Trinitycore\src\server\game\Combat\HostileRefManager.cpp" />
+    <ClCompile Include="C:\Trinitycore\src\server\game\Combat\ThreatManager.cpp" />
+    <ClCompile Include="C:\Trinitycore\src\server\game\Conditions\ConditionMgr.cpp" />
+    <ClCompile Include="C:\Trinitycore\src\server\game\Conditions\DisableMgr.cpp" />
+    <ClCompile Include="C:\Trinitycore\src\server\game\DataStores\DBCStores.cpp" />
+    <ClCompile Include="C:\Trinitycore\src\server\game\DungeonFinding\LFG.cpp" />
+    <ClCompile Include="C:\Trinitycore\src\server\game\DungeonFinding\LFGGroupData.cpp" />
+    <ClCompile Include="C:\Trinitycore\src\server\game\DungeonFinding\LFGMgr.cpp" />
+    <ClCompile Include="C:\Trinitycore\src\server\game\DungeonFinding\LFGPlayerData.cpp" />
+    <ClCompile Include="C:\Trinitycore\src\server\game\DungeonFinding\LFGQueue.cpp" />
+    <ClCompile Include="C:\Trinitycore\src\server\game\DungeonFinding\LFGScripts.cpp" />
+    <ClCompile Include="C:\Trinitycore\src\server\game\Entities\Corpse\Corpse.cpp" />
+    <ClCompile Include="C:\Trinitycore\src\server\game\Entities\Creature\Creature.cpp" />
+    <ClCompile Include="C:\Trinitycore\src\server\game\Entities\Creature\CreatureGroups.cpp" />
+    <ClCompile Include="C:\Trinitycore\src\server\game\Entities\Creature\GossipDef.cpp" />
+    <ClCompile Include="C:\Trinitycore\src\server\game\Entities\Creature\TemporarySummon.cpp" />
+    <ClCompile Include="C:\Trinitycore\src\server\game\Entities\DynamicObject\DynamicObject.cpp" />
+    <ClCompile Include="C:\Trinitycore\src\server\game\Entities\GameObject\GameObject.cpp" />
+    <ClCompile Include="C:\Trinitycore\src\server\game\Entities\Item\Container\Bag.cpp" />
+    <ClCompile Include="C:\Trinitycore\src\server\game\Entities\Item\Item.cpp" />
+    <ClCompile Include="C:\Trinitycore\src\server\game\Entities\Item\ItemEnchantmentMgr.cpp" />
+    <ClCompile Include="C:\Trinitycore\src\server\game\Entities\Object\Object.cpp" />
+    <ClCompile Include="C:\Trinitycore\src\server\game\Entities\Object\ObjectPosSelector.cpp" />
+    <ClCompile Include="C:\Trinitycore\src\server\game\Entities\Object\Updates\UpdateData.cpp" />
+    <ClCompile Include="C:\Trinitycore\src\server\game\Entities\Object\Updates\UpdateFieldFlags.cpp" />
+    <ClCompile Include="C:\Trinitycore\src\server\game\Entities\Pet\Pet.cpp" />
+    <ClCompile Include="C:\Trinitycore\src\server\game\Entities\Player\Player.cpp" />
+    <ClCompile Include="C:\Trinitycore\src\server\game\Entities\Player\SocialMgr.cpp" />
+    <ClCompile Include="C:\Trinitycore\src\server\game\Entities\Totem\Totem.cpp" />
+    <ClCompile Include="C:\Trinitycore\src\server\game\Entities\Transport\Transport.cpp" />
+    <ClCompile Include="C:\Trinitycore\src\server\game\Entities\Unit\StatSystem.cpp" />
+    <ClCompile Include="C:\Trinitycore\src\server\game\Entities\Unit\Unit.cpp" />
+    <ClCompile Include="C:\Trinitycore\src\server\game\Entities\Vehicle\Vehicle.cpp" />
+    <ClCompile Include="C:\Trinitycore\src\server\game\Events\GameEventMgr.cpp" />
+    <ClCompile Include="C:\Trinitycore\src\server\game\Globals\ObjectAccessor.cpp" />
+    <ClCompile Include="C:\Trinitycore\src\server\game\Globals\ObjectMgr.cpp" />
+    <ClCompile Include="C:\Trinitycore\src\server\game\Grids\GridStates.cpp" />
+    <ClCompile Include="C:\Trinitycore\src\server\game\Grids\Notifiers\GridNotifiers.cpp" />
+    <ClCompile Include="C:\Trinitycore\src\server\game\Grids\ObjectGridLoader.cpp" />
+    <ClCompile Include="C:\Trinitycore\src\server\game\Groups\Group.cpp" />
+    <ClCompile Include="C:\Trinitycore\src\server\game\Groups\GroupMgr.cpp" />
+    <ClCompile Include="C:\Trinitycore\src\server\game\Groups\GroupReference.cpp" />
+    <ClCompile Include="C:\Trinitycore\src\server\game\Guilds\Guild.cpp" />
+    <ClCompile Include="C:\Trinitycore\src\server\game\Guilds\GuildMgr.cpp" />
+    <ClCompile Include="C:\Trinitycore\src\server\game\Handlers\AddonHandler.cpp" />
+    <ClCompile Include="C:\Trinitycore\src\server\game\Handlers\ArenaTeamHandler.cpp" />
+    <ClCompile Include="C:\Trinitycore\src\server\game\Handlers\AuctionHouseHandler.cpp" />
+    <ClCompile Include="C:\Trinitycore\src\server\game\Handlers\AuthHandler.cpp" />
+    <ClCompile Include="C:\Trinitycore\src\server\game\Handlers\BattlefieldHandler.cpp" />
+    <ClCompile Include="C:\Trinitycore\src\server\game\Handlers\BattleGroundHandler.cpp" />
+    <ClCompile Include="C:\Trinitycore\src\server\game\Handlers\CalendarHandler.cpp" />
+    <ClCompile Include="C:\Trinitycore\src\server\game\Handlers\ChannelHandler.cpp" />
+    <ClCompile Include="C:\Trinitycore\src\server\game\Handlers\CharacterHandler.cpp" />
+    <ClCompile Include="C:\Trinitycore\src\server\game\Handlers\ChatHandler.cpp" />
+    <ClCompile Include="C:\Trinitycore\src\server\game\Handlers\CombatHandler.cpp" />
+    <ClCompile Include="C:\Trinitycore\src\server\game\Handlers\DuelHandler.cpp" />
+    <ClCompile Include="C:\Trinitycore\src\server\game\Handlers\GroupHandler.cpp" />
+    <ClCompile Include="C:\Trinitycore\src\server\game\Handlers\GuildHandler.cpp" />
+    <ClCompile Include="C:\Trinitycore\src\server\game\Handlers\ItemHandler.cpp" />
+    <ClCompile Include="C:\Trinitycore\src\server\game\Handlers\LFGHandler.cpp" />
+    <ClCompile Include="C:\Trinitycore\src\server\game\Handlers\LootHandler.cpp" />
+    <ClCompile Include="C:\Trinitycore\src\server\game\Handlers\MailHandler.cpp" />
+    <ClCompile Include="C:\Trinitycore\src\server\game\Handlers\MiscHandler.cpp" />
+    <ClCompile Include="C:\Trinitycore\src\server\game\Handlers\MovementHandler.cpp" />
+    <ClCompile Include="C:\Trinitycore\src\server\game\Handlers\NPCHandler.cpp" />
+    <ClCompile Include="C:\Trinitycore\src\server\game\Handlers\PetHandler.cpp" />
+    <ClCompile Include="C:\Trinitycore\src\server\game\Handlers\PetitionsHandler.cpp" />
+    <ClCompile Include="C:\Trinitycore\src\server\game\Handlers\QueryHandler.cpp" />
+    <ClCompile Include="C:\Trinitycore\src\server\game\Handlers\QuestHandler.cpp" />
+    <ClCompile Include="C:\Trinitycore\src\server\game\Handlers\ReferAFriendHandler.cpp" />
+    <ClCompile Include="C:\Trinitycore\src\server\game\Handlers\SkillHandler.cpp" />
+    <ClCompile Include="C:\Trinitycore\src\server\game\Handlers\SpellHandler.cpp" />
+    <ClCompile Include="C:\Trinitycore\src\server\game\Handlers\TaxiHandler.cpp" />
+    <ClCompile Include="C:\Trinitycore\src\server\game\Handlers\TicketHandler.cpp" />
+    <ClCompile Include="C:\Trinitycore\src\server\game\Handlers\TradeHandler.cpp" />
+    <ClCompile Include="C:\Trinitycore\src\server\game\Handlers\VehicleHandler.cpp" />
+    <ClCompile Include="C:\Trinitycore\src\server\game\Handlers\VoiceChatHandler.cpp" />
+    <ClCompile Include="C:\Trinitycore\src\server\game\Instances\InstanceSaveMgr.cpp" />
+    <ClCompile Include="C:\Trinitycore\src\server\game\Instances\InstanceScript.cpp" />
+    <ClCompile Include="C:\Trinitycore\src\server\game\Loot\LootMgr.cpp" />
+    <ClCompile Include="C:\Trinitycore\src\server\game\Mails\Mail.cpp" />
+    <ClCompile Include="C:\Trinitycore\src\server\game\Maps\Map.cpp" />
+    <ClCompile Include="C:\Trinitycore\src\server\game\Maps\MapInstanced.cpp" />
+    <ClCompile Include="C:\Trinitycore\src\server\game\Maps\MapManager.cpp" />
+    <ClCompile Include="C:\Trinitycore\src\server\game\Maps\MapUpdater.cpp" />
+    <ClCompile Include="C:\Trinitycore\src\server\game\Movement\FollowerReference.cpp" />
+    <ClCompile Include="C:\Trinitycore\src\server\game\Movement\MotionMaster.cpp" />
+    <ClCompile Include="C:\Trinitycore\src\server\game\Movement\MovementGenerator.cpp" />
+    <ClCompile Include="C:\Trinitycore\src\server\game\Movement\MovementGenerators\ConfusedMovementGenerator.cpp" />
+    <ClCompile Include="C:\Trinitycore\src\server\game\Movement\MovementGenerators\FleeingMovementGenerator.cpp" />
+    <ClCompile Include="C:\Trinitycore\src\server\game\Movement\MovementGenerators\HomeMovementGenerator.cpp" />
+    <ClCompile Include="C:\Trinitycore\src\server\game\Movement\MovementGenerators\IdleMovementGenerator.cpp" />
+    <ClCompile Include="C:\Trinitycore\src\server\game\Movement\MovementGenerators\PointMovementGenerator.cpp" />
+    <ClCompile Include="C:\Trinitycore\src\server\game\Movement\MovementGenerators\RandomMovementGenerator.cpp" />
+    <ClCompile Include="C:\Trinitycore\src\server\game\Movement\MovementGenerators\TargetedMovementGenerator.cpp" />
+    <ClCompile Include="C:\Trinitycore\src\server\game\Movement\MovementGenerators\WaypointMovementGenerator.cpp" />
+    <ClCompile Include="C:\Trinitycore\src\server\game\Movement\PathGenerator.cpp" />
+    <ClCompile Include="C:\Trinitycore\src\server\game\Movement\Spline\MovementPacketBuilder.cpp" />
+    <ClCompile Include="C:\Trinitycore\src\server\game\Movement\Spline\MovementUtil.cpp" />
+    <ClCompile Include="C:\Trinitycore\src\server\game\Movement\Spline\MoveSpline.cpp" />
+    <ClCompile Include="C:\Trinitycore\src\server\game\Movement\Spline\MoveSplineInit.cpp" />
+    <ClCompile Include="C:\Trinitycore\src\server\game\Movement\Spline\Spline.cpp" />
+    <ClCompile Include="C:\Trinitycore\src\server\game\Movement\Waypoints\WaypointManager.cpp" />
+    <ClCompile Include="C:\Trinitycore\src\server\game\OutdoorPvP\OutdoorPvP.cpp" />
+    <ClCompile Include="C:\Trinitycore\src\server\game\OutdoorPvP\OutdoorPvPMgr.cpp" />
+    <ClCompile Include="C:\Trinitycore\src\server\game\Pools\PoolMgr.cpp" />
+    <ClCompile Include="C:\Trinitycore\src\server\game\Quests\QuestDef.cpp" />
+    <ClCompile Include="C:\Trinitycore\src\server\game\Reputation\ReputationMgr.cpp" />
+    <ClCompile Include="C:\Trinitycore\src\server\game\Scripting\MapScripts.cpp" />
+    <ClCompile Include="C:\Trinitycore\src\server\game\Scripting\ScriptLoader.cpp" />
+    <ClCompile Include="C:\Trinitycore\src\server\game\Scripting\ScriptMgr.cpp" />
+    <ClCompile Include="C:\Trinitycore\src\server\game\Scripting\ScriptSystem.cpp" />
+    <ClCompile Include="C:\Trinitycore\src\server\game\Server\Protocol\Opcodes.cpp" />
+    <ClCompile Include="C:\Trinitycore\src\server\game\Server\Protocol\PacketLog.cpp" />
+    <ClCompile Include="C:\Trinitycore\src\server\game\Server\WorldSession.cpp" />
+    <ClCompile Include="C:\Trinitycore\src\server\game\Server\WorldSocket.cpp" />
+    <ClCompile Include="C:\Trinitycore\src\server\game\Server\WorldSocketMgr.cpp" />
+    <ClCompile Include="C:\Trinitycore\src\server\game\Skills\SkillDiscovery.cpp" />
+    <ClCompile Include="C:\Trinitycore\src\server\game\Skills\SkillExtraItems.cpp" />
+    <ClCompile Include="C:\Trinitycore\src\server\game\Spells\Auras\SpellAuraEffects.cpp" />
+    <ClCompile Include="C:\Trinitycore\src\server\game\Spells\Auras\SpellAuras.cpp" />
+    <ClCompile Include="C:\Trinitycore\src\server\game\Spells\Spell.cpp" />
+    <ClCompile Include="C:\Trinitycore\src\server\game\Spells\SpellEffects.cpp" />
+    <ClCompile Include="C:\Trinitycore\src\server\game\Spells\SpellInfo.cpp" />
+    <ClCompile Include="C:\Trinitycore\src\server\game\Spells\SpellMgr.cpp" />
+    <ClCompile Include="C:\Trinitycore\src\server\game\Spells\SpellScript.cpp" />
+    <ClCompile Include="C:\Trinitycore\src\server\game\Texts\CreatureTextMgr.cpp" />
+    <ClCompile Include="C:\Trinitycore\src\server\game\Tools\CharacterDatabaseCleaner.cpp" />
+    <ClCompile Include="C:\Trinitycore\src\server\game\Tools\PlayerDump.cpp" />
+    <ClCompile Include="C:\Trinitycore\src\server\game\Tickets\TicketMgr.cpp" />
+    <ClCompile Include="C:\Trinitycore\src\server\game\Warden\Warden.cpp" />
+    <ClCompile Include="C:\Trinitycore\src\server\game\Warden\WardenCheckMgr.cpp" />
+    <ClCompile Include="C:\Trinitycore\src\server\game\Warden\WardenMac.cpp" />
+    <ClCompile Include="C:\Trinitycore\src\server\game\Warden\WardenWin.cpp" />
+    <ClCompile Include="C:\Trinitycore\src\server\game\Weather\Weather.cpp" />
+    <ClCompile Include="C:\Trinitycore\src\server\game\Weather\WeatherMgr.cpp" />
+    <ClCompile Include="C:\Trinitycore\src\server\game\World\World.cpp" />
+    <ClCompile Include="C:\Trinitycore\src\server\game\PrecompiledHeaders\gamePCH.cpp">
       <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Create</PrecompiledHeader>
       <PrecompiledHeaderFile Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">gamePCH.h</PrecompiledHeaderFile>
       <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Create</PrecompiledHeader>

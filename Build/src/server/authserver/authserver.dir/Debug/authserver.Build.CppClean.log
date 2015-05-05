@@ -2,11 +2,11 @@ c:\build\src\server\authserver\authserver.dir\debug\authserver.pch
 c:\build\src\server\authserver\authserver.dir\debug\vc120.pdb
 c:\build\src\server\authserver\authserver.dir\debug\authpch.obj
 c:\build\src\server\authserver\authserver.dir\debug\realmsocket.obj
-c:\build\src\server\authserver\authserver.dir\debug\authcodes.obj
 c:\build\src\server\authserver\authserver.dir\debug\realmlist.obj
-c:\build\src\server\authserver\authserver.dir\debug\authsocket.obj
 c:\build\src\server\authserver\authserver.dir\debug\main.obj
+c:\build\src\server\authserver\authserver.dir\debug\authsocket.obj
 c:\build\src\server\authserver\authserver.dir\debug\wheatyexceptionreport.obj
+c:\build\src\server\authserver\authserver.dir\debug\authcodes.obj
 c:\build\src\server\authserver\cmakefiles\generate.stamp
 c:\build\bin\debug\authserver.ilk
 c:\build\bin\debug\authserver.exe
