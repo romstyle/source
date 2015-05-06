@@ -10,6 +10,8 @@
 #include "World.h"
 #include "WorldPacket.h"
 
+// fury déchainé
+
 BattleGroundFD::BattleGroundFD()
 {
 	StartMessageIds[BG_STARTING_EVENT_FIRST] = 0;
@@ -19,13 +21,24 @@ BattleGroundFD::BattleGroundFD()
 }
 void BattleGroundFD::StartingEventOpenDoors()
 {
-	UpdateWorldState(FD_SHOW_H_SCORE, 1);
-	UpdateWorldState(FD_SHOW_A_SCORE, 1);
+	UpdateWorldState(FD_SHOW_H_SCORE, 0);
+	UpdateWorldState(FD_SHOW_A_SCORE, 0);
 }
 BattleGroundFD::~BattleGroundFD()
 {
 }
-
+void BattleGroundFD::StartingEventCloseDoors()
+{
+	UpdateWorldState(BG_FD_STATE_TIMER_ACTIVE, 1);
+	UpdateWorldState(BG_FD_TIME_REMAINING, 25);
+}
+void BattleGroundFD::UpdateTeamScore(uint32 team)
+{
+	if (team == TEAM_ALLIANCE)
+		UpdateWorldState(FD_Alliance_Score, GetTeamScore(team));
+	else
+		UpdateWorldState(FD_Horde_Score, GetTeamScore(team));
+}
 void BattleGroundFD::Update(uint32 diff)
 {
     Battleground::Update(diff);
@@ -66,7 +79,6 @@ void BattleGroundFD::Reset()
 
     for(uint32 i = 0; i < BG_TEAMS_COUNT; ++i)
         m_TeamScores[i]      = 0;
-
     m_HonorEndKills = 2;
     m_EndTimer = BG_FD_TIME_LIMIT;
 }
@@ -109,9 +121,34 @@ WorldSafeLocsEntry const* BattleGroundFD::GetClosestGraveYard(Player* player)
 
 void BattleGroundFD::FillInitialWorldStates(WorldPacket& data)
 {
-    //FillInitialWorldState(data, count, BG_FD_TIME_REMAINING, GetRemainingTimeInMinutes());
+	if (GetStatus() == STATUS_IN_PROGRESS)
+	{
+		data << uint32(BG_FD_STATE_TIMER_ACTIVE) << uint32(1);
+		data << uint32(BG_FD_TIME_REMAINING) << uint32(25 - _minutesElapsed);
+	}
+	else
+		data << uint32(BG_FD_STATE_TIMER_ACTIVE) << uint32(0);
 }
-
+void BattleGroundFD::PostUpdateImpl(uint32 diff)
+{
+	if (GetStatus() == STATUS_IN_PROGRESS)
+	{
+		if (GetStartTime() >= 27 * MINUTE*IN_MILLISECONDS)
+		{
+			if (m_Team_Scores[0] > m_Team_Scores[1])
+				EndBattleground(ALLIANCE);
+			else if (m_Team_Scores[1] > m_Team_Scores[0])
+				EndBattleground(HORDE);
+			else
+				EndBattleground(WINNER_NONE);
+		}
+		else if (GetStartTime() > uint32(_minutesElapsed * MINUTE * IN_MILLISECONDS) + 3 * MINUTE * IN_MILLISECONDS)
+		{
+			++_minutesElapsed;
+			UpdateWorldState(BG_FD_TIME_REMAINING, 25 - _minutesElapsed);
+		}
+	}
+}
 void BattleGroundFD::UpdateScore(uint16 team, int16 points)
 { //note: to remove reinforcementpoints points must be negative, for adding reinforcements points must be positive
 	ASSERT(team == ALLIANCE || team == HORDE);
@@ -119,7 +156,7 @@ void BattleGroundFD::UpdateScore(uint16 team, int16 points)
 	m_Team_Scores[teamindex] += points;
 
 	UpdateWorldState(((teamindex == TEAM_HORDE) ? FD_Horde_Score : FD_Alliance_Score), m_Team_Scores[teamindex]);
-	if (points >= 100)
+	if (points > 99)
 	{
 		if (m_Team_Scores[teamindex] > 99)
 		{

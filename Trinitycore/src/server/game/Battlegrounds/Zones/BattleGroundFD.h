@@ -4,15 +4,16 @@
 #include "Battleground.h"
 
 #define BG_FD_TIME_LIMIT          (5*MINUTE*IN_MILLISECONDS);
-#define SEND_MSG_NEAR_LOSE               120
+#define SEND_MSG_NEAR_LOSE        120
 
 enum BG_FD_WorldStates
 {
-    BG_FD_TIME_REMAINING          = 4248,
+	BG_FD_TIME_REMAINING = 4248,
 	FD_Alliance_Score = 3127,
 	FD_Horde_Score = 3128,
 	FD_SHOW_H_SCORE = 3133,
 	FD_SHOW_A_SCORE = 3134,
+	BG_FD_STATE_TIMER_ACTIVE = 4247,
 };
 enum BG_FD_Sounds
 {
@@ -45,10 +46,14 @@ class BattleGroundFD : public Battleground
         void FillInitialWorldStates(WorldPacket& data);
 		void UpdateScore(uint16 team, int16 points);
 		void StartingEventOpenDoors();
+		void UpdateTeamScore(uint32 team);
+		void StartingEventCloseDoors();
+		void PostUpdateImpl(uint32 diff);
     private:
         uint32 m_HonorEndKills;
         uint32 m_EndTimer;
 		int32 m_Team_Scores[2];
 		bool m_IsInformedNearVictory[2];
+		uint8 _minutesElapsed;
 };
 #endif
