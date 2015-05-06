@@ -1333,6 +1333,7 @@ void AddSC_Boss_Announcer();
 void AddSC_multi_changer();
 void AddSC_NPC_Transmogrify();
 void AddSC_boss_ahnkarok();
+void AddSC_boss_amazarkulAI();
 
 #endif
 
@@ -1341,5 +1342,6 @@ void AddCustomScripts()
 #ifdef SCRIPTS
 	AddSC_NPC_Transmogrify();
 	AddSC_boss_ahnkarok();
+	AddSC_boss_amazarkulAI();
 #endif
 }

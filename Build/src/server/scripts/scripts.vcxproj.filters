@@ -1804,6 +1804,9 @@
     <ClCompile Include="C:\Trinitycore\src\server\scripts\PrecompiledHeaders\ScriptPCH.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="..\..\..\..\Trinitycore\src\server\scripts\Custom\Amazarkul.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="C:\Trinitycore\src\server\scripts\Custom\Transmogrification.h">

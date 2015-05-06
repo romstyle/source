@@ -1,14 +1,14 @@
 c:\build\src\server\worldserver\worldserver.dir\debug\worldserver.pch
 c:\build\src\server\worldserver\worldserver.dir\debug\vc120.pdb
 c:\build\src\server\worldserver\worldserver.dir\debug\worldpch.obj
-c:\build\src\server\worldserver\worldserver.dir\debug\worldrunnable.obj
 c:\build\src\server\worldserver\worldserver.dir\debug\main.obj
 c:\build\src\server\worldserver\worldserver.dir\debug\wheatyexceptionreport.obj
+c:\build\src\server\worldserver\worldserver.dir\debug\worldrunnable.obj
+c:\build\src\server\worldserver\worldserver.dir\debug\tcsoap.obj
 c:\build\src\server\worldserver\worldserver.dir\debug\rasocket.obj
-c:\build\src\server\worldserver\worldserver.dir\debug\clirunnable.obj
 c:\build\src\server\worldserver\worldserver.dir\debug\rarunnable.obj
 c:\build\src\server\worldserver\worldserver.dir\debug\master.obj
-c:\build\src\server\worldserver\worldserver.dir\debug\tcsoap.obj
+c:\build\src\server\worldserver\worldserver.dir\debug\clirunnable.obj
 c:\build\src\server\worldserver\cmakefiles\generate.stamp
 c:\build\bin\debug\worldserver.ilk
 c:\build\bin\debug\worldserver.exe
